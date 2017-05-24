@@ -1,0 +1,59 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Muscle Maker Grill of Colonia,,1250-2 Route 27Colonia Plaza (Next to NY Sports Club),,Colonia,NJ,07067,United States,"(732) 381-1012, (732) 381-1501",,,"Mon - Fri 10:00am - 9:00pm, Sat - 10:00am - 8:00pm, Sun - 10:00am - 4:00pm",,,0
+Muscle Maker Grill of Staten Island  Tottenville,,4916 Arthur Kill Rd,,Staten Island,NY,10309,United States,(718) 984-7455,,,"Mon - Fri 10:30am - 9:00pm, Sat 10:30am - 8:00pm",,,0
+Muscle Maker Grill of Springfield,,205 Morris Avenue,,Springfield,NJ,07081,United States,(973) 379-3313,,,"Mon - Fri 10:00am - 9:00pm, Sat - 10:00am - 8:00pm",,,0
+Muscle Maker Grill of South Plainfield,,6115 Hadley Road,,South Plainfield,NJ,07080,United States,"(908) 753-1033, (908) 753-5204",,,Mon - Sat 10:30am - 9:00pm,,,0
+Muscle Maker Grill of North Brunswick,,540 Milltown Road,,North Brunswick,NJ,08902,United States,"(732) 435-1200, (732) 435-1201",,,"Mon - Fri 10:30am - 09:00pm, Sat 10:30am - 08:00pm",,,0
+Muscle Maker Grill of Hoboken,,217 Washington Street,,Hoboken,NJ,07030,United States,"(201) 942-9664, (201) 942-9661",,,"Sun - Wed 8:00am - 11:00pm, Thu 8:00am - Midnight, Fri - Sat 8:00am - 3:00am",,,0
+Muscle Maker Grill of Tribeca,,10 Murray Street,,Tribeca,NY,10007,United States,(212) 962-1813,,,"Mon - Fri 10:00am - 10:00pm, Sat - Sun 10:00am - 7:00pm",,,0
+Muscle Maker Grill of Park Slope,,80 6th Ave,,Brooklyn,NY,11217,United States,,,,,,,1
+Muscle Maker Grill of Chelsea,,70 7th Ave Between 14th and 15th,,Chelsea,NY,10011,United States,"(212) 807-1000, (212) 807-1088",,,"Mon - Fri 10:00am - 11:00pm, Sat - Sun 10:00am - 10:00pm",,,0
+Muscle Maker Grill of Clifton,,1037 Bloomfield Ave,,Clifton,NJ,07012,United States,"(862) 899-7111, (862) 899-7112",,,"Mon - Sat 11:00am - 10:00pm, Sun 11:00am - 9:00pm",,,0
+Muscle Maker Grill of MetLife Stadium,,1 MetLife Stadium Dr,,East Rutherford,NJ,07073,United States,,,,,,,0
+"Muscle Maker Grill of Gramercy, NYC",,347 3rd Avenue,,New York,NY,10010,United States,"(917) 388-2518, (917) 388-2463",,,"Mon - Sat 10:00am - 10:00pm, Sun 10:00am - 9:00pm",,,0
+Muscle Maker Grill of Hells Kitchen,,691 10th Ave,,New York,NY,10036,United States,"(212) 757-1010, (212) 757-1088",,,Mon - Sun 11:00am - 10:00pm,,,0
+Muscle Maker Grill of Carlstadt,,430 State Highway 17,,Carlstadt,NJ,07072,United States,"(201) 935-8400, (201) 935-2277",,,"Mon - Sat 11:00am - 9:00pm, Sun 11:00am - 7:00pm",,,0
+"Muscle Maker Grill of Midtown East, NYC",,1099 2nd Ave,,New York,NY,10022,United States,(646) 895-9533,,,"Mon - Sat 10:00am - 10:00pm, Sun 11:00am - 9:00pm",,,0
+Muscle Maker Grill of Upper East Side,,1413 2nd Ave,,New York,NY,10021,United States,"(646) 682-7402, (646) 682-7643",,,Mon - Sun 10:00am  10:00pm,,,0
+Muscle Maker Grill of Broadway NYC,,2735 Broadway,,New York,NY,10025,United States,"(212) 280-1626, (212) 280-1624",,,Mon - Sun 10:00am - 10:00pm,,,0
+Muscle Maker Grill of Lodi,,184 Essex St,,Lodi,NJ,07644,United States,(201) 845-4900,,,"Mon - Sat 11:00am - 10:00pm, Sun 11:00am - 6:00pm",,,0
+Muscle Maker Grill of Wayne,,1055 Hamburg Turnpike,,Wayne,NJ,07470,United States,"(973) 706-7670, (973) 706-7673",,,"Mon - Sat 10:30am - 9:00pm, Sun 11:00am - 7:00pm",,,0
+Muscle Maker Grill of Bronx,,4041 E Tremont Ave,,Bronx,NY,10465,United States,"(718) 822-6992, (718) 822-6991",,,Mon - Sat 11:00am - 10:00pm,,,0
+Muscle Maker Grill of Oakland,,351 Ramapo Valley Rd,,Oakland,NJ,07436,United States,"(201) 337-6700, (201) 337-6701",,,"Mon - Sat 10:30am - 9:00pm, Sun 11:00am - 7:00pm",,,0
+Muscle Maker Grill of Westwood,,417 Broadway Ave,,Westwood,NJ,07675,United States,(201) 497-6704,,,Mon - Sun 10:30am-10pm,,,0
+Muscle Maker Grill of Wall,,1818 Highway 35,,Wall,NJ,07719,United States,"(732) 280-1998, (732) 280-1164",,,"Mon - Fri 10:30am - 9:00pm, Sat 10:30am - 8:00pm",,,0
+Muscle Maker Grill of Toms River,,953 Fischer Blvd,,Toms River,NJ,08753,United States,"(732) 270-3400, (732) 270-3402",,,Mon - Sat 11:00am - 9:00pm,,,0
+Muscle Maker Grill of Langhorne,,1411 East Lincoln Highway,,Levittown,PA,19056,United States,(215) 945-1577,,,Mon - Sun 11:00am - 9:00pm,,,0
+Muscle Maker Grill of Philadelphia,,2550 Grant Ave,,Philadelphia,PA,19114,United States,"(215) 969-0200, (215) 969-0700",,,Mon - Sun 11:00am - 9:00pm,,,0
+Muscle Maker Grill of Audubon,,130 Black Horse Pike,,Audubon,NJ,08106,United States,"(856) 617-6033, (856) 617-6039",,,"Mon - Sat 11:00am - 9:00pm, Sun 11:00am - 8:00pm",,,0
+Muscle Maker Grill of Deptford,,1135 Hurffville Rd,,Deptford,NJ,08096,United States,"(856) 579-4174, (856) 579-4179",,,Mon - Sun 11 am -  9 pm,,,0
+Muscle Maker Grill of Turnersville,,4991 Black Horse PkSuite 1,,Turnersville,NJ,08012,United States,"(856) 228-3800, (856) 228-0303",,,"Mon - Sat 11:00am - 9:00pm, Sun 11:00am - 8:00pm",,,0
+Muscle Maker Grill of Williamstown,,1155 S. Blackhorse Pike,,Williamstown,NJ,08094,United States,"(856) 318-7840, (856) 318-7847",,,Mon - Sun  11:00am - 9:00pm,,,0
+Muscle Maker Grill of Rowan University,,(located in the student rec center)201 Mullica Hill Rd,,Glassboro,NJ,08028,United States,,,,"Mon - Fri 10:30am - 8:30pm, Sat 11:00am - 4:00pm",,,0
+Muscle Maker Grill of Saugus,,358 Broadway,,Saugus,MA,01906,United States,,,,,,,1
+Muscle Maker Grill of Greenville,,3150 Evan St Suite P,,Greenville,NC,27834,United States,(252) 756-6000,,,Mon - Sat 11:00am - 9:00pm,,,0
+Muscle Maker Grill of Winston-Salem,,214 Harvey St.,,Winston-Salem,NC,27103,United States,,,,Mon - Sun 10:00am - 10:00pm,,,0
+Muscle Maker Grill of Chicago  Loop,,111 W Jackson Blvd,,Chicago,IL,60604,United States,,,,,,,1
+Muscle Maker Grill of Chicago  Boystown,,920 W Belmont Ave,,Chicago,IL,60657,United States,"(773) 904-7451, (872) 206-2648",,,Mon - Sun 11:00am - 10:00pm,,,0
+Muscle Maker Grill of Glen Ellyn,,430 Roosevelt Road,,Glen Ellyn,IL,60137,United States,"(630) 790-0000, (630) 790-0691",,,"Mon - Fri 11:00am - 9:00pm, Sat - Sun 11:00am - 7:00pm",,,0
+Muscle Maker Grill of St. Charles,,1840 West Main Street,,St. Charles,IL,60174,United States,(847) 660-7409,,,"Mon - Sat 10:00am - 9:00pm, Sun 10:00am - 5:00pm",,,0
+Muscle Maker Grill of Tallahassee,,2020 W. Pensacola Street,,Tallahassee,FL,32304,United States,(850) 765-1765,,,Mon-Fri: 11:30am-10pm,,,0
+Muscle Maker Grill of West Palm Beach,,120 S Olive Ave,,West Palm Beach,FL,33401,United States,,,,,,,1
+Muscle Maker Grill of Deerfield Beach,,230 S. Federal Highway,,Deerfield Beach,FL,33441,United States,"(954) 429-1818, (954) 429-1817",,,Mon - Sat 11:00am - 9:00pm,,,0
+Muscle Maker Grill of Olathe,,14967 W 119th Street,,Olathe,KS,66062,United States,(913) 538-5253,,,"Mon - Sat 11:00 am - 9:00 pm, Sun 11:00 am - 8:00 pm",,,0
+Muscle Maker Grill of Omaha,,2835 South 170th PlazaSuite 208,,Omaha,NE,68130,United States,(402) 804-1997,,,"Mon - Fri 10:30am - 9:00pm, Sat 10:30am-7pm, Sun 11:00am - 7:00pm",,,0
+Muscle Maker Grill of Lower Greenville Dallas,,2217 Greenville Ave,,Dallas,TX,75206,United States,(214) 272-2210,,,,,,0
+Muscle Maker Grill of Downtown Houston,,"914 Main Street, Suite C",,Houston,TX,77002,United States,"(713) 485-4720, (832) 548-1784",,,Mon - Fri 10:30am - 2:00pm,,,0
+Muscle Maker Grill of Houston,,6415 San Felipe StSuite B,,Houston,TX,77057,United States,"(713) 627-0915, (713) 783-0420",,,"Mon - Fri 10:30am - 9:00pm, Sat 10:30am - 8:00pm, Sun 11:00am - 5:00pm",,,0
+Muscle Maker Grill of Corpus Christi,,7426 S Staples StSuite 102,,Corpus Christi,TX,78413,United States,(361) 992-9696,,,"Mon - Fri 10:00am - 10:00pm, Sat 11:00am - 6:00pm",,,0
+Muscle Maker Grill of Lubbock,,6012 82nd St,,Lubbock,TX,79424,United States,,,,,,,1
+Muscle Maker Grill of Fort Bliss,,1613 Pleasonton Rd.Suite B 129,,Fort Bliss,TX,79906,United States,"(915) 307-2322, (915) 307-2416",,,"Mon - Fri 10:00am - 9:00pm, Sat - Sun 10:00am - 8:00pm",,,0
+Muscle Maker Grill of Peoria,,8386 W. Thunderbird Rd,,Peoria,AZ,85381,United States,"(623) 776-9301, (855) 894-0926",,,"Mon - Fri 10:30am - 8:30pm, Sat 11:00am - 4:00pm",,,0
+Muscle Maker Grill of Las Vegas,,"5765 Centennial Center Blvd, Suite 180",,Las Vegas,NV,89149,United States,(702) 580-3302,,,Sun 11:00am - 7:00pm,,,0
+Muscle Maker Grill of Santa Ana,,2775 North Main Street,,Santa Ana,CA,92705,United States,(714) 543-2584,,,,,,0
+Muscle Maker Grill of Angel Stadium,,2000 E Gene Autry Way,,Anaheim,CA,92806,United States,,,,,,,0
+Muscle Maker Grill of Irvine,,2646 Dupont Dr Unit C10,,Irvine,CA,92612,United States,"(949) 752-5484, (949) 752-5421",,,"Mon - Fri 10:00am - 9:00pm, Sat - Sun 11:00am - 8:00pm",,,0
+Muscle Maker Grill of Fountain Valley,,9965 Ellis Avenue,,Fountain Valley,CA,92708,United States,,,,,,,1
+Muscle Maker Grill of West Hollywood,,8000 Sunset Blvd,,Los Angeles,California,90046,United States,,,,,,,1
+Muscle Maker Grill of Antioch,,4621 Golf Course Rd,,Antioch,CA,94531,United States,"(925) 978-9246, (925) 978-9510",,,"Mon - Sat 10:00am - 9:00pm, Sun 11:00am - 7:00pm",,,0
+Muscle Maker Grill of San Ramon,,164 Sunset DriveSuite B7,,San Ramon,CA,94583,United States,(925) 277-1264,,,"Mon - Fri 6:00am - 9:00pm, Sat - Sun 7:00am - 8:00pm",,,0

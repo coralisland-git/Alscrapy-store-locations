@@ -1,0 +1,123 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Washington DC  Chinatown,,750 9th Street NW,,Washington,DC,20001,United States,202.347.7999,,,,,,0
+Atlanta  Lenox,,2770 Lenox Road NE Suite A7,,Atlanta,GA,30324,United States,404.343.3378,,,,,,0
+Portland Maine,,"1 Dana Street, 2nd Floor",,Portland,ME,04101,United States,,,,,,,1
+Birmingham  Vestavia,,1072 Montgomery Hwy,,Birmingham,AL,35216,United States,205.783.5199,,,,,,0
+Phoenix  Arcadia,,"4730 E. Indian School Road, Suite 207A",,Phoenix,AZ,85018,United States,602.334.1858,,,,,,0
+Berkeley  North Berkeley,,"2095 Rose St, Suite 102",,Berkeley,CA,94709,United States,510.705.1534,,,,,,0
+Campbell,,2020 South Bascom Ave Unit G,,Campbell,CA,95008,United States,408.680.0145,,,,,,0
+Carlsbad,,"2659 Gateway Rd, Suite D106",,Carlsbad,CA,92009,United States,760.683.5098,,,,,,0
+Clovis,,1295 Herndon Ave Suite 101,,Clovis,CA,93612,United States,559.299.2497,,,,,,0
+Costa Mesa,,1835 Newport Blvd #A-106,,Costa Mesa,CA,92627,United States,949.722.8825,,,,,,0
+Fremont,,2698 Mowry Avenue,,Fremont,CA,94538,United States,510-200-6007,,,,,,0
+Fresno,,6751 N. Palm Avenue,,Fresno,CA,93704,United States,559.573.3333,,,,,,0
+Hermosa Beach,,"1221 Hermosa Avenue, Suite 200",,Hermosa Beach,CA,90254,United States,310.376.3444,,,,,,0
+Irvine,,,,,,,United States,,,,,,,1
+Long Beach,,6695 E. Pacific Coast Highway,,Long Beach,CA,90803,United States,562.596.0203,,,,,,0
+Los Angeles  Brentwood,,13050 San Vicente Blvd.,,Los Angeles,CA,90049,United States,310.899.1109,,,,,,0
+Los Angeles  Downtown,,724 S. Spring St.,,Los Angeles,CA,90014,United States,213.221.1237,,,,,,0
+Los Angeles  West Hollywood,,8416 W. 3rd St.,,Los Angeles,CA,90048,United States,323.651.2226,,,,,,0
+Los Angeles  West LA,,1950 Sawtelle Blvd.,,Los Angeles,CA,90025,United States,310.481.0005,,,,,,0
+Los Gatos,,663 Blossom Hill Road Suite 200,,Los Gatos,CA,95032,United States,408.442.5268,,,,,,0
+Marin,,208 Bon Air Center,,Greenbrae,CA,94904,United States,415.461.4461,,,,,,0
+Marina Del Rey,,13400 W. Washington Blvd. Suite 201,,Marina Del Rey,CA,90292,United States,310.301.6500,,,,,,0
+Newport Beach,,7772 E. Coast Hwy,,Newport Beach,CA,92657,United States,949.715.2199,,,,,,0
+Oakland  Lake Shore,,3298 Lakeshore Ave.,,Oakland,CA,94610,United States,510.444.2276,,,,,,0
+Palo Alto,,"855 El Camino Real, Suite 151",,Palo Alto,CA,94301,United States,650.329.8875,,,,,,0
+Palos Verdes,,Suite 2E,,Rolling Hills Estates,CA,90274,United States,310.265.0550,,,,,,0
+Pasadena,,32 Mills Place,,Pasadena,CA,91105,United States,626.844.7888,,,,,,0
+San Clemente,,,,,,,United States,,,,,,,1
+San Diego  Carmel Mountain,,"12156 Carmel Mountain Road, Suite 308",,San Diego,CA,92128,United States,858.487.4227,,,,,,0
+San Diego  Point Loma,,"2751 Roosevelt Rd, Suite 200",,San Diego,CA,92106,United States,619.226.2301,,,,,,0
+San Diego  Solana Beach,,622 San Rodolfo Dr.,,Solana Beach,CA,92075,United States,858.847.3312,,,,,,0
+San Francisco  Downtown,,3 Embarcadero Center  Lobby Level,,San Francisco,CA,94111,United States,415.956.0446,,,,,,0
+San Francisco  Marina,,3333 Fillmore Street,,San Francisco,CA,94123,United States,415.441.6333,,,,,,0
+San Luis Obispo,,Suite 120,,San Luis Obispo,CA,93401,United States,805.234.2201,,,,,,0
+San Mateo,,128 De Anza Blvd.,,San Mateo,CA,94402,United States,650.573.3330,,,,,,0
+San Ramon,,"3211 Crow Canyon Pl, Suite C",,San Ramon,CA,94583,United States,925.830.8825,,,,,,0
+Santa Barbara,,"130 S. Hope Avenue, Suite D113",,Santa Barbara,CA,93105,United States,805.898.9000,,,,,,0
+Santa Clara,,3986 Rivermark Pkwy.,,Santa Clara,CA,95054,United States,408.588.1135,,,,,,0
+Silver Lake,,2829 W. Sunset Blvd.,,Los Angeles,CA,90026,United States,213.413.3539,,,,,,0
+Studio City,,"11239 Ventura Blvd., Suite 214",,Studio City,CA,91604,United States,818.985.5438,,,,,,0
+Tustin,,631 E. 1st St.,,Tustin,CA,92780,United States,714.730.2207,,,,,,0
+Walnut Creek,,1946A Mt. Diablo Blvd.,,Walnut Creek,CA,94596,United States,925.933.1946,,,,,,0
+Boulder,,2425 Canyon Blvd,,Boulder,CO,80304,United States,303.443.9191,,,,,,0
+Denver  Cherry Creek,,"311 Steele St, 2nd Floor",,Denver,CO,80206,United States,303.322.6468,,,,,,0
+Denver  Stapleton,,"8370 Northfield Blvd, Suite 1760",,Denver,CO,80238,United States,720.379.3732,,,,,,0
+Darien,,800 Post Road,,Darien,CT,06820,United States,203.202.7975,,,,,,0
+Fairfield,,"85 Mill Plain Rd, Suite U",,Fairfield,CT,06824,United States,203.259.8825,,,,,,0
+Westport,,,,,,,United States,,,,,,,1
+Miami  South Miami,,"5734 Sunset Dr, 2nd Floor",,South Miami,FL,33143,United States,305.668.7738,,,,,,0
+Orlando  Dr. Phillips,,7536 Dr. Phillips Blvd. Suite 330,,Orlando,FL,32819,United States,407.363.0330,,,,,,0
+Orlando  Winter Park,,"480 North Orlando Ave, Suite 132",,Winter Park,FL,32789,United States,407.539.0099,,,,,,0
+St. Augustine,,"1000 S. Ponce De Leon Blvd, Suite 7",,St. Augustine,FL,32084,United States,904.679.4045,,,,,,0
+Tampa  Westshore,,"4102 W. Boy Scout Blvd, Suite 1",,Tampa,FL,33607,United States,813.703.2227,,,,,,0
+Atlanta  East Cobb,,"1281 Johnson Ferry Rd, Suite 112",,Marietta,GA,30068,United States,770.578.4655,,,,,,0
+Honolulu,,"2758 S. King St, Suite 206",,Honolulu,HI,96826,United States,808.798.8449,,,,,,0
+Kailua,,,,,,,United States,,,,,,,1
+Chicago  Gold Coast,,1 East Delaware St.,,Chicago,IL,60611,United States,312.573.9150,,,,,,0
+Chicago  Lakeview,,3144 N. Sheffield Ave.,,Chicago,IL,60657,United States,773.935.2150,,,,,,0
+Chicago  Loop,,180 N. Wacker Dr.,,Chicago,IL,60606,United States,312.332.9150,,,,,,0
+Chicago  South Loop,,2112 S. Michigan,,Chicago,IL,60616,United States,,,,,,,0
+Chicago  Wicker Park,,1271 N. Milwaukee Ave.,,Chicago,IL,60622,United States,773.384.3150,,,,,,0
+Highland Park,,"600 Central Ave, Suite 127",,Highland Park,IL,60035,United States,847.432.9150,,,,,,0
+Naperville,,"55 S. Main St, Suite 211",,Naperville,IL,60540,United States,630.544.3431,,,,,,0
+Indianapolis  Carmel,,"10425 Commerce Dr, Suite 120",,Carmel,IN,46032,United States,317.672.7799,,,,,,0
+Kansas City  Leawood,,5215 W. 116th Pl.,,Leawood,KS,66211,United States,913.339.9348,,,,,,0
+Kansas City  Overland Park,,,,,,,United States,,,,,,,1
+Kansas City  West Plaza,,4722 Rainbow Blvd,,Westwood,KS,66205,United States,913.499.1468,,,,,,0
+Bethesda,,7710 Woodmont Ave.,,Bethesda,MD,20814,United States,301.652.1200,,,,,,0
+North Potomac,,"189 Kentlands Blvd, Suite 210",,Gaithersburg,MD,20878,United States,301.926.6900,,,,,,0
+Baltimore,,,,,,,United States,,,,,,,1
+Boston  Back Bay,,234 Clarendon St.,,Boston,MA,02116,United States,617.236.4455,,,,,,0
+Boston  Downtown,,75 Federal Street,,Boston,MA,02110,United States,857.239.9815,,,,,,0
+Hingham,,"99 South St, 2nd Floor",,Hingham,MA,02043,United States,781.875.1554,,,,,,0
+Wellesley,,"66 Central Street, Suite 16",,Wellesley,MA,02482,United States,781.772.2110,,,,,,0
+Winchester,,,,,,,United States,,,,,,,1
+Detroit,,,,,,,United States,,,,,,,1
+Minneapolis  North Loop,,323 Washington Avenue North,,Minneapolis,MN,55401,United States,612.584.3487,,,,,,0
+St. Louis  Town and Country,,1048 Town & Country Crossing Dr.,,Town & Country,MO,63017,United States,314.721.9797,,,,,,0
+St. Louis  Brentwood,,#27 The Boulevard Saint Louis,,Richmond Heights,MO,63117,United States,314.721.9797,,,,,,0
+Bernardsville,,80 Morristown Rd.,,Bernardsville,NJ,07924,United States,908.766.4433,,,,,,0
+Closter,,91 Vervalen St.,,Closter,NJ,07624,United States,,,,,,,0
+Englewood,,525 N. Dean St.,,Englewood,NJ,07631,United States,201.567.6006,,,,,,0
+Hoboken,,"86 River Street, 2nd Floor",,Hoboken,NJ,07030,United States,201.683.7005,,,,,,0
+Madison,,122 Main St,,Madison,NJ,07940,United States,973.410.0550,,,,,,0
+Marlboro,,712 Ginesi Drive,,Morganville,NJ,07751,United States,732.972.1537,,,,,,0
+Montclair,,493 Bloomfield Ave.,,Montclair,NJ,07042,United States,973.783.1227,,,,,,0
+Mountain Lakes,,135 Hawkins Pl.,,Boonton,NJ,07005,United States,973.263.2279,,,,,,0
+Princeton,,"29 Emmons Dr, Suite F-50",,Princeton,NJ,08540,United States,609.356.0244,,,,,,0
+Ridgewood,,580 N. Maple Ave.,,Ridgewood,NJ,07450,United States,201.444.0300,,,,,,0
+Shrewsbury,,170 Patterson Ave.,,Shrewsbury,NJ,07702,United States,732.747.3600,,,,,,0
+Summit,,"86 Summit Avenue, 2nd Floor",,Summit,NJ,07901,United States,908.522.1550,,,,,,0
+Warren,,51 Mount Bethel Road Suite #210,,Warren,NJ,07059,United States,908.546.7385,,,,,,0
+West Caldwell,,555 Passaic Ave,,West Caldwell,NJ,00076,United States,,,,,,,1
+Westfield,,105 Elm Street,,Westfield,NJ,07090,United States,908.232.0746,,,,,,0
+Brooklyn  Cobble Hill,,267 Pacific Street,,Brooklyn,NY,11201,United States,718.522.3350,,,,,,0
+Brooklyn  Williamsburg,,97 N 10th St,,Brooklyn,NY,11249,United States,,,,,,,1
+Huntington Village,,50 Stewart Ave,,Huntington,NY,11743,United States,,,,,,,1
+New York City  SOHO,,155 Spring St.,,New York,NY,10012,United States,212.431.5720,,,,,,0
+New York City  Upper West Side,,,,,,,United States,,,,,,,1
+Roslyn Heights,,250 S. Service Rd.,,Roslyn Heights,NY,11576,United States,516.484.0200,,,,,,0
+Scarsdale,,"7 Popham Road, 3rd Floor",,Scarsdale,NY,10583,United States,914.207.7798,,,,,,0
+Charlotte  SouthPark,,4810-A Ashley Park Ln,,Charlotte,NC,28210,United States,980.474.1144,,,,,,0
+Lake Oswego,,15780 Boones Ferry Road,,Lake Oswego,OR,97034,United States,503.305.5942,,,,,,0
+Portland  Pearl District,,904 NW. Hoyt St.,,Portland,OR,97209,United States,503.954.3811,,,,,,0
+Philadelphia  Rittenhouse,,Suite 200,,Philadelphia,PA,19103,,,,,,,,
+Philadelphia  Rittenhouse,,Suite 200,,Philadelphia,PA,19103,United States,,,,,,,1
+"Wayne, PA",,,,,,,United States,,,,,,,1
+Nashville  Belle Meade,,"4301 Harding Rd, Suite D",,Nashville,TN,37205,United States,615.783.1512,,,,,,0
+Austin  Downtown,,"1611 W. 5th St, Suite 125",,Austin,TX,78703,United States,512.391.0921,,,,,,0
+Dallas  Park Cities,,5560 W. Lovers Ln.,,Dallas,TX,75209,United States,214.357.4444,,,,,,0
+Dallas  Uptown,,"2222 McKinney Ave, Suite 210",,Dallas,TX,75201,United States,214.954.4444,,,,,,0
+Dallas  White Rock Lake,,,,,,,United States,,,,,,,1
+Plano,,"4017 Preston Rd, Suite 521",,Plano,TX,75093,United States,972.403.0503,,,,,,0
+Southlake,,"2211 East Southlake Blvd, Suite 550",,Southlake,TX,76092,United States,817.329.0050,,,,,,0
+Salt Lake City  Sugarhouse,,1057 E. 2100 S.,,Salt Lake City,Utah,84106,United States,801.485.4227,,,,,,0
+Richmond,,,,,,,United States,,,,,,,1
+Tysons Corner,,"2070 Chain Bridge Rd, Suite 185",,Vienna,VA,22182,United States,703.854.1379,,,,,,0
+Seattle  Lake Union,,124 Westlake Ave. N.,,Seattle,WA,98109,United States,206.467.5249,,,,,,0
+Seattle  Eastside,,"7551 166th Ave. NE, Suite D240",,Redmond,WA,98052,United States,425.556.5163,,,,,,0
+Spokane  Lincoln Heights,,2023 E. 29th St,,Spokane,WA,99203,United States,509.534.3000,,,,,,0
+West Vancouver,,"1760 Marine Dr, Suite 250",,West Vancouver,BC,V7V,Canada,604.925.6199,,,,,,0
+Vancouver  Yaletown,,837 Beatty St.,,Vancouver,BC,V6B,Canada,604.681.6188,,,,,,0

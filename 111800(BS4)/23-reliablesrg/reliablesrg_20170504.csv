@@ -1,0 +1,6 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Brookfield,,13680 W Capitol Dr.,,Brookfield,WI,53005,United States,262.373.1195,,,Mon-Fri 8:00 am - 5:00 pm,,,
+Appleton/Menasha,,880 S Oneida St. Suite F,,Menasha,WI,54952,United States,262.373.1195,,,Mon-Fri 8:00 am - 5:00 pm,,,
+Madison,,6682 Odana Rd.,,Madison,WI,53719,United States,262.373.1195,,,Mon-Fri 8:00 am - 5:00 pm,,,
+Janesville,,2553 Milton Ave,,Janesville,WI,53545,United States,608.314.8818,,,Mon-Fri 8:00 am - 5:00 pm,,,
+Eau Claire,,3460 Mall Drive,,Eau Claire,WI,54701,United States,608.314.8818,,,Mon-Fri 8:00 am - 5:00 pm,,,

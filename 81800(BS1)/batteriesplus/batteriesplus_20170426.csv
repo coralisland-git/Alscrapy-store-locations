@@ -1,0 +1,2134 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+,657,"
+            174 Yale Street
+        ",,Houston,TX,,United States,"P:(713) 637-4482, F:(832) 767-5682",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,824,"
+            3909 Richmond Avenue
+        ",,Houston,TX,,United States,"P:(713) 355-7587, F:(713) 355-7583",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,418,"
+            10925 NW Freeway
+        ",,Houston,TX,,United States,"P:(713) 688-7587, F:(713) 688-2520",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,419,"
+            4774 Beechnut St
+        ",,Houston,TX,,United States,"P:(713) 668-7587, F:(713) 668-5907",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,417,"
+            2662 S Gessner Rd
+        ",,Houston,TX,,United States,"P:(713) 785-7587, F:(713) 785-6995",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,610,"
+            13740 East Freeway
+        ",,Houston,TX,,United States,"P:(346) 980-5959, F:(346) 980-5969",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,257,"
+            2510 Smith Ranch Rd
+        ",,Pearland,TX,,United States,"P:(713) 436-5740, F:(713) 436-5466",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,815,"
+            4765 FM 1960 West
+        ",,Houston,TX,,United States,"P:(281) 444-4484, F:(281) 444-4497",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,939,"
+            9477 FM 1960 Bypass Rd West
+        ",,Humble,TX,,United States,"P:(832) 995-2500, F:(832) 995-2503",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,816,"
+            6073 Highway 6 North
+        ",,Houston,TX,,United States,"P:(281) 550-7587, F:(281) 550-7588",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,304,"
+            5437 S. Sepulveda Blvd
+        ",,Culver City,CA,,United States,"P:(310) 313-2550, F:(310) 313-2788",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,916,"
+            2520 Cherry Avenue
+        ",,Signal Hill,CA,,United States,"P:(562) 294-4494, F:(562) 294-4496",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,088,"
+            407 W. Imperial Hwy
+        ",,Brea,CA,,United States,"P:(714) 529-1800, F:(714) 529-1807",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,312,"
+            1742 N Moorpark Rd
+        ",,Thousand Oaks,CA,,United States,"P:(805) 494-8484, F:(805) 494-8486",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,638,"
+            9950 Foothill Blvd
+        ",,Rancho Cucamonga,CA,,United States,"P:(909) 578-0123, F:(909) 578-0124",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,440,"
+            23645 El Toro Rd
+        ",,Lake Forest,CA,,United States,"P:(949) 206-0152, F:(949) 206-0162",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,320,"
+            163 B West Ventura Blvd
+        ",,Camarillo,CA,,United States,"P:(805) 383-7100, F:(805) 484-0840",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:9am-5pm",,,
+,321,"
+            1725 S Victoria Ave
+        ",,Ventura,CA,,United States,"P:(805) 658-6400, F:(805) 658-1058",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:9am-5pm",,,
+,678,"
+            26475 Ynez Road
+        ",,Temecula,CA,,United States,"P:(951) 267-4200, F:(951) 267-4201",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,309,"
+            2070 Hacienda Dr
+        ",,Vista,CA,,United States,"P:(760) 940-0940, F:(760) 631-7396",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,267,"
+            2051 N. Clybourn Ave
+        ",,Chicago,IL,,United States,"P:(773) 645-4420, F:(773) 645-4423",,,"Mon-Thu:9am-9pm,Fri:9am-9pm,Sat:9am-8pm,Sun:9am-6pm",,,
+,891,"
+            7111 W. North Avenue
+        ",,Oak Park,IL,,United States,"P:(708) 948-7885, F:(708) 948-7657",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,890,"
+            5708 W. Touhy Avenue
+        ",,Niles,IL,,United States,"P:(847) 647-9100, F:(847) 647-9102",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,286,"
+            6227 W. 95th St
+        ",,Oak Lawn,IL,,United States,"P:(708) 499-6977, F:(708) 499-9472",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,288,"
+            240 E. Roosevelt Rd
+        ",,Villa Park,IL,,United States,"P:(630) 279-3478, F:(630) 279-3589",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,290,"
+            905 East Rand Road
+        ",,Mount Prospect,IL,,United States,"P:(847) 818-0659, F:(847) 818-0710",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,643,"
+            16915 Torrence Ave.
+        ",,Lansing,IL,,United States,"P:(708) 474-8544, F:(708) 474-8577",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,277,"
+            16205-A S Harlem Ave
+        ",,Tinley Park,IL,,United States,"P:(708) 614-5055, F:(708) 614-5057",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,576,"
+            2837 Dundee Road
+        ",,Northbrook,IL,,United States,"P:(630) 473-3095, F:(630) 984-4030",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,276,"
+            17958 S. Halsted St
+        ",,Homewood,IL,,United States,"P:(708) 206-9999, F:(708) 206-9972",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,430,"
+            2200 B Route 22 East
+        ",,Union,NJ,,United States,"P:(908) 686-2005, F:(908) 686-0048",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,771,"
+            669 Route 17 South
+        ",,Paramus,NJ,,United States,"P:(201) 968-5027, F:(201) 968-5029",,,"Mon-Thu:8am-8pm,Fri:8am-9pm,Sat:8am-7pm,Sun:Closed",,,
+,613,"
+            171 US Hwy 1
+        ",,Metuchen,NJ,,United States,"P:(732) 379-4001, F:(732) 710-3748",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,628,"
+            2145 Route 35
+        ",,Holmdel,NJ,,United States,"P:(732) 847-3272, F:(732) 847-3474",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,411,"
+            569 Route 10 East
+        ",,Whippany,NJ,,United States,"P:(973) 781-9090, F:(973) 781-9666",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,459,"
+            513 Route 22 West
+        ",,North Plainfield,NJ,,United States,"P:(908) 279-6497, F:(908) 279-6718",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,776,"
+            300 Tarrytown Road
+        ",,White Plains,NY,,United States,"P:(914) 997-9400, F:(914) 997-9401",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,872,"
+            285 State Route 18
+        ",,East Brunswick,NJ,,United States,"P:(732) 257-5555, F:(732) 257-8555",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,828,"
+            100 Route 9
+        ",,Manalapan,NJ,,United States,"P:(732) 410-8704, F:(732) 391-6713",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,627,"
+            731 Highway 35
+        ",,Ocean,NJ,,United States,"P:(732) 531-0414, F:(732) 531-0372",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,886,"
+            1242 Austin Highway
+        ",,San Antonio,TX,,United States,"P:(210) 598-0003, F:(210) 598-0062",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,495,"
+            2277 N.W. Military Hwy
+        ",,San Antonio,TX,,United States,"P:(210) 308-0103, F:(210) 308-0109",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,144,"
+            6891-3 Bandera Rd
+        ",,San Antonio,TX,,United States,"P:(210) 647-0103, F:(210) 647-0158",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,885,"
+            119 SW Loop 410
+        ",,San Antonio,TX,,United States,"P:(210) 509-0103, F:(210) 509-0109",,,"Mon-Thu:8:30am-8pm,Fri:8:30am-8pm,Sat:9am-7pm,Sun:11am-6pm",,,
+,335,"
+            3838 E Thomas Rd
+        ",,Phoenix,AZ,,United States,"P:(602) 840-4034, F:(602) 840-4277",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,332,"
+            3415 W Glendale Ave
+        ",,Phoenix,AZ,,United States,"P:(602) 841-3900, F:(602) 841-3908",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,333,"
+            3404 S McClintock Dr
+        ",,Tempe,AZ,,United States,"P:(480) 820-0703, F:(480) 820-1136",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,330,"
+            3014 N Dobson Rd
+        ",,Chandler,AZ,,United States,"P:(480) 730-1103, F:(480) 730-1106",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,496,"
+            2815 N. Loop 1604 E
+        ",,San Antonio,TX,,United States,"P:(210) 496-0103, F:(210) 496-0109",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,497,"
+            11019 Culebra
+        ",,San Antonio,TX,,United States,"P:(210) 688-6500, F:(210) 688-6501",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,932,"
+            1671 IH-35 South
+        ",,New Braunfels,TX,,United States,"P:(830) 387-4875, F:(830) 387-4472",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,605,"
+            1035 N Hwy 123
+        ",,San Marcos,TX,,United States,"P:(512) 216-6784, F:(512) 216-6798",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,346,"
+            9001 Brodie Lane
+        ",,Austin SW,TX,,United States,"P:(512) 282-2207, F:(512) 282-2210",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,143,"
+            2300 S. Lamar
+        ",,Austin,TX,,United States,"P:(512) 416-1191, F:(512) 416-7661",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,331,"
+            2404 E Bell Rd
+        ",,Phoenix,AZ,,United States,"P:(602) 787-8808, F:(602) 787-8810",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,336,"
+            14202 N Scottsdale Rd
+        ",,Scottsdale,AZ,,United States,"P:(480) 998-5004, F:(480) 998-5009",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,338,"
+            6680 W Bell Rd
+        ",,Glendale,AZ,,United States,"P:(623) 979-0532, F:(623) 979-0538",,,"Mon-Thu:Closed,Fri:Closed,Sat:Closed,Sun:Closed",,,
+,979,"
+            1809 N. Dysart Rd
+        ",,Avondale,AZ,,United States,"P:(623) 536-0022, F:(602) 865-0395",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,339,"
+            29 N Val Vista Dr
+        ",,Gilbert,AZ,,United States,"P:(480) 632-1909, F:(480) 632-2380",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,616,"
+            12845 W Bell Road
+        ",,Surprise,AZ,,United States,"P:(623) 226-7077, F:(623) 226-7075",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,623,"
+            154 Baltimore Pike
+        ",,Springfield,PA,,United States,"P:(610) 543-1672, F:(610) 543-1657",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,691,"
+            2118 Cottman Avenue
+        ",,Philadelphia,PA,,United States,"P:(215) 745-6600, F:(215) 745-6601",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:9am-6pm",,,
+,498,"
+            1215 Route 73
+        ",,Mt. Laurel,NJ,,United States,"P:(856) 638-0778, F:(856) 638-0770",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,928,"
+            5501 Route 42
+        ",,Turnersville,NJ,,United States,"P:(856) 302-0566, F:(856) 245-7401",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,758,"
+            2419 El Cajon Blvd
+        ",,San Diego,CA,,United States,"P:(619) 543-1101, F:(619) 543-1102",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,604,"
+            509 York Rd
+        ",,Warminster,PA,,United States,"P:(215) 672-5200, F:(215) 672-5202",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,687,"
+            777 Bethlehem Pike
+        ",,Montgomeryville,PA,,United States,"P:(215) 749-2199, F:(215) 710-1299",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,831,"
+            110 Lincoln Highway
+        ",,Fairless Hills,PA,,United States,"P:(267) 583-3090, F:(267) 583-3089",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,954,"
+            3021 Lehigh St
+        ",,Allentown,PA,,United States,"P:(484) 221-8946, F:(610) 351-0280",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,961,"
+            3330 North Fifth Street Highway
+        ",,Reading,PA,,United States,"P:(610) 929-1063, F:(610) 929-1065",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,789,"
+            308 Orlando Drive
+        ",,Raritan,NJ,,United States,"P:(908) 218-3747, F:(908) 218-3798",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,147,"
+            9100 N. Central Expressway
+        ",,Dallas,TX,,United States,"P:(214) 234-0234, F:(214) 234-0233",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,274,"
+            1220 N Town East Blvd
+        ",,Mesquite,TX,,United States,"P:(972) 270-8000, F:(972) 270-8038",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,150,"
+            2703 N Beltline Rd
+        ",,Irving,TX,,United States,"P:(972) 256-2073, F:(972) 252-3775",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,145,"
+            4151 Belt Line Rd
+        ",,Addison,TX,,United States,"P:(972) 716-4144, F:(972) 716-4176",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,629,"
+            420 E. Pleasant Run Road
+        ",,Cedar Hill,TX,,United States,"P:(469) 272-4533, F:(972) 291-5616",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,408,"
+            3121 N. George Bush Hwy
+        ",,Garland,TX,,United States,"P:(214) 382-9838, F:(972) 350-3520",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,938,"
+            3320 E. Hebron Pkwy
+        ",,Carrollton,TX,,United States,"P:(469) 701-3800, F:(469) 701-3801",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,146,"
+            1725 North Central Expressway
+        ",,Plano,TX,,United States,"P:(972) 423-6100, F:(972) 423-8271",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,439,"
+            1130 North Fielder Road
+        ",,Arlington,TX,,United States,"P:(817) 274-1400, F:(817) 274-1405",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,151,"
+            3430 S. Cooper St
+        ",,Arlington,TX,,United States,"P:(817) 467-0613, F:(817) 557-2388",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,438,"
+            1450 Bush St
+        ",,San Francisco,CA,,United States,"P:(415) 885-5500, F:(415) 885-5510",,,"Mon-Thu:8am-7pm,Fri:8am-7pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,637,"
+            10770 San Pablo Ave
+        ",,El Cerrito,CA,,United States,"P:(510) 529-4150, F:(510) 686-8559",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,308,"
+            2064 4th St
+        ",,San Rafael,CA,,United States,"P:(415) 455-9221, F:(415) 455-9619",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,677,"
+            557 Contra Costa Blvd.
+        ",,Pleasant Hill,CA,,United States,"P:(925) 687-2600, F:(925) 687-2601",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,307,"
+            7429 Amador Valley Blvd
+        ",,Dublin,CA,,United States,"P:(925) 829-7587, F:(925) 829-7580",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,905,"
+            313 N. McDowell Blvd
+        ",,Petaluma,CA,,United States,"P:(707) 794-2244, F:(707) 794-2234",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,475,"
+            3410 Stevens Creek Blvd
+        ",,San Jose,CA,,United States,"P:(408) 538-3333, F:(408) 244-3398",,,"Mon-Thu:8am-7pm,Fri:8am-7pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,906,"
+            2700 N. Texas Street
+        ",,Fairfield,CA,,United States,"P:(707) 794-2256, F:(707) 794-2286",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,620,"
+            2648 Santa Rosa Avenue
+        ",,Santa Rosa,CA,,United States,"P:(707) 536-1919, F:(415) 455-9619",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,681,"
+            1701 E. Monte Vista Avenue
+        ",,Vacaville,CA,,United States,"P:(707) 317-6999, F:(707) 317-1999",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,005,"
+            4435 LaFayette Rd
+        ",,Indianapolis,IN,,United States,"P:(317) 293-3555, F:(317) 293-3550",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,006,"
+            7325 Pendleton Pike Rd
+        ",,Indianapolis,IN,,United States,"P:(317) 543-9302, F:(317) 543-9303",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,004,"
+            2300 E County Line Rd
+        ",,Indianapolis,IN,,United States,"P:(317) 865-7710, F:(317) 865-7712",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,041,"
+            9655 E. U.S. Highway 36
+        ",,Avon,IN,,United States,"P:(317) 273-0687, F:(317) 273-0698",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,007,"
+            1701 E 116th St
+        ",,Carmel,IN,,United States,"P:(317) 575-8300, F:(317) 575-8309",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,040,"
+            2640 E. Conner Street
+        ",,Noblesville,IN,,United States,"P:(317) 219-0007, F:(317) 219-0009",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,202,"
+            4644 S Scatterfield Rd
+        ",,Anderson,IN,,United States,"P:(765) 644-2700, F:(765) 644-2703",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,631,"
+            1435 North National Road
+        ",,Columbus,IN,,United States,"P:(812) 669-2400, F:(812) 669-1275",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,002,"
+            3633 State Road 38 East
+        ",,Lafayette,IN,,United States,"P:(765) 449-8210, F:(765) 449-8216",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,769,"
+            3741 National Rd. E
+        ",,Richmond,IN,,United States,"P:(765) 935-2288, F:(765) 935-5505",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,479,"
+            6317 Bee Caves Road
+        ",,Austin / Westlake Hills,TX,,United States,"P:(512) 327-5002, F:(512) 327-5004",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,142,"
+            7915 Burnet Rd
+        ",,Austin,TX,,United States,"P:(512) 419-7587, F:(512) 419-1430",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,478,"
+            12129 FM 620 N
+        ",,Austin / Cedar Park,TX,,United States,"P:(512) 219-5800, F:(512) 219-5802",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,141,"
+            2541 South IH-35
+        ",,Round Rock,TX,,United States,"P:(512) 600-7800, F:(512) 600-7801",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,869,"
+            360 W. Central Texas Expressway
+        ",,Harker Heights,TX,,United States,"P:(254) 690-0115, F:(254) 690-0118",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,301,"
+            3550 S General Bruce Dr
+        ",,Temple,TX,,United States,"P:(254) 773-4555, F:(254) 773-4550",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,666,"
+            2251 Stringtown Road
+        ",,Grove City,OH,,United States,"P:(614) 594-5205, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,161,"
+            5010 N. High St
+        ",,Columbus / Clintonville,OH,,United States,"P:(614) 431-2665, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,160,"
+            4514 Cemetery Rd
+        ",,Hilliard,OH,,United States,"P:(614) 850-8090, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,162,"
+            5960 Scarborough Blvd
+        ",,Columbus / Reynoldsburg,OH,,United States,"P:(614) 577-1998, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,847,"
+            4681 Morse Road
+        ",,Gahanna,OH,,United States,"P:(614) 498-2000, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,159,"
+            8593 Columbus Pike
+        ",,Lewis Center,OH,,United States,"P:(614) 396-5490, F:(614) 431-9594",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,137,"
+            1780 N. Bechtle Ave
+        ",,Springfield,OH,,United States,"P:(937) 398-0044, F:(937) 398-0043",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,140,"
+            4496 State Route 725
+        ",,Bellbrook,OH,,United States,"P:(937) 433-9222, F:(937) 433-8023",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,136,"
+            3510 York Commons Blvd
+        ",,Dayton,OH,,United States,"P:(937) 424-2525, F:(937) 387-0687",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,132,"
+            206 Springboro Pike
+        ",,Dayton,OH,,United States,"P:(937) 938-5177, F:(937) 938-5467",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,314,"
+            101 Mount Hermon Rd
+        ",,Scotts Valley,CA,,United States,"P:(831) 439-6720, F:(831) 439-6723",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,788,"
+            651 West Grant Line Rd.
+        ",,Tracy,CA,,United States,"P:(209) 834-0600, F:(209) 834-0604",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:9am-5pm",,,
+,683,"
+            1295  N. Davis Road
+        ",,Salinas,CA,,United States,"P:(831) 753-6977, F:(831) 753-6979",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:9am-6pm",,,
+,786,"
+            3000 McHenry Ave
+        ",,Modesto,CA,,United States,"P:(209) 529-0600, F:(209) 529-0604",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,787,"
+            3204 W. Monte Vista Avenue
+        ",,Turlock,CA,,United States,"P:(209) 632-0600, F:(209) 632-0602",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,051,"
+            3747 Southside Blvd
+        ",,Jacksonville,FL,,United States,"P:(904) 620-9992, F:(904) 620-9611",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,879,"
+            790 Skymarks Drive
+        ",,Jacksonville,FL,,United States,"P:(904) 503-9200, F:(904) 503-9181",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:9am-6pm",,,
+,052,"
+            10991-56 San Jose Blvd
+        ",,Jacksonville,FL,,United States,"P:(904) 886-2800, F:(904) 886-2822",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,485,"
+            36 A Blanding Blvd
+        ",,Orange Park,FL,,United States,"P:(904) 375-0495, F:(904) 375-2370",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,973,"
+            13794 Beach Blvd
+        ",,Jacksonville,FL,,United States,"P:(904) 677-5911, F:(904) 677-5908",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:9am-6pm",,,
+,437,"
+            3318 SW 35th Blvd
+        ",,Gainesville,FL,,United States,"P:(352) 872-5920, F:(352) 872-5921",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,807,"
+            2400 W International Speedway Blvd
+        ",,Daytona Beach,FL,,United States,"P:(386) 255-2800, F:(386) 255-2828",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,435,"
+            3950 SW College Rd
+        ",,Ocala,FL,,United States,"P:(352) 873-6800, F:(352) 873-6803",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,808,"
+            1812 Dunlawton Ave
+        ",,Port Orange,FL,,United States,"P:(386) 788-8755, F:(386) 845-0238",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,791,"
+            870 North US Hwy 27
+        ",,Lady Lake,FL,,United States,"P:(352) 354-7770, F:(352) 354-7729",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,175,"
+            4425 Park Rd
+        ",,Charlotte,NC,,United States,"P:(704) 333-3325, F:(704) 333-3385",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,176,"
+            9939 Lee Street
+        ",,Pineville,NC,,United States,"P:(704) 889-5420, F:(704) 889-7031",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,182,"
+            2217-F Matthews Township Pkwy
+        ",,Matthews,NC,,United States,"P:(704) 846-1260, F:(704) 846-1261",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,183,"
+            9934B Rose Commons Dr.
+        ",,Huntersville,NC,,United States,"P:(704) 948-6012, F:(704) 948-6030",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,682,"
+            6036  Bayfield Parkway
+        ",,Concord,NC,,United States,"P:(980) 781-4852, F:(980) 781-4854",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,423,"
+            1416 E Franklin Blvd
+        ",,Gastonia,NC,,United States,"P:(704) 865-3447, F:(704) 865-3441",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,422,"
+            2215 N Cherry Rd
+        ",,Rock Hill,SC,,United States,"P:(803) 328-1110, F:(803) 328-1133",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,926,"
+            484 River Hwy
+        ",,Mooresville,NC,,United States,"P:(704) 235-0540, F:(704) 235-0541",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,181,"
+            636-D South Stratford Rd
+        ",,Winston-Salem,NC,,United States,"P:(336) 794-0673, F:(336) 794-0675",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,228,"
+            127 E Blackstock Rd
+        ",,Spartanburg,SC,,United States,"P:(864) 576-3848, F:(864) 576-4133",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,154,"
+            5825 Camp Bowie Blvd
+        ",,Fort Worth,TX,,United States,"P:(817) 377-2288, F:(817) 569-1615",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,888,"
+            6076 Azle Avenue
+        ",,Lake Worth,TX,,United States,"P:(817) 585-1391, F:(817) 585-1393",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,486,"
+            5733 South Hulen St
+        ",,Fort Worth,TX,,United States,"P:(817) 744-7636, F:(817) 744-7656",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,155,"
+            5041 Davis Blvd
+        ",,North Richland Hills,TX,,United States,"P:(817) 428-8658, F:(817) 428-4027",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,875,"
+            5636 North Tarrant Pkwy
+        ",,Fort Worth,TX,,United States,"P:(817) 656-4471, F:(817) 656-4473",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,962,"
+            445 SW Wilshire Blvd.
+        ",,Burleson,TX,,United States,"P:(817) 447-5500, F:(817) 447-5591",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,767,"
+            1205 E. Debbie Lane
+        ",,Mansfield,TX,,United States,"P:(817) 225-4100, F:(817) 473-4701",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,225,"
+            2757 E Southlake Blvd
+        ",,Southlake,TX,,United States,"P:(817) 488-6880, F:(817) 488-6884",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,372,"
+            766 Mt. Moriah
+        ",,Memphis,TN,,United States,"P:(901) 821-0977, F:(901) 821-0955",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,413,"
+            6115 Stage Road
+        ",,Bartlett,TN,,United States,"P:(901) 384-1933, F:(901) 384-1937",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,374,"
+            7111 Southcrest Parkway
+        ",,Southaven,MS,,United States,"P:(662) 772-5150, F:(662) 772-5155",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,373,"
+            7850 Poplar Avenue
+        ",,Germantown,TN,,United States,"P:(901) 752-0963, F:(901) 752-0629",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,656,"
+            5218 Goodman Road
+        ",,Olive Branch,MS,,United States,"P:(662) 874-5032, F:(662) 420-7921",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,370,"
+            100 Vann Drive
+        ",,Jackson,TN,,United States,"P:(731) 660-0600, F:(731) 660-0695",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,668,"
+            4120 E. McCain Blvd
+        ",,North Little Rock,AR,,United States,"P:(501) 945-0940, F:(501) 945-0946",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,667,"
+            801 South Bowman Road
+        ",,Little Rock,AR,,United States,"P:(501) 224-2852, F:(501) 224-1707",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,237,"
+            2605 Florence Blvd
+        ",,Florence,AL,,United States,"P:(256) 246-0797, F:(256) 764-6724",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,925,"
+            5194 Hinkleville Rd
+        ",,Paducah,KY,,United States,"P:(270) 984-1354, F:(270) 984-1355",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,655,"
+            31005 John R Road
+        ",,Madison Heights,MI,,United States,"P:(248) 565-8483, F:(248) 565-8578",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,987,"
+            31044 Gratiot Avenue
+        ",,Roseville,MI,,United States,"P:(586) 200-2169, F:(586) 200-2197",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,377,"
+            34164 Woodward Ave
+        ",,Birmingham,MI,,United States,"P:(248) 644-0666, F:(248) 644-0544",,,"Mon-Thu:8:30am-9pm,Fri:8:30am-9pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,481,"
+            41600 Ann Arbor Rd
+        ",,Plymouth,MI,,United States,"P:(734) 254-9815, F:(734) 254-9817",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,480,"
+            30760 Orchard Lake Rd
+        ",,Farmington Hills,MI,,United States,"P:(248) 737-9140, F:(248) 737-9142",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,811,"
+            3987 Baldwin Road
+        ",,Auburn Hills,MI,,United States,"P:(248) 253-1080, F:(248) 253-1096",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,389,"
+            3120 Packard Rd
+        ",,Ann Arbor,MI,,United States,"P:(734) 975-2441, F:(734) 975-2469",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,275,"
+            3128 Secor Road
+        ",,Toledo,OH,,United States,"P:(419) 724-5888, F:(419) 724-5889",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,376,"
+            2450 S Center Rd
+        ",,Burton,MI,,United States,"P:(810) 744-4140, F:(810) 744-4142",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,674,"
+            4205 Miller Road
+        ",,Flint,MI,,United States,"P:(810) 620-0064, F:(810) 265-7522",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,442,"
+            6800 Gateway East
+        ",,El Paso,TX,,United States,"P:(915) 881-0744, F:(915) 881-0746",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,818,"
+            2240 E. Lohman Ave
+        ",,Las Cruces,NM,,United States,"P:(575) 525-2355, F:(575) 525-2356",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,840,"
+            2185 E. Fry Blvd
+        ",,Sierra Vista,AZ,,United States,"P:(520) 459-1778, F:(520) 459-2151",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,340,"
+            4000 San Mateo, N.E.
+        ",,Albuquerque,NM,,United States,"P:(505) 888-1666, F:(505) 872-0771",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,100,"
+            1031 N. Wilmot
+        ",,Tucson,AZ,,United States,"P:(520) 747-8228, F:(520) 747-8368",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,102,"
+            4433 N. First Avenue
+        ",,Tucson,AZ,,United States,"P:(520) 888-3388, F:(520) 888-1818",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,694,"
+            1217 W. Irvington
+        ",,Tucson,AZ,,United States,"P:(520) 889-9978, F:(520) 889-3282",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,345,"
+            1609 St Michaels Dr
+        ",,Santa Fe,NM,,United States,"P:(505) 992-1181, F:(505) 992-1715",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,101,"
+            5925 W. Arizona Pavilions Dr
+        ",,Tucson,AZ,,United States,"P:(520) 744-8788, F:(520) 744-8818",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,877,"
+            1275 E. Florence Blvd
+        ",,Casa Grande,AZ,,United States,"P:(520) 421-1111, F:(520) 421-0004",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,836,"
+            405B Broadway
+        ",,Saugus,MA,,United States,"P:(781) 233-7587, F:(781) 233-7588",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,392,"
+            173A Cambridge Rd
+        ",,Woburn,MA,,United States,"P:(781) 933-9093, F:(781) 933-9793",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,765,"
+            85-87 Andover Street
+        ",,Danvers,MA,,United States,"P:(978) 774-4448, F:(978) 717-5828",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,772,"
+            1340 Washington Street
+        ",,Hanover,MA,,United States,"P:(781) 829-2287, F:(781) 829-2291",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,406,"
+            197 N Boston Post Rd W
+        ",,Marlborough,MA,,United States,"P:(508) 485-9200, F:(508) 485-9240",,,"Mon-Thu:8am-7pm,Fri:8am-7pm,Sat:9am-5pm,Sun:10am-5pm",,,
+,402,"
+            380 S Broadway
+        ",,Salem,NH,,United States,"P:(603) 685-0293, F:(603) 685-0296",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,400,"
+            317 Amherst St
+        ",,Nashua,NH,,United States,"P:(603) 883-5060, F:(603) 883-8041",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,823,"
+            999 Fall River Avenue
+        ",,Seekonk,MA,,United States,"P:(508) 557-1481, F:(508) 557-1458",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,401,"
+            464 S Willow St
+        ",,Manchester,NH,,United States,"P:(603) 621-0100, F:(603) 621-0300",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,827,"
+            2001 Woodbury Avenue
+        ",,Newington,NH,,United States,"P:(603) 433-1677, F:(603) 433-1676",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,262,"
+            536 NE Northgate Way
+        ",,Northgate / Seattle,WA,,United States,"P:(206) 364-0446, F:(206) 364-1047",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,898,"
+            12816 SE 38th Street
+        ",,Bellevue,WA,,United States,"P:(425) 641-2000, F:(425) 644-1010",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,897,"
+            14917 NE 20th Street
+        ",,Bellevue,WA,,United States,"P:(425) 562-5000, F:(425) 643-9873",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,127,"
+            17065 Southcenter Pkwy
+        ",,Southcenter / Tukwila,WA,,United States,"P:(206) 575-7539, F:(206) 575-7549",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,983,"
+            14184 NWE Woodinville Duvall Rd
+        ",,Woodinville,WA,,United States,,,,Opening Soon,,,
+,263,"
+            4028 196th Street SW
+        ",,Lynnwood,WA,,United States,"P:(425) 582-7350, F:(425) 582-2179",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,899,"
+            31830 Pacific Hwy South
+        ",,Federal Way,WA,,United States,"P:(253) 666-9555, F:(253) 666-9399",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,261,"
+            909 S.E. Everett Mall Way
+        ",,Everett,WA,,United States,"P:(425) 347-2021, F:(425) 347-8494",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,245,"
+            4051 Tacoma Mall Blvd
+        ",,Tacoma,WA,,United States,"P:(253) 476-2666, F:(253) 476-2777",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,246,"
+            10210 123rd Street Ct. E
+        ",,Puyallup,WA,,United States,"P:(253) 770-3313, F:(253) 770-1501",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,083,"
+            2600 S. Colorado Blvd.
+        ",,Denver,CO,,United States,"P:(303) 504-0101, F:(303) 504-0770",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,082,"
+            994 S. Abilene Street
+        ",,Aurora,CO,,United States,"P:(303) 745-3333, F:(303) 745-3332",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,822,"
+            14680 W. Colfax Avenue
+        ",,Lakewood,CO,,United States,"P:(303) 238-5264, F:(303) 279-7407",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,084,"
+            10339 N. Federal Blvd
+        ",,Westminster,CO,,United States,"P:(303) 438-0009, F:(303) 438-0669",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,080,"
+            8601 W. Cross Drive
+        ",,Littleton,CO,,United States,"P:(303) 973-4000, F:(303) 973-8700",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,081,"
+            8202 S. University Blvd
+        ",,Centennial,CO,,United States,"P:(303) 771-7112, F:(303) 771-7221",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,777,"
+            1137 Diamond Circle
+        ",,Lafayette,CO,,United States,"P:(303) 665-0830, F:(303) 665-9221",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,801,"
+            11355 S. Parker Road
+        ",,Parker,CO,,United States,"P:(303) 805-5822, F:(303) 805-5828",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,079,"
+            2700 28th Street
+        ",,Boulder,CO,,United States,"P:(303) 444-0000, F:(303) 444-8844",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,087,"
+            1020 Ken Pratt Blvd
+        ",,Longmont,CO,,United States,"P:(303) 485-8389, F:(303) 485-0107",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,654,"
+            1731 South 1st Street
+        ",,Yakima,WA,,United States,"P:(509) 571-1322, F:(509) 571-1324",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,365,"
+            3733 Nolensville Pike
+        ",,Nashville,TN,,United States,"P:(615) 331-1551, F:(615) 331-1858",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,573,"
+            6622 Charlotte Pike
+        ",,Nashville,TN,,United States,"P:(615) 793-3646, F:(615) 793-0422",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,552,"
+            2126 Gallatin Pike North
+        ",,Madison / Rivergate,TN,,United States,"P:(615) 851-5155, F:(615) 851-5455",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:10am-6pm",,,
+,553,"
+            1724 Carothers Pkwy
+        ",,Brentwood / Cool Springs,TN,,United States,"P:(615) 371-8581, F:(615) 371-8288",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,570,"
+            200 Crossing Lane
+        ",,Mount Juliet,TN,,United States,"P:(615) 758-5322, F:(615) 758-5601",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,566,"
+            479 W Sam Ridley Parkway
+        ",,Smyrna,TN,,United States,"P:(615) 462-6821, F:(615) 462-6826",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,375,"
+            1545 Nashville Pike
+        ",,Gallatin,TN,,United States,"P:(615) 461-8065, F:(615) 461-8067",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,294,"
+            535 N Thompson Lane
+        ",,Murfreesboro,TN,,United States,"P:(615) 895-4446, F:(615) 890-6658",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,363,"
+            2512 A Wilma Rudolph Blvd
+        ",,Clarksville,TN,,United States,"P:(931) 647-5200, F:(931) 647-5290",,,"Mon-Thu:7:30am-8pm,Fri:7:30am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,015,"
+            1150 US 31W
+        ",,Bowling Green,KY,,United States,"P:(270) 393-8880, F:(270) 393-8882",,,"Mon-Thu:7:30am-8pm,Fri:7:30am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,889,"
+            29 E. Padonia Road
+        ",,Timonium,MD,,United States,"P:(410) 628-7999, F:(410) 648-4028",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,185,"
+            6695-D Dobbin Rd
+        ",,Columbia,MD,,United States,"P:(410) 309-9040, F:(410) 309-9042",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,966,"
+            11813 Reisterstown Rd.
+        ",,Reisterstown,MD,,United States,"P:(410) 928-4800, F:(410) 648-4028",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,431,"
+            42 Watkins Park Dr
+        ",,Upper Marlboro,MD,,United States,"P:(301) 218-1630, F:(301) 218-1632",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,184,"
+            1045 Rockville Pike
+        ",,Rockville,MD,,United States,"P:(301) 738-0606, F:(301) 738-3795",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,449,"
+            3690 King St
+        ",,Alexandria,VA,,United States,"P:(703) 575-7711, F:(703) 575-4443",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,608,"
+            2160 Crain Hwy
+        ",,Waldorf,MD,,United States,"P:(240) 607-2531, F:(240) 607-2681",,,"Mon-Thu:Closed,Fri:Closed,Sat:Closed,Sun:Closed",,,
+,189,"
+            984 Loucks Rd
+        ",,York,PA,,United States,"P:(717) 718-3547, F:(717) 718-3549",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,680,"
+            44110 Ashburn Shopping Plaza
+        ",,Ashburn,VA,,United States,"P:(571) 291-2916, F:(571) 291-9602",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,201,"
+            11213 Lee Highway
+        ",,Fairfax,VA,,United States,"P:(703) 273-0220, F:(703) 273-2438",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,094,"
+            7500 S. Santa Fe
+        ",,Oklahoma City,OK,,United States,"P:(405) 631-7587, F:(405) 635-1235",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,093,"
+            6315 N. May Avenue
+        ",,Oklahoma City,OK,,United States,"P:(405) 842-7587, F:(405) 842-7577",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,870,"
+            7201 S. E. 29th
+        ",,Midwest City,OK,,United States,"P:(405) 582-7587, F:(405) 582-7590",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,097,"
+            1601 S. Broadway
+        ",,Edmond,OK,,United States,"P:(405) 796-7587, F:(405) 509-6772",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,871,"
+            2401 West Main St.
+        ",,Norman,OK,,United States,"P:(405) 455-7587, F:(405) 701-1609",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,098,"
+            1322 NW Sheridan Road
+        ",,Lawton,OK,,United States,"P:(580) 248-7587, F:(580) 248-2255",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,089,"
+            10846 S. Memorial Drive
+        ",,Tulsa,OK,,United States,"P:(918) 394-7587, F:(918) 394-7588",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,095,"
+            6554 E. 41st Street
+        ",,Tulsa,OK,,United States,"P:(918) 627-1600, F:(918) 627-0402",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,615,"
+            2313 W. Kenosha Street
+        ",,Broken Arrow,OK,,United States,"P:(918) 252-7587, F:(918) 252-7586",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,148,"
+            4054 N US Hwy 75
+        ",,Sherman,TX,,United States,"P:(903) 893-8881, F:(903) 893-8887",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,214,"
+            3008 NE Broadway St
+        ",,Portland,OR,,United States,"P:(503) 546-4962, F:(503) 546-4963",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,213,"
+            4812 SE 82nd Ave
+        ",,Portland,OR,,United States,"P:(503) 771-1377, F:(503) 771-1371",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,212,"
+            12825 SW Canyon Rd
+        ",,Beaverton,OR,,United States,"P:(503) 646-8892, F:(503) 643-5093",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,799,"
+            2505 NW Town Center Drive
+        ",,Hillsboro,OR,,United States,"P:(503) 601-0230, F:(503) 601-0238",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,472,"
+            2100A SE 164th Avenue
+        ",,Vancouver,WA,,United States,"P:(360) 448-6003, F:(360) 448-6005",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,216,"
+            7715 SW Nyberg St
+        ",,Tualatin,OR,,United States,"P:(503) 783-3252, F:(503) 783-3294",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,215,"
+            1218 NE 88th St
+        ",,Vancouver,WA,,United States,"P:(360) 213-0926, F:(360) 213-2099",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,471,"
+            2438 SE Burnside
+        ",,Gresham,OR,,United States,"P:(503) 328-0009, F:(503) 328-0012",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,210,"
+            3045 Lancaster Drive NE
+        ",,Salem,OR,,United States,"P:(503) 581-4890, F:(503) 315-5704",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,800,"
+            1755 NW 9th Street
+        ",,Corvallis,OR,,United States,"P:(541) 452-8596, F:(541) 452-8598",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,342,"
+            4337 E Main St
+        ",,Farmington,NM,,United States,"P:(505) 326-7300, F:(505) 326-7301",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,092,"
+            1408 U.S. Hwy 50W
+        ",,Pueblo,CO,,United States,"P:(719) 583-8766, F:(719) 583-8762",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,416,"
+            5073 S Coulter St
+        ",,Amarillo,TX,,United States,"P:(806) 358-7667, F:(806) 322-0108",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,778,"
+            3301 I-40 West
+        ",,Amarillo,TX,,United States,"P:(806) 322-3666, F:(806) 322-3664",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,090,"
+            2713 Janitell Rd
+        ",,Colorado Springs,CO,,United States,"P:(719) 219-0323, F:(719) 219-0325",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,091,"
+            3320 Austin Bluffs Pkwy
+        ",,Colorado Springs,CO,,United States,"P:(719) 599-9554, F:(719) 599-3921",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,325,"
+            4065 S. Maryland Pkwy
+        ",,Las Vegas,NV,,United States,"P:(702) 221-0065, F:(702) 222-0043",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,326,"
+            111 N. Nellis Blvd
+        ",,Las Vegas,NV,,United States,"P:(702) 221-0257, F:(702) 221-0259",,,"Mon-Thu:8:30am-8:30pm,Fri:8:30am-8:30pm,Sat:8:30am-8:30pm,Sun:8:30am-7pm",,,
+,696,"
+            2546 E. Craig Rd
+        ",,North Las Vegas,NV,,United States,"P:(702) 852-1776, F:(702) 947-4879",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,327,"
+            731 S. Rainbow Blvd
+        ",,Las Vegas,NV,,United States,"P:(702) 822-6940, F:(702) 822-6942",,,"Mon-Thu:8:30am-8:30pm,Fri:8:30am-8:30pm,Sat:8:30am-8:30pm,Sun:8:30am-7pm",,,
+,695,"
+            1381 W. Sunset Road
+        ",,Henderson,NV,,United States,"P:(702) 852-2015, F:(702) 947-4879",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,344,"
+            2370 E Serene Ave
+        ",,Las Vegas,NV,,United States,"P:(702) 221-9315, F:(702) 364-8087",,,"Mon-Thu:8:30am-8:30pm,Fri:8:30am-8:30pm,Sat:8:30am-8:30pm,Sun:8:30am-7pm",,,
+,612,"
+            3774 Hwy 95
+        ",,Bullhead City,AZ,,United States,"P:(928) 299-5400, F:(928) 299-5402",,,"Mon-Thu:7am-7pm,Fri:7am-7pm,Sat:7am-7pm,Sun:10am-5pm",,,
+,355,"
+            1055 W Red Cliffs Dr
+        ",,Washington,UT,,United States,"P:(435) 627-9933, F:(435) 627-9938",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,329,"
+            7129 E First St
+        ",,Prescott Valley,AZ,,United States,"P:(928) 772-1152, F:(928) 772-3557",,,"Mon-Thu:7am-7pm,Fri:7am-7pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,541,"
+            6150 N. Port Washington Rd
+        ",,Glendale,WI,,United States,"P:(414) 962-3927, F:(414) 962-3950",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,544,"
+            5474 S 27th Street
+        ",,Milwaukee,WI,,United States,"P:(414) 282-5200, F:(414) 282-6060",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-6pm",,,
+,546,"
+            10724 W Greenfield Ave.
+        ",,West Allis,WI,,United States,"P:(414) 456-9400, F:(414) 456-9484",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-7pm",,,
+,567,"
+            12560 W. Capitol Drive
+        ",,Brookfield,WI,,United States,"P:(262) 373-0468, F:(262) 373-0532",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-7pm",,,
+,545,"
+            8377 N 76th Street
+        ",,Milwaukee,WI,,United States,"P:(414) 354-5955, F:(414) 354-3083",,,"Mon-Thu:8am-6pm,Fri:8am-6pm,Sat:8am-6pm,Sun:9am-6pm",,,
+,543,"
+            N96 W18355 County Line Rd.
+        ",,Menomonee Falls,WI,,United States,"P:(262) 250-0222, F:(262) 250-0545",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-7pm",,,
+,580,"
+            215 East Sunset Dr
+        ",,Waukesha,WI,,United States,"P:(262) 542-4941, F:(262) 542-5537",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,540,"
+            2830 N Grandview Blvd
+        ",,Pewaukee / Waukesha,WI,,United States,"P:(262) 548-9222, F:(262) 548-0272",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,560,"
+            7227 Durand Avenue
+        ",,Racine,WI,,United States,"P:(262) 554-0774, F:(262) 554-0268",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,561,"
+            10288 77th Street
+        ",,Pleasant Prairie,WI,,United States,"P:(262) 653-0958, F:(262) 653-1354",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,904,"
+            95 W. Shaw Avenue
+        ",,Clovis,CA,,United States,"P:(559) 900-2789, F:(559) 900-2786",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,466,"
+            3312 W Shaw Ave
+        ",,Fresno,CA,,United States,"P:(559) 277-8288, F:(559) 277-8806",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,313,"
+            3330 East Hammer Lane
+        ",,Stockton,CA,,United States,"P:(209) 952-1438, F:(209) 952-1684",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,935,"
+            1811 N. Broadway
+        ",,Santa Maria,CA,,United States,"P:(805) 332-3974, F:(805) 332-3981",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,790,"
+            1305 Veterans Pkwy
+        ",,Clarksville,IN,,United States,"P:(812) 913-0081, F:(812) 913-0083",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,813,"
+            4600 Shelbyville Road
+        ",,Louisville-St. Matthews,KY,,United States,"P:(502) 749-4111, F:(502) 749-4187",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,013,"
+            4911 Outer Loop
+        ",,Louisville-Okolona,KY,,United States,"P:(502) 969-1555, F:(502) 969-1532",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,814,"
+            6504 Bardstown Road
+        ",,Louisville-Fern Creek,KY,,United States,"P:(502) 239-7323, F:(502) 239-7324",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,014,"
+            12899 Shelbyville Rd
+        ",,Louisville-Middletown,KY,,United States,"P:(502) 253-0300, F:(502) 253-0887",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,499,"
+            948 N. Mulberry Street
+        ",,Elizabethtown,KY,,United States,"P:(270) 982-5591, F:(270) 982-5593",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,293,"
+            3094 Richmond Rd
+        ",,Lexington,KY,,United States,"P:(859) 266-0815, F:(859) 266-3288",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,797,"
+            7657 Mall Rd.
+        ",,Florence,KY,,United States,"P:(859) 371-2288, F:(859) 371-0621",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,292,"
+            3525 Frederica St
+        ",,Owensboro,KY,,United States,"P:(270) 684-3115, F:(270) 684-2166",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,334,"
+            1145 S Power Rd
+        ",,Mesa,AZ,,United States,"P:(480) 654-3870, F:(480) 654-5734",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,980,"
+            2811 S. Market Street
+        ",,Gilbert,AZ,,United States,"P:(480) 535-0888, F:(480) 535-0874",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,220,"
+            4336 Virginia Beach Blvd
+        ",,Virginia Beach,VA,,United States,"P:(757) 431-1855, F:(757) 431-2655",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:11am-6pm",,,
+,653,"
+            1909 Landstown Centre Way
+        ",,Virginia Beach,VA,,United States,"P:(757) 453-6890, F:(757) 453-6897",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:11am-6pm",,,
+,219,"
+            1020 Battlefield Blvd North
+        ",,Chesapeake,VA,,United States,"P:(757) 548-5800, F:(757) 548-5387",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:11am-6pm",,,
+,849,"
+            222 West 21st Street
+        ",,Norfolk,VA,,United States,"P:(757) 227-5333, F:(757) 227-5613",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,469,"
+            6255 College Drive
+        ",,Suffolk,VA,,United States,"P:(757) 483-1106, F:(757) 483-8874",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:11am-6pm",,,
+,217,"
+            3412 W. Mercury Blvd.
+        ",,Hampton,VA,,United States,"P:(757) 864-0315, F:(757) 864-0318",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,218,"
+            663 Turnberry Blvd
+        ",,Newport News,VA,,United States,"P:(757) 874-7090, F:(757) 874-7092",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,662,"
+            4655 Monticello Avenue
+        ",,Williamsburg,VA,,United States,"P:(757) 345-6967, F:(757) 345-6968",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,410,"
+            648 Southpark Blvd
+        ",,Colonial Heights,VA,,United States,"P:(804) 504-0001, F:(804) 722-5804",,,"Mon-Thu:8:30am-8pm,Fri:8:30am-8pm,Sat:8:30am-8pm,Sun:10am-7pm",,,
+,412,"
+            6493 Mechanicsville Turnpike
+        ",,Mechanicsville,VA,,United States,"P:(804) 730-8500, F:(804) 730-8600",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-8pm,Sun:10am-6pm",,,
+,649,"
+            3709 South Noland Road
+        ",,Independence,MO,,United States,"P:(816) 336-1590, F:(816) 336-1591",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,648,"
+            7107 NW Barry Road
+        ",,Kansas City,MO,,United States,"P:(816) 267-4226, F:(816) 267-4227",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,260,"
+            15323 W 67th Street
+        ",,Shawnee,KS,,United States,"P:(913) 268-4646, F:(913) 268-4676",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,243,"
+            1912 Star Drive
+        ",,Liberty,MO,,United States,"P:(816) 415-0799, F:(816) 415-0337",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,282,"
+            13408 Metcalf Ave
+        ",,Overland Park,KS,,United States,"P:(913) 897-4200, F:(913) 897-4212",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,289,"
+            1455 NE Douglas St
+        ",,Lees Summit,MO,,United States,"P:(816) 554-7587, F:(816) 554-7589",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,259,"
+            15135 W 119th St
+        ",,Olathe,KS,,United States,"P:(913) 390-6601, F:(913) 390-6603",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,394,"
+            8026 E 171st Street
+        ",,Belton,MO,,United States,"P:(816) 322-3288, F:(816) 322-3386",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,986,"
+            4651 W. 6th Street
+        ",,Lawrence,KS,,United States,"P:(785) 312-9300, F:(785) 331-2051",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,258,"
+            6021 SW 29th St
+        ",,Topeka,KS,,United States,"P:(785) 228-9377, F:(785) 228-9378",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,861,"
+            759 Ikea Court
+        ",,West Sacramento,CA,,United States,"P:(916) 737-5959, F:(916) 737-5955",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,862,"
+            1632 Howe Avenue
+        ",,Sacramento,CA,,United States,"P:(916) 333-5080, F:(916) 333-5078",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,806,"
+            8239 Laguna Boulevard
+        ",,Elk Grove,CA,,United States,"P:(916) 691-3300, F:(916) 691-3304",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,310,"
+            8025 Greenback Lane
+        ",,Citrus Heights,CA,,United States,"P:(916) 722-3300, F:(916) 722-2489",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,348,"
+            910 Pleasant Grove Blvd
+        ",,Roseville,CA,,United States,"P:(916) 786-2222, F:(916) 786-2220",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,863,"
+            2791 E. Bidwell Street
+        ",,Folsom,CA,,United States,"P:(916) 790-9300, F:(916) 790-9399",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-7:30pm,Sun:9am-6:30pm",,,
+,322,"
+            1199 Butte House Rd
+        ",,Yuba City,CA,,United States,"P:(530) 671-9905, F:(530) 671-9907",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,305,"
+            5620 E. Woodmen Rd
+        ",,Colorado Springs,CO,,United States,"P:(719) 572-7300, F:(719) 572-7299",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,078,"
+            2201 N. 90th Street
+        ",,Omaha,NE,,United States,"P:(402) 572-1171, F:(402) 573-6914",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,073,"
+            8920 S. 71st Plaza
+        ",,Papillion,NE,,United States,"P:(402) 505-5464, F:(402) 505-8628",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,074,"
+            2606 S. 132nd Street
+        ",,Omaha,NE,,United States,"P:(402) 933-5588, F:(402) 933-5585",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,920,"
+            2825 S. 70th Street
+        ",,Lincoln,NE,,United States,"P:(402) 423-0244, F:(402) 423-0813",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,129,"
+            3421 Singing Hills Blvd
+        ",,Sioux City,IA,,United States,"P:(712) 222-1020, F:(712) 222-1019",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,045,"
+            3001 100th Street
+        ",,Urbandale,IA,,United States,"P:(515) 253-9999, F:(515) 309-3059",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,203,"
+            909 SE Oralabor Road
+        ",,Ankeny,IA,,United States,"P:(515) 289-0800, F:(515) 289-2397",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,940,"
+            495 Moreland Ave SE
+        ",,Atlanta,GA,,United States,"P:(678) 509-3329, F:(678) 509-3349",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,124,"
+            3932 North Druid Hills Rd
+        ",,Decatur,GA,,United States,"P:(770) 414-6979, F:(770) 414-6980",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,223,"
+            4418 Roswell Road, NE
+        ",,Atlanta,GA,,United States,"P:(404) 256-0310, F:(770) 421-0059",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,894,"
+            1133 East West Connector
+        ",,Austell,GA,,United States,"P:(678) 556-0909, F:(678) 556-0908",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,221,"
+            51 Cobb Pkwy South
+        ",,Marietta,GA,,United States,"P:(770) 421-0220, F:(770) 421-0059",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,779,"
+            4101 Roswell Road
+        ",,Marietta (East Cobb),GA,,United States,"P:(678) 403-2066, F:(770) 421-0059",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,125,"
+            1540 Hudson Bridge Road
+        ",,Stockbridge,GA,,United States,"P:(770) 474-5999, F:(770) 692-1934",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,110,"
+            2045 Pleasant Hill Rd.
+        ",,Duluth,GA,,United States,"P:(770) 495-1644, F:(770) 495-1640",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,112,"
+            10800 Alpharetta Hwy
+        ",,Roswell,GA,,United States,"P:(770) 587-0990, F:(770) 587-0334",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,838,"
+            9775 Medlock Bridge
+        ",,Johns Creek,GA,,United States,"P:(770) 232-9292, F:(770) 232-9242",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,195,"
+            7447 W. 21st St
+        ",,Wichita,KS,,United States,"P:(316) 613-3872, F:(316) 613-3873",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,172,"
+            3625 S Wilmington St
+        ",,Raleigh,NC,,United States,"P:(919) 661-9990, F:(919) 661-9393",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,170,"
+            4907 Atlantic Ave
+        ",,Raleigh,NC,,United States,"P:(919) 790-1800, F:(919) 790-1801",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,837,"
+            6812 Glenwood Avenue
+        ",,Raleigh,NC,,United States,"P:(984) 233-5353, F:(984) 233-5354",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,933,"
+            1016 Shoppes at Midway Drive
+        ",,Knightdale,NC,,United States,"P:(919) 217-2600, F:(919) 217-5800",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,302,"
+            2147 Ten-Ten Rd
+        ",,Apex,NC,,United States,"P:(919) 303-1141, F:(919) 303-1142",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,850,"
+            1241 S. Main Street
+        ",,Wake Forest,NC,,United States,"P:(919) 570-5100, F:(919) 570-5101",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,169,"
+            116 E. NC 54
+        ",,Durham,NC,,United States,"P:(919) 484-1700, F:(919) 484-1701",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,915,"
+            5102 N. Roxboro Rd.
+        ",,Durham,NC,,United States,"P:(919) 864-9303, F:(919) 864-9314",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,421,"
+            3620 Raleigh Rd Pkwy W
+        ",,Wilson,NC,,United States,"P:(252) 265-9600, F:(252) 265-9601",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,323,"
+            514 N Berkeley Blvd
+        ",,Goldsboro,NC,,United States,"P:(919) 778-7344, F:(919) 778-7345",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,854,"
+            6400 S. Dixie Hwy.
+        ",,Miami,FL,,United States,"P:(305) 661-4567, F:(305) 661-4597",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,982,"
+            1759 NE 163rd St
+        ",,North Miami Beach,FL,,United States,"P:(305) 749-6302, F:(305) 749-6755",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,349,"
+            5640 NW 167th Street
+        ",,Miami Lakes,FL,,United States,"P:(305) 626-8700, F:(305) 626-3922",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,066,"
+            17501 S. Dixie Hwy.
+        ",,Miami,FL,,United States,"P:(305) 278-8004, F:(305) 278-8005",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,685,"
+            9803 Pines Blvd
+        ",,Pembroke Pines,FL,,United States,"P:(754) 900-8350, F:(754) 900-8351",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,398,"
+            1360 SE 17th Street
+        ",,Ft Lauderdale,FL,,United States,"P:(954) 306-8563, F:(954) 835-5483",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,684,"
+            2601 N. University Drive
+        ",,Sunrise,FL,,United States,"P:(954) 530-4601, F:(954) 530-4485",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,063,"
+            1551 E. Commercial Blvd
+        ",,Ft Lauderdale,FL,,United States,"P:(954) 771-0838, F:(954) 771-1649",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,927,"
+            4607 Great Northern Blvd
+        ",,North Olmsted,OH,,United States,"P:(440) 276-1126, F:(440) 716-0183",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,139,"
+            6365 Mayfield Rd
+        ",,Mayfield Heights,OH,,United States,"P:(440) 449-5555, F:(440) 446-1533",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,617,"
+            15312 Pearl Rd
+        ",,Strongsville,OH,,United States,"P:(440) 571-0016, F:(440) 571-0646",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,138,"
+            746 East Aurora Rd
+        ",,Macedonia,OH,,United States,"P:(330) 467-8100, F:(330) 467-8115",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,846,"
+            4450 N State Rd 7
+        ",,Coconut Creek,FL,,United States,"P:(954) 623-6066, F:(954) 623-6078",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,679,"
+            14530 South Military Trail
+        ",,Delray Beach,FL,,United States,"P:(561) 501-5461, F:(561) 501-5398",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,165,"
+            3900 Medina Rd
+        ",,Akron / Montrose,OH,,United States,"P:(330) 670-6161, F:(330) 670-9208",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,642,"
+            4225 Peach St.
+        ",,Erie,PA,,United States,"P:(814) 315-6006, F:(814) 315-6105",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,029,"
+            2215 Snelling Avenue N
+        ",,Roseville,MN,,United States,"P:(651) 636-4200, F:(651) 582-0475",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,018,"
+            5717 Excelsior Blvd
+        ",,St Louis Park,MN,,United States,"P:(952) 929-6699, F:(952) 929-4821",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,021,"
+            4404 Nathan Lane N
+        ",,Plymouth,MN,,United States,"P:(763) 577-9830, F:(763) 557-6693",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,019,"
+            7808 Lakeland Ave North
+        ",,Brooklyn Park,MN,,United States,"P:(763) 424-5506, F:(763) 424-7775",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,028,"
+            1105 County Road 10
+        ",,Spring Lake Park,MN,,United States,"P:(763) 784-3080, F:(763) 784-9532",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,030,"
+            1565 S. Robert Street
+        ",,W Saint Paul,MN,,United States,"P:(651) 450-7756, F:(651) 450-1958",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,016,"
+            9840 Lyndale Ave South
+        ",,Bloomington,MN,,United States,"P:(952) 881-0747, F:(952) 881-3613",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,026,"
+            1348 Town Centre Drive
+        ",,Eagan,MN,,United States,"P:(651) 209-9600, F:(651) 209-2777",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,020,"
+            952 Prairie Center Drive
+        ",,Eden Prairie,MN,,United States,"P:(952) 259-0000, F:(952) 259-0002",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,025,"
+            13650 Grove Drive
+        ",,Maple Grove,MN,,United States,"P:(763) 416-9933, F:(763) 416-9988",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,206,"
+            4500 W. Walnut St
+        ",,Rogers,AR,,United States,"P:(479) 631-7587, F:(479) 631-7589",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,448,"
+            3915 Centreville Rd
+        ",,Chantilly,VA,,United States,"P:(703) 817-1062, F:(703) 817-1547",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,193,"
+            14224 Jefferson Davis Hwy
+        ",,Woodbridge,VA,,United States,"P:(703) 494-8400, F:(703) 497-7213",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,447,"
+            10689 Sudley Manor Dr
+        ",,Manassas,VA,,United States,"P:(703) 330-7007, F:(703) 330-7005",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-9pm,Sun:10am-7pm",,,
+,619,"
+            1072 Ogden Avenue
+        ",,Montgomery,IL,,United States,,,,Opening Soon,,,
+,434,"
+            2933 Kirk Road
+        ",,Aurora,IL,,United States,"P:(630) 820-4880, F:(630) 820-5510",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:9am-5pm",,,
+,493,"
+            1492 S. Randall Road
+        ",,Geneva,IL,,United States,"P:(630) 313-5700, F:(630) 313-5701",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,281,"
+            115 E. Ogden Ave
+        ",,Naperville,IL,,United States,"P:(630) 355-6822, F:(630) 355-6874",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,956,"
+            1231 West Boughton Road
+        ",,Bolingbrook,IL,,United States,"P:(630) 945-4925, F:(630) 596-0877",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,487,"
+            481 Roosevelt Road
+        ",,Glen Ellyn,IL,,United States,"P:(630) 790-8100, F:(630) 790-8101",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,618,"
+            2824 Plainfield Rd
+        ",,Joliet,IL,,United States,"P:(815) 600-8102, F:(815) 600-8149",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,280,"
+            352 S. Randall Rd
+        ",,Elgin,IL,,United States,"P:(847) 289-8990, F:(847) 289-8922",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,490,"
+            100A E. Golf Road
+        ",,Schaumburg,IL,,United States,"P:(630) 380-5000, F:(630) 380-5001",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,990,"
+            1503 Gause Blvd
+        ",,Slidell,LA,,United States,"P:(985) 214-9095, F:(985) 214-9097",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,116,"
+            5094 Hwy 311
+        ",,Houma,LA,,United States,"P:(985) 580-0009, F:(985) 580-0174",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,756,"
+            6555 Siegen Lane
+        ",,Baton Rouge,LA,,United States,"P:(225) 615-8324, F:(225) 615-8387",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,762,"
+            3680 Sangani Blvd
+        ",,D'Iberville,MS,,United States,"P:(228) 273-0996, F:(228) 200-0014",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,634,"
+            3203 Hardy St.
+        ",,Hattiesburg,MS,,United States,"P:(601) 255-5209, F:(601) 255-5506",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,114,"
+            3000 Johnston St
+        ",,Lafayette,LA,,United States,"P:(337) 235-3102, F:(337) 235-3127",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,864,"
+            3653 Airport Blvd.
+        ",,Mobile,AL,,United States,"P:(251) 517-4399, F:(251) 517-4393",,,"Mon-Thu:9am-8pm,Fri:9am-8pm,Sat:9am-7pm,Sun:11am-6pm",,,
+,780,"
+            381 Ridge Way
+        ",,Flowood,MS,,United States,"P:(601) 500-5500, F:(855) 251-7339",,,"Mon-Thu:9am-9pm,Fri:9am-9pm,Sat:9am-9pm,Sun:11am-6pm",,,
+,781,"
+            1060 East County Line Rd
+        ",,Ridgeland,MS,,United States,"P:(601) 869-0900, F:(480) 436-6581",,,"Mon-Thu:9am-9pm,Fri:9am-9pm,Sat:9am-9pm,Sun:11am-6pm",,,
+,782,"
+            6895 N. 9th Avenue
+        ",,Pensacola,FL,,United States,"P:(850) 361-4621, F:(850) 361-4623",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,624,"
+            1160 Kuala Street
+        ",,Pearl City,HI,,United States,"P:(808) 200-4621, F:(808) 200-4693",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,027,"
+            138 South Dale Mabry
+        ",,Tampa - South,FL,,United States,"P:(813) 873-2600, F:(813) 873-1600",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,056,"
+            1703 W. Fletcher
+        ",,Tampa - North,FL,,United States,"P:(813) 960-5667, F:(813) 960-9712",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,884,"
+            5537 Sheldon Road
+        ",,Tampa,FL,,United States,"P:(813) 885-6000, F:(813) 884-1790",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,050,"
+            1926 W. Brandon Blvd.
+        ",,Brandon,FL,,United States,"P:(813) 689-3300, F:(813) 689-8300",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,944,"
+            6920 4th Street North
+        ",,St. Petersburg,FL,,United States,,,,Opening Soon,,,
+,436,"
+            19416 Bruce B Downs Blvd
+        ",,Tampa,FL,,United States,"P:(813) 501-6266, F:(813) 501-6267",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,055,"
+            28560 US Hwy. 19 North
+        ",,Clearwater,FL,,United States,"P:(727) 726-0228, F:(727) 724-6597",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,060,"
+            6480 Park Blvd
+        ",,Pinellas Park,FL,,United States,"P:(727) 545-9298, F:(727) 541-5287",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,053,"
+            13002 Seminole Blvd.
+        ",,Largo,FL,,United States,"P:(727) 586-4357, F:(727) 586-4520",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,830,"
+            5644 US Hwy 19
+        ",,New Port Richey,FL,,United States,"P:(727) 849-6700, F:(727) 849-6770",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,429,"
+            910 W International Airport Rd.
+        ",,Anchorage,AK,,United States,"P:(907) 770-6110, F:(907) 770-6335",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,432,"
+            609 S Knik-Goose Bay Rd
+        ",,Wasilla,AK,,United States,"P:(907) 376-1181, F:(907) 376-1192",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,795,"
+            3027 Airport Way
+        ",,Fairbanks,AK,,United States,"P:(907) 328-4040, F:(907) 328-4045",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,269,"
+            8041 Watson Rd
+        ",,Webster Groves,MO,,United States,"P:(314) 962-2237, F:(314) 962-2664",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,268,"
+            3567 Ritz Center
+        ",,St. Louis,MO,,United States,"P:(314) 416-9555, F:(314) 416-9558",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,378,"
+            513 Lincoln Hwy
+        ",,Fairview Heights,IL,,United States,"P:(618) 622-0035, F:(618) 622-0098",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,271,"
+            113 N Highway 67
+        ",,Florissant,MO,,United States,"P:(314) 838-2277, F:(314) 838-2341",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,379,"
+            12520 Olive Blvd.
+        ",,Creve Coeur,MO,,United States,"P:(314) 392-9939, F:(314) 392-9937",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,641,"
+            3755 S. State Rte. 159
+        ",,Glen Carbon,IL,,United States,"P:(618) 205-8395, F:(618) 288-8718",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,270,"
+            14783 Manchester Rd
+        ",,Ballwin,MO,,United States,"P:(636) 394-5757, F:(636) 527-3577",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,273,"
+            17406 Chesterfield Airport Rd
+        ",,Chesterfield,MO,,United States,"P:(636) 778-1100, F:(636) 778-1102",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,272,"
+            4057 Veterans Memorial Pkwy
+        ",,St. Peters,MO,,United States,"P:(636) 447-4385, F:(636) 447-2267",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-6pm",,,
+,942,"
+            1102 Washington Square
+        ",,Washington,MO,,United States,"P:(636) 900-9500, F:(636) 900-9030",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,191,"
+            3912 Library Rd
+        ",,Pittsburgh South,PA,,United States,"P:(412) 207-8362, F:(412) 531-0390",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,192,"
+            4808 McKnight Rd
+        ",,Pittsburgh North,PA,,United States,"P:(412) 366-3658, F:(412) 366-3676",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,186,"
+            3467 William Penn Hwy
+        ",,Pittsburgh East,PA,,United States,"P:(412) 380-1388, F:(412) 380-7225",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,361,"
+            402 Home Drive
+        ",,Pittsburgh West,PA,,United States,"P:(412) 787-1998, F:(412) 787-0393",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,609,"
+            374 Washington Road
+        ",,Washington,PA,,United States,,,,Opening Soon,,,
+,164,"
+            7850 Beechmont Ave
+        ",,Cincinnati,OH,,United States,"P:(513) 474-0895, F:(513) 474-1942",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,953,"
+            9810 Colerain Avenue
+        ",,Cincinnati,OH,,United States,"P:(513) 401-9800, F:(513) 407-6486",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,952,"
+            123 W. Kemper Road
+        ",,Springdale,OH,,United States,"P:(513) 453-4080, F:(513) 802-5686",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,163,"
+            12131 Royal Point Dr
+        ",,Cincinnati,OH,,United States,"P:(513) 683-6300, F:(513) 683-9732",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,951,"
+            7431 Tylersville Road
+        ",,West Chester,OH,,United States,"P:(513) 456-7778, F:(513) 644-9071",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,135,"
+            4887 Princeton Rd
+        ",,Hamilton / Cincinnati,OH,,United States,"P:(513) 737-2444, F:(513) 737-3367",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,128,"
+            1401 N. West Avenue
+        ",,Jackson,MI,,United States,"P:(517) 513-6070, F:(517) 789-9374",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,636,"
+            900 Tilton Road
+        ",,Northfield,NJ,,United States,"P:(609) 277-7515, F:(609) 277-7746",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,873,"
+            1771 Route 88
+        ",,Brick,NJ,,United States,"P:(732) 903-7907, F:(732) 903-7612",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,362,"
+            4392 S. Highway 27
+        ",,Somerset,KY,,United States,"P:(606) 802-2689, F:(606) 802-2691",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,461,"
+            3138 S. Padre Island Drive
+        ",,Corpus Christi,TX,,United States,"P:(361) 444-0061, F:(361) 444-3118",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,354,"
+            1616 N. Jackson Rd.
+        ",,Pharr,TX,,United States,"P:(956) 961-4781, F:(956) 961-4783",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,032,"
+            1480 Weir Dr
+        ",,Woodbury,MN,,United States,"P:(651) 714-4846, F:(651) 714-9239",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,031,"
+            2832 White Bear Avenue
+        ",,Maplewood,MN,,United States,"P:(651) 770-7451, F:(651) 770-2203",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,017,"
+            15445 Cedar Ave
+        ",,Apple Valley,MN,,United States,"P:(952) 891-2300, F:(952) 891-2304",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,180,"
+            2709 Battleground Ave
+        ",,Greensboro,NC,,United States,"P:(336) 286-7004, F:(336) 286-7008",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,205,"
+            2100 N Main St
+        ",,High Point,NC,,United States,"P:(336) 307-3808, F:(336) 307-3813",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,874,"
+            2605 Alamance Road
+        ",,Burlington,NC,,United States,"P:(336) 395-8747, F:(336) 395-8748",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,770,"
+            210 Central Expressway South
+        ",,Allen,TX,,United States,"P:(972) 390-9300, F:(972) 390-9303",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,266,"
+            4568 Hwy 121
+        ",,Frisco,TX,,United States,"P:(972) 335-0900, F:(972) 335-0915",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,407,"
+            1980 N Central Expressway
+        ",,McKinney,TX,,United States,"P:(972) 548-7740, F:(972) 548-7955",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,426,"
+            2014 S Goliad Street
+        ",,Rockwall,TX,,United States,"P:(972) 771-7311, F:(214) 771-4201",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,491,"
+            276 Route 10 West
+        ",,Succasunna,NJ,,United States,"P:(973) 584-7000, F:(973) 584-7014",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,103,"
+            602 W. Route 66
+        ",,Flagstaff,AZ,,United States,"P:(928) 774-6800, F:(928) 774-6811",,,"Mon-Thu:8am-7pm,Fri:8am-7pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,470,"
+            3813 E Colonial Dr
+        ",,Orlando,FL,,United States,"P:(407) 228-9969, F:(407) 228-9967",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,042,"
+            9251 S. Orange Blossom Trail
+        ",,Orlando,FL,,United States,"P:(407) 816-7001, F:(407) 857-8446",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,038,"
+            459 W. State Road 436
+        ",,Altamonte Springs,FL,,United States,"P:(407) 788-7772, F:(407) 788-1769",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,852,"
+            10809 W. Colonial Drive
+        ",,Ocoee,FL,,United States,"P:(407) 877-7788, F:(407) 654-5805",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,878,"
+            1100 N Alafaya Trail
+        ",,Orlando,FL,,United States,"P:(407) 392-0899, F:(407) 392-0898",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,896,"
+            3308 Greenwald Way North
+        ",,Kissimmee,FL,,United States,"P:(407) 910-4466, F:(407) 910-4467",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,441,"
+            1649 Rinehart Road
+        ",,Sanford,FL,,United States,"P:(407) 936-1648, F:(407) 936-1693",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,974,"
+            1120 East Hwy 50
+        ",,Clermont,FL,,United States,"P:(352) 432-1850, F:(352) 432-1860",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-7pm",,,
+,759,"
+            17195 US Hwy 441
+        ",,Mount Dora,FL,,United States,"P:(352) 483-1122, F:(352) 483-0108",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,880,"
+            775 Cypress Gardens Blvd
+        ",,Winter Haven,FL,,United States,"P:(863) 576-1230, F:(863) 576-1231",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,931,"
+            3322 Sheridan Dr.
+        ",,Amherst,NY,,United States,"P:(716) 427-5454, F:(716) 427-5453",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,606,"
+            8582 Transit Road
+        ",,East Amherst,NY,,United States,"P:(716) 688-7504, F:(716) 688-7506",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,820,"
+            1100 Jefferson
+        ",,Rochester,NY,,United States,"P:(585) 272-8787, F:(585) 272-8905",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,001,"
+            105 W Washington Ctr Rd
+        ",,Ft Wayne,IN,,United States,"P:(260) 471-2761, F:(260) 471-2860",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,003,"
+            525 W Douglas Rd
+        ",,Mishawaka,IN,,United States,"P:(574) 271-2931, F:(574) 271-2932",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,385,"
+            5228 S Westnedge Ave
+        ",,Portage,MI,,United States,"P:(269) 553-2355, F:(269) 553-2357",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,388,"
+            15611 S Helmer Rd
+        ",,Battle Creek,MI,,United States,"P:(269) 965-6733, F:(269) 965-6734",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,572,"
+            3721 E. Washington Ave.
+        ",,Madison East,WI,,United States,"P:(608) 242-9773, F:(608) 242-9785",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,571,"
+            406 Commerce Drive
+        ",,Madison West,WI,,United States,"P:(608) 833-3630, F:(608) 829-3731",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-7pm",,,
+,575,"
+            3200 Wellington Place
+        ",,Janesville,WI,,United States,"P:(608) 756-5355, F:(608) 756-1033",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:8am-7pm",,,
+,285,"
+            1512 E Riverside Blvd
+        ",,Loves Park,IL,,United States,"P:(815) 636-2630, F:(815) 636-2629",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,284,"
+            1825 South Perryville Rd
+        ",,Rockford,IL,,United States,"P:(815) 226-4505, F:(815) 226-4704",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,504,"
+            1173 W Johnson St
+        ",,Fond du Lac,WI,,United States,"P:(920) 922-8000, F:(920) 922-9530",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,059,"
+            4463 Sunset Drive
+        ",,San Angelo,TX,,United States,"P:(325) 942-9535, F:(325) 942-9597",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,970,"
+            2529 S. Main Street
+        ",,Weatherford,TX,,United States,"P:(817) 599-8700, F:(817) 599-8709",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,876,"
+            1224 N. Hwy 377
+        ",,Roanoke,TX,,United States,"P:(682) 237-7820, F:(682) 237-7822",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,351,"
+            4898 S Virginia St
+        ",,Reno,NV,,United States,"P:(775) 825-0566, F:(775) 825-2966",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,474,"
+            670 E Prater Way
+        ",,Sparks,NV,,United States,"P:(775) 331-0566, F:(775) 331-0564",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,350,"
+            1400 S Carson St
+        ",,Carson City,NV,,United States,"P:(775) 884-0566, F:(775) 884-2992",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,311,"
+            2500 Zanella Way
+        ",,Chico,CA,,United States,"P:(530) 891-5690, F:(530) 891-5918",,,"Mon-Thu:7am-7pm,Fri:7am-7pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,832,"
+            2809 Louisville Avenue
+        ",,Monroe,LA,,United States,"P:(318) 855-8260, F:(318) 855-8264",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,247,"
+            7704 N Division
+        ",,Spokane,WA,,United States,"P:(509) 489-4226, F:(509) 489-5406",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,248,"
+            11101 E Sprague Ave
+        ",,Spokane,WA,,United States,"P:(509) 924-6645, F:(509) 924-5322",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,443,"
+            217 W Canfield Ave
+        ",,Coeur D Alene,ID,,United States,"P:(208) 772-8400, F:(208) 772-8411",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,967,"
+            632 S. 9th Avenue
+        ",,Walla Walla,WA,,United States,"P:(509) 529-7001, F:(509) 529-7055",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,250,"
+            321 N. Columbia Center Blvd
+        ",,Kennewick,WA,,United States,"P:(509) 783-3400, F:(509) 783-4600",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,647,"
+            215 W. Idaho Street
+        ",,Kalispell,MT,,United States,"P:(406) 890-2150, F:(406) 890-2160",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,252,"
+            2100 Stephens Ave
+        ",,Missoula,MT,,United States,"P:(406) 829-8286, F:(406) 829-8413",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,152,"
+            1093 W. Main St
+        ",,Lewisville,TX,,United States,"P:(972) 219-7333, F:(972) 353-2718",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,117,"
+            2090 S. Cole Road
+        ",,Boise,ID,,United States,"P:(208) 672-1274, F:(208) 672-1855",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,118,"
+            16174 Merchant Way
+        ",,Nampa,ID,,United States,"P:(208) 938-4550, F:(208) 939-9556",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,204,"
+            1021 Yellowstone Avenue
+        ",,Pocatello,ID,,United States,"P:(208) 232-2665, F:(208) 269-7254",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,209,"
+            2182 Channing Way
+        ",,Idaho Falls,ID,,United States,"P:(208) 552-0215, F:(208) 522-3851",,,"Mon-Thu:8am-8:30pm,Fri:8am-8:30pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,825,"
+            3194 N. Hwy 97
+        ",,Bend,OR,,United States,"P:(541) 241-1130, F:(541) 241-1132",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,867,"
+            51 E. 1600 North
+        ",,North Logan,UT,,United States,"P:(435) 750-9999, F:(435) 750-6666",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:Closed",,,
+,802,"
+            4093 Riverdale Rd.
+        ",,Riverdale,UT,,United States,"P:(801) 689-2620, F:(385) 244-1880",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,318,"
+            10461 Midlothian Turnpike
+        ",,Richmond,VA,,United States,"P:(804) 320-7707, F:(804) 320-0775",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,199,"
+            9422 W. Broad St
+        ",,Richmond,VA,,United States,"P:(804) 934-0200, F:(804) 934-0219",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-8pm",,,
+,968,"
+            13920 Hull Street Road
+        ",,Midlothian,VA,,United States,"P:(804) 739-7772, F:(804) 739-0766",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,194,"
+            1918 William St
+        ",,Fredericksburg,VA,,United States,"P:(540) 371-5500, F:(540) 372-6914",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,196,"
+            1401 Emmet Street North
+        ",,Charlottesville,VA,,United States,"P:(434) 964-1999, F:(434) 964-1900",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,240,"
+            224 Oxmoor Blvd
+        ",,Homewood,AL,,United States,"P:(205) 945-5506, F:(205) 945-5606",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,565,"
+            2800 Greystone Commercial Blvd.
+        ",,Birmingham / Greystone,AL,,United States,"P:(205) 995-0053, F:(205) 995-0930",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,559,"
+            5619 Grove Blvd
+        ",,Hoover / The Grove,AL,,United States,"P:(205) 733-4091, F:(205) 733-4094",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,241,"
+            2302 Pelham Parkway
+        ",,Pelham,AL,,United States,"P:(205) 621-9888, F:(205) 621-7662",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,242,"
+            5951 Valley Rd
+        ",,Trussville,AL,,United States,"P:(205) 655-0002, F:(205) 655-7349",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,557,"
+            100 Colonial Promenade Parkway
+        ",,Alabaster,AL,,United States,"P:(205) 620-3533, F:(205) 620-3733",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,239,"
+            505B 15th Street E
+        ",,Tuscaloosa,AL,,United States,"P:(205) 343-1780, F:(205) 343-7487",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,839,"
+            1604 Beltline Road Southwest
+        ",,Decatur,AL,,United States,"P:(256) 350-0000, F:(256) 350-0099",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,234,"
+            3022 Memorial Parkway South
+        ",,Huntsville,AL,,United States,"P:(256) 270-9700, F:(256) 270-9703",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,236,"
+            30694 US Highway 72
+        ",,Madison,AL,,United States,"P:(256) 837-7500, F:(256) 837-8804",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,188,"
+            4513 Jonestown Rd
+        ",,Harrisburg,PA,,United States,"P:(717) 652-1584, F:(717) 540-1945",,,"Mon-Thu:Closed,Fri:Closed,Sat:Closed,Sun:Closed",,,
+,190,"
+            2501 Gettysburg Rd
+        ",,Camp Hill,PA,,United States,"P:(717) 730-7472, F:(717) 730-3745",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,173,"
+            3610 Sycamore Dairy Rd
+        ",,Fayetteville,NC,,United States,"P:(910) 860-1111, F:(910) 860-2400",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,244,"
+            2905 Capital Mall Dr. SW
+        ",,Olympia,WA,,United States,"P:(360) 570-0000, F:(360) 570-0111",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,603,"
+            1503 E. San Marnan Drive
+        ",,Waterloo,IA,,United States,"P:(319) 493-7025, F:(319) 883-3265",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,676,"
+            2439 2nd Street
+        ",,Coralville,IA,,United States,"P:(319) 351-5119, F:(319) 351-3595",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,126,"
+            266 Blairs Ferry Road, NE
+        ",,Cedar Rapids,IA,,United States,"P:(319) 447-4640, F:(319) 447-4769",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,577,"
+            3570 4th Street SW
+        ",,Mason City,IA,,United States,"P:(641) 903-2612, F:(641) 903-2613",,,"Mon-Thu:9am-7pm,Fri:9am-7pm,Sat:10am-6pm,Sun:11am-4pm",,,
+,994,"
+            2104 Park Avenue
+        ",,Muscatine,IA,,United States,"P:(563) 316-2345, F:(563) 316-2021",,,"Mon-Thu:9am-7pm,Fri:9am-7pm,Sat:10am-6pm,Sun:11am-4pm",,,
+,989,"
+            2113 Airline Drive
+        ",,Bossier City,LA,,United States,"P:(318) 841-7891, F:(318) 841-7894",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,455,"
+            7230 Youree Dr
+        ",,Shreveport,LA,,United States,"P:(318) 797-0161, F:(318) 797-0162",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,149,"
+            4906 S. Broadway
+        ",,Tyler,TX,,United States,"P:(903) 509-8400, F:(903) 509-8456",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,207,"
+            4105 Dowlen Road
+        ",,Beaumont,TX,,United States,"P:(409) 225-5660, F:(409) 347-8266",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,981,"
+            334-A Bullsboro Drive
+        ",,Newnan,GA,,United States,"P:(678) 833-3730, F:(678) 854-9907",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,821,"
+            170 Peachtree East Shopping Center
+        ",,Peachtree City,GA,,United States,"P:(770) 692-4273, F:(678) 833-3729",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,893,"
+            9641 Hwy 5
+        ",,Douglasville,GA,,United States,"P:(770) 489-6402, F:(770) 489-6404",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,108,"
+            226 Robert C. Daniel Parkway
+        ",,Augusta,GA,,United States,"P:(706) 733-1113, F:(706) 733-3445",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,473,"
+            4431 Washington Rd
+        ",,Evans,GA,,United States,"P:(706) 364-3215, F:(706) 364-3265",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,179,"
+            2645 Whiskey Rd
+        ",,Aiken,SC,,United States,"P:(803) 644-4994, F:(803) 644-4901",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,635,"
+            531 ByPass 72 NW
+        ",,Greenwood,SC,,United States,"P:(864) 396-5810, F:(864) 377-8028",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-7pm",,,
+,693,"
+            2400 Augusta Rd.
+        ",,West Columbia,SC,,United States,"P:(803) 998-1008, F:(803) 998-1009",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,232,"
+            252 B. Harbison Blvd
+        ",,Columbia,SC,,United States,"P:(803) 744-3007, F:(803) 744-3010",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,660,"
+            10159 Two Notch Rd
+        ",,Columbia,SC,,United States,"P:(803) 445-1260, F:(803) 445-1265",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,251,"
+            3319 North Main Street
+        ",,Anderson,SC,,United States,"P:(864) 225-1111, F:(864) 225-5100",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-7pm",,,
+,444,"
+            3575 Alpine Ave NW
+        ",,Walker,MI,,United States,"P:(616) 647-0100, F:(616) 647-8590",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,383,"
+            3031 28th Street SE
+        ",,Kentwood,MI,,United States,"P:(616) 575-0500, F:(616) 575-0700",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,957,"
+            3082 44th Street SW
+        ",,Grandville,MI,,United States,"P:(616) 301-0300, F:(616) 301-1900",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,387,"
+            386 Bay Park Dr
+        ",,Holland,MI,,United States,"P:(616) 396-9914, F:(616) 396-9915",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,104,"
+            3149 Atlanta Hwy
+        ",,Athens,GA,,United States,"P:(706) 354-8444, F:(706) 354-8020",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,227,"
+            1791 Woodruff Rd
+        ",,Greenville,SC,,United States,"P:(864) 254-0307, F:(864) 254-0315",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-8pm",,,
+,386,"
+            5839 Harvey St
+        ",,Norton Shores,MI,,United States,"P:(231) 747-9168, F:(231) 747-9171",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,445,"
+            3415 E Saginaw St
+        ",,Lansing,MI,,United States,"P:(517) 203-0100, F:(517) 203-4146",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,120,"
+            706 N Mission St
+        ",,Mount Pleasant,MI,,United States,"P:(989) 779-0800, F:(989) 773-9329",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,658,"
+            2061 Hwy M 139
+        ",,Benton Harbor,MI,,United States,"P:(269) 925-7374, F:(269) 925-7380",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,783,"
+            4824 Highway 90
+        ",,Pace,FL,,United States,"P:(850) 889-4045, F:(850) 889-4047",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,044,"
+            601 Eglin Parkway NE
+        ",,Fort Walton Beach,FL,,United States,"P:(850) 362-0214, F:(850) 362-1022",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,659,"
+            6672 Thomasville Road
+        ",,Tallahassee,FL,,United States,"P:(850) 629-4175, F:(850) 629-4185",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,912,"
+            1847 Norman Dr.
+        ",,Valdosta,GA,,United States,"P:(229) 375-0088, F:(229) 375-0089",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,425,"
+            2764 Watson Blvd
+        ",,Centerville,GA,,United States,"P:(478) 333-6919, F:(478) 333-6954",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,358,"
+            293 East 3300 South
+        ",,Salt Lake City,UT,,United States,"P:(801) 461-4988, F:(801) 461-9101",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,909,"
+            2731 S. 5600 W
+        ",,West Valley City,UT,,United States,"P:(801) 965-6000, F:(801) 965-6000",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,754,"
+            6818 S. Redwood Rd
+        ",,West Jordan,UT,,United States,"P:(801) 566-5525, F:(801) 912-0735",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,359,"
+            69 West 10600 South
+        ",,Sandy,UT,,United States,"P:(801) 816-9090, F:(801) 816-1506",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:Closed",,,
+,356,"
+            852 W Hill Field Rd
+        ",,Layton,UT,,United States,"P:(801) 544-7111, F:(801) 544-8111",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,848,"
+            770 East Main Street
+        ",,Lehi,UT,,United States,"P:(801) 341-8725, F:(801) 341-8769",,,"Mon-Thu:8:30am-8:30pm,Fri:8:30am-8:30pm,Sat:8:30am-8:30pm,Sun:12pm-6pm",,,
+,357,"
+            388 W University Pkwy
+        ",,Orem,UT,,United States,"P:(801) 764-0444, F:(801) 764-0555",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-4pm",,,
+,367,"
+            5550 Hwy 153
+        ",,Hixson,TN,,United States,"P:(423) 874-1050, F:(423) 874-1052",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,371,"
+            1925 Gunbarrel Rd
+        ",,Chattanooga,TN,,United States,"P:(423) 499-1199, F:(423) 499-1196",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,650,"
+            4927 Kingston Pike
+        ",,Knoxville,TN,,United States,"P:(865) 314-8008, F:(865) 692-2028",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,368,"
+            222 N Peters Rd
+        ",,Knoxville,TN,,United States,"P:(865) 692-0002, F:(865) 692-2028",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:10am-7pm",,,
+,803,"
+            220 Hamilton Crossing Dr
+        ",,Alcoa,TN,,United States,"P:(865) 983-1901, F:(865) 692-2028",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,805,"
+            615 Paul Huff Parkway
+        ",,Cleveland,TN,,United States,"P:(423) 790-7761, F:(423) 790-7763",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,168,"
+            1863 Hendersonville Rd
+        ",,Asheville,NC,,United States,"P:(828) 277-6776, F:(828) 277-6710",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-7pm",,,
+,550,"
+            2003 N. Eastman Rd
+        ",,Kingsport,TN,,United States,"P:(423) 247-1175, F:(423) 247-7611",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,551,"
+            3018 Peoples Street
+        ",,Johnson City,TN,,United States,"P:(423) 282-3007, F:(423) 282-3006",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,804,"
+            560 S. Jefferson Avenue
+        ",,Cookeville,TN,,United States,"P:(931) 452-9095, F:(931) 452-9096",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,774,"
+            4002 FM 762
+        ",,Rosenberg,TX,,United States,"P:(832) 595-8174, F:(888) 979-8122",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,841,"
+            179 Deming Street
+        ",,Manchester,CT,,United States,"P:(860) 432-1401, F:(860) 432-1420",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5:30pm",,,
+,393,"
+            503 Turner McCall Blvd
+        ",,Rome,GA,,United States,"P:(706) 295-0005, F:(706) 295-0006",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,859,"
+            9820 Hwy 92
+        ",,Woodstock,GA,,United States,"P:(770) 852-2282, F:(770) 852-2280",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,119,"
+            2953 Cobb Parkway NW
+        ",,Kennesaw,GA,,United States,"P:(678) 331-1416, F:(678) 331-1588",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,065,"
+            6250 Lantana Road
+        ",,Lake Worth,FL,,United States,"P:(561) 304-0707, F:(561) 304-0808",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,792,"
+            2002 S. Federal Highway
+        ",,Stuart,FL,,United States,"P:(772) 287-7131, F:(772) 287-7173",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,796,"
+            1820 58th Avenue
+        ",,Vero Beach,FL,,United States,"P:(772) 617-2403, F:(772) 257-6103",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,773,"
+            6390 W. Indiantown Rd
+        ",,Jupiter,FL,,United States,"P:(561) 743-7733, F:(561) 743-7731",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,067,"
+            1250 Northlake Blvd
+        ",,Lake Park / PB Gardens,FL,,United States,"P:(561) 881-8900, F:(561) 881-8020",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,068,"
+            551 N. State Road 7
+        ",,Royal Palm Beach,FL,,United States,"P:(561) 333-5332, F:(561) 333-5662",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,761,"
+            1150 Malabar Rd. SE
+        ",,Palm Bay,FL,,United States,"P:(321) 821-4401, F:(321) 752-4997",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,047,"
+            5000 N. Wickham Road
+        ",,Melbourne,FL,,United States,"P:(321) 752-4984, F:(321) 752-4997",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,062,"
+            11200 S. Cleveland Avenue
+        ",,Ft Myers,FL,,United States,"P:(239) 278-3388, F:(239) 278-5475",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,077,"
+            900 SW Pine Island Road
+        ",,Cape Coral,FL,,United States,"P:(239) 673-8545, F:(239) 673-8547",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,453,"
+            24830 S Tamiami Trail
+        ",,Bonita Springs,FL,,United States,"P:(239) 405-8143, F:(239) 405-8317",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,452,"
+            1811 Tamiami Trail N
+        ",,Naples,FL,,United States,"P:(239) 261-9790, F:(239) 261-9418",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,451,"
+            1690 Tamiami Trail
+        ",,Port Charlotte,FL,,United States,"P:(941) 766-1400, F:(941) 624-4496",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,037,"
+            511 US Highway 41 Bypass N
+        ",,Venice,FL,,United States,"P:(941) 488-2120, F:(941) 488-5160",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,049,"
+            4401 Bee Ridge Road
+        ",,Sarasota,FL,,United States,"P:(941) 377-4441, F:(941) 342-0798",,,"Mon-Thu:7am-9pm,Fri:7am-9pm,Sat:7am-9pm,Sun:8am-8pm",,,
+,058,"
+            1949 US Hwy 27 North
+        ",,Sebring,FL,,United States,"P:(863) 382-2090, F:(863) 382-2126",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,061,"
+            6240 14th Street West
+        ",,Bradenton,FL,,United States,"P:(941) 752-0812, F:(941) 739-6962",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,054,"
+            5947 Factory Shops Blvd
+        ",,Ellenton,FL,,United States,"P:(941) 722-3160, F:(941) 723-9548",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,187,"
+            3023 Columbia Ave
+        ",,Lancaster,PA,,United States,"P:(717) 393-2200, F:(717) 393-1987",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,075,"
+            3300 S. Shirley Avenue
+        ",,Sioux Falls,SD,,United States,"P:(605) 362-1050, F:(605) 362-0527",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,023,"
+            111 Star Street
+        ",,Mankato,MN,,United States,"P:(507) 344-1500, F:(507) 344-4350",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,121,"
+            1100 West Frontage Road
+        ",,Owatonna,MN,,United States,"P:(507) 414-5404, F:(507) 414-5406",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,036,"
+            2710 2nd Street South
+        ",,Saint Cloud,MN,,United States,"P:(320) 240-2332, F:(320) 240-2333",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,264,"
+            2216 S. Campbell
+        ",,Springfield,MO,,United States,"P:(417) 823-8060, F:(417) 823-8832",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,963,"
+            2648 N. Kansas Expressway
+        ",,Springfield,MO,,United States,"P:(417) 831-2420, F:(417) 831-2470",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,785,"
+            1922 Missouri Blvd.
+        ",,Jefferson City,MO,,United States,"P:(573) 635-5125, F:(573) 635-5059",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,265,"
+            805 E. Nifong Blvd
+        ",,Columbia,MO,,United States,"P:(573) 443-4660, F:(573) 443-4667",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,382,"
+            705 West Camp Street
+        ",,East Peoria,IL,,United States,"P:(309) 694-0639, F:(309) 694-0916",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,278,"
+            8001 N University
+        ",,Peoria,IL,,United States,"P:(309) 693-0567, F:(309) 693-0678",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,279,"
+            1715 Bradford Lane
+        ",,Normal,IL,,United States,"P:(309) 663-2200, F:(309) 661-2125",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,964,"
+            2400 West Wabash Ave
+        ",,Springfield,IL,,United States,"P:(217) 679-2345, F:(217) 679-3795",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8:30am-7:30pm,Sun:10am-5pm",,,
+,131,"
+            300 Avenue of the Cities
+        ",,East Moline,IL,,United States,"P:(309) 764-9555, F:(309) 203-1441",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,130,"
+            901 E Kimberly Rd
+        ",,Davenport,IA,,United States,"P:(563) 388-0808, F:(563) 391-5848",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,297,"
+            1565 Dekalb Ave
+        ",,Sycamore,IL,,United States,"P:(815) 991-9041, F:(815) 991-9042",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-6pm,Sun:9am-5pm",,,
+,086,"
+            1107 W. Drake
+        ",,Fort Collins,CO,,United States,"P:(970) 206-0206, F:(970) 206-0207",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,433,"
+            1439 N Denver Ave
+        ",,Loveland,CO,,United States,"P:(970) 776-1515, F:(970) 776-1513",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,835,"
+            4330 Center Place Drive
+        ",,Greeley,CO,,United States,"P:(970) 506-0551, F:(970) 339-8140",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,291,"
+            5116 Frontier Mall Dr
+        ",,Cheyenne,WY,,United States,"P:(307) 638-9903, F:(307) 426-4795",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,665,"
+            481 Boston Post Road
+        ",,Orange,CT,,United States,"P:(203) 298-9865, F:(203) 298-9867",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,664,"
+            2460 Dixwell Avenue
+        ",,Hamden,CT,,United States,"P:(203) 823-9481, F:(203) 691-6294",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,456,"
+            5260 Northwest Hwy
+        ",,Crystal Lake,IL,,United States,"P:(815) 455-6400, F:(815) 455-6404",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,296,"
+            409 S. Rand Rd
+        ",,Lake Zurich,IL,,United States,"P:(847) 550-6545, F:(847) 550-6452",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,106,"
+            7170 Hodgson Memorial Drive
+        ",,Savannah,GA,,United States,"P:(912) 352-0650, F:(912) 352-9792",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,395,"
+            2031 Sam Rittenberg Blvd
+        ",,Charleston,SC,,United States,"P:(843) 556-7700, F:(843) 556-7736",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,231,"
+            6303 Rivers Ave
+        ",,North Charleston,SC,,United States,"P:(843) 824-1210, F:(843) 824-1254",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,233,"
+            621 Johnnie Dodds Blvd
+        ",,Mount Pleasant,SC,,United States,"P:(843) 881-4710, F:(843) 884-9630",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,300,"
+            4300 W Waco Dr
+        ",,Waco,TX,,United States,"P:(254) 776-6767, F:(254) 776-6771",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,959,"
+            631 N. Harvey Mitchell Parkway
+        ",,Bryan,TX,,United States,"P:(979) 485-2888, F:(888) 979-8122",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,153,"
+            1105 Dallas Dr
+        ",,Denton,TX,,United States,"P:(940) 387-2040, F:(940) 387-4514",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,235,"
+            540 South Pike West
+        ",,Sumter,SC,,United States,"P:(803) 934-8605, F:(803) 934-9516",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,178,"
+            650-A Pamplico Hwy
+        ",,Florence,SC,,United States,"P:(843) 679-2240, F:(843) 679-2241",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,123,"
+            850 Jason Blvd
+        ",,Myrtle Beach,SC,,United States,"P:(843) 839-0048, F:(843) 839-0451",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,622,"
+            950 Highway 17 North
+        ",,North Myrtle Beach,SC,,United States,"P:(843) 663-1777, F:(843) 663-1770",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-5pm",,,
+,611,"
+            4370 Dodge Street
+        ",,Dubuque,IA,,United States,"P:(563) 583-1398, F:(563) 583-1669",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,663,"
+            13176 Cortez Blvd
+        ",,Spring Hill,FL,,United States,"P:(352) 556-5242, F:(352) 610-9908",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,922,"
+            1064 Brighton Ave
+        ",,Portland,ME,,United States,"P:(207) 613-9869, F:(207) 613-9872",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,403,"
+            2307 LaPorte Ave
+        ",,Valparaiso,IN,,United States,"P:(219) 531-0300, F:(219) 464-0969",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,011,"
+            2233 South 3rd St
+        ",,Terre Haute,IN,,United States,"P:(812) 234-3804, F:(812) 234-0635",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,012,"
+            300 N Burkhardt Rd
+        ",,Evansville,IN,,United States,"P:(812) 475-0972, F:(812) 475-0976",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,249,"
+            975 Dawsonville Hwy
+        ",,Gainesville,GA,,United States,"P:(770) 287-3731, F:(770) 287-3732",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,299,"
+            1935 Buford Mill Dr
+        ",,Buford,GA,,United States,"P:(770) 614-7037, F:(770) 614-7039",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,111,"
+            2324 Ronald Reagan Pkwy
+        ",,Snellville,GA,,United States,"P:(770) 972-4142, F:(770) 972-4885",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,652,"
+            905 Parkside Walk Lane
+        ",,Lawrenceville,GA,,United States,"P:(770) 338-1485, F:(770) 338-1487",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,424,"
+            1895 Highway 20 South
+        ",,Conyers,GA,,United States,"P:(770) 761-8124, F:(770) 761-6975",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,390,"
+            906 Market Place Blvd
+        ",,Cumming,GA,,United States,"P:(770) 781-6460, F:(770) 781-6458",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:9am-8pm,Sun:10am-7pm",,,
+,391,"
+            5304 Windward Pkwy
+        ",,Alpharetta,GA,,United States,"P:(678) 893-9990, F:(678) 893-9992",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,022,"
+            2119 13th Avenue South
+        ",,Fargo,ND,,United States,"P:(701) 232-3474, F:(701) 232-2103",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-5pm",,,
+,024,"
+            2501 S. Columbia Rd.
+        ",,Grand Forks,ND,,United States,"P:(701) 772-0092, F:(701) 772-0180",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-5pm",,,
+,035,"
+            923 Washington Street
+        ",,Brainerd,MN,,United States,"P:(218) 824-8888, F:(218) 824-8889",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,794,"
+            27 N. Benton Drive
+        ",,Sauk Rapids,MN,,United States,"P:(320) 230-2332, F:(320) 257-8271",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,033,"
+            18180 Zane Street NW
+        ",,Elk River,MN,,United States,"P:(763) 274-2175, F:(763) 274-2546",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,955,"
+            1515 Burnt Boat Drive
+        ",,Bismarck,ND,,United States,"P:(701) 751-7080, F:(701) 751-7082",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-5pm",,,
+,048,"
+            2740 Main St NW
+        ",,Coon Rapids,MN,,United States,"P:(763) 331-3700, F:(763) 331-3062",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,085,"
+            578 25 Road
+        ",,Grand Junction,CO,,United States,"P:(970) 245-7000, F:(970) 245-7192",,,"Mon-Thu:7:30am-8pm,Fri:7:30am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,834,"
+            599-A West Bay Area Blvd
+        ",,Webster,TX,,United States,"P:(281) 332-1150, F:(281) 332-1142",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,775,"
+            1609 Spring Cypress
+        ",,Spring,TX,,United States,"P:(832) 299-6678, F:(832) 299-6957",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,427,"
+            8000 State Highway 242
+        ",,The Woodlands,TX,,United States,"P:(936) 321-7587, F:(936) 271-4894",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,380,"
+            2930 McCarty Rd
+        ",,Saginaw,MI,,United States,"P:(989) 497-8288, F:(989) 497-8289",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,420,"
+            4012 Oleander Dr
+        ",,Wilmington,NC,,United States,"P:(910) 228-5970, F:(910) 228-5826",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,174,"
+            5042 Market St
+        ",,Wilmington,NC,,United States,"P:(910) 792-1300, F:(910) 792-1328",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,177,"
+            4225 Western Blvd
+        ",,Jacksonville,NC,,United States,"P:(910) 938-9400, F:(910) 938-9402",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,324,"
+            2504 M L King Jr Blvd
+        ",,New Bern,NC,,United States,"P:(252) 288-5777, F:(252) 288-5755",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,167,"
+            740 SE Greenville Blvd
+        ",,Greenville,NC,,United States,"P:(252) 353-8143, F:(252) 353-8145",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,842,"
+            780 E. Dundee Road
+        ",,Palatine,IL,,United States,"P:(847) 705-7000, F:(847) 705-7066",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,253,"
+            1145 Central Ave
+        ",,Billings,MT,,United States,"P:(406) 896-8014, F:(406) 256-1462",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,254,"
+            502 Professional Dr
+        ",,Bozeman,MT,,United States,"P:(406) 994-0044, F:(406) 922-0599",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-5pm",,,
+,826,"
+            900 10th Avenue South
+        ",,Great Falls,MT,,United States,"P:(406) 761-1238, F:(406) 452-9114",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,319,"
+            3091 N Sanders St
+        ",,Helena,MT,,United States,"P:(406) 442-6323, F:(406) 442-6228",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-5pm",,,
+,903,"
+            433 Reiger Drive
+        ",,Williston,ND,,United States,"P:(701) 713-4345, F:(701) 713-4180",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:12pm-5pm",,,
+,934,"
+            2060 W Main Street
+        ",,Rapid City,SD,,United States,"P:(605) 718-6000, F:(605) 863-9499",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:11am-6pm",,,
+,505,"
+            2042 E Main St
+        ",,Green Bay East,WI,,United States,"P:(920) 469-6779, F:(920) 469-6921",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,501,"
+            850 Hansen Road
+        ",,Green Bay West,WI,,United States,"P:(920) 498-1100, F:(920) 498-1296",,,"Mon-Thu:7am-9pm,Fri:7am-9pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,508,"
+            3719 E Calumet
+        ",,Appleton East,WI,,United States,"P:(920) 380-0011, F:(920) 380-0055",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,502,"
+            4190  W Wisconsin Ave
+        ",,Appleton West,WI,,United States,"P:(920) 749-9292, F:(920) 749-0719",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-9pm,Sun:9am-7pm",,,
+,507,"
+            4550 Calumet Avenue
+        ",,Manitowoc,WI,,United States,"P:(920) 482-4062, F:(920) 482-4066",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,988,"
+            2739 Roosevelt Rd.
+        ",,Marinette,WI,,United States,"P:(715) 732-5000, F:(715) 732-5004",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,503,"
+            1667 W 20th Ave
+        ",,Oshkosh,WI,,United States,"P:(920) 231-1100, F:(920) 231-3729",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-9pm,Sun:9am-6pm",,,
+,506,"
+            519  S. Taylor Drive
+        ",,Sheboygan,WI,,United States,"P:(920) 459-9494, F:(920) 459-9518",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,072,"
+            5501 Hwy 10 East
+        ",,Stevens Point,WI,,United States,"P:(715) 295-0388, F:(715) 295-0390",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,760,"
+            925 N. Courtenay Pkwy
+        ",,Merritt Island,FL,,United States,"P:(321) 459-1393, F:(321) 752-4997",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-6pm",,,
+,819,"
+            24174 Hwy 27
+        ",,Lake Wales,FL,,United States,"P:(863) 679-3900, F:(863) 679-3901",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,043,"
+            230 N. Florida Avenue
+        ",,Lakeland,FL,,United States,"P:(863) 686-4888, F:(863) 686-4877",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,833,"
+            1531 S. Hwy 6
+        ",,Sugar Land,TX,,United States,"P:(281) 565-1191, F:(281) 565-1194",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,009,"
+            4343 S Franklin St
+        ",,Michigan City,IN,,United States,"P:(219) 879-7394, F:(219) 879-7398",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,632,"
+            813 W. Lincoln Hwy
+        ",,Schererville,IN,,United States,"P:(219) 464-1800, F:(219) 464-1122",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,457,"
+            700 N. Milwaukee Avenue
+        ",,Vernon Hills,IL,,United States,"P:(847) 247-9700, F:(847) 247-9703",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:9am-7pm",,,
+,428,"
+            2001 Texas Avenue S
+        ",,College Station,TX,,United States,"P:(979) 696-7587, F:(888) 979-8122",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,817,"
+            13730 Alice Road
+        ",,Tomball,TX,,United States,"P:(281) 255-5555, F:(281) 255-5558",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-6pm",,,
+,936,"
+            11934 Barker Cypress Dr
+        ",,Cypress,TX,,United States,,,,Opening Soon,,,
+,468,"
+            528 S Mason Rd
+        ",,Katy,TX,,United States,"P:(281) 693-7587, F:(888) 979-8122",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-6pm",,,
+,381,"
+            4041 N Euclid Ave
+        ",,Bay City,MI,,United States,"P:(989) 667-8722, F:(989) 667-8723",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,555,"
+            4801 Valley View Blvd NW
+        ",,Roanoke,VA,,United States,"P:(540) 265-5788, F:(540) 265-8661",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,558,"
+            4014 Electric Road
+        ",,Roanoke / Tanglewood,VA,,United States,"P:(540) 725-1271, F:(540) 725-1273",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,554,"
+            4018 Wards Rd
+        ",,Lynchburg,VA,,United States,"P:(434) 237-1325, F:(434) 237-1074",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,568,"
+            109 Lucy Lane
+        ",,Waynesboro,VA,,United States,"P:(540) 946-1667, F:(540) 946-8322",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,556,"
+            262 University Blvd
+        ",,Harrisonburg,VA,,United States,"P:(540) 438-1999, F:(540) 801-8890",,,"Mon-Thu:8am-9pm,Fri:8am-9pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,450,"
+            1355 Churn Creek Rd
+        ",,Redding,CA,,United States,"P:(530) 221-5415, F:(530) 221-5413",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:9am-6pm",,,
+,208,"
+            3599 Crater Lake Hwy
+        ",,Medford,OR,,United States,"P:(541) 858-5103, F:(541) 776-4972",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:9am-6pm",,,
+,692,"
+            1494 West Wade Hampton Blvd
+        ",,Greer,SC,,United States,"P:(864) 416-5140, F:(864) 416-5141",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,396,"
+            6615 Calhoun Memorial Hwy
+        ",,Easley,SC,,United States,"P:(864) 306-7811, F:(864) 306-7812",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:10am-7pm",,,
+,995,"
+            1067 Tiger Blvd
+        ",,Clemson,SC,,United States,,,,Opening Soon,,,
+,107,"
+            265 Tom Hill Sr. Blvd
+        ",,Macon,GA,,United States,"P:(478) 405-9192, F:(478) 405-9404",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:11am-6pm",,,
+,034,"
+            4769 Miller Trunk Hwy
+        ",,Hermantown,MN,,United States,"P:(218) 723-1363, F:(218) 723-8139",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,923,"
+            101 Carmichael Road
+        ",,Hudson,WI,,United States,"P:(715) 808-8424, F:(715) 808-8953",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,211,"
+            420 Coburg Rd
+        ",,Eugene,OR,,United States,"P:(541) 349-5030, F:(541) 349-5026",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-7pm,Sun:10am-6pm",,,
+,858,"
+            3001 NW Stewart Pkwy
+        ",,Roseburg,OR,,United States,"P:(541) 673-7587, F:(541) 673-5075",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,860,"
+            4206 Mormon Coulee Road
+        ",,La Crosse,WI,,United States,"P:(608) 782-7340, F:(608) 782-7343",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,070,"
+            2950 41st Street NW
+        ",,Rochester,MN,,United States,"P:(507) 282-5767, F:(507) 282-5870",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,639,"
+            3306 16th Street, SW
+        ",,Minot,ND,,United States,"P:(701) 838-3366, F:(701) 838-3381",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:12pm-5pm",,,
+,071,"
+            3115 E Hamilton Ave
+        ",,Eau Claire,WI,,United States,"P:(715) 552-1939, F:(715) 552-1943",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,640,"
+            980 Millwood Pike
+        ",,Winchester,VA,,United States,"P:(540) 931-9599, F:(540) 877-9098",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,454,"
+            314 Goff Mountain Rd
+        ",,Cross Lanes,WV,,United States,"P:(304) 776-7006, F:(304) 776-7007",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-5pm",,,
+,924,"
+            1600 S. Saginaw Rd
+        ",,Midland,MI,,United States,"P:(989) 423-0052, F:(989) 423-0056",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:9am-8pm,Sun:10am-5pm",,,
+,069,"
+            4511 Rib Mountain Drive
+        ",,Wausau,WI,,United States,"P:(715) 355-9201, F:(715) 355-9286",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-7pm,Sun:10am-6pm",,,
+,134,"
+            B 50 Calle Rio Bayamon
+        ",,Bayamon,PR,,United States,"P:(787) 995-6898, F:(787) 995-6899",,,"Mon-Thu:8am-6pm,Fri:8am-6pm,Sat:8am-6pm,Sun:11am-5pm",,,
+,671,"
+            Ave Jesus T. Piñero 276 University Gardens
+        ",,San Juan,PR,,United States,"P:(939) 716-0004, F:(939) 716-0006",,,"Mon-Thu:8am-7pm,Fri:8am-7pm,Sat:8am-7pm,Sun:11am-5pm",,,
+,133,"
+            Luis Munoz Marin Avenue
+        ",,Caguas,PR,,United States,"P:(787) 743-6898, F:(787) 743-6899",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-5pm",,,
+,768,"
+            335 Carr #2 k.m. 84.7 Carrizales
+        ",,Hatillo,PR,,United States,"P:(787) 820-8044, F:(787) 898-1543",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-5pm",,,
+,757,"
+            2350 Ponce By Pass
+        ",,Ponce,PR,,United States,"P:(787) 812-3295, F:(787) 812-3889",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-5pm",,,
+,467,"
+            Carr #2 Ave. Hostos 975
+        ",,Mayaguez,PR,,United States,"P:(787) 986-7878, F:(787) 986-7898",,,"Mon-Thu:8am-8pm,Fri:8am-8pm,Sat:8am-8pm,Sun:11am-5pm",,,

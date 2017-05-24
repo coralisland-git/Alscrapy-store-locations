@@ -1,0 +1,22 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+R Taco - Waukee,,9500 University Ave. ,,West Des Moines ,IA,50266,United States,,,,,,,1
+R Taco - Dallas - Medical District,,5350 Harry Hines Blvd (214) 382-0860 ,,Dallas ,TX,75230,United States,(214) 382-0860,,,Mon - Fri: 6:00 am - 3:00 pm,,,0
+R Taco - Fort Worth - Ridglea Village/Camp Bowie,,3206 Winthrop Ave. ,,Fort Worth ,TX,76116,United States,TBD,,,,,,1
+R Taco - Dallas - Greenville,,4802 Greenville Ave (214) 613-0508 ,,Dallas ,TX,75206,United States,(214) 613-0508,,,MonSat:  7:00 am - 10:00 pm,,,0
+R Taco - Fort Worth - Bluebonnet Circle,,3516 Bluebonnet Cir. ,,Fort Worth ,TX,76109,United States,(817) 615-9780,,,,,,1
+R Taco - Plano,,8000 Coit ,,Plano ,TX,75025,United States,(972) 244-4047,,,"MonThu:  7:00 am - 9:00 pm, Fri-Sat: 7:00 am - 9:00 pm",,,0
+R Taco - Dallas - Preston Hollow,,12050 Inwood Rd. Suite 110 ,,Dallas ,TX,75244,United States,(214) 462-7974,,,MonSun:  6:00am - 9:00pm,,,0
+R Taco - Hurst,,775 Grapevine Hwy Suite 400 ,,Hurst ,TX,76054,United States,(817) 605-9075,,,Sun - Sat: 6am - 10pm,,,0
+R Taco - Denton,,210 East Hickory ,,Denton ,TX,76201,United States,(940) 483-8226,,,"MonThu:  9:00 am - 10:00 pm, Fri-Sat: 9:00 am  12:00 am, Sun: 9:00 am - 10:00 pm",,,0
+R Taco - Omaha,,12995 West Center Road ,,Omaha ,NE,68144,United States,,,,,,,1
+R Taco - Dallas - Oak Lawn,,3604 Oak Lawn Ave. (214) 520-6458 ,,Dallas ,TX,75219,United States,(214) 520-6458,,,"Mon - Thu: 6:00 am - 9:00 pm, Friday: 6:00 am - 10:00 pm, Sat - Sun: 8:00 am - 10:00 pm",,,0
+"R Taco - Dayton, OH",,1822 Brown St. Phone: 937-938-7384 ,,Dayton ,OH,45409,United States, 937-938-7384,,,"Mon-Wed: 7am-12am, Thurs-Fri: 7am-2:30am, Sat: 8am-2:30am, Sun: 8am-10pm",,,0
+R Taco - St. Paul,,508 Lexington Pkwy S. ,,St. Paul ,MN,55105,United States,(651) 698-2777,,,"Mon-Thu: 11am - 9pm, Fri: 11am - 10pm, Sat: 10am - 10pm, Sun: 10am - 9pm",,,0
+R Taco - Minneapolis,,522 East Hennepin Ave ,,Minneapolis ,MN,55414,United States,(612) 315-5372,,,"Mon-Thu: 11am - 9pm, Fri: 11am - 10pm, Sat: 10am - 10pm, Sun: 10am - 9pm",,,0
+"R Taco - Omaha, NE",,14919 West Maple Road (402) 934-9990. ,,Omaha ,NE,68116,United States,(402) 934-9990.,,,"Mon-Thurs: 7am-9pm, Fri-Sat: 7am-10pm, Sun: 9am-9pm",,,0
+R Taco - Eden Prairie  ,,13000 Technology Dr Ste 120 ,,Eden Prairie ,MN,55344,United States,(952) 500-9769,,,"Mon-Thu: 7am - 9pm, Fri: 7am - 10pm, Sat: 10am - 10pm, Sun: 10am - 9pm",,,0
+"R Taco - Westminster, CO",,6515 W 104th Ave ,,Westminster ,CO,80020,United States,303.466.3093,,,"Mon-Thur: 7:00 am  9:00 pm, Sat: 8:00 am - 10:00 pm, Sun: 8:00 am - 9:00 pm",,,0
+"R Taco - Littleton, CO  ",,8501 Bowles Ave. Ste. 1098 ,,Littleton ,CO,80123,United States,(720) 981-5841,,,"Mon - Sat: 9am - 9pm, Sun: 9am - 8pm",,,0
+"R Taco - Arvada, CO  ",,7630 W. 80th Ave. ,,Arvada ,CO,80005,United States,(303) 432-0943,,,"Mon - Sat: 7am - 10pm, Sun: 7am - 9pm",,,0
+R Taco - Maple Grove,,6346 Vinewood Lane N. ,,Maple Grove ,MN,55311,United States,(763) 355-5064,,,"Mon-Thu: 11am - 9pm, Fri: 11am - 10pm, Sat: 10am - 10pm, Sun: 10am - 9pm",,,0
+R Taco - Eagan,,3345 Central Park Village Dr. Ste 100 ,,Eagan ,MN,55121,United States,(651) 756-1786,,,"Mon-Thu: 11am - 9pm, Fri: 11am - 10pm, Sat: 10am - 10pm, Sun: 10am - 9pm",,,0

@@ -1,0 +1,56 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+"Modesto, CA",,"3020 Floyd Ave., #601",,Modesto,CA,95355,United States,209-551-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"Rancho Cucamonga, CA",,12375 Baseline Road,,Rancho Cucamonga,CA,91739,United States,909-463-1300,,,"Sun: 11am - 10pm (open at 9:30 during NFL season), Mon: 11am - 10pm, Tues - Thurs: 11am - 11pm, Fri & Sat: 11 am - 12 am",,,0
+"Fort Myers, FL",,Address Coming Soon,,Fort Myers,FL,33900,United States,,,,,,,1
+"Fort Walton Beach, FL",,402 Mary Esther Cut Off,,Fort Walton Beach,FL,32548,United States,850-737-2300,,,"Monday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am, Sunday 11am - 10pm",,,0
+"North Port, FL",,1081 W Price Blvd,,North Port,FL,34288,United States,941-257-2100,,,"Sunday - Thursday: 11am - 11pm, Friday & Saturday: 11am - 1am",,,0
+"Port Charlotte, FL",,1020 El Jobean Rd,,Port Charlotte,FL,33948,United States,941235-9464,,,"Sunday - Thursday: 11am - 11pm, Friday & Saturday: 11am - 1am",,,0
+"Chicago, IL",,3434 S. Halsted St.,,Chicago,IL,60608,United States,773-579-9464,,,"Monday - Thursday: 11am-1am, Friday - Saturday: 11am-2am, Sunday: 11am-12am, *Kitchen closes one hour prior to closing time",,,0
+"Crystal Lake, IL",,1520 Carlemont Drive,,Crystal Lake,IL,60014,United States,815-788-WING (9464),,,,,,0
+"Naperville, IL",,1279 Rickert Drive,,Naperville,IL,60540,United States,630-548-5021,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-12am",,,0
+"Bedford, IN",,3230 John William Blvd,,Bedford,IN,47421,United States,812-279-2833,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"Greendale, IN",,1607 Flossie Dr,,Greendale,IN,47025,United States,812-512-9464,,,"Sunday - Thursday: 11:00am - 11:00pm, Friday & Saturday: 11:00am - 1:00am",,,0
+"Greensburg, IN",,905 W. Ann Blvd,,Greensburg,IN,47240,United States,812-222-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-Midnight",,,0
+"Jasper, IN",,1910 Hospitality Drive,,Jasper,IN,47546,United States,812-482-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"Portland, IN",,1204 W. Votaw Street,,Portland,IN,47371,United States,260-726-9647,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"Richmond, IN",,500 Commerce Road,,Richmond,IN,47374,United States,765-939-9464,,,,,,0
+"Bardstown, KY",,1012 Granite Drive,,Bardstown,KY,40004,United States,502-349-1963,,,"Sunday through Thursday: 11am-10pm, Friday & Saturday: 11am-12am",,,0
+"Crestview Hills, KY",,2809 Dixie Highway,,Crestview Hills,KY,41017,United States,859-331-9464,,,"Sunday: 11am - 10pm, Monday - Thursday: 11am-11pm, Friday & Saturday: 11am-Midnight",,,0
+"Elizabethtown, KY",,1604 Ring Rd.,,Elizabethtown,KY,42701,United States,270-506-3541,,,Monday - Sunday: 10am - 11pm,,,0
+"London, KY",,201 Faith Assembly Church Rd,,London,KY,40741,United States,606-877-7464,,,"Monday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am, Sunday: 11am - 10pm",,,0
+"Charlotte, NC",,16715 Orchard Stone Run,,Charlotte,NC,28277,United States,704-543-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-2am",,,0
+"Morrisville, NC",,4101 Grace Park Drive,,Morrisville,NC,27560,United States,919-460-1297,,,"Monday - Thursday: 11:00am - 11:00pm, Friday & Saturday: 11:00am - 1:00am, Sunday: 11:00am - 10:00pm",,,0
+"Bismarck, ND",,4424 N 15th Street,,Bismarck,ND,58503,United States,701-222-4297,,,"Sunday - Wednesday: 11am - 11pm, Thursday - Saturday: 11am - 12am",,,0
+"Minot, ND",,910 24th Ave SW,,Minot,ND,58701,United States,701-852-4297,,,"Sunday - Thursday: 11:00am - 11:00pm, Friday - Saturday: 11:00am - 12:00am",,,0
+"Lincoln, NE",,350 Canopy Street Suite 200,,Lincoln,NE,68508,United States,402-261-9464,,,"Sunday & Monday: 11:00am - 10:00pm, Tuesday - Saturday: 11:00am - 12:00am",,,0
+"Omaha, NE",,12240 L Street,,Omaha,NE,68137,United States,402-614-7300,,,"Sunday - Monday: 11am - 10pm, Tuesday - Saturday: 11am - 11pm",,,0
+"Centerville, OH",,894-C S. Main Street,,Centerville,OH,45458,United States,937-438-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"Cincinnati, OH",,8377 Winton Road,,Cincinnati,OH,45231,United States,513-521-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-12am",,,0
+"Cincinnati, OH",,4601 Eastgate Blvd.,,Cincinnati,OH,45245,United States,513-947-9464,,,"Monday through Thursday: 11am-11pm, Friday & Saturday: 11am-Midnight, Sunday: 11am-9pm",,,0
+"Cincinnati, OH",,509 Ohio Pike,,Cincinnati,OH,45255,United States,513-528-7464,,,"Monday - Thursday: 11am - 11pm, Friday & Saturday: 11am - 12am, Sunday: 11am - 10pm",,,0
+"Columbus, OH",,6325 E. Broad Street,,Columbus,OH,43213,United States,614-856-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-12am",,,0
+"Fairfield, OH",,5486 Dixie Highway,,Fairfield,OH,45014,United States,513-829-9464,,,"Mon through Thurs: 11am - 11 pm, Friday & Saturday: 11am - midnight, Sunday: 11am - 10 pm",,,0
+"Grove City, OH",,1574 Stringtown Road,,Grove City,OH,43123,United States,614-801-0900,,,"Sunday through Thursday: 11am-midnight, Friday & Saturday: 11am-1am",,,0
+"Lewis Center, OH",,8661 Columbus Pike (Rt. 23),,Lewis Center,OH,43035,United States,740-548-1700,,,"Sunday: 11am-10pm, Monday through Thursday: 11am-11pm, Friday & Saturday: 11am-Midnight",,,0
+"Liberty Township, OH",,6963 S. Liberty Drive,,Liberty Township,OH,45044,United States,513-779-9464,,,"Sunday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am",,,0
+"Lima, OH",,1939 Roschman Ave,,Lima,OH,45804,United States,419-222-9464,,,"Sunday: 11am - 10pm, Monday - Thursday: 11am - 11pm, Friday & Saturday: 11am - 12am",,,0
+"Mason, OH",,5517 Kings Center Dr.,,Mason,OH,45040,United States,513-336-6644,,,"Sunday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am",,,0
+"Monroe, OH",,3271 Heritage Green,,Monroe,OH,45050,United States,513-360-2977,,,"Monday through Thursday: 11am-10pm, Friday: 11am-11pm, Saturday: 11:30am-11pm, Sunday: noon-8pm",,,0
+"Piqua, OH",,989 E. Ash Street,,Piqua,OH,45356,United States,937-773-WING (9464),,,"Mon through Thurs: 11am - 11 pm, Friday & Saturday: 11am - midnight, Sunday: 11am - 10 pm",,,0
+"West Chester, OH",,4782 Plum Square,,West Chester,OH,45069,United States,513-860-9464,,,,,,1
+"Aberdeen, SD",,2411 6th Ave. SE,,Aberdeen,SD,57401,United States,605-725-9464,,,"Sunday: 11am - 10pm, Monday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am",,,0
+"Rapid City, SD",,"5622 Sheridan Lake Rd., Ste. 102",,Rapid City,SD,57702,United States,605-791-9464,,,"Sunday - Thursday: 11am-10pm, Friday & Saturday: 11am-11pm",,,0
+"Franklin, TN",,105 International Drive,,Franklin,TN,37067,United States,615-224-3380,,,"Sunday - 11am - 9pm, Monday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am",,,0
+"Arlington, TX",,2150 E. Lamar Blvd. Suite 110,,Arlington,TX,76006,United States,682-323-7099,,,"Sunday - Thursday: 11am - 12am, Friday - Saturday: 11am - 1am",,,0
+"Brownsville, TX",,3340 Pablo Kisel Blvd.,,Brownsville,TX,78520,United States,956-350-9570,,,"Sunday - Wednesday: 11am - 12am, Thursday - Saturday: 11am - 1am",,,0
+"Del Rio, TX",,3600 Veterans Blvd,,Del Rio,TX,78840,United States,830-778-1297,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-12am",,,0
+"Edinburg, TX",,1809 W. Trenton Road,,Edinburg,TX,78539,United States,956-687-2927,,,"Sunday through Thursday: 11:00am-midnight, Friday & Saturday: 11am-1am",,,0
+"Hidalgo, TX",,3110 S. Jackson Rd.,,Hidalgo,TX,78557,United States,956-843-9464,,,"OPENING SOON, Sunday - Thursday: 11am - 11pm, Friday - Saturday: 11am - 12am",,,0
+"Laredo, TX",,9651 McPherson Rd,,Laredo,TX,78045,United States,956-722-9464,,,"Sunday through Thursday: 11am-11pm, Friday through Saturday: 11am-1am",,,0
+"McAllen, TX",,4711 N. 10th Street,,McAllen,TX,78504,United States,956-631-2500,,,"Sunday - Thursday: 11am - midnight, Friday and Saturday: 11am - 1am",,,0
+"McAllen, TX",,1933 S. 10th Street,,McAllen,TX,78503,United States,956-630-9464,,,"Monday through Saturday: 11am-2am, Sunday: 11am-midnight",,,0
+"Mission, TX",,907 S. Shary Road,,Mission,TX,78572,United States,956-583-2523,,,"Sunday through Wednesday: 11am-midnight, Thursday through Saturday: 11am-2am",,,0
+"New Braunfels, TX",,983 TX 337 Loop,,New Braunfels,TX,78130,United States,830-626-9464,,,Monday through Sunday: 11am-12pm,,,0
+"Round Rock, TX",,1901 Town Center Dr.,,Round Rock,TX,78664,United States,512-310-9464,,,"Sunday through Thursday: 11am-11pm, Friday & Saturday: 11am-midnight",,,0
+"San Antonio, TX",,203 N. Loop 1604 W.,,San Antonio,TX,78232,United States,210-403-9464,,,"Mon - Thurs: 11 am - 11 pm, Fri & Sat: 11 am - 12 am, Sunday: 11am - 10pm",,,0
+"Weslaco, TX",,1600 N. Westgate Dr,,Weslaco,TX,78596,United States,956-973-9464,,,"Sunday through Wednesday: 11am-midnight, Thursday through Saturday: 11am-2am",,,0

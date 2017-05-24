@@ -1,0 +1,26 @@
+ <section class="store-info" data-type="popup" id="store-info-popup">\r\n    
+	 <div class="store-info-popup-inner">\r\n        
+		 <div class="right">\r\n            
+			 <div style="display: none;" class="full-store-imgs store-img right-imgs">
+			 	<img src="http://www.diptyqueparis.com/media/stores/" alt="Store Image">
+			 </div>\r\n            <!-- Additional Images -->\r\n            \r\n            
+			 <div style="" id="gmap-desktop-holder" class="map right-imgs">
+				 <div id="gmap">
+				 	
+				 </div>
+			 </div>\r\n\r\n                    
+		 </div>\r\n\r\n        
+		 <div class="s-content">           
+			<span class="close"></span>          
+			<h3>Nordstrom- King of Prussia Mall</h3>
+			<div class="address">               
+				<p>190 N Gulph Rd<br/>King of Prussia PA, 19406 US<br/>\r\n                      </p>
+
+				<p>(610) 265-6111</p>            
+			</div>\r\n            
+			<ul class="list-schedule"></ul>        
+		</div>\r\n    
+	</div>\r\n
+</section>
+   
+   <script type="application/javascript">\r\n    function swapStoreImage(classToLoad) {\r\n        $j(\'#store-info-popup .right-imgs\').hide();\r\n        $j(\'#store-info-popup .\'+classToLoad).show();\r\n\r\n        if(classToLoad == \'map\' || classToLoad == \'store-img\') {\r\n            // Link swap\r\n            $j(\'#store-info-popup .store-info-img-links\').hide();\r\n            $j(\'#store-info-popup .\'+classToLoad + \'-link\').show();\r\n        }\r\n\r\n        if(classToLoad == \'map\') {\r\n            $j(\'#store-info-popup .store-popup-controls\').hide();\r\n            loadDesktopMap();\r\n        } else {\r\n            $j(\'#store-info-popup .store-popup-controls\').show();\r\n        }\r\n    }\r\n</script>'

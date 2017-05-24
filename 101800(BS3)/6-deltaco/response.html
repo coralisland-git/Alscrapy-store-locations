@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            dataLayer = [];
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KTT6ZRZ');</script>
+        <!-- End Google Tag Manager -->
+        <title>Del Taco - Locations</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="content-language" content="en-us">
+        <meta name="cache-control" content="no-cache">
+        <meta name="robots" content="ALL">
+        <meta name="revisit-after" content="7 days">
+        <meta name="document-type" content="Web Page">
+        <meta name="copyright" content="2015 DEL TACO LLC">
+        <meta name="author" content="DEL TACO">
+        <meta name="keywords" content="del taco, fast food chain, franchise information, open 24 hours, macho burrito, gift cards, del taco coupons, Levy Acquisition Corp., Epic Burrito, Buck & Under Menu, Taco Nights, QSR, Raving Fan eClub, UnFreshingBelievable, Eat Well With Del, Fresca Bowls">
+        <meta name="description" content="Official Del Taco (R) website: Find locations, get coupons and Del Taco info, join the Raving Fan e-Club, check out the menu & nutrition info, explore Del Taco careers & franchising.">
+        <meta property="og:image" content="http://deltaco.com/images/logo.png" />
+        <meta property="og:title" content="DEL TACO" />
+        <meta property="og:description" content="Official Del Taco (R) website: Find locations, get coupons and Del Taco info, join the Raving Fan e-Club, check out the menu & nutrition info, explore Del Taco careers & franchising." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.deltaco.com/"/>
+        <meta name="p:domain_verify" content="65d64ad40fce78a16b3930f34166d56a"/>
+        <meta name="google-site-verification" content="eURwF8TY5apD3w5vxVJdqSGFKP2OKsA4DJPy4OG5TmM" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"></scr' + 'ipt>')</script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body id="page_locations">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTT6ZRZ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<!--HEADER-->
+		        <header role="banner" id="global-header">
+            <div class="wrapper clearfix">
+                <a href="#main-content" class="offscreen accent-button">Skip to Content</a>
+                <a href="#" class="menu-button" id="menu-button" aria-expanded="false" aria-haspopup="true" aria-controls="main-nav">
+                    <span class="visually-hidden">Show Mobile Menu Button</span>  
+                    <span class="menu-block"></span>
+                    <span class="menu-block"></span>
+                    <span class="menu-block"></span>
+                </a>
+                <nav role="navigation" id="main-nav" class="drop-menu drop-nav" aria-hidden="true" aria-labelledby="menu-button">
+                    <ul>
+                        <li><a href="food" tabindex="-1">Menu</a></li>
+                        <li><a href="contactus" tabindex="-1">Contact Us</a></li>
+                        <li><a href="specials" tabindex="-1">Specials</a></li>
+                        <li id="location-drop"><a href="#" id="location-trigger" class="trigger" tabindex="-1">Locations</a>
+                            <!-- Locations drop down -->
+                            <ul class="none-w-trans clearfix" id="location-nav" role="presentation">
+                                <div class="wrapper">
+                                    <div class="col-xs-12 col-sm-2">
+                                        <li class="heading-font">Find a Del Taco Near You</li>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <form method="POST" action="index.php?page=locations" class="location-form">
+                                            <input type="text" value="" placeholder="CITY &amp; STATE, or ZIP CODE" name="q" class="col-xs-6" id="location_input" aria-label="Enter a City, State or Zip Code">
+                                                <span class="col-xs-4">
+                                                    <select name="distance" id="distance" class="location_distance" aria-label="Select search distance radius">
+                                                        <option value="10" selected="selected">10 miles</option>
+                                                        <option value="25">25 miles</option>
+                                                        <option value="50">50 miles</option>
+                                                        <option value="100">100 miles</option>
+                                                        <option value="1000">1000 miles</option>
+                                                    </select>
+                                                </span>    
+                                            <input type="submit" name="submit" value="GO" class="col-xs-2 gray-button">
+                                        </form>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-5">    
+                                        <!-- TO DO - RENAME ACTION CLASS TO LOCATION-SUBMIT -->
+                                        <a href="javascript:searchByLocation();" class="button green-back">USE MY CURRENT LOCATION</a>
+                                    </div>    
+                                </div>    
+                            </ul>
+                        </li>
+                        <!-- <li><a href="our-story">Our Story</a></li> -->
+                    </ul>
+                </nav>
+                <h1><a href="home"><img src="images/main-logo.svg" alt="Del Taco - Home"></a></h1>                                         
+                <div class="icon-wrapper">
+                    <a href="food" class="cutlery"><span class="visually-hidden">Link to Food Page</span></a>
+                    <a href="locations" class="location"><span class="visually-hidden">Link to Locations Page</span></a>
+                </div>     
+            </div>    
+        </header>
+		<!--END HEADER-->
+
+		<!--MAIN STARTS-->
+                <main id="main-content" role="main" tabindex="0">
+		   <link rel="stylesheet" href="/admin/clients/deltaco/website2016/website_reskin/locations/externals/locations-main.css" type="text/css" media="screen" />
+
+
+
+
+
+
+<script type='text/javascript'>
+	var total_page = 5;
+	$(function(){
+		$("#results-page-search select").attr("aria-label","Select search distance radius");
+		$(".store_marker_icon").attr('alt', function(i) {
+            return 'Store Result Number '+(i+1);
+        });
+	});
+</script>
+
+
+
+<div class="map-wrapper inner-pg-wrap">
+	<div id="map_canvas" class="map rounded"></div>
+</div>	
+
+
+<div class="wrapper locations-wrapper inner-pg-wrap">	
+	<header class="charcoal-back clearfix">
+			<h2 class="yellow-text cursive col-xs-12 col-sm-5">Results</h2>
+			<div class="xs-hidden col-sm-7">
+				<h4 class="col-xs-12 col-sm-3 white-text">New Search</h4>
+				<form method="POST" action="index.php?page=locations" class="locations_result_form col-xs-12 col-sm-9 white-text clearfix" id="results-page-search">
+					<div class="col-sm-5 col-md-5">
+						<input type="text" value="Los angeles" placeholder="City & State, or Zip" name="q" class="location_input" />
+					</div>
+					<div class="col-sm-5 col-md-4">	
+						<select name="distance" id="distance"><option value="10" selected="selected">10 miles</option>
+<option value="25">25 miles</option>
+<option value="50">50 miles</option>
+<option value="100">100 miles</option>
+<option value="1000">1,000 miles</option>
+</select>					</div>
+					<input type="submit" value="GO" class="location_submit charcoal-back accent-button col-sm-2 col-md-3" />
+				</form>
+			</div>		
+	</header>	
+
+
+	<div class="locations-top">
+		<div class="stores-pager">
+			<a href="javascript:;" class="stores-pager-prev black-text">&lt; PREVIOUS RESULTS</a>
+			<a href="javascript:;" class="stores-pager-next black-text">NEXT RESULTS &gt;</a>
+		</div>
+				<!-- <div class="stores-headers xs-hidden clearfix">
+			<span class="stores-header-hour col-sm-6 col-lg-5">Restaurant Hours</span>
+			<span class="stores-header-wifi col-sm-1 col-md-1">Wifi</span>
+			<span class="stores-header-drivethru col-sm-2">Drive Thru</span>
+			<span class="stores-header-funland col-sm-1">Funland</span>
+		</div> -->
+	</div>
+		<ul class="locations-list clearfix" id="list-stores">
+							
+			<li id="store_item_1" data-gmapping='{"id":1,"latlng":{"lat":34.095913,"lng":-118.284225},"tags":"4376 W. SUNSET BLVD","marker_icon_url":"/images/pins/1.svg"}' data-page="1" data-item-number="1" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/1.svg' onclick="open_infowindow(1);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">4376 W. SUNSET BLVD<br/>LOS ANGELES, CA 90029</h3>
+													<p class="store-info-location-distance smaller-text gray-text">3.80 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Wed:</span> <span class="hours">6am - 2am</span><br/><span class='day'>Thu - Sat:</span> <span class="hours">6am - 3am</span><br/><span class='day'>Sun:</span> <span class="hours">6am - 2am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4376 W. SUNSET BLVD, LOS ANGELES, CA 90029&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 906-1215">(323) 906-1215</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_2" data-gmapping='{"id":2,"latlng":{"lat":34.124924,"lng":-118.265160},"tags":"3020 LOS FELIZ BLVD","marker_icon_url":"/images/pins/2.svg"}' data-page="1" data-item-number="2" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/2.svg' onclick="open_infowindow(2);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3020 LOS FELIZ BLVD<br/>LOS ANGELES, CA 90039</h3>
+													<p class="store-info-location-distance smaller-text gray-text">5.17 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Wed:</span> <span class="hours">6am - 2am</span><br/><span class='day'>Thu - Sat:</span> <span class="hours">6am - 3am</span><br/><span class='day'>Sun:</span> <span class="hours">6am - 2am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3020 LOS FELIZ BLVD, LOS ANGELES, CA 90039&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 665-1702">(323) 665-1702</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_3" data-gmapping='{"id":3,"latlng":{"lat":34.135590,"lng":-118.215614},"tags":"4903 N. EAGLE ROCK BLVD.","marker_icon_url":"/images/pins/3.svg"}' data-page="1" data-item-number="3" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/3.svg' onclick="open_infowindow(3);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">4903 N. EAGLE ROCK BLVD.<br/>LOS ANGELES, CA 90041</h3>
+													<p class="store-info-location-distance smaller-text gray-text">5.97 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4903 N. EAGLE ROCK BLVD., LOS ANGELES, CA 90041&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 254-1007">(323) 254-1007</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_4" data-gmapping='{"id":4,"latlng":{"lat":34.022449,"lng":-118.355614},"tags":"3540 SOUTH LA BREA AVE..","marker_icon_url":"/images/pins/4.svg"}' data-page="1" data-item-number="4" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/4.svg' onclick="open_infowindow(4);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3540 SOUTH LA BREA AVE..<br/>BALDWIN HILLS, CA 90016</h3>
+													<p class="store-info-location-distance smaller-text gray-text">6.73 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3540 SOUTH LA BREA AVE.., BALDWIN HILLS, CA 90016&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 296-1674">(323) 296-1674</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_5" data-gmapping='{"id":5,"latlng":{"lat":33.995625,"lng":-118.147560},"tags":"6126 E. WASHINGTON BLVD","marker_icon_url":"/images/pins/5.svg"}' data-page="1" data-item-number="5" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/5.svg' onclick="open_infowindow(5);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">6126 E. WASHINGTON BLVD<br/>COMMERCE, CA 90040</h3>
+													<p class="store-info-location-distance smaller-text gray-text">6.75 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=6126 E. WASHINGTON BLVD, COMMERCE, CA 90040&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 767-0233">(323) 767-0233</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_6" data-gmapping='{"id":6,"latlng":{"lat":34.032238,"lng":-118.124763},"tags":"880 N WILCOX AVE","marker_icon_url":"/images/pins/6.svg"}' data-page="1" data-item-number="6" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/6.svg' onclick="open_infowindow(6);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">880 N WILCOX AVE<br/>MONTEBELLO, CA 90640</h3>
+													<p class="store-info-location-distance smaller-text gray-text">6.94 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=880 N WILCOX AVE, MONTEBELLO, CA 90640&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 721-7207">(323) 721-7207</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_7" data-gmapping='{"id":7,"latlng":{"lat":34.038399,"lng":-118.376839},"tags":"2060 S. LA CIENEGA BLVD.","marker_icon_url":"/images/pins/7.svg"}' data-page="1" data-item-number="7" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/7.svg' onclick="open_infowindow(7);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">2060 S. LA CIENEGA BLVD.<br/>LOS ANGELES, CA 90034</h3>
+													<p class="store-info-location-distance smaller-text gray-text">7.68 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2060 S. LA CIENEGA BLVD., LOS ANGELES, CA 90034&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 559-0460">(310) 559-0460</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_8" data-gmapping='{"id":8,"latlng":{"lat":34.030289,"lng":-118.386864},"tags":"3705 ROBERTSON BLVD","marker_icon_url":"/images/pins/8.svg"}' data-page="1" data-item-number="8" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/8.svg' onclick="open_infowindow(8);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3705 ROBERTSON BLVD<br/>CULVER CITY, CA 90232</h3>
+													<p class="store-info-location-distance smaller-text gray-text">8.33 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3705 ROBERTSON BLVD, CULVER CITY, CA 90232&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 839-8897">(310) 839-8897</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_9" data-gmapping='{"id":9,"latlng":{"lat":34.168797,"lng":-118.292007},"tags":"6550 SAN FERNANDO RD","marker_icon_url":"/images/pins/9.svg"}' data-page="1" data-item-number="9" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/9.svg' onclick="open_infowindow(9);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">6550 SAN FERNANDO RD<br/>GLENDALE, CA 91201</h3>
+													<p class="store-info-location-distance smaller-text gray-text">8.51 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours">6am - 12am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=6550 SAN FERNANDO RD, GLENDALE, CA 91201&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 956-1236">(818) 956-1236</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_10" data-gmapping='{"id":10,"latlng":{"lat":33.945171,"lng":-118.333336},"tags":"3510 W. CENTURY BLVD","marker_icon_url":"/images/pins/10.svg"}' data-page="1" data-item-number="10" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/10.svg' onclick="open_infowindow(10);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3510 W. CENTURY BLVD<br/>INGLEWOOD, CA 90303</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.00 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3510 W. CENTURY BLVD, INGLEWOOD, CA 90303&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 677-7884">(310) 677-7884</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_11" data-gmapping='{"id":11,"latlng":{"lat":34.177128,"lng":-118.297264},"tags":"2101 W  GLENOAKS BLVD","marker_icon_url":"/images/pins/11.svg"}' data-page="2" data-item-number="11" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/11.svg' onclick="open_infowindow(11);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">2101 W  GLENOAKS BLVD<br/>GLENDALE, CA 91201</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.15 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Wed:</span> <span class="hours">6am - 12am</span><br/><span class='day'>Thu - Sat:</span> <span class="hours">6am - 3am</span><br/><span class='day'>Sun:</span> <span class="hours">6am - 12am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2101 W  GLENOAKS BLVD, GLENDALE, CA 91201&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 841-7771">(818) 841-7771</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_12" data-gmapping='{"id":12,"latlng":{"lat":34.147652,"lng":-118.132553},"tags":"844 E  UNION ST","marker_icon_url":"/images/pins/12.svg"}' data-page="2" data-item-number="12" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/12.svg' onclick="open_infowindow(12);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">844 E  UNION ST<br/>PASADENA, CA 91101</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.15 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=844 E  UNION ST, PASADENA, CA 91101&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(626) 792-9842">(626) 792-9842</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_13" data-gmapping='{"id":13,"latlng":{"lat":33.930653,"lng":-118.310165},"tags":"1816 W  IMPERIAL HWY","marker_icon_url":"/images/pins/13.svg"}' data-page="2" data-item-number="13" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/13.svg' onclick="open_infowindow(13);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">1816 W  IMPERIAL HWY<br/>LOS ANGELES, CA 90047</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.22 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1816 W  IMPERIAL HWY, LOS ANGELES, CA 90047&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(323) 754-8063">(323) 754-8063</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_14" data-gmapping='{"id":14,"latlng":{"lat":33.985252,"lng":-118.101768},"tags":"8650 WASHINGTON BLVD","marker_icon_url":"/images/pins/14.svg"}' data-page="2" data-item-number="14" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/14.svg' onclick="open_infowindow(14);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">8650 WASHINGTON BLVD<br/>PICO RIVERA, CA 90660</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.35 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sat:</span> <span class="hours">6am - 2:30am</span><br/><span class='day'>Sun:</span> <span class="hours">7am - 2:30am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=8650 WASHINGTON BLVD, PICO RIVERA, CA 90660&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 949-5462">(562) 949-5462</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_15" data-gmapping='{"id":15,"latlng":{"lat":34.160938,"lng":-118.343796},"tags":"3714 W  VERDUGO AVE","marker_icon_url":"/images/pins/15.svg"}' data-page="2" data-item-number="15" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/15.svg' onclick="open_infowindow(15);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3714 W  VERDUGO AVE<br/>BURBANK, CA 91505</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.44 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3714 W  VERDUGO AVE, BURBANK, CA 91505&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 842-2516">(818) 842-2516</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_16" data-gmapping='{"id":16,"latlng":{"lat":33.941936,"lng":-118.137070},"tags":"8028 FIRESTONE BLVD","marker_icon_url":"/images/pins/16.svg"}' data-page="2" data-item-number="16" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/16.svg' onclick="open_infowindow(16);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">8028 FIRESTONE BLVD<br/>DOWNEY, CA 90241</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.76 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=8028 FIRESTONE BLVD, DOWNEY, CA 90241&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 861-0889">(562) 861-0889</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_17" data-gmapping='{"id":17,"latlng":{"lat":33.989079,"lng":-118.396446},"tags":"11446 JEFFERSON BLVD","marker_icon_url":"/images/pins/17.svg"}' data-page="2" data-item-number="17" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/17.svg' onclick="open_infowindow(17);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">11446 JEFFERSON BLVD<br/>CULVER CITY, CA 90230</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.77 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=11446 JEFFERSON BLVD, CULVER CITY, CA 90230&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 398-1406">(310) 398-1406</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_18" data-gmapping='{"id":18,"latlng":{"lat":33.912060,"lng":-118.208832},"tags":"12622 LONG BEACH BLVD","marker_icon_url":"/images/pins/18.svg"}' data-page="2" data-item-number="18" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/18.svg' onclick="open_infowindow(18);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">12622 LONG BEACH BLVD<br/>LYNWOOD, CA 90262</h3>
+													<p class="store-info-location-distance smaller-text gray-text">9.88 miles</p>
+																											
+								<span class="locations-coming-soon-icon locations-coming-soon-icon-comingsoon"><span class="visually-hidden">Coming Soon</span></span>						
+												
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4">&nbsp;<span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=12622 LONG BEACH BLVD, LYNWOOD, CA 90262&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span>&nbsp;					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_19" data-gmapping='{"id":19,"latlng":{"lat":34.071625,"lng":-118.068733},"tags":"9200 FLAIR DRIVE","marker_icon_url":"/images/pins/19.svg"}' data-page="2" data-item-number="19" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/19.svg' onclick="open_infowindow(19);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">9200 FLAIR DRIVE<br/>EL MONTE, CA 91731</h3>
+													<p class="store-info-location-distance smaller-text gray-text">10.10 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=9200 FLAIR DRIVE, EL MONTE, CA 91731&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(626) 569-0864">(626) 569-0864</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_20" data-gmapping='{"id":20,"latlng":{"lat":33.958935,"lng":-118.392487},"tags":"8651 SO. LA TIJERA AVE.","marker_icon_url":"/images/pins/20.svg"}' data-page="2" data-item-number="20" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/20.svg' onclick="open_infowindow(20);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">8651 SO. LA TIJERA AVE.<br/>LOS ANGELES, CA 90045</h3>
+													<p class="store-info-location-distance smaller-text gray-text">10.68 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Thu:</span> <span class="hours">7am - 11pm</span><br/><span class='day'>Fri - Sat:</span> <span class="hours">7am - 1am</span><br/><span class='day'>Sun:</span> <span class="hours">7am - 11pm</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=8651 SO. LA TIJERA AVE., LOS ANGELES, CA 90045&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 645-5667">(310) 645-5667</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_21" data-gmapping='{"id":21,"latlng":{"lat":33.949036,"lng":-118.090935},"tags":"11344 TELEGRAPH RD","marker_icon_url":"/images/pins/21.svg"}' data-page="3" data-item-number="21" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/21.svg' onclick="open_infowindow(21);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">11344 TELEGRAPH RD<br/>SANTA FE SPRINGS, CA 90670</h3>
+													<p class="store-info-location-distance smaller-text gray-text">11.28 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=11344 TELEGRAPH RD, SANTA FE SPRINGS, CA 90670&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 929-9223">(562) 929-9223</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_22" data-gmapping='{"id":22,"latlng":{"lat":34.047527,"lng":-118.443321},"tags":"11066 SANTA MONICA BLVD","marker_icon_url":"/images/pins/22.svg"}' data-page="3" data-item-number="22" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/22.svg' onclick="open_infowindow(22);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">11066 SANTA MONICA BLVD<br/>LOS ANGELES, CA 90024</h3>
+													<p class="store-info-location-distance smaller-text gray-text">11.43 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=11066 SANTA MONICA BLVD, LOS ANGELES, CA 90024&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 481-6826">(310) 481-6826</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_23" data-gmapping='{"id":23,"latlng":{"lat":34.193840,"lng":-118.349503},"tags":"2515 N. HOLLYWOOD WAY","marker_icon_url":"/images/pins/23.svg"}' data-page="3" data-item-number="23" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/23.svg' onclick="open_infowindow(23);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">2515 N. HOLLYWOOD WAY<br/>BURBANK, CA 91505</h3>
+													<p class="store-info-location-distance smaller-text gray-text">11.50 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2515 N. HOLLYWOOD WAY, BURBANK, CA 91505&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 565-0534">(818) 565-0534</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_24" data-gmapping='{"id":24,"latlng":{"lat":34.150085,"lng":-118.076790},"tags":"3566 E FOOTHILL BLVD","marker_icon_url":"/images/pins/24.svg"}' data-page="3" data-item-number="24" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/24.svg' onclick="open_infowindow(24);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3566 E FOOTHILL BLVD<br/>PASADENA, CA 91107</h3>
+													<p class="store-info-location-distance smaller-text gray-text">11.69 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3566 E FOOTHILL BLVD, PASADENA, CA 91107&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(626) 792-9619">(626) 792-9619</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_25" data-gmapping='{"id":25,"latlng":{"lat":33.903980,"lng":-118.134087},"tags":"14301 CLARK AVE","marker_icon_url":"/images/pins/25.svg"}' data-page="3" data-item-number="25" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/25.svg' onclick="open_infowindow(25);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">14301 CLARK AVE<br/>BELLFLOWER, CA 90706</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.01 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=14301 CLARK AVE, BELLFLOWER, CA 90706&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 920-3464">(562) 920-3464</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_26" data-gmapping='{"id":26,"latlng":{"lat":33.879051,"lng":-118.218163},"tags":"1641 S. ALAMEDA ST","marker_icon_url":"/images/pins/26.svg"}' data-page="3" data-item-number="26" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/26.svg' onclick="open_infowindow(26);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">1641 S. ALAMEDA ST<br/>COMPTON, CA 90220</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.05 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1641 S. ALAMEDA ST, COMPTON, CA 90220&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 608-2325">(310) 608-2325</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_27" data-gmapping='{"id":27,"latlng":{"lat":34.043438,"lng":-118.032623},"tags":"1818 S. DURFEE","marker_icon_url":"/images/pins/27.svg"}' data-page="3" data-item-number="27" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/27.svg' onclick="open_infowindow(27);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">1818 S. DURFEE<br/>SO. EL MONTE, CA 91733</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.09 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1818 S. DURFEE, SO. EL MONTE, CA 91733&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(626) 442-2447">(626) 442-2447</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_28" data-gmapping='{"id":28,"latlng":{"lat":33.899879,"lng":-118.361656},"tags":"14485 INGLEWOOD AVE","marker_icon_url":"/images/pins/28.svg"}' data-page="3" data-item-number="28" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/28.svg' onclick="open_infowindow(28);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">14485 INGLEWOOD AVE<br/>HAWTHORNE, CA 90250</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.50 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Thu:</span> <span class="hours">6am - 1am</span><br/><span class='day'>Fri - Sat:</span> <span class="hours">6am - 2am</span><br/><span class='day'>Sun:</span> <span class="hours">6am - 1am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=14485 INGLEWOOD AVE, HAWTHORNE, CA 90250&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 973-8801">(310) 973-8801</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_29" data-gmapping='{"id":29,"latlng":{"lat":33.871513,"lng":-118.266167},"tags":"17504  AVALON BLVD","marker_icon_url":"/images/pins/29.svg"}' data-page="3" data-item-number="29" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/29.svg' onclick="open_infowindow(29);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">17504  AVALON BLVD<br/>CARSON, CA 90746</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.54 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=17504  AVALON BLVD, CARSON, CA 90746&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 515-6479">(310) 515-6479</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_30" data-gmapping='{"id":30,"latlng":{"lat":33.966679,"lng":-118.049881},"tags":"12320 WASHINGTON BLVD","marker_icon_url":"/images/pins/30.svg"}' data-page="3" data-item-number="30" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/30.svg' onclick="open_infowindow(30);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">12320 WASHINGTON BLVD<br/>WHITTIER, CA 90606</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.57 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=12320 WASHINGTON BLVD, WHITTIER, CA 90606&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 789-8443">(562) 789-8443</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_31" data-gmapping='{"id":31,"latlng":{"lat":33.883327,"lng":-118.326157},"tags":"16216  CRENSHAW BLVD","marker_icon_url":"/images/pins/31.svg"}' data-page="4" data-item-number="31" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/31.svg' onclick="open_infowindow(31);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">16216  CRENSHAW BLVD<br/>GARDENA, CA 90249</h3>
+													<p class="store-info-location-distance smaller-text gray-text">12.58 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Thu:</span> <span class="hours">7am - 12am</span><br/><span class='day'>Fri - Sat:</span> <span class="hours">12am - 12am</span><br/><span class='day'>Sun:</span> <span class="hours">7am - 12am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=16216  CRENSHAW BLVD, GARDENA, CA 90249&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 532-8608">(310) 532-8608</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_32" data-gmapping='{"id":32,"latlng":{"lat":34.192936,"lng":-118.396179},"tags":"6718 LAUREL CANYON BLVD","marker_icon_url":"/images/pins/32.svg"}' data-page="4" data-item-number="32" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/32.svg' onclick="open_infowindow(32);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">6718 LAUREL CANYON BLVD<br/>NORTH HOLLYWOOD, CA 91606</h3>
+													<p class="store-info-location-distance smaller-text gray-text">13.05 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Thu:</span> <span class="hours">6am - 12am</span><br/><span class='day'>Fri - Sat:</span> <span class="hours">6am - 2am</span><br/><span class='day'>Sun:</span> <span class="hours">6am - 12am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=6718 LAUREL CANYON BLVD, NORTH HOLLYWOOD, CA 91606&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 764-2844">(818) 764-2844</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_33" data-gmapping='{"id":33,"latlng":{"lat":34.241920,"lng":-118.267799},"tags":"6275 FOOTHILL BLVD","marker_icon_url":"/images/pins/33.svg"}' data-page="4" data-item-number="33" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/33.svg' onclick="open_infowindow(33);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">6275 FOOTHILL BLVD<br/>TUJUNGA, CA 91042</h3>
+													<p class="store-info-location-distance smaller-text gray-text">13.17 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=6275 FOOTHILL BLVD, TUJUNGA, CA 91042&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(818) 862-3029">(818) 862-3029</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_34" data-gmapping='{"id":34,"latlng":{"lat":33.949623,"lng":-118.046494},"tags":"9719 CARMENITA RD","marker_icon_url":"/images/pins/34.svg"}' data-page="4" data-item-number="34" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/34.svg' onclick="open_infowindow(34);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">9719 CARMENITA RD<br/>WHITTIER, CA 90605</h3>
+													<p class="store-info-location-distance smaller-text gray-text">13.33 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=9719 CARMENITA RD, WHITTIER, CA 90605&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 698-5574">(562) 698-5574</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_35" data-gmapping='{"id":35,"latlng":{"lat":33.861706,"lng":-118.308952},"tags":"18604 S WESTERN AVE","marker_icon_url":"/images/pins/35.svg"}' data-page="4" data-item-number="35" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/35.svg' onclick="open_infowindow(35);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">18604 S WESTERN AVE<br/>GARDENA, CA 90248</h3>
+													<p class="store-info-location-distance smaller-text gray-text">13.68 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=18604 S WESTERN AVE, GARDENA, CA 90248&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 532-2786">(310) 532-2786</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_36" data-gmapping='{"id":36,"latlng":{"lat":33.887390,"lng":-118.106377},"tags":"10644 ALONDRA BLVD.","marker_icon_url":"/images/pins/36.svg"}' data-page="4" data-item-number="36" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/36.svg' onclick="open_infowindow(36);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">10644 ALONDRA BLVD.<br/>NORWALK, CA 90650</h3>
+													<p class="store-info-location-distance smaller-text gray-text">13.83 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=10644 ALONDRA BLVD., NORWALK, CA 90650&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 402-4350">(562) 402-4350</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_37" data-gmapping='{"id":37,"latlng":{"lat":34.077728,"lng":-117.996140},"tags":"12690 RAMONA BLVD.","marker_icon_url":"/images/pins/37.svg"}' data-page="4" data-item-number="37" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/37.svg' onclick="open_infowindow(37);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">12690 RAMONA BLVD.<br/>BALDWIN PARK, CA 91706</h3>
+													<p class="store-info-location-distance smaller-text gray-text">14.27 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=12690 RAMONA BLVD., BALDWIN PARK, CA 91706&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(626) 338-6202">(626) 338-6202</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_38" data-gmapping='{"id":38,"latlng":{"lat":33.860405,"lng":-118.150887},"tags":"3501 E SOUTH ST","marker_icon_url":"/images/pins/38.svg"}' data-page="4" data-item-number="38" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/38.svg' onclick="open_infowindow(38);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">3501 E SOUTH ST<br/>LONG BEACH, CA 90805</h3>
+													<p class="store-info-location-distance smaller-text gray-text">14.27 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours">6am - 3am</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=3501 E SOUTH ST, LONG BEACH, CA 90805&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 634-6152">(562) 634-6152</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_39" data-gmapping='{"id":39,"latlng":{"lat":33.916473,"lng":-118.050919},"tags":"13204 IMPERIAL HIGHWAY","marker_icon_url":"/images/pins/39.svg"}' data-page="4" data-item-number="39" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/39.svg' onclick="open_infowindow(39);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">13204 IMPERIAL HIGHWAY<br/>SANTA FE SPRINGS, CA 90670</h3>
+													<p class="store-info-location-distance smaller-text gray-text">14.48 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						Contact Restaurant for Details					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4">&nbsp;<span class="visually-hidden">No Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">No Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">No Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=13204 IMPERIAL HIGHWAY, SANTA FE SPRINGS, CA 90670&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 229-9400">(562) 229-9400</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_40" data-gmapping='{"id":40,"latlng":{"lat":33.848907,"lng":-118.354179},"tags":"20135 HAWTHORNE BLVD","marker_icon_url":"/images/pins/40.svg"}' data-page="4" data-item-number="40" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/40.svg' onclick="open_infowindow(40);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">20135 HAWTHORNE BLVD<br/>TORRANCE, CA 90503</h3>
+													<p class="store-info-location-distance smaller-text gray-text">15.40 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=20135 HAWTHORNE BLVD, TORRANCE, CA 90503&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(310) 371-0167">(310) 371-0167</a>					</span>
+									</div>
+			</li>
+							
+			<li id="store_item_41" data-gmapping='{"id":41,"latlng":{"lat":33.873196,"lng":-118.080513},"tags":"11879 ARTESIA BLVD","marker_icon_url":"/images/pins/41.svg"}' data-page="5" data-item-number="41" class="clearfix locations-listing">
+				<div class="store-info-marker col-xs-2 col-sm-1">
+					<img class="store_marker_icon" src='/images/pins/41.svg' onclick="open_infowindow(41);" />
+				</div>
+				<div class="store-info col-xs-10 col-sm-9 col-md-8 clearfix">
+					<div class="store-info-location col-sm-4">
+						<h3 class="store-info-location-address body-font black-text">11879 ARTESIA BLVD<br/>ARTESIA, CA 90701</h3>
+													<p class="store-info-location-distance smaller-text gray-text">15.50 miles</p>
+																		
+					</div>
+					<p class="store-info-hours col-sm-3">
+						<span class='day'>Mon - Sun:</span> <span class="hours24">24 HOURS</span>					</p>
+					<div class="store-info-icons col-sm-5">
+						<span class="wifi-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Wifi</span></span>
+						<span class="drivethru-icon col-sm-4"><i></i><span class="visually-hidden">Store Has Drive Thru</span></span>
+						<span class="funland-icon col-sm-4">&nbsp;<span class="visually-hidden">Store Has Funland</span></span>
+					</div>
+				</div>
+				<div class="store-info-actions col-xs-12 col-sm-2 col-md-3 ">
+					<span class="store-info-directions-wrap">
+						<a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=11879 ARTESIA BLVD, ARTESIA, CA 90701&ie=UTF8" target="_blank" class="gray-button col-xs-12 store-info-directions white-text">GET DIRECTIONS</a>
+					</span>
+					<span class="col-xs-12 block store-info-phone">
+						<span class="visually-hidden">Call Store at</span><a href="tel:(562) 865-3953">(562) 865-3953</a>					</span>
+									</div>
+			</li>
+					</ul>
+</div>
+
+
+<script src="/admin/clients/deltaco/website2016/website_reskin/locations/main.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="/admin/clients/deltaco/website2016/website_reskin/locations/externals/js/jquery.ui.map.js"></script>
+<script src="/admin/clients/deltaco/website2016/website_reskin/locations/externals/js/landing-results.js"></script>
+
+
+<!-- ECLUB WIDGET -->
+  
+
+<!--JOIN OUR FANVING FAN E-CLUB-->
+<section id="home-connect" class="white-back">
+	<div class="eclub-wrap clearfix a-center">                   
+		<h2 class="join-header active-connect"><div class="t-joinour">Join Our</div>
+		Raving Fan Eclub</h2>
+		<h4 class="accent-font gray-text t-join-acc clearfix">and Get Free Food and other insider-only treats straight to your inbox!</h4>
+
+		<div class="eclub-wrap clearfix">    
+			<div class="col-xs-12 col-md-6 offer-wrap">
+				<img src="images/eclub-food-2016.png" alt="Get Free Food and other insider-only treats straight to your inbox"/>
+				<div class="offer-t"> <span class="active-menu">2 free</span> Grilled chicken Tacos</div>
+				<div class="offer-t"> <span class="active-menu">Free </span>Premium Shake on your birthday.
+				<div class="accent-font gray-text clearfix offer-tsmall">Choose Vanilla, Chocolate or Strawberry<br><span class="smaller-font">(Regular Size)</span></div></div>
+				<div class="offer-t"><span class="active-menu">Exclusives</span><br>  <span class="accent-font gray-text clearfix offer-tsmall"> Raving Fan eClub members receive exclusive offers like coupons and opportunities to try new products before the general public.</span></div>
+				<div class="offer-t"><span class="accent-font gray-text clearfix offer-tsmall">Please allow 24 hours for processing.<br>Birthday item may vary by restaurant.</span></div>
+			</div>
+			<div class="col-xs-12 col-md-6">
+
+				<iframe id="eclub-form" title="Join Our E-Club by filling out the form below" src=https://deltaco.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe&_Theme=34359738518&InputSource=Website-RavingFans-Locations></iframe>
+			</div>
+		</div>    
+	</div>    
+</section>
+<!--JOIN OUR FANVING FAN E-CLUB END-->
+		</main>
+		<!--MAIN ENDS-->
+
+		<!--FOOTER-->
+		        <footer class="charcoal-back">
+            <div class="wrapper clearfix">
+                <!-- <h2 class="col-xs-12 col-sm-1"><img src="images/main-logo.svg" alt="Del Taco - Home"></a></h2> -->
+                <ul class="social-links clearfix col-xs-12 col-sm-3 col-sm-push-9">
+                    <li class="social-icons col-xs-4 col-md-2"><a href="https://www.facebook.com/deltaco" target="_blank" title="Facebook"><img src="images/fb-footer.svg" alt="Del Taco on Facebook!"></a></li>
+                    <li class="social-icons col-xs-4 col-md-2"><a href="https://twitter.com/deltaco" target="_blank" title="Twitter"><img src="images/tweet-footer.svg" alt="Del Taco on Twitter!"></a></li>
+                    <li class="social-icons col-xs-4 col-md-2"><a href="https://www.youtube.com/user/deltaco" target="_blank" title="Youtube"><img src="images/youtube-footer.svg" alt="Del Taco on YouTube!"></a></li>
+                    <li class="social-icons col-xs-4 col-md-2"><a href="https://instagram.com/deltaco/" target="_blank" title="Instagram"><img src="images/insta-footer.svg" alt="Del Taco on Instagram!"></a></li>
+                    <li class="social-icons col-xs-4 col-md-2"><a href="https://www.pinterest.com/deltaco" target="_blank" title="Pinterest"><img src="images/pinterest-footer.svg" alt="Del Taco on Pinterest!"></a></li>
+                </ul>
+
+                <ul id="footer-nav" role="navigation" class="col-xs-12 col-sm-8 col-sm-pull-3">
+                    <li><a href="food">Menu</a></li>
+                    <li><a href="contactus">Contact Us</a></li>
+                    <li><a href="specials">Specials</a></li>
+                    <li><a href="locations">Locations</a></li>
+                    <li><a href="http://www.deltacogiftcards.com/" target="_blank">Buy Gift Card</a></li>
+                    <li><a href="checkgiftcardbalance">Check Gift Card Balance</a></li>
+                    <li><a href="http://www.deltacowebstore.com/" target="_blank">Webstore</a></li>
+                    <li><a href="history">History</a></li>
+                    <li><a href="news">News</a></li>
+                    <li><a href="careers">Careers</a></li>
+                    <li><a href="http://www.deltacofranchise.com/" target="_blank">Franchising</a></li>
+                    <li><a href="http://franchise.deltaco.com/_Layouts/CustomLogin/CustomLogin.aspx?ReturnUrl=%2f_layouts%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F" target="_blank">Franchising Intranet</a></li>
+                    <li><a href="http://investor.deltaco.com/" target="_blank">Investors</a></li>  
+                </ul>
+                <div id="legal" class="clearfix col-xs-12 col-sm-3 col-sm-push-9">
+                    <small class="block pull-left"><a href="legal">Privacy Policy</a></small>
+                    <small class="block pull-right"><a href="termsandconditions">Terms of Use</a></small>
+                </div>
+            </div>    
+        </footer>  
+
+        <script src="js/plugins.js"></script>
+        <script src="js/geo-invite.js"></script>
+        <!-- <script src="js/main.js"></script>-->
+
+		<!--END-->
+
+	</body>
+</html>

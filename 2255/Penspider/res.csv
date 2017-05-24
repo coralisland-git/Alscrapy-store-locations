@@ -1,0 +1,195 @@
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+212 206 8674,New York,,2,166,United States,,-74.000104,,Aedes De Venustas,NY,,9 Christopher Street,40.734024,10014
+604 733 9000,Vancouver,,2,214,United States,,-123.15378,,Beauty Bar Cosmetics,BC,,2142 West 4th Avenue,49.268036,V6K-1N6
+905 562 0260,Jordan Village,,2,203,United States,,-79.369883,,Beauty Safari,ON,,3836 Main Street ,43.149104,L0S
+312 944 6500,Chicago,,2,163,UNITED STATES,,-87.624688,,Bloomingdales Chicago,IL,,700 North Michigan Avenue,41.895234,60611
+713 522 6868,Houston,,2,196,United States,,-95.41431,,"British Isles,Inc",TX,,2366 Rice Blvd Ste #B ,29.717824,77005
+212 585 3101,New York,,2,193,United States,,-73.966832,,CHOCHENG,NY,,838 Madison Avenue ,40.770069,10021
+212 744 4144,New York,,2,190,UNITED STATES,,-73.95582,,Eisler Chemist,NY,,1142 Lexington Avenue ,40.772843,10075
+561 499 6400,Boca Raton,,2,170,UNITED STATES,,-80.159604,,Four Seasons Beauty Centre,FL,,"5030 Champion Blvd, G-11A",26.40399,33496
+800 766 7628,San Francisco,,2,191,United States,,-122.404244,,Gumps,CA,,135 Post Street ,37.788725,94108
+,Honolulu,,0,244,UNITED STATES,,-157.81823,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",International Marketplace ,HI,,417 Nohonani St,21.270036,96815
+773 989 0900,Chicago,,2,181,United States,,-87.687919,,Merz Apothecary,IL,,4716 North Lincoln Avenue ,41.966987,60625
+312 781 6900,Chicago,,2,182,United States,17 East Monroe Street ,-87.625425,,Merz Downtown,IL,,Palmer House Hilton ,41.880916,60603
+(904) 679-3339,Saint Augustine,,2,232,UNITED STATES,,-81.316216,"Monday - Saturday 11am-6pm,Sunday 12pm - 5pm,",Old City Bathecary,FL,,74 San Marco Avenue,29.902221,32084
+201 587 8700,Paramus,,0,243,UNITED STATES,,-74.065262,"Monday – Saturday 10am – 9:30pm,Sunday – Closed ,",Paramus Garden State Plaza,NJ,,1 Garden State Plaza Blvd,40.95417,07652
+819-564-0814,Sherbrooke,,2,207,UNITED STATES,,-71.928116,,Parfumerie L'O de L'Aube,QC,,"2235 Rue King Ouest Bur, 204 ",45.398743,J1J
+212 683 3838,New York,,2,194,United States,,-73.981919,,Pasteur Pharmacy,NY,,53 East 34th Street ,40.747645,10016
+415.872.9021,San Francisco ,,0,245,UNITED STATES,,-122.409915,"Monday – Saturday 10am – 8:30pm,Sunday – 11am – 7pm ",Penhaligon's at Westfield San Francisco Centre ,CA,,835 Market St,37.77264,94103
+646 998 4808,New York,,0,242,UNITED STATES,Suite LL4030,-74.011683,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",Penhaligon's at Westfield World Trade Center,NY,,"185 Greenwich St New York, ",40.713359,10007
+305-206-2361  ,Aventura,,0,246,UNITED STATES,,-80.137276,"Coming Soon.,Penhaligon's Aventura  - Opening April 2017",Penhaligon's Aventura - Coming Soon.,FL,,Opening April 2017,25.958143,33180
+646 858 0880,New York,,0,235,UNITED STATES,,-73.977685,Monday-Saturday 10am - 8pmSunday 11am - 7pm,Penhaligon's Rockefeller Center,NY,,620 Fifth Avenue,40.758446,10020
+,Short Hills,,0,238,UNITED STATES,1200 Morris Turnpike,-74.363413,"Monday – Friday 10am – 9pm,Saturday 10am – 8pm,Sunday 11am – 6pm",Penhaligon's Short Hills,NJ,,The Mall at Short Hills,40.739962,07078
+(650) 388 7124 ,Palo Alto,,0,241,UNITED STATES,151 Stanford Shopping,-122.173428,"Monday-Friday 10am - 9pm,Saturday10am - 7pm,Sunday 11am - 6pm",Penhaligon's Stanford,CA,,Standford Shopping Center,37.439128,94304
+310 275 4211,Beverly Hills,,2,159,United States,,-118.40372,,Saks Fifth Avenue Beverly Hills,CA,,9600 Wilshire Blvd ,34.066723,90212
+713 627 0500,Houston,,2,165,United States,5115 Westheimer Road,-95.462372,,Saks Fifth Avenue Houston,TX,,Houston Galleria ,29.738855,77056
+212 940 4322,New York,,2,158,United States,,-73.977426,,Saks Fifth Avenue New York,NY,,611 Fifth Avenue,40.758115,10022
+561 833 2551,Palm Beach,,2,162,United States,,-80.035889,,Saks Fifth Avenue Palm Beach,FL,,172 Worth Avenue ,26.700711,33480
+414 438 5252,San Francisco,,2,160,United States,,-122.408069,,Saks Fifth Avenue San Francisco,CA,,384 Post Street,37.788621,94108
+248 643 9000,Troy,,2,164,United States,2901 West Big Beaver Road ,-83.18529,,Saks Fifth Avenue Troy,MI,,Somerset Collection,42.561043,48084
+323 782 8300,Los Angeles,,2,173,United States,,-118.351333,,Scent Bar by Lucky Scent,CA,,7405 Beverly Blvd ,34.07613,90036
+202 333 2266,Washington,,2,192,UNITED STATES,"2824 Pennsylvania Ave, NW",-77.03509,"Sunday: 1pm-6pm,Monday: 12pm-7pm,Tuesday - Saturday: 11am-7pm,",Sterling & Burke Ltd.,DC,,Historic Georgetown,38.898735,20007
+,Medina OH,,2,230,UNITED STATES,Suite L-1,-81.864167,"Monday - Friday 9.00am -5.00pm,Saturday 11:00am - 4:00pm",Straight Razor Designs/Imperial Shaving,,,23 Public Square,41.135833,44256
+(305) 444-5010,Miami,,2,233,UNITED STATES,Suite 17,-80.2434436,"Tuesday - Sunday: 11am-7pm,",The Olfactory Company,FL,,3444 Main Highway,25.7272261,33133
+(912) 344-4572,Savannah,,2,234,UNITED STATES,,-81.0929957,"Sunday - Thursday: 9am-7pm,Friday - Saturday: 9am-9pm,",The Olfactory Company,GA,,15 West York Street,32.0777334,31401
+(877) 710-6037,Chino Hills,,2,231,UNITED STATES,Suite B,-117.71693,"Monday - Saturday: 9am-5pm,",West Coast Shaving,CA,,14778 Pipeline Avenue,33.984812,91709
+415 986 4380,San Francisco,,2,168,United States,,-122.406464,,Wilkes Bashford,CA,,375 Sutter Street,37.789378,94108
+650 322 7080,Palo Alto,,2,169,United States,,-122.173801,,Wilkes Bashford,CA,,450 Stanford Shopping Center ,37.43966,94304
+702 770 3535,Las Vegas,,2,172,United States,,-115.140836,,WYNN Las Vegas Apothecary,NV,,3131 Las Vegas Blvd South,36.168825,89109
+203 432 2820,New Haven,,2,176,United States,,-72.930598,,Yale Centre for British Art,CT,,1080 Chapel Street ,41.308005,06520
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+212 206 8674,New York,,2,166,United States,,-74.000104,,Aedes De Venustas,NY,,9 Christopher Street,40.734024,10014
+604 733 9000,Vancouver,,2,214,United States,,-123.15378,,Beauty Bar Cosmetics,BC,,2142 West 4th Avenue,49.268036,V6K-1N6
+905 562 0260,Jordan Village,,2,203,United States,,-79.369883,,Beauty Safari,ON,,3836 Main Street ,43.149104,L0S
+312 944 6500,Chicago,,2,163,UNITED STATES,,-87.624688,,Bloomingdales Chicago,IL,,700 North Michigan Avenue,41.895234,60611
+713 522 6868,Houston,,2,196,United States,,-95.41431,,"British Isles,Inc",TX,,2366 Rice Blvd Ste #B ,29.717824,77005
+212 585 3101,New York,,2,193,United States,,-73.966832,,CHOCHENG,NY,,838 Madison Avenue ,40.770069,10021
+212 744 4144,New York,,2,190,UNITED STATES,,-73.95582,,Eisler Chemist,NY,,1142 Lexington Avenue ,40.772843,10075
+561 499 6400,Boca Raton,,2,170,UNITED STATES,,-80.159604,,Four Seasons Beauty Centre,FL,,"5030 Champion Blvd, G-11A",26.40399,33496
+800 766 7628,San Francisco,,2,191,United States,,-122.404244,,Gumps,CA,,135 Post Street ,37.788725,94108
+,Honolulu,,0,244,UNITED STATES,,-157.81823,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",International Marketplace ,HI,,417 Nohonani St,21.270036,96815
+773 989 0900,Chicago,,2,181,United States,,-87.687919,,Merz Apothecary,IL,,4716 North Lincoln Avenue ,41.966987,60625
+312 781 6900,Chicago,,2,182,United States,17 East Monroe Street ,-87.625425,,Merz Downtown,IL,,Palmer House Hilton ,41.880916,60603
+(904) 679-3339,Saint Augustine,,2,232,UNITED STATES,,-81.316216,"Monday - Saturday 11am-6pm,Sunday 12pm - 5pm,",Old City Bathecary,FL,,74 San Marco Avenue,29.902221,32084
+201 587 8700,Paramus,,0,243,UNITED STATES,,-74.065262,"Monday – Saturday 10am – 9:30pm,Sunday – Closed ,",Paramus Garden State Plaza,NJ,,1 Garden State Plaza Blvd,40.95417,07652
+819-564-0814,Sherbrooke,,2,207,UNITED STATES,,-71.928116,,Parfumerie L'O de L'Aube,QC,,"2235 Rue King Ouest Bur, 204 ",45.398743,J1J
+212 683 3838,New York,,2,194,United States,,-73.981919,,Pasteur Pharmacy,NY,,53 East 34th Street ,40.747645,10016
+415.872.9021,San Francisco ,,0,245,UNITED STATES,,-122.409915,"Monday – Saturday 10am – 8:30pm,Sunday – 11am – 7pm ",Penhaligon's at Westfield San Francisco Centre ,CA,,835 Market St,37.77264,94103
+646 998 4808,New York,,0,242,UNITED STATES,Suite LL4030,-74.011683,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",Penhaligon's at Westfield World Trade Center,NY,,"185 Greenwich St New York, ",40.713359,10007
+305-206-2361  ,Aventura,,0,246,UNITED STATES,,-80.137276,"Coming Soon.,Penhaligon's Aventura  - Opening April 2017",Penhaligon's Aventura - Coming Soon.,FL,,Opening April 2017,25.958143,33180
+646 858 0880,New York,,0,235,UNITED STATES,,-73.977685,Monday-Saturday 10am - 8pmSunday 11am - 7pm,Penhaligon's Rockefeller Center,NY,,620 Fifth Avenue,40.758446,10020
+,Short Hills,,0,238,UNITED STATES,1200 Morris Turnpike,-74.363413,"Monday – Friday 10am – 9pm,Saturday 10am – 8pm,Sunday 11am – 6pm",Penhaligon's Short Hills,NJ,,The Mall at Short Hills,40.739962,07078
+(650) 388 7124 ,Palo Alto,,0,241,UNITED STATES,151 Stanford Shopping,-122.173428,"Monday-Friday 10am - 9pm,Saturday10am - 7pm,Sunday 11am - 6pm",Penhaligon's Stanford,CA,,Standford Shopping Center,37.439128,94304
+310 275 4211,Beverly Hills,,2,159,United States,,-118.40372,,Saks Fifth Avenue Beverly Hills,CA,,9600 Wilshire Blvd ,34.066723,90212
+713 627 0500,Houston,,2,165,United States,5115 Westheimer Road,-95.462372,,Saks Fifth Avenue Houston,TX,,Houston Galleria ,29.738855,77056
+212 940 4322,New York,,2,158,United States,,-73.977426,,Saks Fifth Avenue New York,NY,,611 Fifth Avenue,40.758115,10022
+561 833 2551,Palm Beach,,2,162,United States,,-80.035889,,Saks Fifth Avenue Palm Beach,FL,,172 Worth Avenue ,26.700711,33480
+414 438 5252,San Francisco,,2,160,United States,,-122.408069,,Saks Fifth Avenue San Francisco,CA,,384 Post Street,37.788621,94108
+248 643 9000,Troy,,2,164,United States,2901 West Big Beaver Road ,-83.18529,,Saks Fifth Avenue Troy,MI,,Somerset Collection,42.561043,48084
+323 782 8300,Los Angeles,,2,173,United States,,-118.351333,,Scent Bar by Lucky Scent,CA,,7405 Beverly Blvd ,34.07613,90036
+202 333 2266,Washington,,2,192,UNITED STATES,"2824 Pennsylvania Ave, NW",-77.03509,"Sunday: 1pm-6pm,Monday: 12pm-7pm,Tuesday - Saturday: 11am-7pm,",Sterling & Burke Ltd.,DC,,Historic Georgetown,38.898735,20007
+,Medina OH,,2,230,UNITED STATES,Suite L-1,-81.864167,"Monday - Friday 9.00am -5.00pm,Saturday 11:00am - 4:00pm",Straight Razor Designs/Imperial Shaving,,,23 Public Square,41.135833,44256
+(305) 444-5010,Miami,,2,233,UNITED STATES,Suite 17,-80.2434436,"Tuesday - Sunday: 11am-7pm,",The Olfactory Company,FL,,3444 Main Highway,25.7272261,33133
+(912) 344-4572,Savannah,,2,234,UNITED STATES,,-81.0929957,"Sunday - Thursday: 9am-7pm,Friday - Saturday: 9am-9pm,",The Olfactory Company,GA,,15 West York Street,32.0777334,31401
+(877) 710-6037,Chino Hills,,2,231,UNITED STATES,Suite B,-117.71693,"Monday - Saturday: 9am-5pm,",West Coast Shaving,CA,,14778 Pipeline Avenue,33.984812,91709
+415 986 4380,San Francisco,,2,168,United States,,-122.406464,,Wilkes Bashford,CA,,375 Sutter Street,37.789378,94108
+650 322 7080,Palo Alto,,2,169,United States,,-122.173801,,Wilkes Bashford,CA,,450 Stanford Shopping Center ,37.43966,94304
+702 770 3535,Las Vegas,,2,172,United States,,-115.140836,,WYNN Las Vegas Apothecary,NV,,3131 Las Vegas Blvd South,36.168825,89109
+203 432 2820,New Haven,,2,176,United States,,-72.930598,,Yale Centre for British Art,CT,,1080 Chapel Street ,41.308005,06520
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+212 206 8674,New York,,2,166,United States,,-74.000104,,Aedes De Venustas,NY,,9 Christopher Street,40.734024,10014
+604 733 9000,Vancouver,,2,214,United States,,-123.15378,,Beauty Bar Cosmetics,BC,,2142 West 4th Avenue,49.268036,V6K-1N6
+905 562 0260,Jordan Village,,2,203,United States,,-79.369883,,Beauty Safari,ON,,3836 Main Street ,43.149104,L0S
+312 944 6500,Chicago,,2,163,UNITED STATES,,-87.624688,,Bloomingdales Chicago,IL,,700 North Michigan Avenue,41.895234,60611
+713 522 6868,Houston,,2,196,United States,,-95.41431,,"British Isles,Inc",TX,,2366 Rice Blvd Ste #B ,29.717824,77005
+212 585 3101,New York,,2,193,United States,,-73.966832,,CHOCHENG,NY,,838 Madison Avenue ,40.770069,10021
+212 744 4144,New York,,2,190,UNITED STATES,,-73.95582,,Eisler Chemist,NY,,1142 Lexington Avenue ,40.772843,10075
+561 499 6400,Boca Raton,,2,170,UNITED STATES,,-80.159604,,Four Seasons Beauty Centre,FL,,"5030 Champion Blvd, G-11A",26.40399,33496
+800 766 7628,San Francisco,,2,191,United States,,-122.404244,,Gumps,CA,,135 Post Street ,37.788725,94108
+,Honolulu,,0,244,UNITED STATES,,-157.81823,Monday – Saturday 10am – 9pm##<br />Sunday 11am – 7pm##,International Marketplace ,HI,,417 Nohonani St,21.270036,96815
+773 989 0900,Chicago,,2,181,United States,,-87.687919,,Merz Apothecary,IL,,4716 North Lincoln Avenue ,41.966987,60625
+312 781 6900,Chicago,,2,182,United States,17 East Monroe Street ,-87.625425,,Merz Downtown,IL,,Palmer House Hilton ,41.880916,60603
+(904) 679-3339,Saint Augustine,,2,232,UNITED STATES,,-81.316216,Monday - Saturday# 11am-6pm##<br />Sunday# 12pm - 5pm##<br />,Old City Bathecary,FL,,74 San Marco Avenue,29.902221,32084
+201 587 8700,Paramus,,0,243,UNITED STATES,,-74.065262,Monday – Saturday 10am – 9:30pm##<br />Sunday – Closed ##<br />,Paramus Garden State Plaza,NJ,,1 Garden State Plaza Blvd,40.95417,07652
+819-564-0814,Sherbrooke,,2,207,UNITED STATES,,-71.928116,,Parfumerie L'O de L'Aube,QC,,"2235 Rue King Ouest Bur, 204 ",45.398743,J1J
+212 683 3838,New York,,2,194,United States,,-73.981919,,Pasteur Pharmacy,NY,,53 East 34th Street ,40.747645,10016
+415.872.9021,San Francisco ,,0,245,UNITED STATES,,-122.409915,Monday – Saturday 10am – 8:30pm##<br />Sunday – 11am – 7pm ##,Penhaligon's at Westfield San Francisco Centre ,CA,,835 Market St,37.77264,94103
+646 998 4808,New York,,0,242,UNITED STATES,Suite LL4030,-74.011683,Monday – Saturday 10am – 9pm##<br />Sunday 11am – 7pm##,Penhaligon's at Westfield World Trade Center,NY,,"185 Greenwich St New York, ",40.713359,10007
+305-206-2361  ,Aventura,,0,246,UNITED STATES,,-80.137276,Coming Soon.<br />Penhaligon's Aventura  - Opening April 2017,Penhaligon's Aventura - Coming Soon.,FL,,Opening April 2017,25.958143,33180
+646 858 0880,New York,,0,235,UNITED STATES,,-73.977685,Monday-Saturday# 10am - 8pm##Sunday #11am - 7pm,Penhaligon's Rockefeller Center,NY,,620 Fifth Avenue,40.758446,10020
+,Short Hills,,0,238,UNITED STATES,1200 Morris Turnpike,-74.363413,Monday – Friday #10am – 9pm##<br />Saturday #10am – 8pm##<br />Sunday# 11am – 6pm##,Penhaligon's Short Hills,NJ,,The Mall at Short Hills,40.739962,07078
+(650) 388 7124 ,Palo Alto,,0,241,UNITED STATES,151 Stanford Shopping,-122.173428,Monday-Friday# 10am - 9pm##<br />Saturday#10am - 7pm##<br />Sunday #11am - 6pm##,Penhaligon's Stanford,CA,,Standford Shopping Center,37.439128,94304
+310 275 4211,Beverly Hills,,2,159,United States,,-118.40372,,Saks Fifth Avenue Beverly Hills,CA,,9600 Wilshire Blvd ,34.066723,90212
+713 627 0500,Houston,,2,165,United States,5115 Westheimer Road,-95.462372,,Saks Fifth Avenue Houston,TX,,Houston Galleria ,29.738855,77056
+212 940 4322,New York,,2,158,United States,,-73.977426,,Saks Fifth Avenue New York,NY,,611 Fifth Avenue,40.758115,10022
+561 833 2551,Palm Beach,,2,162,United States,,-80.035889,,Saks Fifth Avenue Palm Beach,FL,,172 Worth Avenue ,26.700711,33480
+414 438 5252,San Francisco,,2,160,United States,,-122.408069,,Saks Fifth Avenue San Francisco,CA,,384 Post Street,37.788621,94108
+248 643 9000,Troy,,2,164,United States,2901 West Big Beaver Road ,-83.18529,,Saks Fifth Avenue Troy,MI,,Somerset Collection,42.561043,48084
+323 782 8300,Los Angeles,,2,173,United States,,-118.351333,,Scent Bar by Lucky Scent,CA,,7405 Beverly Blvd ,34.07613,90036
+202 333 2266,Washington,,2,192,UNITED STATES,"2824 Pennsylvania Ave, NW",-77.03509,Sunday: 1pm-6pm<br />Monday: 12pm-7pm<br />Tuesday - Saturday: 11am-7pm<br />,Sterling & Burke Ltd.,DC,,Historic Georgetown,38.898735,20007
+,Medina OH,,2,230,UNITED STATES,Suite L-1,-81.864167,Monday - Friday# 9.00am -5.00pm##<br />Saturday# 11:00am - 4:00pm##,Straight Razor Designs/Imperial Shaving,,,23 Public Square,41.135833,44256
+(305) 444-5010,Miami,,2,233,UNITED STATES,Suite 17,-80.2434436,Tuesday - Sunday: 11am-7pm<br />,The Olfactory Company,FL,,3444 Main Highway,25.7272261,33133
+(912) 344-4572,Savannah,,2,234,UNITED STATES,,-81.0929957,Sunday - Thursday: 9am-7pm<br />Friday - Saturday: 9am-9pm<br />,The Olfactory Company,GA,,15 West York Street,32.0777334,31401
+(877) 710-6037,Chino Hills,,2,231,UNITED STATES,Suite B,-117.71693,Monday - Saturday: 9am-5pm<br />,West Coast Shaving,CA,,14778 Pipeline Avenue,33.984812,91709
+415 986 4380,San Francisco,,2,168,United States,,-122.406464,,Wilkes Bashford,CA,,375 Sutter Street,37.789378,94108
+650 322 7080,Palo Alto,,2,169,United States,,-122.173801,,Wilkes Bashford,CA,,450 Stanford Shopping Center ,37.43966,94304
+702 770 3535,Las Vegas,,2,172,United States,,-115.140836,,WYNN Las Vegas Apothecary,NV,,3131 Las Vegas Blvd South,36.168825,89109
+203 432 2820,New Haven,,2,176,United States,,-72.930598,,Yale Centre for British Art,CT,,1080 Chapel Street ,41.308005,06520
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+212 206 8674,New York,,2,166,United States,,-74.000104,,Aedes De Venustas,NY,,9 Christopher Street,40.734024,10014
+604 733 9000,Vancouver,,2,214,United States,,-123.15378,,Beauty Bar Cosmetics,BC,,2142 West 4th Avenue,49.268036,V6K-1N6
+905 562 0260,Jordan Village,,2,203,United States,,-79.369883,,Beauty Safari,ON,,3836 Main Street ,43.149104,L0S
+312 944 6500,Chicago,,2,163,UNITED STATES,,-87.624688,,Bloomingdales Chicago,IL,,700 North Michigan Avenue,41.895234,60611
+713 522 6868,Houston,,2,196,United States,,-95.41431,,"British Isles,Inc",TX,,2366 Rice Blvd Ste #B ,29.717824,77005
+212 585 3101,New York,,2,193,United States,,-73.966832,,CHOCHENG,NY,,838 Madison Avenue ,40.770069,10021
+212 744 4144,New York,,2,190,UNITED STATES,,-73.95582,,Eisler Chemist,NY,,1142 Lexington Avenue ,40.772843,10075
+561 499 6400,Boca Raton,,2,170,UNITED STATES,,-80.159604,,Four Seasons Beauty Centre,FL,,"5030 Champion Blvd, G-11A",26.40399,33496
+800 766 7628,San Francisco,,2,191,United States,,-122.404244,,Gumps,CA,,135 Post Street ,37.788725,94108
+,Honolulu,,0,244,UNITED STATES,,-157.81823,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",International Marketplace ,HI,,417 Nohonani St,21.270036,96815
+773 989 0900,Chicago,,2,181,United States,,-87.687919,,Merz Apothecary,IL,,4716 North Lincoln Avenue ,41.966987,60625
+312 781 6900,Chicago,,2,182,United States,17 East Monroe Street ,-87.625425,,Merz Downtown,IL,,Palmer House Hilton ,41.880916,60603
+(904) 679-3339,Saint Augustine,,2,232,UNITED STATES,,-81.316216,"Monday - Saturday 11am-6pm,Sunday 12pm - 5pm,",Old City Bathecary,FL,,74 San Marco Avenue,29.902221,32084
+201 587 8700,Paramus,,0,243,UNITED STATES,,-74.065262,"Monday – Saturday 10am – 9:30pm,Sunday – Closed ,",Paramus Garden State Plaza,NJ,,1 Garden State Plaza Blvd,40.95417,07652
+819-564-0814,Sherbrooke,,2,207,UNITED STATES,,-71.928116,,Parfumerie L'O de L'Aube,QC,,"2235 Rue King Ouest Bur, 204 ",45.398743,J1J
+212 683 3838,New York,,2,194,United States,,-73.981919,,Pasteur Pharmacy,NY,,53 East 34th Street ,40.747645,10016
+415.872.9021,San Francisco ,,0,245,UNITED STATES,,-122.409915,"Monday – Saturday 10am – 8:30pm,Sunday – 11am – 7pm ",Penhaligon's at Westfield San Francisco Centre ,CA,,835 Market St,37.77264,94103
+646 998 4808,New York,,0,242,UNITED STATES,Suite LL4030,-74.011683,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",Penhaligon's at Westfield World Trade Center,NY,,"185 Greenwich St New York, ",40.713359,10007
+305-206-2361  ,Aventura,,0,246,UNITED STATES,,-80.137276,"Coming Soon.,Penhaligon's Aventura  - Opening April 2017",Penhaligon's Aventura - Coming Soon.,FL,,Opening April 2017,25.958143,33180
+646 858 0880,New York,,0,235,UNITED STATES,,-73.977685,Monday-Saturday 10am - 8pmSunday 11am - 7pm,Penhaligon's Rockefeller Center,NY,,620 Fifth Avenue,40.758446,10020
+,Short Hills,,0,238,UNITED STATES,1200 Morris Turnpike,-74.363413,"Monday – Friday 10am – 9pm,Saturday 10am – 8pm,Sunday 11am – 6pm",Penhaligon's Short Hills,NJ,,The Mall at Short Hills,40.739962,07078
+(650) 388 7124 ,Palo Alto,,0,241,UNITED STATES,151 Stanford Shopping,-122.173428,"Monday-Friday 10am - 9pm,Saturday10am - 7pm,Sunday 11am - 6pm",Penhaligon's Stanford,CA,,Standford Shopping Center,37.439128,94304
+310 275 4211,Beverly Hills,,2,159,United States,,-118.40372,,Saks Fifth Avenue Beverly Hills,CA,,9600 Wilshire Blvd ,34.066723,90212
+713 627 0500,Houston,,2,165,United States,5115 Westheimer Road,-95.462372,,Saks Fifth Avenue Houston,TX,,Houston Galleria ,29.738855,77056
+212 940 4322,New York,,2,158,United States,,-73.977426,,Saks Fifth Avenue New York,NY,,611 Fifth Avenue,40.758115,10022
+561 833 2551,Palm Beach,,2,162,United States,,-80.035889,,Saks Fifth Avenue Palm Beach,FL,,172 Worth Avenue ,26.700711,33480
+414 438 5252,San Francisco,,2,160,United States,,-122.408069,,Saks Fifth Avenue San Francisco,CA,,384 Post Street,37.788621,94108
+248 643 9000,Troy,,2,164,United States,2901 West Big Beaver Road ,-83.18529,,Saks Fifth Avenue Troy,MI,,Somerset Collection,42.561043,48084
+323 782 8300,Los Angeles,,2,173,United States,,-118.351333,,Scent Bar by Lucky Scent,CA,,7405 Beverly Blvd ,34.07613,90036
+202 333 2266,Washington,,2,192,UNITED STATES,"2824 Pennsylvania Ave, NW",-77.03509,"Sunday: 1pm-6pm,Monday: 12pm-7pm,Tuesday - Saturday: 11am-7pm,",Sterling & Burke Ltd.,DC,,Historic Georgetown,38.898735,20007
+,Medina OH,,2,230,UNITED STATES,Suite L-1,-81.864167,"Monday - Friday 9.00am -5.00pm,Saturday 11:00am - 4:00pm",Straight Razor Designs/Imperial Shaving,,,23 Public Square,41.135833,44256
+(305) 444-5010,Miami,,2,233,UNITED STATES,Suite 17,-80.2434436,"Tuesday - Sunday: 11am-7pm,",The Olfactory Company,FL,,3444 Main Highway,25.7272261,33133
+(912) 344-4572,Savannah,,2,234,UNITED STATES,,-81.0929957,"Sunday - Thursday: 9am-7pm,Friday - Saturday: 9am-9pm,",The Olfactory Company,GA,,15 West York Street,32.0777334,31401
+(877) 710-6037,Chino Hills,,2,231,UNITED STATES,Suite B,-117.71693,"Monday - Saturday: 9am-5pm,",West Coast Shaving,CA,,14778 Pipeline Avenue,33.984812,91709
+415 986 4380,San Francisco,,2,168,United States,,-122.406464,,Wilkes Bashford,CA,,375 Sutter Street,37.789378,94108
+650 322 7080,Palo Alto,,2,169,United States,,-122.173801,,Wilkes Bashford,CA,,450 Stanford Shopping Center ,37.43966,94304
+702 770 3535,Las Vegas,,2,172,United States,,-115.140836,,WYNN Las Vegas Apothecary,NV,,3131 Las Vegas Blvd South,36.168825,89109
+203 432 2820,New Haven,,2,176,United States,,-72.930598,,Yale Centre for British Art,CT,,1080 Chapel Street ,41.308005,06520
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+212 206 8674,New York,,2,166,United States,,-74.000104,,Aedes De Venustas,NY,,9 Christopher Street,40.734024,10014
+604 733 9000,Vancouver,,2,214,United States,,-123.15378,,Beauty Bar Cosmetics,BC,,2142 West 4th Avenue,49.268036,V6K-1N6
+905 562 0260,Jordan Village,,2,203,United States,,-79.369883,,Beauty Safari,ON,,3836 Main Street ,43.149104,L0S
+312 944 6500,Chicago,,2,163,UNITED STATES,,-87.624688,,Bloomingdales Chicago,IL,,700 North Michigan Avenue,41.895234,60611
+713 522 6868,Houston,,2,196,United States,,-95.41431,,"British Isles,Inc",TX,,2366 Rice Blvd Ste #B ,29.717824,77005
+212 585 3101,New York,,2,193,United States,,-73.966832,,CHOCHENG,NY,,838 Madison Avenue ,40.770069,10021
+212 744 4144,New York,,2,190,UNITED STATES,,-73.95582,,Eisler Chemist,NY,,1142 Lexington Avenue ,40.772843,10075
+561 499 6400,Boca Raton,,2,170,UNITED STATES,,-80.159604,,Four Seasons Beauty Centre,FL,,"5030 Champion Blvd, G-11A",26.40399,33496
+800 766 7628,San Francisco,,2,191,United States,,-122.404244,,Gumps,CA,,135 Post Street ,37.788725,94108
+,Honolulu,,0,244,UNITED STATES,,-157.81823,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",International Marketplace ,HI,,417 Nohonani St,21.270036,96815
+773 989 0900,Chicago,,2,181,United States,,-87.687919,,Merz Apothecary,IL,,4716 North Lincoln Avenue ,41.966987,60625
+312 781 6900,Chicago,,2,182,United States,17 East Monroe Street ,-87.625425,,Merz Downtown,IL,,Palmer House Hilton ,41.880916,60603
+(904) 679-3339,Saint Augustine,,2,232,UNITED STATES,,-81.316216,"Monday - Saturday 11am-6pm,Sunday 12pm - 5pm,",Old City Bathecary,FL,,74 San Marco Avenue,29.902221,32084
+201 587 8700,Paramus,,0,243,UNITED STATES,,-74.065262,"Monday – Saturday 10am – 9:30pm,Sunday – Closed ,",Paramus Garden State Plaza,NJ,,1 Garden State Plaza Blvd,40.95417,07652
+819-564-0814,Sherbrooke,,2,207,UNITED STATES,,-71.928116,,Parfumerie L'O de L'Aube,QC,,"2235 Rue King Ouest Bur, 204 ",45.398743,J1J
+212 683 3838,New York,,2,194,United States,,-73.981919,,Pasteur Pharmacy,NY,,53 East 34th Street ,40.747645,10016
+415.872.9021,San Francisco ,,0,245,UNITED STATES,,-122.409915,"Monday – Saturday 10am – 8:30pm,Sunday – 11am – 7pm ",Penhaligon's at Westfield San Francisco Centre ,CA,,835 Market St,37.77264,94103
+646 998 4808,New York,,0,242,UNITED STATES,Suite LL4030,-74.011683,"Monday – Saturday 10am – 9pm,Sunday 11am – 7pm",Penhaligon's at Westfield World Trade Center,NY,,"185 Greenwich St New York, ",40.713359,10007
+305-206-2361  ,Aventura,,0,246,UNITED STATES,,-80.137276,"Coming Soon.,Penhaligon's Aventura  - Opening April 2017",Penhaligon's Aventura - Coming Soon.,FL,,Opening April 2017,25.958143,33180
+646 858 0880,New York,,0,235,UNITED STATES,,-73.977685,Monday-Saturday 10am - 8pmSunday 11am - 7pm,Penhaligon's Rockefeller Center,NY,,620 Fifth Avenue,40.758446,10020
+,Short Hills,,0,238,UNITED STATES,1200 Morris Turnpike,-74.363413,"Monday – Friday 10am – 9pm,Saturday 10am – 8pm,Sunday 11am – 6pm",Penhaligon's Short Hills,NJ,,The Mall at Short Hills,40.739962,07078
+(650) 388 7124 ,Palo Alto,,0,241,UNITED STATES,151 Stanford Shopping,-122.173428,"Monday-Friday 10am - 9pm,Saturday10am - 7pm,Sunday 11am - 6pm",Penhaligon's Stanford,CA,,Standford Shopping Center,37.439128,94304
+310 275 4211,Beverly Hills,,2,159,United States,,-118.40372,,Saks Fifth Avenue Beverly Hills,CA,,9600 Wilshire Blvd ,34.066723,90212
+713 627 0500,Houston,,2,165,United States,5115 Westheimer Road,-95.462372,,Saks Fifth Avenue Houston,TX,,Houston Galleria ,29.738855,77056
+212 940 4322,New York,,2,158,United States,,-73.977426,,Saks Fifth Avenue New York,NY,,611 Fifth Avenue,40.758115,10022
+561 833 2551,Palm Beach,,2,162,United States,,-80.035889,,Saks Fifth Avenue Palm Beach,FL,,172 Worth Avenue ,26.700711,33480
+414 438 5252,San Francisco,,2,160,United States,,-122.408069,,Saks Fifth Avenue San Francisco,CA,,384 Post Street,37.788621,94108
+248 643 9000,Troy,,2,164,United States,2901 West Big Beaver Road ,-83.18529,,Saks Fifth Avenue Troy,MI,,Somerset Collection,42.561043,48084
+323 782 8300,Los Angeles,,2,173,United States,,-118.351333,,Scent Bar by Lucky Scent,CA,,7405 Beverly Blvd ,34.07613,90036
+202 333 2266,Washington,,2,192,UNITED STATES,"2824 Pennsylvania Ave, NW",-77.03509,"Sunday: 1pm-6pm,Monday: 12pm-7pm,Tuesday - Saturday: 11am-7pm,",Sterling & Burke Ltd.,DC,,Historic Georgetown,38.898735,20007
+,Medina OH,,2,230,UNITED STATES,Suite L-1,-81.864167,"Monday - Friday 9.00am -5.00pm,Saturday 11:00am - 4:00pm",Straight Razor Designs/Imperial Shaving,,,23 Public Square,41.135833,44256
+(305) 444-5010,Miami,,2,233,UNITED STATES,Suite 17,-80.2434436,"Tuesday - Sunday: 11am-7pm,",The Olfactory Company,FL,,3444 Main Highway,25.7272261,33133
+(912) 344-4572,Savannah,,2,234,UNITED STATES,,-81.0929957,"Sunday - Thursday: 9am-7pm,Friday - Saturday: 9am-9pm,",The Olfactory Company,GA,,15 West York Street,32.0777334,31401
+(877) 710-6037,Chino Hills,,2,231,UNITED STATES,Suite B,-117.71693,"Monday - Saturday: 9am-5pm,",West Coast Shaving,CA,,14778 Pipeline Avenue,33.984812,91709
+415 986 4380,San Francisco,,2,168,United States,,-122.406464,,Wilkes Bashford,CA,,375 Sutter Street,37.789378,94108
+650 322 7080,Palo Alto,,2,169,United States,,-122.173801,,Wilkes Bashford,CA,,450 Stanford Shopping Center ,37.43966,94304
+702 770 3535,Las Vegas,,2,172,United States,,-115.140836,,WYNN Las Vegas Apothecary,NV,,3131 Las Vegas Blvd South,36.168825,89109
+203 432 2820,New Haven,,2,176,United States,,-72.930598,,Yale Centre for British Art,CT,,1080 Chapel Street ,41.308005,06520

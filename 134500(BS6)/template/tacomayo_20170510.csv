@@ -1,0 +1,58 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+,s1456,205 S. Main,,McAlester,OK,74501-5435,United States,,34.92956059999999,-95.76993540000001,,,,0
+,s1457,101 E. Highway St.,,Holdenville,OK,74848-4041,United States,,35.086402053183555,-96.38819017187501,,,,0
+,s1454,801 S. 11th St.,,Lawton,OK,73501-5048,United States,,34.5995994,-98.40473079999998,,,,0
+,s1455,2020 E. Gore,,Lawton,OK,73501-6104,United States,,34.6088371,-98.41916170000002,,,,0
+,s1452,1008 N. Broadway,,Marlow,OK,73055-1021,United States,,34.65850529900611,-97.95829458413084,,,,0
+,s1479,3548 N.W. 23rd,,Oklahoma City,OK,73107-2802,United States,,35.492979,-97.58128899999997,,,,0
+,s1451,1520 Lonnie Abbott,,Ada,OK,74820-1812,United States,,34.7905988,-96.65665109999998,,,,0
+,s1474,1204 S.E. 44th,,Oklahoma City,OK,73129-6814,United States,,35.4207638,-97.49126790000003,,,,0
+,s1475,19635 N.E. 23rd,,Harrah,OK,73045-1104,United States,,35.493488,-97.18288000000001,,,,0
+,s1476,737 E. State Hwy 152,,Mustang,OK,73064,United States,,35.391670699999985,-97.71036058413085,,,,0
+,s1477,7010 S.E. 15th,,Midwest City,OK,73110-5124,United States,,35.4495068,-97.4043203,,,,0
+,s1447,708 E. Jackson,,Hugo,OK,74743-4027,United States,,34.0106316,-95.50502230000001,,,,0
+,s1472,618 S. Main,,Eufaula,OK,74432-3300,United States,,35.2825139,-95.5826707,,,,0
+,s1473,4762 S.E. 29th,,Del City,OK,73115-5002,United States,,35.434874,-97.42927600000002,,,,0
+,s1460,555 N. Main,,Noble,OK,73068-9577,United States,,35.145849,-97.39419199999998,,,,0
+,s1453,1901 S. Green,,Purcell,OK,73080-6203,United States,,34.9887491,-97.36788419999999,,,,0
+,s1480,2916 N. Classen,,Oklahoma City,OK,73106-5422,United States,,35.4992211,-97.5341219,,,,0
+,s1483,1200 W. Britton Rd.,,Oklahoma City,OK,73114-1306,United States,,35.5655021382594,-97.53722148413084,,,,0
+,s1485,1601 N Main,,Altus,OK,73521-2146,United States,,34.65461409237655,-99.33452578413085,,,,0
+,s1443,8973 Highway 34 South,,Quinlan,TX,75474,United States,,32.8435785,-96.1598128,,,,0
+,s1487,1110 S. Wood Dr.,,Okmulgee,OK,74447-7842,United States,,35.6094963,-95.9616034,,,,0
+,s1486,1633 East Hwy. 68,,El Reno,OK,73036,United States,,35.51704578921314,-97.94989945869139,,,,0
+,s1489,2108 N. Broadway,,Poteau,OK,74953-2501,United States,,35.0632677,-94.62063749999999,,,,0
+,s1488,604 East 1st,,Chandler,OK,74834-2442,United States,,35.7096871,-96.87420959999997,,,,0
+,s1442,9700 FM 1641,,Terrell,TX,75160,United States,,32.6983879,-96.35091999999997,,,,0
+,s1500,2233 W. Gary,,Clinton,OK,73601-5305,United States,,35.5017459,-98.98732130000002,,,,0
+,s1444,812 US Hwy. 380,,Bridgeport,TX,76426-2084,United States,,33.1707028,-97.86461550000001,,,,0
+,s1504,425 S. Utica,,Tulsa,OK,74104-2640,United States,,36.1548131,-95.9668388,,,,0
+,s1508,118 N. Van Buren St,,Enid,OK,73703-5807,United States,,36.39725665238163,-97.89030391586914,,,,0
+,s1509,1212 N. Main,,Fairview,OK,73737-1012,United States,,36.280924,-98.47979099999998,,,,0
+,s1445,420 University Place,,Durant,OK,74701-7104,United States,,34.0024272,-96.4101915,,,,0
+,s1462,303 W. Walnut,,Tecumseh,OK,74873-1838,United States,,35.261175,-96.939435,,,,0
+,s1461,410 Grand Avenue,,Chickasha,OK,73018-5861,United States,,35.029629334288856,-97.93701188413087,,,,0
+,s1446,609 S. Mississippi,,Atoka,OK,74525-2526,United States,,34.3808941,-96.1303929,,,,0
+,s1467,101 E. Main,,Tuttle,OK,73089-9181,United States,,35.2908248,-97.81101560000002,,,,0
+,s1466,905 S. Mission St.,,Anadarko,OK,73005-5423,United States,,35.0674131,-98.25140820000001,,,,0
+,s1465,920 N. Main,,Newcastle,OK,73065-4119,United States,,35.2551758,-97.6001339,,,,0
+,s1464,331 E. Robinson,,Norman,OK,73069-7859,United States,,35.23285389999999,-97.44219420000002,,,,0
+,s1469,8800 S. Western,,Oklahoma City,OK,73139-9204,United States,,35.3789823,-97.52999749999998,,,,0
+,s1468,1909 S. Telephone Rd.,,Moore,OK,73160-2720,United States,,35.3205302,-97.49448910000001,,,,0
+,s1448,1900 W. Broadway,,Sulphur,OK,73086-4248,United States,,34.5063163,-96.99274760000003,,,,0
+,s1471,6015 S. May,,Oklahoma City,OK,73159-1401,United States,,35.4055325,-97.56566090000001,,,,0
+,s1458,3803 N.W. Cache Rd.,,Lawton,OK,73505-3722,United States,,34.6235758,-98.43989260000001,,,,0
+,s1459,5209 SW Lee Blvd.,,Lawton,OK,73505-9516,United States,,34.5945006,-98.4573302,,,,0
+,s1492,103 S. 32nd St,,Muskogee,OK,74401-5159,United States,,35.75414483238677,-95.40304902568664,,,,0
+,s1493,1544 E. Main,,Cushing,OK,74023-3040,United States,,35.985529,-96.74559799999997,,,,0
+,s1490,521 N. Main,,Bristow,OK,74010-2016,United States,,35.8375037,-96.39094990000001,,,,0
+,s1491,1320 S. Division,,Guthrie,OK,73044-5017,United States,,35.8658945,-97.4253607,,,,0
+,s1494,500 E. Main,,Weatherford,OK,73096-5348,United States,,35.5259605,-98.70222519999999,,,,0
+,s1498,5124 Towson,,Ft. Smith,AR,72901-8430,United States,,35.3359245,-94.42276700000002,,,,0
+,s1463,522 N. Milt Phillips,,Seminole,OK,74868-2310,United States,,35.2279994,-96.6709492,,,,0
+,s1516,1119 West 11th,,Coffeyville,KS,67337-4222,United States,,37.0330857,-95.6325711,,,,0
+,s1515,139 E. Oklahoma,,Alva,OK,73717-3335,United States,,36.79759119444608,-98.67163427014464,,,,0
+,s1514,2221 Williams Avenue,,Woodward,OK,73801,United States,,36.4239645,-99.3900635,,,,0
+,s1512,322 S. Wilson,,Vinita,OK,74301-4244,United States,,36.63444164891871,-95.15637301586912,,,,0
+,s1510,3505 E Frank Phillips Blvd,,Bartlesville,OK,74006-2412,United States,,36.7506798,-95.93797990000002,,,,0
+,s1518,3210 Main,,Parsons,KS,67357-3631,United States,,37.3401125,-95.28606889999998,,,,0

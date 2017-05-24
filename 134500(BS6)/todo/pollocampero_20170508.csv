@@ -1,0 +1,75 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Rogers - Walmart,,2110 W Walnut Street,,Rogers,AR,72756,United States,(479) 631-6900,,,Mon-Sun: 9:00am - 10:00pm,,,0
+7th & Alvarado,,2116 W 7th Street,,Los Angeles,CA,90057,United States,(213) 389-3751,,,"Mon-Thu: 10:00am-9:00pm, Fri: 10:00am-10:00pm, Sat: 9:00am-10:00pm, Sun: 9:00am-9:00pm",,,0
+Burbank,,10960 Sherman Way,,Burbank,CA,91505,United States,(818) 847-1913,,,"Sun-Thu: 10:30am-9:30pm, Fri-Sat: 10:00am-10:00pm",,,0
+Chesterfield,,1890 West Slauson Avenue,,Los Angeles,CA,90047,United States,(323) 290-1130,,,"Lobby Mon-Sun: 9:00am-10:00pm, Drive-Thru Mon-Sun: 9:00am-11:00pm",,,0
+Huntington Park,,5980 Pacific Blvd.,,Huntington Park,CA,90255,United States,(323) 582-8832,,,"Mon-Fri: 10:00am-9:00pm, Sat-Sun: 9:30am-9:00pm",,,0
+Inglewood,,3540 W. Century Blvd.,,Inglewood,CA,90303,United States,(310) 671-1047,,,"Lobby Mon-Sun: 10:00am-10:00pm, Drive-Thru Mon-Sun: 10:00am-10:00pm",,,0
+North Hills,,9000 Sepulveda Avenue,,North Hills,CA,91343,United States,(818) 895-8259,,,"Mon-Fri: 10:00am-10:00pm, Sat-Sun: 9:00am-10:00pm",,,0
+Olympic,,"1605 W. Olympic Blvd., Suite 600",,Los Angeles,CA,90015,United States,(213) 251-8594,,,Mon-Sun: 8:00am-10:00pm,,,0
+Panorama Mall,,8401 Van Nuys Blvd.,,Panorama City,CA,91402,United States,(818) 830-0709,,,"Sun-Thu: 9:00am-9:00pm, Fri-Sat: 9:00am-9:30pm",,,0
+San Bernardino,,835 Harriman Place,,San Bernardino,CA,92408,United States,(909) 890-1207,,,Mon-Sun: 10:00am-10:00pm,,,0
+South Gate,,8618 S. Garfield Avenue,,South Gate,CA,90280,United States,(562) 928-8341,,,"Mon-Thu: 10:00am-9:00pm, Fri-Sun: 10:00am-10:00pm",,,0
+Sunset Park,,5547 West Sunset Blvd.,,Los Angeles,CA,90028,United States,(323) 465-6927,,,Mon-Sun: 10:00am-10:00pm,,,0
+Van Nuys,,7249 Van Nuys Blvd.,,Van Nuys,CA,91405,United States,(818) 994-7230,,,"Mon-Fri: 10:00am-10:00pm, Sat-Sun: 9:00am-10:00pm",,,0
+San Francisco,,2740 Mission Street,,San Francisco,CA,94110,United States,(415) 625-0801,,,Mon-Sun: 9:00am-10:00pm,,,0
+Columbia Heights,,3229 14th Street NW,,Washington,DC,20010,United States,(202) 745-0078,,,Mon-Sun: 10:00am-9:00pm,,,0
+Boynton Beach,,750 N Congress Avenue,,Boynton Beach,FL,33426,United States,(561) 738-2662,,,Mon-Sun: 11:00am-10:00pm,,,0
+Calle Ocho,,2800 SW 8th Street,,Miami,FL,33135,United States,(305) 643-4260,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Norcross,,5254 Jimmy Carter Blvd.,,Norcross,GA,30093,United States,(770) 446-5777,,,Mon-Sun: 10:00am-10:00pm,,,0
+Buford Highway,,3389 Buford Hwy.,,Atlanta,GA,30329,United States,(404) 633-8400,,,Mon-Sun: 10:30am-10:30pm,,,0
+Pulaski,,"4830 N. Pulaski Road, Suite 102",,Chicago,IL,60630,United States,(773) 282-1966,,,"Sun-Thurs: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+New Orleans,,2810 Williams Blvd.,,Kenner,LA,70062,United States,(504) 305-3567,,,Mon-Sun: 10:00am-10:00pm,,,0
+Gaithersburg,,"701 Russell Avenue, Lake Forest Mall",,Gaithersburg,MD,20877,United States,(240) 403-0135,,,"Mon-Sat: 10:00am-9:00pm, Sunday: 10:00am-6:00pm",,,0
+Langley Park,,1355 E University Blvd.,,Takoma Park,MD,20912,United States,(301) 408-0555,,,Mon - Sun: 10:00am-10:00pm,,,0
+Laurel,,833 S Washington Blvd.,,Laurel,MD,20707,United States,(301) 776-7590,,,Mon-Sun: 10:00am-9:00pm,,,0
+Wheaton,,11420 Georgia Avenue,,Wheaton,MD,20902,United States,(301) 942-6868,,,"Sun-Thu: 10:00am-9:00pm, Fri-Sat: 10:00am-10:00pm",,,0
+Chelsea,,115 Park Street,,Chelsea,MA,02150,United States,(617) 884 0070,,,Mon-Sun: 10:00am-10:00pm,,,0
+East Boston,,188 Border Street,,East Boston,MA,02128,United States,(617) 568 9500,,,"Mon-Thu: 10:30am-11:00pm, Fri-Sat: 10:30am-12:00am",,,0
+St. Paul,,1572 South Robert Street,,West St. Paul,MN,55118,United States,(651) 306-2091,,,Mon-Sun: 10:30am-10:30pm,,,0
+West New York,,6425 Bergenline Avenue,,West New York,NJ,07093,United States,(201) 662-6190,,,"Sun-Thu: 10:00am-11:00pm, Fri-Sat: 10:00am-12:00am",,,0
+Paterson,,377 Union Ave,,Paterson,NJ,07502,United States,(973) 904-1750,,,"Sun-Thu: 10:00am-9:30pm, Fri-Sat: 10:00am-10:00pm",,,0
+Plainfield,,301 E. Front Street,,Plainfield,NJ,07060,United States,(908) 822-9081,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Trenton,,508 Hamilton Avenue,,Trenton,NJ,08609,United States,(609) 571-9263,,,Sun-Sat: 10:00am-10:00pm,,,0
+Elizabeth,,25 South Broad Street,,Elizabeth,NJ,07202,United States,(908) 355-1383,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-1:00am",,,0
+Brentwood,,1665 Fifth Avenue,,Bayshore,NY,11706,United States,(631) 435-7426,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Hempstead,,50 Fulton Avenue,,Hempstead,NY,11550,United States,(516) 281-0070,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Huntington Station,,1805 New York Avenue,,Huntington Station,NY,11746,United States,(631) 423-6600,,,"Sun-Thu: 10:30am-9:30pm, Fri-Sat:10:30am-10:30pm",,,0
+Central Islip,,160 Wheeler Road,,Central Islip,NY,11722,United States,(631) 232-9200,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Spring Valley,,39 South Main Street,,Spring Valley,NY,10977,United States,(845) 371-2181,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Glen Cove,,190 Glen Street,,Glen Cove,NY,11542,United States,(516) 676-3000,,,"Sun-Thu: 11:00am-9:30pm, Fri-Sat: 11:00am-10:30pm",,,0
+Jamaica,,146-12 Jamaica Avenue,,Jamaica,NY,11432,United States,(718) 297-1945,,,"Sun - Thu: 10:00am - 9:30pm, Fri - Sat: 10:00am - 10:30pm",,,0
+Puerto Rico,,"Avenida Rafael Cordero Interseccion, Carr #30 Lote A-1 Wal-Mart",,Caguas,PR,00725,United States,(787) 258-2178,,,"Mon-Sun: 10:30am-10:00pm, Drive-Thru Sun-Wed: 10:30am-10:00pm, Drive-Thru Thur-Sat: 10:30am-12:00am",,,0
+Providence,,"661 Atwells Avenue, Bldg B",,Providence,RI,02909,United States,(401) 273-1600,,,Mon-Sun: 10:00am-10:00pm,,,0
+Bellaire,,5616 Bellaire Blvd.,,Houston,TX,77081,United States,(713) 395-0990,,,"Mon-Sun: 10:00am-10:00pm, Drive-Thru Fri-Sat: 10:00am-11:00pm",,,0
+Cockrell Hill,,1703 N Cockrell Hill Road,,Dallas,TX,75211,United States,(214) 819-5334,,,"Sun-Thu: 10:30am-10:00pm, Fri-Sat: 10:30am-11:00pm",,,0
+Webb Chapel,,9419 Webb Chapel Road,,Dallas,TX,75220,United States,(214) 358-5200,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Washington Ave,,4701 Washington Avenue,,Houston,TX,77007,United States,(713) 863-8201,,,"Mon-Sun: 10:00am-10:00pm, Drive-Thru Fri-Sat: 10:00am-11:00pm",,,0
+Irving,,1812 N Story Road,,Irving,TX,75061,United States,(972) 986-8271,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Austin,,907 E St Johns Avenue,,Austin,TX,78752,United States,(512) 373-8812,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Farmers Branch,,12885 Josey Lane,,Farmers Branch,TX,75234,United States,(972) 243-2482,,,"Sun-Thu: 10:00am-10:00pm, Fri-Sat: 10:00am-11:00pm",,,0
+Baileys Crossroads,,5852 Columbia Pike,,Falls Church,VA,22041,United States,(703) 820-8400,,,"Sun-Thu: 10:00am-9:00pm, Fri-Sat: 10:00am-10:00pm",,,0
+Herndon,,496 Elden Street,,Herndon,VA,20170,United States,(703) 904-7500,,,Mon-Sun: 10:00am-9:00pm,,,0
+Manassas,,7913 Sudley Road,,Manassas,VA,20109,United States,(703) 368-1824,,,"Sun-Thu: 9:00am-10:00pm, Fri-Sat: 9:00am-11:00pm",,,0
+Woodbridge,,14083 Jefferson Davis Blvd,,Woodbridge,VA,22191,United States,(703) 497-1000,,,"Sun-Thu: 10:00am-9:00pm, Fri-Sat: 10:00am-10:00pm",,,0
+Richmond,,7826 Midlothian Turnpike,,Richmond,VA,23255,United States,(804) 272-0316,,,"Mon-Thu: 11:00am-8:00pm, Fri: 11:00am-9:00pm, Sat-Sun: 10:00am-9:00pm",,,0
+Hybla Valley,,"7705 Fordson Road, Suite 101",,Alexandria,VA,22306,United States,(703) 360-0864,,,Mon-Sun: 10:00am-9:00pm,,,0
+Beechnut,,9979 Beechut Street Suite J,,Houston,TX,77036,United States,(713) 541-0520,,,Mon-Sun: 10:00am-10:00pm,,,0
+Greens,,393A Greens Road,,Houston,TX,77060,United States,(832) 666-5065,,,Mon-Sun: 10:00am-9:00pm,,,0
+Corona,,103-26 Roosevelt Ave,,Corona,NY,11368,United States,718-205-6943,,,"Sun-Thu: 10:00AM-10:00PM, Fri-Sat: 10:00AM-11:00PM",,,0
+Sunset,,4518 Fifth Ave,,Brooklyn,NY,11220,United States,(718) 436-2835,,,"Sun-Thurs: 10:00am - 10:00pm, Fri-Sat: 10:00am - 11:00pm",,,0
+Lawrence,,301A Rockaway Turnpike,,Lawrence,NY,11559,United States,(516) 239-8969,,,"Sun - Thurs: 10:00am to 10:00pm, Fri - Sat: 10:00am to 11:00pm",,,0
+Grand Concourse,,2450 Grand Concourse,,Bronx,NY,10458,United States,(718) 933-4261,,,"Sun - Thurs: 10:00am to 10:00pm, Fri - Sat: 10:00am to 11:00pm",,,0
+Springfield,,6314 Springfield Plaza,,Springfield,VA,22150,United States,(703)451-0509,,,"Sun - Thurs: 10:00am - 9:00pm, Fri - Sat: 10:00am - 10:00pm",,,0
+Westchester Ave,,1590 Westchester Ave,,Bronx,NY,10472,United States,718-542-4736,,,"Sun - Thurs: 10:00 am - 10:00 pm, Fri - Sat: 10:00 am - 11:00 pm",,,0
+Charlotte,,5727 N Sharon Amity,,Charlotte,NC,28215,United States,,,,"Sun - Thurs: 10:00am - 10:00pm, Fri - Sat: 10:00am - 11:00pm",,,0
+1960 West,,130 FM 1960 West,,Houston,TX,77090,United States,(281) 893-0877,,,Mon - Sun: 10:00am - 10:00pm,,,0
+Richardson,,1380 W Belt Line Road,,Richardson,TX,75080,United States,(972) 479-9720,,,Mon - Sun: 10:00am - 10:00pm,,,0
+Lewisville,,726 W. Main St.,,Lewisville,TX,75067,United States,(214) 222-1905,,,Mon - Sun: 10:00am - 10:00pm,,,0
+Hyattsville,,6401 America Blvd Suite 190,,Hyattsville,MD,20782,United States,(301) 277-4308,,,Mon - Sun: 10:00am - 9:00pm,,,0
+Orange Grove,,11570 Gulf Fwy,,Houston,TX,,United States,(713)378-0921,,,Mon - Sun: 11:00am - 10:00pm,,,0
+Houston,,7754 W. Bellfort St,,Houston,TX,77071,United States,(832) 348-0305,,,Mon - Sun: 10:00am - 10:00pm,,,0
+Arlington,,3755 South Cooper Street,,Arlington,TX,76015,United States,(817) 419-2631,,,Mon-Fri: 10:00 a.m. - 10:00 p.m.,,,0
+Las Vegas,,1025 W Craig Road,,Las Vegas,NV,89032,United States,(702) 633-7003,,,Mon - Sun: 10:00am to 10:00pm,,,0
+Houston Hwy 6,,6905 Hwy 6 Spith,,Houston,TX,77083,United States,(832) 672-5081,,,Mon - Sun: 11:00 a.m. - 10:00 p.m.,,,0
+Charlotte,,6124 South Blvd,,Charlotte,NC,28217,United States,,,,,,,1

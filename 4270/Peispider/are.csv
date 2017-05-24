@@ -1,0 +1,365 @@
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+(720) 532-5999,Denver,,,,United States,,-104.90356,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Lowry Town Center,CO,,"200 Quebec St. Bldg. 100, Suite 115",39.71996,80230
+(702) 898-6730,Henderson,,,,United States,,-115.04111,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Sunset & Stephanie,NV,,1311 W Sunset Rd Suite 120,36.06369,89014
+(817) 722-0070,Southlake,,,,United States,,-97.12764,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Southlake Town Square,TX,,1582 E Southlake Blvd.,32.9409399,76092
+(469) 948-9000,Lewisville,,,,United States,,-96.970219,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",LakePoint,TX,,713 Hebron Pkwy. Suite 200,33.00911,75057
+(936) 271-9217,Shenandoah,,,,United States,,-95.45022,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,19075 IH 45 S Suite 480,30.17911,77385
+(303) 215-1933,Lakewood,,,,United States,,-105.15657,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",,CO,,14255 Colfax Dr.,39.73678,80401
+(281) 240-1931,Sugar Land,,,,United States,,-95.625489,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Town Center Lakeside,TX,,16101 Kensington Dr.,29.59861,77479
+(281) 885-5430,Houston,,,,United States,,-95.508679,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Champions Village,TX,,5203 FM 1960 W Suite E,29.98224,77069
+(520) 514-7004,Tucson,,,,United States,,-110.87973,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Williams Center,AZ,,5285 E Broadway Blvd. Suite 151,32.2217399,85711
+(303) 346-4329,Highlands Ranch,,,,United States,,-104.9432,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Highlands Ranch,CO,,9352 S Colorado Blvd. Suite G-1,39.54608,80126
+(661) 600-0132,Santa Clarita,,,,United States,,-118.55855,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Valencia Crossroads,CA,,24250 Valencia Blvd.,34.4131,91355
+(713) 661-0900,Houston,,,,United States,,-95.427989,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Plaza in the Park,TX,,5110 Buffalo Speedway Suite 100,29.7279599,77005
+(949) 629-1000,Newport Beach,,,,United States,,-117.86268,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Bluffs,CA,,1302 Bison Ave.,33.6374199,92660
+(817) 466-4545,Arlington,,,,United States,,-97.13504,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Village by the Parks,TX,,4133 S Cooper St. Suite 307,32.67848,76015
+(972) 373-8000,Irving,,,,United States,,-96.958669,"Sun - Thu : 10:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",MacArthur Crossing,TX,,7600 N MacArthur Blvd. Suite 102,32.90977,75063
+(972) 407-0056,Carrollton,,,,United States,,-96.84277,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Park & Midway,TX,,3412 E  Hebron Pkwy. Suite  100,33.02604,75010
+(602) 707-0049,Phoenix,,,,United States,,-112.06408,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Madison Village Marketplace,AZ,,742 E Glendale Suite 110,33.53819,85020
+(310) 397-1761,Culver City,,,,United States,,-118.41293,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Culver Crossroads,CA,,"4114 S. Sepulveda Blvd., Suite E",34.00725,90230
+(609) 734-4790,Princeton,,,,United States,,-74.661611,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",West Windsor Plaza,NJ,,"3522 U.S. Highway, Route 1, Suite 1",40.310834,08540
+(405) 751-6539,Oklahoma City,,,,United States,,-97.602035,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,OK,,4401 W Memorial Road Suite 104,35.611675,73134
+(407) 351-3532,Orlando,,,,United States,,-81.42932,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Millenia Plaza,FL,,4728 Millenia Plaza Way,28.48976,32839
+(239) 530-1201,Naples,,,,United States,,-81.69909,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,6821 Collier Blvd Unit 102,26.06338,34114
+(281) 665-6030,Katy,,,,United States,,-95.81307,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Southpark at Cinco Ranch,TX,,"24926 FM 1093, Ste. A",29.69742,77494
+(904) 292-2852,Jacksonville,,,,United States,,-81.629637,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,"11200 San Jose Blvd, Ste. 105",30.170586,32223
+(239) 495-3113,Estero,,,,United States,,-81.811267,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,22909 Lyden Drive,26.40616,33928
+(904) 247-4490,Jacksonville Beach,,,,United States,,-81.39107,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,319 3rd Street S,30.28439,32250
+(239) 433-4208,Fort Myers,,,,United States,,-81.794579,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Gulf Coast Landings,FL,,16441 Corporate Commerce Way,26.49292,33913
+(501) 821-8720,Little Rock,,,,United States,,-92.45882,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",,AR,,17701 Chenal Parkway,34.76988,72223
+(281) 758-4154,Cypress,,,,United States,,-95.74941,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,"28902 Highway 290, Suite J-05",29.99241,77433
+(210) 497-6380,San Antonio,,,,United States,,-98.450474,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,"22106 US Highway 281, Suite 105",29.648965,78258
+(281)251-0450,Houston,,,,United States,,-95.56193,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,"10115 Louetta Road, Suite 100",29.99959,77070
+(407) 347-9928,Winter Garden,,,,United States,,-81.55904,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,"3337 Daniels Road, Suite 100",28.55204,34787
+(281) 997-5525,Pearland,,,,United States,,-95.263473,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Center at Pearland Parkway,TX,,"2630 Pearland Parkway, Suite 130",29.555914,77581
+(904) 619-2831,Jacksonville,,,,United States,,-81.54729,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Bartram Village,FL,,"12553 Bartram Park Blvd, Suite 304",30.14204,32258
+602-870-7199,Phoenix,,,,United States,,-112.12445,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Metrocenter,AZ,,10450 North 28th Drive,33.58179,85051
+954-346-1055,Coral Springs,,,,United States,,-80.25073,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Conerstone Plaza,FL,,"3112 University Drive, Bldg A",26.2691,33065
+727-821-0370,Saint Petersburg,,,,United States,,-82.638494,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,1345 4th Street N,27.785545,33701
+(972) 238-7399,Richardson,,,,United States,,-96.76804,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Pavillion East,TX,,"1401 West Campbell Road, Suite 200",32.97851,75080
+214-459-2100,Richardson,,,,United States,,-96.699858,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",City Line Market,TX,,"1425 East Renner Road, Suite 610",32.9981,75082
+817-741-4848,Fort Worth,,,,United States,,-97.3173,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Alliance Town Center,TX,,"2901 Heritage Trace Parkway, Suite 105",32.91448,76177
+954-784-2460,Pompano Beach,,,,United States,,-80.099577,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",23 Hundred,FL,,"2390 N Federal Highway, Suite 101",26.26113,33062
+(405)799-2888,Oklahoma City,,,,United States,,-97.50185,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Fritts Farm,OK,,750 SW 19th St.,35.31983,73160
+4057327788,Midwest City,,,,United States,,-97.39495,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Midwest City Town Center,OK,,7311 S.E. 29th Street,35.43583,73110
+(407)566-8488,Celebration,,,,United States,,-81.5347,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Shops at Celebration,FL,,6250 W Irlo Bronson Memorial Hwy,28.33268,34747
+(561)483-7067,Boca Raton,,,,United States,,-80.2036,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Westwinds of Boca Shopping Center,FL,,"9982 Glades Rd, Suite G5",26.368,33434
+479-464-7900,Rogers,,,,United States,,-94.18344,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Pinnacle Hills,AR,,4895 W Pauline Whitaker Parkway,36.29803,72758
+(214)494-6150,Lewisville,,,,United States,,-96.88875,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Castle Hills,TX,,"4600 S.H. 121, Suite 120",33.06521,75056
+(305) 252-6124,Miami,,,,United States,,-80.32903,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Dixie Belle Shoppes,FL,,"12175 S. Dixie Hwy.,",25.65551,33156
+5616894405,West Palm Beach,,,,United States,,-80.05218,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Palm Beach Mall,FL,,1815 Palm Beach Lakes Blvd. Suite #03,26.7058,33401
+(214) 324-0020,Dallas,,,,United States,,-96.70336,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Casa Linda,TX,,"9540 Garland Road, Suite 383 Building F",32.83399,75218
+(813) 286-2603,Tampa,,,,United States,,-82.5245,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Corner,FL,,1816 N. West Shore Dr.,27.95835,33607
+(817) 285-1776,Hurst,,,,United States,,-97.186307,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Hurst Retail Center,TX,,1460 Precinct Line Road,32.83783,76053
+(561) 279-4424,Delray Beach,,,,United States,,-80.071255,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Delray Place,FL,,1831 S. Federal Hwy. #300,26.43974,33483
+(918) 254-2151,Tulsa,,,,United States,,-95.886387,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",South Town Market,OK,,"10005 S. Memorial Dr., Suite 10",36.018765,74133
+(281) 203-3080,The Woodlands,,,,United States,,-95.53657,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Woodland Hills Shopping Center,TX,,10868 Kuykendahl Rd. Suite E,30.17798,77381
+(305) 444-1370,Miami,,,,United States,,-80.25425,"Sun - Thu : 11:00am to 10:00pm, Fri - Sat : 11:00pm to 11:00pm",,FL,,2283 SW 37th Ave,25.749115,33145
+(949) 249-0130,Laguna Niguel,,,,United States,,-117.7083,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Plaza de La Paz,CA,,"27321 La Paz Road, Suite B",33.56909,92677
+(410) 568-1911,Cockeysville,,,,United States,,-76.65506,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Hunt Valley Towne Centre,MD,,"114 Shawan Road, Suite 8",39.49608,21030
+(214) 705-0341,Frisco,,,,United States,,-96.844235,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,"5110 Main Street, Suite 100",33.153064,75034
+(714) 989-5570,Brea,,,,United States,,-117.88507,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Brea Marketplace,CA,,"985 E. Birch Street, Suite D",33.91809,92821
+(480) 308-9898,Scottsdale,,,,United States,,-111.8939,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Raintree,AZ,,8700 E. Raintree Dr.,33.61882,85260
+410-573-5060,Annapolis,,,,United States,,-76.54373,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Annapolis Town Centre at Parole,MD,,1901 Towne Centre  Blvd Suite 145 B,38.98129,21401
+(615) 778-1676,Franklin,,,,United States,,-86.82406,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",McEwen Town Center,TN,,"1560 West McEwen Drive, Suite 160",35.93555,37067
+407-834-0752,Altamonte Springs,,,,United States,,-81.38073,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Reniassance Center,FL,,355 E Altamonte Drive #100,28.66318,32701
+(954) 565-5881,Fort Lauderdale,,,,United States,,-80.11819,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Bal Harbour Square,FL,,1730 N Federal Hwy,26.15392,33305
+201-556-1001,Maywood,,,,United States,,-74.060066,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Bergen Town Center,NJ,,83 West Spring Valley Ave Suite L-6,40.914298,07607
+904-645-9320,Jacksonville,,,,United States,,-81.52993,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Markets at Town Center,FL,,4849 Town Center Parkway,30.255538,32246
+(317) 205-9380,Indianapolis,,,,United States,,-86.12203,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Glendale,IN,,"6159 N. Keystone Ave., Suite 100",39.86871,46220
+(305) 935-2230,Miami,,,,United States,,-80.14613,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Town Center Aventura,FL,,"18801 Biscayne Blvd., Suite B",25.95466,33180
+(248) 837-2420,Royal Oak,,,,United States,,-83.17955,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,MI,,30278 Woodward Ave.,42.51116,48073
+(941) 359-8570,Sarasota,,,,United States,,-82.45192,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",University Center,FL,,8511 Cooper Creek Blvd.,27.38903,34201
+(407) 563-9905,Orlando,,,,United States,,-81.212509,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",UCF Foundation Shopping Center,FL,,3402 Technological Ave. Suite 232,28.59793,32817
+(512) 263-8565,Bee Cave,,,,United States,,-97.94263,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Hill Country Galleria,TX,,12913 Galleria Circle Suite 101,30.30922,78738
+(303) 942-3445,Denver,,,,United States,,-104.94301,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",University Park,CO,,3970 Buchtel Blvd. Suite 107,39.6798399,80210
+(281) 487-2226,Pasadena,,,,United States,,-95.151849,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Fairmont Parkway,TX,,5932 Fairmont Pkwy. Suite 150,29.6490699,77505
+(407) 846-0829,Kissimmee,,,,United States,,-81.426419,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Loop West,FL,,2501 W Osceola Pkwy.,28.34254,34741
+(865) 966-1610,Knoxville,,,,United States,,-84.1603,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Pinnacle at Turkey Creek,TN,,11301 Parkside Dr. Suite 1200,35.89959,37901
+(561) 322-1001,Boca Raton,,,,United States,,-80.15438,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Del MarVillage,FL,,7152-B Beracasa Way,26.3512099,33433
+(703) 753-3880,Gainesville,,,,United States,,-77.61087,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Virgina Gateway Commons,VA,,5035 Wellington Rd.,38.7953499,20155
+(972) 317-8809,Highland Village,,,,United States,,-97.0809,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Marketplace at Highland Village,TX,,3090 FM 407 Suite 306,33.0732199,75077
+(248) 824-1085,Troy,,,,United States,,-83.13271,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Troy Marketplace,MI,,730 E Big Beaver Rd.,42.56255,48083
+(562) 668-5090,Seal Beach,,,,United States,,-118.07473,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Shops at Rossmoor,CA,,12235 Seal Beach Blvd.,33.78445,90740
+(623) 546-6868,Surprise,,,,United States,,-112.36609,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Town Square @ Surprise,AZ,,14155 W Bell Rd. Suite 113,33.63837,85374
+(316) 729-7285,Wichita,,,,United States,,-97.462779,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",New Market Square,KS,,2441 North Maize Rd. Suite 1501,37.72742,67205
+(405) 364-1690,Norman,,,,United States,,-97.48417,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:15pm to 10:15pm",University Town Center,OK,,1500 24th Ave. NW,35.2375,73069
+(512) 863-4087,Round Rock,,,,United States,,-97.69109,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",University Commons,TX,,200 University Blvd. Suite 100,30.55979,78665
+(210) 507-3600,San Antonio,,,,United States,,-98.46859,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Lincoln Heights,TX,,999 E Basse Rd. Suite 199,29.49808,78209
+(801) 601-3170,Midvale,,,,United States,,-111.86024,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Family Place at Fort Union,UT,,1148 E Fort. Union Blvd. Unit 162,40.6235799,84047
+(817) 605-0145,Watauga,,,,United States,,-97.25949,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Watauga Pavilion,TX,,7620 W Denton Highway 632,32.8834099,76148
+(248) 601-1380,Rochester,,,,United States,,-83.151849,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Boulevard Shops,MI,,1206 Walton Blvd.,42.6827699,48307
+(760) 304-7010,San Marcos,,,,United States,,-117.1915,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Grand Plaza,CA,,113 S Las Posas Rd. Suite 110,33.13931,92078
+(619) 321-6670,San Diego,,,,United States,,-117.15284,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Mission Valley,CA,,1025 Camino De La Reina Suite P-5,32.7678099,92108
+(915) 591-2006,El Paso,,,,United States,,-106.30341,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Las Palmas Marketplace,TX,,1325 George Dieter Dr. Space K2,31.72417,79936
+(954) 499-8820,Pembroke Pines,,,,United States,,-80.294979,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",,FL,,11049 Pines Blvd. Suite 424,26.00833,33026
+(409) 866-0620,Beaumont,,,,United States,,-94.166169,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Fountain Plaza,TX,,3050 Dowlen Rd. Suite N,30.1065299,77706
+(210) 507-5520,San Antonio,,,,United States,,-98.7099,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Potranco Village,TX,,430 W Loop 1604 N Suite 101,29.43634,78251
+(713) 436-3840,Pearland,,,,United States,,-95.392169,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Pearland Town Center,TX,,11302 Broadway Suite 102,29.55254,77584
+(806) 352-5632,Amarillo,,,,United States,,-101.93915,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Forum at Soncy,TX,,3350 S Soncy Suite 194,35.1772599,79124
+(407) 241-3301,Orlando,,,,United States,,-81.4773,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Phillips Crossing,FL,,8015 Turkey Lake Rd. Suite 400,28.4489699,32819
+(610) 549-9060,Springfield,,,,United States,,-75.34206,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Springfield Square,PA,,950 Baltimore Pike,39.9151099,19064
+(940) 380-9303,Denton,,,,United States,,-97.10034,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Denton Towne Crossing,TX,,1931 S Loop 288 Suite 130,33.1906,76205
+(952) 656-9480,St. Louis Park,,,,United States,,-93.34833,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Cedar Pointe,MN,,5330 Cedar Lake Rd.,44.9626499,55416
+(305) 817-8320,Miami Lakes,,,,United States,,-80.308549,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Eagle Nest Center,FL,,15519 NW 67th Ave.,25.91413,33014
+(901) 382-1822,Memphis,,,,United States,,-89.79492,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Countrywood Crossing,TN,,2257 N Germantown Pkwy. Suite 110,35.1867799,38018
+(813) 207-1190,Tampa,,,,United States,,-82.50619,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Drexel Heritage,FL,,217 S Dale Mabry Hwy.,27.94263,33609
+(856) 778-0299,Moorestown,,,,United States,,-74.960949,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Moorestown Mall,NJ,,400 Route 38 Suite 8120,39.9461599,08057
+(856) 792-9260,Cherry Hill,,,,United States,,-75.04058,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Towne Place at Garden State Park,NJ,,2050 Route 70 W,39.9227399,08002
+(602) 308-0410,Phoenix,,,,United States,,-112.083064,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",7th Ave & McDowell,AZ,,701 W McDowell Rd. Suite 101,33.46561,85003
+(561) 226-0290,Boca Raton,,,,United States,,-80.077359,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Fifth Avenue,FL,,1914 NE Fifth Ave.,26.36783,33431
+(915) 581-8540,El Paso,,,,United States,,-106.56582,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Promenade,TX,,7500 N Mesa St. Suite 101,31.8398,79912
+(586) 566-0362,Sterling Heights,,,,United States,,-82.98771,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Lakeside Mall Pad,MI,,13937 Lakeside Circle Suite 113,42.6263599,48313
+(703) 443-2411,Leesburg,,,,United States,,-77.550719,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Leesburg Plaza,VA,,528A E Market St.,39.10884,20176
+(305) 386-8510,Miami,,,,United States,,-80.41548,"Sun - Thu : 11:00am to 10:00pm, Fri - Sat : 11:00pm to 11:00pm",Carter Square,FL,,13616 N Kendall Dr.,25.68457,33186
+(248) 675-0040,Novi,,,,United States,,-83.473889,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Novi Towne Center,MI,,43170 Grand River Ave.,42.48077,48375
+(254) 772-0190,Waco,,,,United States,,-97.169659,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Brazos Place Plaza,TX,,4300A W Waco Dr. Suite 1,31.52775,76710
+(615) 514-3230,Nashville,,,,United States,,-86.818569,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Hill Center,TN,,4017 Hillsboro Pike Suite 301,36.10316,37215
+(727) 347-1351,St. Petersburg,,,,United States,,-82.727519,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Tyrone Crossing,FL,,1402 66th St.,27.78773,33710
+(801) 294-0929,West Bountiful,,,,United States,,-111.89288,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Commons @ West Bountiful,UT,,71 N 500 W Suite A,40.89018,84010
+(314) 656-5980,Ladue,,,,United States,,-90.352019,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Ladue Crossing,MO,,8885 Ladue Rd. Suite 1,38.6544299,63124
+(972) 548-9843,McKinney,,,,United States,,-96.64278,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Craig Crossing,TX,,3000 S Central Expressway,33.1700999,75070
+(918) 749-6083,Tulsa,,,,United States,,-95.97498,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Brookside,OK,,3535 S Peoria,36.1120999,74105
+(772) 219-0466,Stuart,,,,United States,,-80.23639,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Stuart Center,FL,,2101 SE Federal Hwy.,27.1781499,34994
+(954) 308-3720,Plantation,,,,United States,,-80.262,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:15pm to 10:15pm",Veranda Shops,FL,,522 N Pine Island Rd.,26.12725,33324
+(512) 996-0095,Austin,,,,United States,,-97.789349,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Anderson Arbors Shopping Center,TX,,13429 N Hwy 183,30.44818,78750
+(913) 254-7283,Olathe,,,,United States,,-94.76188,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Olathe Station,KS,,15141 W 119th St.,38.91196,66062
+(703) 251-0090,Herndon,,,,United States,,-77.396129,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Woodland Park,VA,,2338 Woodland Crossing Dr. Suite A,38.9496899,20171
+(817) 299-8687,Arlington,,,,United States,,-97.09841,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Collins Street,TX,,2100 N Collins St. Suite 120,32.7666299,76011
+(813) 960-2031,Tampa,,,,United States,,-82.50315,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Mission Bell,FL,,12927 N Dale Mabry Hwy.,28.06447,33618
+(972) 202-5380,Plano,,,,United States,,-96.711269,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",,TX,,601 W 15th St. Suite 101,33.0204799,75075
+(703) 421-5590,Dulles,,,,United States,,-77.43723,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Dulles 28 Retail Plaza,VA,,22000 Dulles Retail Plaza Suite 190,39.00551,20166
+(239) 596-5515,Naples,,,,United States,,-81.770489,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Collection @ Vanderbilt,FL,,2355 Vanderbilt Beach Rd. Suite 116,26.24475,34109
+(919) 227-3810,Raleigh,,,,United States,,-78.611519,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Falls Center,NC,,4408 Falls of Neuse Rd.,35.84178,27609
+(713) 785-1620,Houston,,,,United States,,-95.500349,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",San Felipe & Voss,TX,,1413 S Voss Rd. Suite A,29.75103,77057
+(901) 722-3780,Memphis,,,,United States,,-90.005979,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Belvedere Collection,TN,,1680 Union Ave. Suite 109,35.13631,38104
+(918) 250-8557,Broken Arrow,,,,United States,,-95.849559,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Kenosha Commercial Center,OK,,4609 W Kenosha St.,36.0597399,74012
+(919) 337-0050,Cary,,,,United States,,-78.76354,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Cary Towne Center,NC,,1107 Walnut St.,35.77237,27511
+(703) 803-4466,Fairfax,,,,United States,,-77.37819,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",East Market @ Fair Lakes,VA,,4461 Market Commons Dr.,38.85768,22033
+(623) 535-9830,Avondale,,,,United States,,-112.33991,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Alameda Crossing,AZ,,1619 North Dysart Rd. Suite 101,33.46493,85323
+(602) 707-2800,Phoenix,,,,United States,,-112.07031,"Sun - Thu : 10:45am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Bell Towne Plaza,AZ,,267 E Bell Rd. Suite 1,33.6401,85022
+(806) 792-4896,Lubbock,,,,United States,,-101.90416,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Kingsgate Center,TX,,4210 82nd St. Suite 230,33.5206099,79423
+(210) 523-0040,San Antonio,,,,United States,,-98.66221,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Bandera Oaks,TX,,"11398 Bandera Rd. Building 1, Suite 101",29.55057,78250
+(817) 806-9950,Fort Worth,,,,United States,,-97.355279,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Montgomery Plaza,TX,,2600 W 7th St. Suite 101,32.75157,76107
+(919) 484-4113,Raleigh,,,,United States,,-78.78498,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Brier Creek,NC,,10251 Little Brier Creek Ln. Suite 112,35.9111899,27617
+(314) 656-2004,Creve Coeur,,,,United States,,-90.434669,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Cityplace East,MO,,11430 Olive Blvd.,38.67054,63141
+(949) 860-2001,Lake Forest,,,,United States,,-117.70356,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Orchards,CA,,23632 El Toro Rd.,33.6169799,92630
+(858) 207-2730,San Diego,,,,United States,,-117.11177,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",4S Commons,CA,,10562 Craftsman Way Suite 190,33.0184799,92127
+(720) 479-5570,Boulder,,,,United States,,-105.25706,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",29th Street,CO,,1675 29th St. Suite 1284,40.0155,80301
+(281) 506-3500,Houston,,,,United States,,-95.590879,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Memorial & Kirkwood,TX,,14008 Memorial Dr. Suite A,29.77157,77079
+(561) 753-6260,Wellington,,,,United States,,-80.216589,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Wellington Green Square,FL,,10610 Bay 10 Forest Hill Blvd.,26.6506599,33414
+(714) 259-1125,Tustin,,,,United States,,-117.82823,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The District at Tustin Legacy,CA,,2695 Park Ave.,33.69623,92782
+(505) 897-4811,Albuquerque,,,,United States,,-106.65761,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Cottonwood Corners,NM,,10420 Coors Bypass NW Suite 1B,35.2067199,87114
+(972) 202-5490,Garland,,,,United States,,-96.615,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Firewheel Market,TX,,4170 Lavon Dr.,32.95102,75040
+(702) 837-0861,Henderson,,,,United States,,-115.10388,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,NV,,10575 S Eastern Ave. Suite 100,35.9985399,89052
+(405) 341-6850,Edmond,,,,United States,,-97.465149,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,OK,,1141 E 2nd St. Suite 100-A,35.6528399,73034
+(704) 543-1121,Charlotte,,,,United States,,-80.85145,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Ballantyne,NC,,13855 Conlan Circle Suite J,35.05532,28277
+(615) 514-4990,Brentwood,,,,United States,,-86.80065,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TN,,101 Creekside Crossing Suite 1800,36.0382299,37027
+(469) 362-8288,Plano,,,,United States,,-96.803939,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Preston Creek,TX,,8412 Preston Rd. Suite 400,33.09304,75024
+(651) 286-3990,Woodbury,,,,United States,,-92.936229,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Tamarack Village,MN,,8300 Tamarack Village Suite 102,44.94196,55125
+(214) 965-0007,Dallas,,,,United States,,-96.80265,"Sun - Thu : 10:30am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Uptown Plaza,TX,,2222 McKinney Ave. Suite 100,32.79307,75201
+(480) 333-0014,Tempe,,,,United States,,-111.91023,"Sun - Thu : 10:30am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",,AZ,,1825 Guadalupe Suite F-112,33.36381,85283
+(979) 260-1209,College Station,,,,United States,,-96.316209,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",University Towne Center,TX,,980A University Dr. East Suite 4,30.6366799,77840
+(714) 230-2050,Huntington Beach,,,,United States,,-117.99418,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Bella Terra,CA,,7621 Edinger Ave. Suite 102,33.7304499,92647
+(501) 280-9423,Little Rock,,,,United States,,-92.34036,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",University Heights,AR,,205 N University Ave.,34.75267,72205
+(410) 423-2550,Columbia,,,,United States,,-76.818809,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Dobbin Square,MD,,6478 Dobbin Center Way Suite A,39.1987299,21045
+(410) 435-3290,Baltimore,,,,United States,,-76.610529,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",York Road,MD,,6302 York Rd.,39.37097,21212
+(561) 364-1830,Boynton Beach,,,,United States,,-80.08972,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Renaissance Commons,FL,,1750 N Congress Ave. 700,26.53796,33426
+(520) 297-3238,Tucson,,,,United States,,-110.98815,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",,AZ,, 633 W Ina Rd.,32.3370699,85704
+(954) 308-7330,Weston,,,,United States,,-80.3643,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Weston Commons,FL,,4517 Weston Rd.,26.06455,33331
+(210) 561-5600,San Antonio,,,,United States,,-98.577359,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Huebner Oaks,TX,,11267 Huebner Rd.,29.54576,78230
+(512) 382-2990,Austin,,,,United States,,-97.796199,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Brodie Oaks,TX,,4200 S Lamar Blvd.,30.23626,78704
+(952) 656-1000,Eden Prairie,,,,United States,,-93.43366,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Fountain Place,MN,,12561 Castlemoor Dr.,44.8514399,55344
+(407) 563-8777,Orlando,,,,United States,,-81.345619,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Colonial Marketplace,FL,,3011 E Colonial Dr. Suite B,28.55327,32803
+(405) 767-9001,Oklahoma City,,,,United States,,-97.539519,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,OK,,1841 Belle Isle Blvd.,35.52516,73118
+(210) 507-9160,San Antonio,,,,United States,,-98.46384,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Northwoods Shopping Center,TX,,"1802 N Loop, 1604 E Suite 101",29.60596,78232
+(801) 601-1990,Sandy,,,,United States,,-111.89078,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,UT,,10373 S State St.,40.5628699,84070
+(512) 382-3860,Austin,,,,United States,,-97.71814,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Hancock Center,TX,,1000 E 41st St.Suite L-100,30.2975999,78751
+(972) 764-0844,Addison,,,,United States,,-96.829809,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,4801 Beltline Rd.,32.9540799,75254
+(281) 571-4990,Houston,,,,United States,,-95.603859,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Windermere Village,TX,,12020 FM 1960 W,29.92396,77065
+(512) 691-3060,Austin,,,,United States,,-97.67099,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",The Shops @ Tech Ridge,TX,,"12901 N I-35 Service Rd. NB Bldg. 15, Suite 1540",30.41496,78753
+(281) 554-9876,Webster,,,,United States,,-95.14091,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Baybrook Passage,TX,,19411-A Gulf Freeway,29.54233,77598
+(281) 392-1410,Katy,,,,United States,,-95.751639,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Highland Town Center,TX,,1590 S Mason Rd. Suite A,29.7588599,77450
+(713) 353-7366,Houston,,,,United States,,-95.398099,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,1005 Waugh Dr. Suite A,29.7572399,77019
+(918) 497-1015,Tulsa,,,,United States,,-95.92203,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",KingsPointe Village,OK,, 5954 S Yale Ave.,36.07712,74135
+(281) 318-2877,Kingwood,,,,United States,,-95.25484,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Kingwood Commons,TX,,702 Kingwood Dr.,30.0530499,77339
+(719) 260-9922,Colorado Springs,,,,United States,,-104.79742,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Academy Gateway,CO,,7148 N Academy Blvd.,38.93531,80920
+(505) 883-1570,Albuquerque,,,,United States,,-106.56883,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Uptown Park,NM,,2201 Louisiana Blvd. NE Suite G,35.1029699,87110
+(214) 765-0030,Dallas,,,,United States,,-96.80401,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,11700 Preston Rd. Suite A,32.9076499,75230
+(801) 907-2030,Salt Lake City,,,,United States,,-111.86169,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",McClelland Corner,UT,,1028 E 2100 S Suite 3,40.7254,84106
+(702) 233-4692,Las Vegas,,,,United States,,-115.33356,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Canyon Pointe Plaza,NV,,10830 W Charleston Blvd. Suite 110,36.1608999,89135
+(310) 517-9366,Torrance,,,,United States,,-118.33517,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Torrance Town Center,CA,,2777 Pacific Coast Hwy.,33.79355,90505
+(817) 294-0808,Fort Worth,,,,United States,,-97.415109,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",City View,TX,,5900 Overton Ridge Blvd. Suite 130,32.67665,76132
+(520) 884-7413,Tucson,,,,United States,,-110.95877,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Main Gate Center,AZ,,845 E University Blvd. Suite 135,32.2316199,85719
+(469) 675-2266,Allen,,,,United States,,-96.686229,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",,TX,,1008 W McDermott Dr. Suite 100,33.10074,75013
+(214) 765-9911,Dallas,,,,United States,,-96.806569,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Preston Center Pavilion,TX,,8305 Westchester Dr.,32.86366,75225
+(214) 219-0000,Dallas,,,,United States,,-96.786519,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Knox Park Village,TX,,3001 Knox St. Suite 100,32.8222499,75205
+(623) 825-9949,Glendale,,,,United States,,-112.20309,"Sun - Thu : 10:45am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",67th & Beardsley,AZ,,20022 N 67th Ave. Suite 100,33.66583,85308
+(480) 365-6002,Scottsdale,,,,United States,,-111.92429,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Grayhawk,AZ,,20851 N Scottsdale Rd. Suite 105,33.67571,85255
+(760) 635-2888,Encinitas,,,,United States,,-117.26329,"Sun - Thu : 11:00am to 09:00pm, Fri - Sat : 10:00pm to 10:00pm",Plaza @ Encinitas Ranch,CA,,1560-A Leucadia Blvd.,33.06765,92024
+(480) 926-9749,Gilbert,,,,United States,,-111.78979,"Sun - Thu : 10:30am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Gilbert & Warner,AZ,,1084 S Gilbert Suite 601,33.32865,85296
+(480) 812-2230,Chandler,,,,United States,,-111.86004,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 09:30pm to 09:30pm",Falls at Ocotillo,AZ,,1085 W Queen Creek Rd Suite 1,33.2618,85248
+(480) 488-8630,Scottsdale,,,,United States,,-111.92547,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:00pm to 09:00pm",Summit,AZ,,32607 N Scottsdale Rd. Suite 107,33.7809299,85266
+(480) 539-4454,Mesa,,,,United States,,-111.75761,"Sun - Thu : 11:00am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Baseline & Val Vista,AZ,,3426 E Baseline Rd. Suite 121,33.37926,85204
+(480) 940-3800,Chandler,,,,United States,,-111.96596,"Sun - Thu : 10:30am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Casa Paloma,AZ,,7131 W Ray Rd. Bldg. 1 Suite 3,33.31983,85226
+(480) 365-6000,Scottsdale,,,,United States,,-111.92446,"Sun - Thu : 10:45am to 09:00pm, Fri - Sat : 09:30pm to 09:30pm",Gainey Ranch,AZ,,8787 N Scottsdale Rd. 214/216,33.5653799,85253
+(602) 956-2300,Phoenix,,,,United States,,-111.98777,"Sun - Thu : 10:45am to 09:30pm, Fri - Sat : 10:00pm to 10:00pm",Arcadia,AZ,,4340 E Indian School Rd. Bldg. A Suite 23,33.4947299,85018
+phone_number,city,distributor_name,store_type,store_number,country,address2,longitude,store_hours,store_name,state,other_fields,address,latitude,zip_code
+(281) 885-5430,Houston,,,,United States,,-95.508679,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Champions Village,TX,,5203 FM 1960 W Suite E,29.98224,77069
+(713) 661-0900,Houston,,,,United States,,-95.427989,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Plaza in the Park,TX,,5110 Buffalo Speedway Suite 100,29.7279599,77005
+(949) 629-1000,Newport Beach,,,,United States,,-117.86268,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Bluffs,CA,,1302 Bison Ave.,33.6374199,92660
+(817) 722-0070,Southlake,,,,United States,,-97.12764,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Southlake Town Square,TX,,1582 E Southlake Blvd.,32.9409399,76092
+(303) 346-4329,Highlands Ranch,,,,United States,,-104.9432,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Highlands Ranch,CO,,9352 S Colorado Blvd. Suite G-1,39.54608,80126
+(661) 600-0132,Santa Clarita,,,,United States,,-118.55855,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Valencia Crossroads,CA,,24250 Valencia Blvd.,34.4131,91355
+(936) 271-9217,Shenandoah,,,,United States,,-95.45022,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TX,,19075 IH 45 S Suite 480,30.17911,77385
+(702) 898-6730,Henderson,,,,United States,,-115.04111,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Sunset & Stephanie,NV,,1311 W Sunset Rd Suite 120,36.06369,89014
+(520) 514-7004,Tucson,,,,United States,,-110.87973,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Williams Center,AZ,,5285 E Broadway Blvd. Suite 151,32.2217399,85711
+(817) 466-4545,Arlington,,,,United States,,-97.13504,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Village by the Parks,TX,,4133 S Cooper St. Suite 307,32.67848,76015
+(469) 948-9000,Lewisville,,,,United States,,-96.970219,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",LakePoint,TX,,713 Hebron Pkwy. Suite 200,33.00911,75057
+(972) 373-8000,Irving,,,,United States,,-96.958669,"Sun - Thu : 10:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",MacArthur Crossing,TX,,7600 N MacArthur Blvd. Suite 102,32.90977,75063
+(972) 407-0056,Carrollton,,,,United States,,-96.84277,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Park & Midway,TX,,3412 E  Hebron Pkwy. Suite  100,33.02604,75010
+(520) 884-7413,Tucson,,,,United States,,-110.95877,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Main Gate Center,AZ,,845 E University Blvd. Suite 135,32.2316199,85719
+(214) 219-0000,Dallas,,,,United States,,-96.786519,"Sun - Thu : 11:00am to 09:30PM, Fri - Sat : 10:00pm to 10:00PM",Knox Park Village,TX,,3001 Knox St. Suite 100,32.8222499,75205
+(817) 294-0808,Fort Worth,,,,United States,,-97.415109,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",City View,TX,,5900 Overton Ridge Blvd. Suite 130,32.67665,76132
+(609) 734-4790,Princeton,,,,United States,,-74.661611,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",West Windsor Plaza,NJ,,"3522 U.S. Highway, Route 1, Suite 1",40.310834,08540
+(310) 397-1761,Culver City,,,,United States,,-118.41293,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Culver Crossroads,CA,,"4114 S. Sepulveda Blvd., Suite E",34.00725,90230
+(602) 707-0049,Phoenix,,,,United States,,-112.06408,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Madison Village Marketplace,AZ,,742 E Glendale Suite 110,33.53819,85020
+(405) 751-6539,Oklahoma City,,,,United States,,-97.602035,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,OK,,4401 W Memorial Road Suite 104,35.611675,73134
+(407) 351-3532,Orlando,,,,United States,,-81.42932,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Millenia Plaza,FL,,4728 Millenia Plaza Way,28.48976,32839
+(904) 292-2852,Jacksonville,,,,United States,,-81.629637,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,"11200 San Jose Blvd, Ste. 105",30.170586,32223
+(281) 665-6030,Katy,,,,United States,,-95.81307,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Southpark at Cinco Ranch,TX,,"24926 FM 1093, Ste. A",29.69742,77494
+(501) 821-8720,Little Rock,,,,United States,,-92.45882,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",,AR,,17701 Chenal Parkway,34.76988,72223
+(281) 758-4154,Cypress,,,,United States,,-95.74941,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TX,,"28902 Highway 290, Suite J-05",29.99241,77433
+(210) 497-6380,San Antonio,,,,United States,,-98.450474,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TX,,"22106 US Highway 281, Suite 105",29.648965,78258
+(904) 619-2831,Jacksonville,,,,United States,,-81.54729,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Bartram Village,FL,,"12553 Bartram Park Blvd, Suite 304",30.14204,32258
+(281)251-0450,Houston,,,,United States,,-95.56193,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TX,,"10115 Louetta Road, Suite 100",29.99959,77070
+602-870-7199,Phoenix,,,,United States,,-112.12445,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Metrocenter,AZ,,10450 North 28th Drive,33.58179,85051
+(904) 247-4490,Jacksonville Beach,,,,United States,,-81.39107,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,319 3rd Street S,30.28439,32250
+(239) 433-4208,Fort Myers,,,,United States,,-81.794579,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Gulf Coast Landings,FL,,16441 Corporate Commerce Way,26.49292,33913
+(281) 997-5525,Pearland,,,,United States,,-95.263473,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Center at Pearland Parkway,TX,,"2630 Pearland Parkway, Suite 130",29.555914,77581
+(407) 347-9928,Winter Garden,,,,United States,,-81.55904,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,"3337 Daniels Road, Suite 100",28.55204,34787
+(239) 495-3113,Estero,,,,United States,,-81.811267,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,22909 Lyden Drive,26.40616,33928
+(239) 530-1201,Naples,,,,United States,,-81.69909,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,6821 Collier Blvd Unit 102,26.06338,34114
+954-346-1055,Coral Springs,,,,United States,,-80.25073,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Conerstone Plaza,FL,,"3112 University Drive, Bldg A",26.2691,33065
+727-821-0370,Saint Petersburg,,,,United States,,-82.638494,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,1345 4th Street N,27.785545,33701
+(972) 238-7399,Richardson,,,,United States,,-96.76804,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Pavillion East,TX,,"1401 West Campbell Road, Suite 200",32.97851,75080
+214-459-2100,Richardson,,,,United States,,-96.699858,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",City Line Market,TX,,"1425 East Renner Road, Suite 610",32.9981,75082
+817-741-4848,Fort Worth,,,,United States,,-97.3173,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Alliance Town Center,TX,,"2901 Heritage Trace Parkway, Suite 105",32.91448,76177
+4057327788,Midwest City,,,,United States,,-97.39495,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Midwest City Town Center,OK,,7311 S.E. 29th Street,35.43583,73110
+(407)566-8488,Celebration,,,,United States,,-81.5347,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Shops at Celebration,FL,,6250 W Irlo Bronson Memorial Hwy,28.33268,34747
+(405)799-2888,Oklahoma City,,,,United States,,-97.50185,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Fritts Farm,OK,,750 SW 19th St.,35.31983,73160
+(561)483-7067,Boca Raton,,,,United States,,-80.2036,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Westwinds of Boca Shopping Center,FL,,"9982 Glades Rd, Suite G5",26.368,33434
+954-784-2460,Pompano Beach,,,,United States,,-80.099577,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",23 Hundred,FL,,"2390 N Federal Highway, Suite 101",26.26113,33062
+479-464-7900,Rogers,,,,United States,,-94.18344,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Pinnacle Hills,AR,,4895 W Pauline Whitaker Parkway,36.29803,72758
+(305) 252-6124,Miami,,,,United States,,-80.32903,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Dixie Belle Shoppes,FL,,"12175 S. Dixie Hwy.,",25.65551,33156
+(214)494-6150,Lewisville,,,,United States,,-96.88875,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Castle Hills,TX,,"4600 S.H. 121, Suite 120",33.06521,75056
+5616894405,West Palm Beach,,,,United States,,-80.05218,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Palm Beach Mall,FL,,1815 Palm Beach Lakes Blvd. Suite #03,26.7058,33401
+(561) 279-4424,Delray Beach,,,,United States,,-80.071255,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Delray Place,FL,,1831 S. Federal Hwy. #300,26.43974,33483
+(813) 286-2603,Tampa,,,,United States,,-82.5245,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Corner,FL,,1816 N. West Shore Dr.,27.95835,33607
+(214) 324-0020,Dallas,,,,United States,,-96.70336,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Casa Linda,TX,,"9540 Garland Road, Suite 383 Building F",32.83399,75218
+(817) 285-1776,Hurst,,,,United States,,-97.186307,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Hurst Retail Center,TX,,1460 Precinct Line Road,32.83783,76053
+(918) 254-2151,Tulsa,,,,United States,,-95.886387,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",South Town Market,OK,,"10005 S. Memorial Dr., Suite 10",36.018765,74133
+(305) 444-1370,Miami,,,,United States,,-80.25425,"Sun - Thu : 11:00am to 10:00PM, Fri - Sat : 11:00pm to 11:00PM",,FL,,2283 SW 37th Ave,25.749115,33145
+(281) 203-3080,The Woodlands,,,,United States,,-95.53657,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Woodland Hills Shopping Center,TX,,10868 Kuykendahl Rd. Suite E,30.17798,77381
+(214) 705-0341,Frisco,,,,United States,,-96.844235,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TX,,"5110 Main Street, Suite 100",33.153064,75034
+(480) 308-9898,Scottsdale,,,,United States,,-111.8939,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Raintree,AZ,,8700 E. Raintree Dr.,33.61882,85260
+(714) 989-5570,Brea,,,,United States,,-117.88507,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Brea Marketplace,CA,,"985 E. Birch Street, Suite D",33.91809,92821
+(949) 249-0130,Laguna Niguel,,,,United States,,-117.7083,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Plaza de La Paz,CA,,"27321 La Paz Road, Suite B",33.56909,92677
+(410) 568-1911,Cockeysville,,,,United States,,-76.65506,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Hunt Valley Towne Centre,MD,,"114 Shawan Road, Suite 8",39.49608,21030
+410-573-5060,Annapolis,,,,United States,,-76.54373,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Annapolis Town Centre at Parole,MD,,1901 Towne Centre  Blvd Suite 145 B,38.98129,21401
+904-645-9320,Jacksonville,,,,United States,,-81.52993,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Markets at Town Center,FL,,4849 Town Center Parkway,30.255538,32246
+(615) 778-1676,Franklin,,,,United States,,-86.82406,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",McEwen Town Center,TN,,"1560 West McEwen Drive, Suite 160",35.93555,37067
+(317) 205-9380,Indianapolis,,,,United States,,-86.12203,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Glendale,IN,,"6159 N. Keystone Ave., Suite 100",39.86871,46220
+(305) 935-2230,Miami,,,,United States,,-80.14613,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Town Center Aventura,FL,,"18801 Biscayne Blvd., Suite B",25.95466,33180
+407-834-0752,Altamonte Springs,,,,United States,,-81.38073,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Reniassance Center,FL,,355 E Altamonte Drive #100,28.66318,32701
+201-556-1001,Maywood,,,,United States,,-74.060066,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Bergen Town Center,NJ,,83 West Spring Valley Ave Suite L-6,40.914298,07607
+(954) 565-5881,Fort Lauderdale,,,,United States,,-80.11819,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Bal Harbour Square,FL,,1730 N Federal Hwy,26.15392,33305
+(248) 837-2420,Royal Oak,,,,United States,,-83.17955,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,MI,,30278 Woodward Ave.,42.51116,48073
+(941) 359-8570,Sarasota,,,,United States,,-82.45192,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",University Center,FL,,8511 Cooper Creek Blvd.,27.38903,34201
+(512) 263-8565,Bee Cave,,,,United States,,-97.94263,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Hill Country Galleria,TX,,12913 Galleria Circle Suite 101,30.30922,78738
+(281) 487-2226,Pasadena,,,,United States,,-95.151849,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Fairmont Parkway,TX,,5932 Fairmont Pkwy. Suite 150,29.6490699,77505
+(303) 942-3445,Denver,,,,United States,,-104.94301,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",University Park,CO,,3970 Buchtel Blvd. Suite 107,39.6798399,80210
+(865) 966-1610,Knoxville,,,,United States,,-84.1603,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Pinnacle at Turkey Creek,TN,,11301 Parkside Dr. Suite 1200,35.89959,37901
+(407) 563-9905,Orlando,,,,United States,,-81.212509,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",UCF Foundation Shopping Center,FL,,3402 Technological Ave. Suite 232,28.59793,32817
+(561) 322-1001,Boca Raton,,,,United States,,-80.15438,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Del MarVillage,FL,,7152-B Beracasa Way,26.3512099,33433
+(407) 846-0829,Kissimmee,,,,United States,,-81.426419,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Loop West,FL,,2501 W Osceola Pkwy.,28.34254,34741
+(248) 824-1085,Troy,,,,United States,,-83.13271,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Troy Marketplace,MI,,730 E Big Beaver Rd.,42.56255,48083
+(703) 753-3880,Gainesville,,,,United States,,-77.61087,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Virgina Gateway Commons,VA,,5035 Wellington Rd.,38.7953499,20155
+(972) 317-8809,Highland Village,,,,United States,,-97.0809,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Marketplace at Highland Village,TX,,3090 FM 407 Suite 306,33.0732199,75077
+(512) 863-4087,Round Rock,,,,United States,,-97.69109,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",University Commons,TX,,200 University Blvd. Suite 100,30.55979,78665
+(623) 546-6868,Surprise,,,,United States,,-112.36609,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Town Square @ Surprise,AZ,,14155 W Bell Rd. Suite 113,33.63837,85374
+(405) 364-1690,Norman,,,,United States,,-97.48417,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:15pm to 10:15PM",University Town Center,OK,,1500 24th Ave. NW,35.2375,73069
+(316) 729-7285,Wichita,,,,United States,,-97.462779,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",New Market Square,KS,,2441 North Maize Rd. Suite 1501,37.72742,67205
+(562) 668-5090,Seal Beach,,,,United States,,-118.07473,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Shops at Rossmoor,CA,,12235 Seal Beach Blvd.,33.78445,90740
+(801) 601-3170,Midvale,,,,United States,,-111.86024,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Family Place at Fort Union,UT,,1148 E Fort. Union Blvd. Unit 162,40.6235799,84047
+(210) 507-3600,San Antonio,,,,United States,,-98.46859,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Lincoln Heights,TX,,999 E Basse Rd. Suite 199,29.49808,78209
+(915) 591-2006,El Paso,,,,United States,,-106.30341,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Las Palmas Marketplace,TX,,1325 George Dieter Dr. Space K2,31.72417,79936
+(248) 601-1380,Rochester,,,,United States,,-83.151849,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Boulevard Shops,MI,,1206 Walton Blvd.,42.6827699,48307
+(817) 605-0145,Watauga,,,,United States,,-97.25949,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Watauga Pavilion,TX,,7620 W Denton Highway 632,32.8834099,76148
+(954) 499-8820,Pembroke Pines,,,,United States,,-80.294979,"Sun - Thu : 11:00am to 09:30PM, Fri - Sat : 10:00pm to 10:00PM",,FL,,11049 Pines Blvd. Suite 424,26.00833,33026
+(760) 304-7010,San Marcos,,,,United States,,-117.1915,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Grand Plaza,CA,,113 S Las Posas Rd. Suite 110,33.13931,92078
+(619) 321-6670,San Diego,,,,United States,,-117.15284,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Mission Valley,CA,,1025 Camino De La Reina Suite P-5,32.7678099,92108
+(409) 866-0620,Beaumont,,,,United States,,-94.166169,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Fountain Plaza,TX,,3050 Dowlen Rd. Suite N,30.1065299,77706
+(210) 507-5520,San Antonio,,,,United States,,-98.7099,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Potranco Village,TX,,430 W Loop 1604 N Suite 101,29.43634,78251
+(713) 436-3840,Pearland,,,,United States,,-95.392169,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Pearland Town Center,TX,,11302 Broadway Suite 102,29.55254,77584
+(407) 241-3301,Orlando,,,,United States,,-81.4773,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Phillips Crossing,FL,,8015 Turkey Lake Rd. Suite 400,28.4489699,32819
+(610) 549-9060,Springfield,,,,United States,,-75.34206,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Springfield Square,PA,,950 Baltimore Pike,39.9151099,19064
+(940) 380-9303,Denton,,,,United States,,-97.10034,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Denton Towne Crossing,TX,,1931 S Loop 288 Suite 130,33.1906,76205
+(806) 352-5632,Amarillo,,,,United States,,-101.93915,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Forum at Soncy,TX,,3350 S Soncy Suite 194,35.1772599,79124
+(952) 656-9480,St. Louis Park,,,,United States,,-93.34833,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Cedar Pointe,MN,,5330 Cedar Lake Rd.,44.9626499,55416
+(305) 817-8320,Miami Lakes,,,,United States,,-80.308549,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Eagle Nest Center,FL,,15519 NW 67th Ave.,25.91413,33014
+(901) 382-1822,Memphis,,,,United States,,-89.79492,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Countrywood Crossing,TN,,2257 N Germantown Pkwy. Suite 110,35.1867799,38018
+(602) 308-0410,Phoenix,,,,United States,,-112.083064,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",7th Ave & McDowell,AZ,,701 W McDowell Rd. Suite 101,33.46561,85003
+(856) 792-9260,Cherry Hill,,,,United States,,-75.04058,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Towne Place at Garden State Park,NJ,,2050 Route 70 W,39.9227399,08002
+(813) 207-1190,Tampa,,,,United States,,-82.50619,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Drexel Heritage,FL,,217 S Dale Mabry Hwy.,27.94263,33609
+(561) 226-0290,Boca Raton,,,,United States,,-80.077359,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Fifth Avenue,FL,,1914 NE Fifth Ave.,26.36783,33431
+(856) 778-0299,Moorestown,,,,United States,,-74.960949,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Moorestown Mall,NJ,,400 Route 38 Suite 8120,39.9461599,08057
+(586) 566-0362,Sterling Heights,,,,United States,,-82.98771,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Lakeside Mall Pad,MI,,13937 Lakeside Circle Suite 113,42.6263599,48313
+(915) 581-8540,El Paso,,,,United States,,-106.56582,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Promenade,TX,,7500 N Mesa St. Suite 101,31.8398,79912
+(703) 443-2411,Leesburg,,,,United States,,-77.550719,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Leesburg Plaza,VA,,528A E Market St.,39.10884,20176
+(305) 386-8510,Miami,,,,United States,,-80.41548,"Sun - Thu : 11:00am to 10:00PM, Fri - Sat : 11:00pm to 11:00PM",Carter Square,FL,,13616 N Kendall Dr.,25.68457,33186
+(615) 514-3230,Nashville,,,,United States,,-86.818569,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Hill Center,TN,,4017 Hillsboro Pike Suite 301,36.10316,37215
+(248) 675-0040,Novi,,,,United States,,-83.473889,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Novi Towne Center,MI,,43170 Grand River Ave.,42.48077,48375
+(727) 347-1351,St. Petersburg,,,,United States,,-82.727519,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Tyrone Crossing,FL,,1402 66th St.,27.78773,33710
+(254) 772-0190,Waco,,,,United States,,-97.169659,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Brazos Place Plaza,TX,,4300A W Waco Dr. Suite 1,31.52775,76710
+(801) 294-0929,West Bountiful,,,,United States,,-111.89288,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Commons @ West Bountiful,UT,,71 N 500 W Suite A,40.89018,84010
+(314) 656-5980,Ladue,,,,United States,,-90.352019,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Ladue Crossing,MO,,8885 Ladue Rd. Suite 1,38.6544299,63124
+(972) 548-9843,McKinney,,,,United States,,-96.64278,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Craig Crossing,TX,,3000 S Central Expressway,33.1700999,75070
+(918) 749-6083,Tulsa,,,,United States,,-95.97498,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Brookside,OK,,3535 S Peoria,36.1120999,74105
+(913) 254-7283,Olathe,,,,United States,,-94.76188,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Olathe Station,KS,,15141 W 119th St.,38.91196,66062
+(954) 308-3720,Plantation,,,,United States,,-80.262,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:15pm to 10:15PM",Veranda Shops,FL,,522 N Pine Island Rd.,26.12725,33324
+(817) 299-8687,Arlington,,,,United States,,-97.09841,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Collins Street,TX,,2100 N Collins St. Suite 120,32.7666299,76011
+(772) 219-0466,Stuart,,,,United States,,-80.23639,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Stuart Center,FL,,2101 SE Federal Hwy.,27.1781499,34994
+(972) 202-5380,Plano,,,,United States,,-96.711269,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",,TX,,601 W 15th St. Suite 101,33.0204799,75075
+(813) 960-2031,Tampa,,,,United States,,-82.50315,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Mission Bell,FL,,12927 N Dale Mabry Hwy.,28.06447,33618
+(512) 996-0095,Austin,,,,United States,,-97.789349,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Anderson Arbors Shopping Center,TX,,13429 N Hwy 183,30.44818,78750
+(703) 251-0090,Herndon,,,,United States,,-77.396129,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Woodland Park,VA,,2338 Woodland Crossing Dr. Suite A,38.9496899,20171
+(919) 227-3810,Raleigh,,,,United States,,-78.611519,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Falls Center,NC,,4408 Falls of Neuse Rd.,35.84178,27609
+(703) 421-5590,Dulles,,,,United States,,-77.43723,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Dulles 28 Retail Plaza,VA,,22000 Dulles Retail Plaza Suite 190,39.00551,20166
+(713) 785-1620,Houston,,,,United States,,-95.500349,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",San Felipe & Voss,TX,,1413 S Voss Rd. Suite A,29.75103,77057
+(901) 722-3780,Memphis,,,,United States,,-90.005979,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Belvedere Collection,TN,,1680 Union Ave. Suite 109,35.13631,38104
+(239) 596-5515,Naples,,,,United States,,-81.770489,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Collection @ Vanderbilt,FL,,2355 Vanderbilt Beach Rd. Suite 116,26.24475,34109
+(918) 250-8557,Broken Arrow,,,,United States,,-95.849559,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Kenosha Commercial Center,OK,,4609 W Kenosha St.,36.0597399,74012
+(703) 803-4466,Fairfax,,,,United States,,-77.37819,"Sun - Thu : 11:00am to 09:30PM, Fri - Sat : 10:00pm to 10:00PM",East Market @ Fair Lakes,VA,,4461 Market Commons Dr.,38.85768,22033
+(919) 337-0050,Cary,,,,United States,,-78.76354,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Cary Towne Center,NC,,1107 Walnut St.,35.77237,27511
+(623) 535-9830,Avondale,,,,United States,,-112.33991,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Alameda Crossing,AZ,,1619 North Dysart Rd. Suite 101,33.46493,85323
+(210) 523-0040,San Antonio,,,,United States,,-98.66221,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Bandera Oaks,TX,,"11398 Bandera Rd. Building 1, Suite 101",29.55057,78250
+(602) 707-2800,Phoenix,,,,United States,,-112.07031,"Sun - Thu : 10:45am to 09:30PM, Fri - Sat : 10:00pm to 10:00PM",Bell Towne Plaza,AZ,,267 E Bell Rd. Suite 1,33.6401,85022
+(806) 792-4896,Lubbock,,,,United States,,-101.90416,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Kingsgate Center,TX,,4210 82nd St. Suite 230,33.5206099,79423
+(817) 806-9950,Fort Worth,,,,United States,,-97.355279,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Montgomery Plaza,TX,,2600 W 7th St. Suite 101,32.75157,76107
+(314) 656-2004,Creve Coeur,,,,United States,,-90.434669,"Sun - Thu : 10:45am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",Cityplace East,MO,,11430 Olive Blvd.,38.67054,63141
+(949) 860-2001,Lake Forest,,,,United States,,-117.70356,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The Orchards,CA,,23632 El Toro Rd.,33.6169799,92630
+(919) 484-4113,Raleigh,,,,United States,,-78.78498,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Brier Creek,NC,,10251 Little Brier Creek Ln. Suite 112,35.9111899,27617
+(858) 207-2730,San Diego,,,,United States,,-117.11177,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",4S Commons,CA,,10562 Craftsman Way Suite 190,33.0184799,92127
+(720) 479-5570,Boulder,,,,United States,,-105.25706,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 09:00pm to 09:00PM",29th Street,CO,,1675 29th St. Suite 1284,40.0155,80301
+(972) 202-5490,Garland,,,,United States,,-96.615,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Firewheel Market,TX,,4170 Lavon Dr.,32.95102,75040
+(281) 506-3500,Houston,,,,United States,,-95.590879,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Memorial & Kirkwood,TX,,14008 Memorial Dr. Suite A,29.77157,77079
+(561) 753-6260,Wellington,,,,United States,,-80.216589,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Wellington Green Square,FL,,10610 Bay 10 Forest Hill Blvd.,26.6506599,33414
+(714) 259-1125,Tustin,,,,United States,,-117.82823,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",The District at Tustin Legacy,CA,,2695 Park Ave.,33.69623,92782
+(702) 837-0861,Henderson,,,,United States,,-115.10388,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,NV,,10575 S Eastern Ave. Suite 100,35.9985399,89052
+(505) 897-4811,Albuquerque,,,,United States,,-106.65761,"Sun - Thu : 10:30am to 09:00PM, Fri - Sat : 09:30pm to 09:30PM",Cottonwood Corners,NM,,10420 Coors Bypass NW Suite 1B,35.2067199,87114
+(405) 341-6850,Edmond,,,,United States,,-97.465149,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,OK,,1141 E 2nd St. Suite 100-A,35.6528399,73034
+(704) 543-1121,Charlotte,,,,United States,,-80.85145,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",Ballantyne,NC,,13855 Conlan Circle Suite J,35.05532,28277
+(615) 514-4990,Brentwood,,,,United States,,-86.80065,"Sun - Thu : 11:00am to 09:00PM, Fri - Sat : 10:00pm to 10:00PM",,TN,,101 Creekside Crossing Suite 1800,36.0382299,37027
+(480) 333-0014,Tempe,,,,United States,,-111.91023,"Sun - Thu : 10:30am to 09:30PM, Fri - Sat : 10:00pm to 10:00PM",,AZ,,1825 Guadalupe Suite F-112,33.36381,85283
+(469) 362-8288,Plano,,,,United State

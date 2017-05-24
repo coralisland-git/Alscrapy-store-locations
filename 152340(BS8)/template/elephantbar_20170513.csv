@@ -1,0 +1,11 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Downey,,12002 Lakewood Boulevard,,Downey,California,90242,United States,(562) 803-9910,33.9269483,-118.12982740000001,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Torrance,,21227 Hawthorne Boulevard,,Torrance,California,90503,United States,(310) 543-5595,33.8366598,-118.3565984,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Henderson,,2270 Village Walk Drive,,Henderson,Nevada,89052,United States,(702) 361-7468,36.0214727,-115.08816100000001,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Burlingame,,1600 Old Bayshore Highway,,Burlingame,California,94010,United States,(650) 259-9585,37.5998396,-122.36692729999999,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Citrus Heights,,6063 Sunrise Blvd,,Citrus Heights,California,95610,United States,(916) 961-3628,38.674757,-121.27098490000003,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Fresno,,7965 North Blackstone Avenue,,Fresno,California,93720,United States,(559) 261-0325,36.85117,-119.79148900000001,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Hayward,,24177 Southland Drive,,Hayward,California,94545,United States,(510) 266-0400,37.6535904,-122.10616809999999,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Sacramento (Arden Fair),,1500 Arden Way,,Sacramento,California,95815,United States,(916) 564-2526,38.6007176,-121.43073379999998,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+Albuquerque,,2240 Louisiana Blvd NE,,Albuquerque,New Mexico,87110,United States,(505) 884-2355,35.1034459,-106.56846359999997,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,
+St. Louis (Des Peres),,1085 West County Center Drive,,Missouri River Township,Missouri,63131,United States,(314) 835-0545,38.6012537,-90.44476259999999,"Mon-Thur11am-11pm, Friday11am-12am, Saturday10am-12am, Sunday10am-11pm",,,

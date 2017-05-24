@@ -1,0 +1,13 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+"Mankato, MN",,River Hills Mall 1850 Adams Street Suite 6 ,,Mankato ,MN,56001,United States,507-386-7767,,,"Mon-Sat: 9:30AM - 9:00PM, Sundays: 11:00AM - 6:00PM",,,
+"Eden Prarie, MN",,8251 Flying Cloud Drive Space 1058-S Eden Prairie Center ,,Eden Prairie ,MN,55344,United States,952-826-0067,,,"Mon-Sat: 10:00 AM - 9:00 PM, Sundays: 11:00 AM - 6:00 PM",,,
+"St. Cloud, MN",,Crossroads Mall 40 North Waite Ave ,,Waite Park ,MN,56387,United States,320-252-9494,,,"Mon-Sat: 9:00 AM - 9:00 PM, Sundays: 10:00 AM - 6:00 PM",,,
+"Moorhead, MN",,505 Center Ave ,,Moorhead ,MN,56560-1921,United States,218-233-2751,,,"Mon-Fri: 9:00AM - 9:00PM, Saturdays: 9:00AM - 6:00PM, Sundays: 11:00AM - 5:00PM",,,
+"Grand Forks, ND",,2800 South Columbia Road Building 1 ,,Grand Forks ,ND,58201-4026,United States,701-780-9424,,,"Mon-Sat: 9:00 AM - 9:00 PM, Sundays: Noon - 6:00 PM",,,
+"Minot, ND",,Dakota Square Mall 2400 10th St SW ,,Minot ,ND,58701-6996,United States,701-852-1010,,,"Mon-Fri: 9:30 AM - 9:00 PM, Saturdays: 9:30 AM - 7:00 PM, Sundays: Noon - 6:00 PM",,,
+"Sioux Falls, SD",,2101 W. 41st Street ,,Sioux Falls ,SD,57105,United States,605-334-7767,,,"Mon-Sat: 9:00AM - 9:00PM, Sundays: 10:00AM - 6:00PM",,,
+,,1225 Eglin Street ,,Rapid City ,SD,57701-7881,United States,605-342-9033,,,"Mon-Sat: 9:00AM - 9:00PM, Sundays: 11:00AM - 6:00PM",,,
+"Sandy, UT",,11282 S State St ,,Sandy ,UT,84070,United States,801-948-7080,,,"Mon - Sat: 9:30AM - 9PM, Sunday: 11AM - 6PM",,,
+"Great Falls, MT",,Holiday Village 1200 10th Avenue South # 92 ,,Great Falls ,MT,59405-4463,United States,406-453-7666,,,"Mon-Fri: 9:00 AM - 9:00 PM, Saturdays: 9:00 AM - 7:00 PM, Sundays : 11:00 AM - 6:00 PM",,,
+"Billings, MT",,1121 Shiloh Crossing Boulevard ,,Billings ,MT,59102,United States,406-656-9220,,,"Mon-Sat: 9:00AM - 9:00PM, Sundays: 10:00AM - 6:00PM",,,
+"Reno-Sparks, NV",,1200 Scheels Drive ,,Sparks ,NV,89434,United States,775-331-2700,,,"Mon - Sat: 9AM - 9PM, Sunday: 10AM - 6PM",,,

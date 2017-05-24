@@ -1,0 +1,276 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+River North,99,635 N State Street,,Chicago,IL,60654,,312-475-0641,41.8937787,-87.6279259,"Swirling Daily 
+Sunday - Thursday 12 PM - 11 PM 
+Friday - Saturday     11 AM - 1 AM",,,
+Briarwood Mall,101,100 Briarwood Circle,,Ann Arbor,MI,48108,USA,734 222 4700,42.238487243652344,-83.67556762695312,"Mon - Sat 10 AM - 9 PM
+Sun 11 AM - 6 PM",,,
+Detroit Metropolitan Wayne County Airport,289,McNamara Terminal,,Detroit,MI,48242,,(734) 955-1227,42.20891189575195,-83.35992431640625,6 am - 10 pm,,,
+Southland Center Mall,302,23000 Eureka Road,,Taylor,MI,48180,,,42.200111389160156,-83.25421905517578,"Monday - Saturday 10 am - 9 pm
+Sunday 12 pm - 6 pm",,,
+Highland Village,140,3838 Westheimer Rd,,Houston,TX,77027,USA,713-622-3401,29.742130279541016,-95.4428482055664,"Sun-Thurs 11am-10:30pm
+Fri-Sat 11am-11pm",,,
+Blvd Place,243,1700 Post Oak Blvd,,Houston,TX,77056,USA,,29.747112274169922,-95.4616470336914,"Sun - Thurs 11am - 10pm
+Fri - Sat 11am - 11pm
+Christmas Eve 11am - 5pm
+New Years Eve 11am - 6pm",,,
+Galleria Mall,229,5085 Westheimer Rd,,Houston,TX,77056,USA,713-877-8902,29.74055290222168,-95.46295166015625,"Mon - Thurs 10am - 9:15pm
+Fri - Sat 10am - 9:30pm
+Sun 11am - 7:30pm",,,
+Westlake,329,3300 Bee Cave Rd.,,West Lake Hills,TX,78746,USA,512-330-9994,30.27591323852539,-97.79913330078125,"Sun - Thur 11am - 10pm, 
+Fri + Sat 11am - 11pm",,,
+Barton Creek Square Mall,245,2901 S Capital of Texas Highway,,Austin,TX,78746,USA,512-792-9110,30.256763458251953,-97.80811309814453,"10am - 9pm Mon- Sat, 
+11am - 7pm Sundays",,,
+Arlington,53,4000 Bagpiper Way Suite 130,,Arlington,TX,76018,USA,817 642 5616,32.66515350341797,-97.08211517333984,"Sun - Thur  11am- 10pm
+Fri+Sat 11am - 11pm",,,
+Preston &amp Royal,62,5959 Royal Lane Suite 622,,Dallas,TX,75230,USA,972 803 3700,32.89570236206055,-96.80583190917969,"Sun - Thu 11am - 10pm
+Fri - Sat 11am - 11pm",,,
+Dallas/Fort Worth International Airport,323,2400 Aviation Drive,,DFW Airport,TX,75261,,,32.8557014465332,-97.03775024414062,,,,
+Dallas/Fort Worth International Airport,324,2400 Aviation Drive,,DFW Airport,TX,75261,,,32.8557014465332,-97.03775024414062,,,,
+14th and 6th Ave,35,523 6th Ave,,New York,NY,10011,USA,212 414 8429,40.737213134765625,-73.99699401855469,"Swirling Daily:
+Sun-Thurs 11:30am -10:30pm
+Fri+ Sat 11:30am -11pm
+
+Delivery:
+Mon - Sun 12-10pm",,,
+32nd St,10,7 West 32nd Street,,New York,NY,10001,USA,212 695 9631,40.747413635253906,-73.98616790771484,"Swirling Daily:
+Sun - Thurs 11:30am - 11:30pm
+Fri + Sat 11:30am - 12am
+
+Delivery:
+Mon-Sun 11:30-11pm",,,
+Macy&#039s Herald Sq.,235,151 W 34th St. 7th floor,,New York,NY,10001,USA,,40.75031280517578,-73.98831176757812,"Mon-Sat 9am - 9pm
+Sun 11am - 8:30pm",,,
+Park Slope,146,161 Seventh Ave,,Brooklyn,NY,11215,USA,(718) 788-0615,40.672157287597656,-73.9770278930664,"Swirling Daily:
+Sun-Thur 11:30am-10pm
+Fri + Sat 11:30am-11pm
+
+Delivery: 
+Mon-Sun 12-10pm",,,
+9th Avenue,52,596 9th Ave.,,New York,NY,10036,USA,212 957 8440,40.758792877197266,-73.99199676513672,"Swirling Daily:
+Sun-Thurs 11am-11pm
+Fri + Sat 11am-12am
+
+Delivery:
+Mon - Sun 12-10:30pm",,,
+Midtown East,46,1039 2nd Avenue,,New York,NY,10022,USA,212 223 1918,40.75783157348633,-73.96662139892578,"Swirling Daily:
+Sunday - Saturday 11:30 am - 11 pm
+
+Delivery:
+Sun-Thur 11:30-10:30pm
+Fri + Sat 11:30-11pm",,,
+Columbus Circle,38,330 West 58th Street,,New York,NY,10019,USA,212 397 0412,40.767887115478516,-73.98361206054688,"Swirling Daily:
+Sun - Thur 11am-11pm
+Fri + Sat 11am- 12am
+
+Delivery:
+Mon-Sun 12-10pm",,,
+Upper West Side,28,2041 Broadway,,New York,NY,10023,USA,212.580.3410,40.777809143066406,-73.98222351074219,"Swirling Daily:
+Mon-Thur 11:30am-11pm
+Fri + Sat 11:30am -12am
+Sunday 11:30am-10pm",,,
+Upper East Side,9,1577 2nd Avenue,,New York,NY,10028,USA,212-861-0574,40.77519989013672,-73.95372009277344,"Swirling Daily:
+Sun-Thur 11am-10:30pm
+Fri + Sat 11am-11:30pm
+
+Delivery:
+Sun - Thur 11-9:45pm
+Fri + Sat 11-10:45pm",,,
+93rd Broadway,179,2508 Broadway,,New York,NY,10025,USA,212 280 1647,40.792877197265625,-73.97280883789062,"Swirling Daily: 
+Sun -Thur 11am-10:30pm 
+Fri+ Sat 11am-11pm
+
+Delivery:
+Sun-Mon 3-10pm",,,
+Columbia,23,2873 Broadway,,New York,NY,10025,USA,212 222 0191,40.805259704589844,-73.9660415649414,"Swirling Daily:
+Sun-Thurs 11:30am -11pm
+Fri + Sat 11:30am -12am",,,
+Roosevelt Field Mall,174,630 Old Country Rd,,Garden City,NY,11530,USA,516 739 9044,40.73997116088867,-73.61357879638672,"Mon - Sat 10:00am - 9:30pm, 
+Sun 11:00am - 7:00pm",,,
+Greenwich,107,369 Greenwich Avenue,,Greenwich,CT,06830,USA,203-622-1782,41.023048400878906,-73.62480926513672,"Swirling Daily: 
+Sun - Thurs 12-9pm
+Fri + Sat 12-10pm",,,
+Darien North,217,1 CT Turnpike Road,,Darien,CT,06820,USA,203-309-5181,41.07719039916992,-73.46868896484375,"Swirling Daily: 
+Sun - Thurs 12-9pm
+Fri + Sat 12-10pm",,,
+South Shore,294,1701 Sunrise Highway,,Bay Shore,NY,11706,,,40.7401008605957,-73.2464828491211,,,,
+Woodbury Commons,297,498 Red Apple Court,,Central Valley,NY,10917,,,41.316280364990234,-74.12577056884766,,,,
+Fairfield,84,1512 Post Rd.,,Fairfield,CT,06824,,203-254-0208,41.141109466552734,-73.25818634033203,"Swirling Daily: 
+Sun - Thurs 12pm - 9pm
+Fri + Sat 12pm - 10pm",,,
+Philadelphia Airport,178,"8800 Essington Ave 
+Philadelphia, PA 19153",,Philadelphia,PA,11953,USA,215-492-7470,39.87644958496094,-75.24742889404297,,,,
+Westfarms,172,500 Westfarms Mall,,Farmington,CT,06032,USA,(860)521-0280,41.72254943847656,-72.76197052001953,"Monday - Saturday: 10 am - 9:30 pm
+Sunday: 10 am - 6 pm",,,
+Tanger Outlets,290,455 Trolley Line Blvd.,,Mashantucket,CT,08338,,860-213-5000,41.47440719604492,-71.95951080322266,"Sun-Thurs 10am - 10pm
+Fri + Sat 10am - 11pm",,,
+Warwick Mall,137,400 Ball Hill Road,,Warwick,RI,02886,USA,401-921-6267,41.723052978515625,-71.47593688964844,"Mon-Sat 10am-9pm
+Sun 11am-6pm",,,
+Newport,231,359 Thames St Unit E,,Newport,RI,02840,USA,401-619-5688,41.483604431152344,-71.31475830078125,"Sun-Thurs 11am - 12am
+Fri + Sat 11am - 1am",,,
+Garden City Center,94,53 Hillside Rd,,Cranston,RI,02920,USA,401 383 7601,41.76459503173828,-71.45845031738281,"Mon - Thurs 10 AM - 10 PM
+Fri + Sat 10 AM - 11 PM
+Sun 11 AM - 10 PM",,,
+Providence Place,138,One Providence Place,,Providence,RI,02903,USA,401-490-0804,41.82834243774414,-71.42105102539062,"Mon-Sat 10:00am-9:00pm,
+Sun 12:00pm-6:00pm",,,
+BWI Thurgood Marshall Airport,127,Terminal A S-21,,Baltimore,MD,21240,USA,410-859-1820,39.17970657348633,-76.66779327392578,Sun-Mon 5am-10pm,,,
+Ronald Reagan Washington National Airport,121,Space 48-A National Hall Ronald Reagan National Airport,,Washington,DC,20001,USA,,38.84492874145508,-77.04865264892578,"7am-9pm
+Sunday-Saturday",,,
+Hillcrest,49,3795 4th Ave.,,San Diego,CA,92103,USA,619-260-9106,32.7468376159668,-117.16133117675781,"Swirling Daily
+Sun - Thur 11 AM - 10 PM
+Fri + Sat 11 AM - 11 PM",,,
+Fashion Valley Mall,106,7007 Friars Road Space # 915,,San Diego,CA,92108,USA,619-294-4600,32.76877975463867,-117.1675796508789,"Mon-Thur 10am -10pm
+Fri-Saturday 10am - 11pm
+Sun 11am - 9pm",,,
+Fashion Island,40,941 Newport Center Drive,,Newport Beach,CA,92660,USA,949 721 1681,33.61556625366211,-117.87846374511719,"Mon - Thurs 10 AM - 9 PM
+Fri &amp Sat 10 AM - 10 PM
+Sun 11 AM - 7 PM",,,
+John Wayne Airport,298,18601 Airport Way,,Santa Ana,CA,92707,,,33.677737,-117.862538,,,,
+Corona,42,2795 Cabot Dr. Suite 103,,Corona,CA,92883,USA,951 277 7476,33.812225341796875,-117.50702667236328,"Swirling Daily
+Sun - Thurs 11 AM - 9 PM
+Fri + Sat 11 AM - 10 PM",,,
+Huntington Bch,22,7811 Edinger Ave. #116,,Huntington Beach,CA,92647,USA,714-372-3333,33.73027038574219,-117.99259185791016,"Sun â€“ Thurs  11am-10pm
+Fri + Sat  11am-11pm",,,
+Mira Loma/Eastvale,44,12257 Limonite Avenue #840,,riverside,CA,91752,United States,951 360 1282,33.975257873535156,-117.54957580566406,"Swirling Daily 
+Sun - Thur 11 AM - 10 PM
+Fri + Sat  11 AM - 10.30 PM",,,
+Long Beach,17,112 East Broadway,,Long Beach,CA,90802,USA,562 432 4929,33.769161224365234,-118.19198608398438,"Sun - Thur 11 AM  -  10 PM
+Fri + Sat 11 AM - 11 PM",,,
+Chino Hills,45,13865 City Center Drive #3085,,Chino Hills,CA,91709,United States,909 591 5763,33.99574661254883,-117.7538833618164,"Swirling Daily 
+Sun - Thur 11.30 AM - 10 PM
+Fri + Sat   11.30 AM - 10  PM",,,
+Pinkberry Torrance,48,21157 Hawthorne Blvd.,,Torrance,CA,90503,USA,310 540 5602,33.83696746826172,-118.35427856445312,Monday-Sunday 11am-10pm,,,
+Azusa,56,862 E. Alosta Ave.,,Azusa,CA,91702,USA,626-691-0170,34.128883361816406,-117.89110565185547,"Swirling Daily
+Sun-Thurs 12 pm-10pm
+Fri+Sat 12 pm-11pm",,,
+Hermosa Beach,60,900 Pacific Coast Hwy.,,Hermosa Beach,CA,90254,USA,310 318 5888,33.862117767333984,-118.39188385009766,"Swirling Daily
+Sun - Thurs 11am - 10pm
+Fri &amp Sat 11am - 11pm",,,
+El Segundo,24,2004 East Park Place,,El Segundo,CA,90245,USA,310-414-9351,33.90507507324219,-118.39600372314453,11 AM - 11 PM,,,
+Monrovia,57,612 South Myrtle Ave.,,Monrovia,CA,91016,USA,626-359-9729,34.14543914794922,-118.0006103515625,"Swirling Daily
+Mon-Thurs 11am -10pm
+Fri - Sat 11am -10:30pm
+Sun 12pm - 10pm",,,
+Little Tokyo,21,332-A East 2nd Street,,Los Angeles,CA,90012,USA,213-621-7645,34.04890441894531,-118.2413330078125,"Swirling Daily 
+11am to 11pm",,,
+LAX Terminal 1,63,201 World Way,,Los Angeles,CA,90045,USA,310-646-0734,33.943790435791016,-118.40800476074219,,,,
+LAX TB IT,208,"South Concourse (in front of gate 153), Tom Bradley International Terminal, 1 World Way",,Los Angeles,CA,90045,USA,424-227-7595,33.943016052246094,-118.409423828125,,,,
+LAX TBIT Arrivals (Lower Level),293,380 World Way,,Los Angeles,CA,90250,,424-227-4816,33.943885803222656,-118.40889739990234,Monday-Sunday 7:00am - 12:00am,,,
+Playa Vista,55,6020 Seabluff Dr. Ste 4,,Playa Vista,CA,90094,USA,310-862-2570,33.97369384765625,-118.42211151123047,11 AM - 11 PM,,,
+Culver City Mall,184,6000 Sepulveda Blvd.,,Culver City,CA,90230,USA,310-390-0555,33.9858302,-118.4277358,"Mon-Thur 10am-9:30pm
+Fri &amp Sat 10am-10pm
+Sun 11am-8pm",,,
+Waterside,36,4708-1/2 Admiralty Way #A-3,,Marina del Rey,CA,90292,USA,310-827-3900,33.979488372802734,-118.43974304199219,"Swirling Daily 
+Mon - Thur 10 AM - 11 PM
+Fri + Sat 10 AM - 12:00 AM
+Sun 10 AM - 11 PM",,,
+Silverlake,19,2829 Hyperion Avenue,,Los Angeles,CA,90027,USA,323 644 1889,34.10909652709961,-118.2718276977539,"Mon- Sun: 12pm to 11pm 
+
+Original/Pomegranate/Chocolate Hazelnut/Raspberry/Dairy-Free Tropical Mango",,,
+Farmers Market,20,6333 West 3rd Street #126,,Los Angeles,CA,90036,USA,323-933-2516,34.07137680053711,-118.36039733886719,"Swirling Daily 
+Mon - Thur 9 AM - 10 PM
+Fri + Sat  9 AM - 11 PM 
+Sun 10 AM - 10 PM",,,
+Americana,43,759 Americana Way,,Glendale,CA,91210,USA,818-507-8116,34.144412994384766,-118.25635528564453,"Swirling Daily
+Sun - Thur 10 AM - 11 PM
+Fri + Sat 10 AM - 12:00 AM",,,
+Beverly Hills,3,240 South Beverly Dr. #A,,Beverly Hills,CA,90212,USA,310 859 3947,34.0634651184082,-118.39871978759766,"Swirling Daily 
+Mon - Fri 11AM - 11 PM
+Sat + Sun 11AM - 11PM",,,
+City Center,139,3752 Las Vegas Blvd.,,Las Vegas,NV,89158,USA,702-895-7003,36.11406326293945,-115.17301177978516,"Sun-Thur 12pm - 1 am
+Fri+Sat 11am - 2am",,,
+Boca Park,218,740 S. Rampart,,Las Vegas,NV,89145,USA,702-331-0975,36.16450881958008,-115.29025268554688,"Sun-Thur 12 PM - 10 PM
+Fri+Sat 12 PM - 11 PM",,,
+Sunset &amp Fuller,30,7288 West Sunset Blvd.,,Los Angeles,CA,90068,USA,323-969-0092,34.09785842895508,-118.3493423461914,"Swirling Daily
+Sun - Thur 12 PM - 2 AM
+Fri + Sat 12 PM - 3 AM",,,
+Burbank,54,120 E. Palm Ave,,Burbank,CA,91502,,(818) 841-1981,34.18144607543945,-118.31163787841797,11am-11 pm,,,
+Studio City,7,12044 1/2 Ventura Blvd.,,Studio City,CA,91604,USA,818 505 0733,34.143646240234375,-118.39408874511719,"Sunday-Thursday 11 AM - 11 PM
+Fri-Sat 11AM-12AM",,,
+La Canada,31,712 Foothill Blvd.,,La Canada,CA,91011,USA,818-952-0128,34.217742919921875,-118.22783660888672,"Swirling Daily
+Sun - Thur 11:30 AM - 11 PM
+Fri + Sat 11:30 AM - 12 AM",,,
+Montana,27,1612 Montana Avenue,,Santa Monica,CA,90403,USA,310 264 4791,34.034027099609375,-118.4927978515625,Sun-Sat 11:00 am to 10:00 pm,,,
+3rd St Promenade,59,1456 3rd Street Promenade,,Santa Monica,CA,90401,USA,310 394 4982,34.014713287353516,-118.49508666992188,"Swirling Daily
+Sun - Thur 10 AM - 11 PM 
+Fri + Sat 10 AM - 12 AM",,,
+Northridge,37,8850 Tampa Ave #101,,Northridge,CA,91324,USA,818-885-0021,34.23125457763672,-118.55298614501953,11 AM - 11 PM,,,
+Santana Row,61,368 Santana Row Suite 102,,San Jose,CA,95128,USA,408 557 8333,37.31986618041992,-121.94784545898438,"Swirling Daily
+Sun - Thurs  11 AM - 10 PM
+Fri &amp Sat 11 AM - 11 PM",,,
+Pueblo Plaza,5,1110 Blossom Hill Rd,,San Jose,CA,95123,USA,(408) 979-0566,37.25065612792969,-121.87630462646484,"Sun-Thur 11am - 9pm
+Fri+Sat 11am - 10pm",,,
+Sunnyvale,82,122 East El Camino Real,,Sunnyvale,CA,94087,USA,408 735 9300,37.36692810058594,-122.03137969970703,"Mon - Thurs 12 PM - 9 PM
+Fri - Sat 11 AM - 10 PM
+Sun 11 AM - 9 PM",,,
+Stanford,64,680 Stanford Shopping Center Suite 14,,Palo Alto,CA,94304,USA,650 322 6030,37.44327163696289,-122.17082977294922,"Swirling Daily
+Sun-Thurs 11am - 9pm
+Fri+Sat 11am-10pm",,,
+San Francisco Airport,87,"SFO International Airport, Terminal 2 Boarding Area D, Quick Serve, Sector 8, Space 9-D.2.350",,San Francisco,CA,94128,USA,650-821-8211,37.61701965332031,-122.38338470458984,Mon-Sun 6am-11pm,,,
+Union Square Macy&#039s,141,170 O&#039Farrell St,,San Francisco,CA,94102,USA,(415) 391-1529,37.786834716796875,-122.40746307373047,"Monday -Thursday 11am - 9pm 
+Friday - Saturday 11am - 9pm
+Sunday 11 - 8pm",,,
+Cannery Row,161,807 Cannery Row,,Monterey,CA,93940,,(831) 920-1699,36.617218017578125,-121.9015884399414,"Sun-Fri 11-6, Sat 11-7",,,
+Laguna Crossroads,65,7405 Laguna Blvd,,Elk Grove,CA,95758,USA,916 683 3292,38.42250442504883,-121.4105224609375,"Sun-Thurs 11 am-10 pm
+Fri + Sat 11 am -11 pm",,,
+Loehmans Plaza,79,2442 Fair Oaks Blvd Ste 120,,Sacramento,CA,95825,USA,916-485-2456,38.57435607910156,-121.40576171875,"Sun - Thurs 11 am - 10 pm
+Fri + Sat 11 am - 11 pm",,,
+Howe Bout Arden,77,2100 Arden Way Ste 195,,Sacramento,CA,95825,USA,(916) 921-5852,38.59515380859375,-121.41661071777344,"Sun-Thurs 11am-10pm
+Fri-Sat 11am-11pm",,,
+Sunrise,80,5855 Sunrise Blvd,,Citrus Heights,CA,95610,USA,916-967-1700,38.67323303222656,-121.27163696289062,"Sun - Thurs 11 am - 10 pm
+Fri + Sat 11 am - 11 pm",,,
+Palladio at Folsom,89,280 Palladio Parkway Ste 933,,Folsom,CA,95630,USA,916 983 3550,38.64870834350586,-121.11951446533203,"Sun - Thurs 10 am - 10 pm
+Fri + Sat 10 am - 11 pm",,,
+Roseville Galleria,58,1151 Galleria Blvd Space 9125,,Roseville,CA,95678,USA,916.772.7465,38.77225875854492,-121.269287109375,"Mon - Sat 10am-9pm
+Sun - 11am-7pm",,,
+Santa Barbara,47,742 State St.,,Santa Barbara,CA,93101,,805-962-1378,34.41919708251953,-119.69872283935547,"Swirling Daily 
+Sunday - Thursday 11AM - 9 PM 
+Friday - Saturday     11 AM - 11 PM",,,
+Valdosta University,103,VSU 1500 North Patterson Street Campus Dining,,Valdosta,GA,,USA,229 333 7823,30.84855842590332,-83.28778076171875,Mon - Thur 12 PM - 10 PM,,,
+MCO A/S 2,227,"1 Jeff Fuqua Blvd, Terminal A, Airside 2",,Orlando,FL,32827,USA,,28.43108558654785,-81.30807495117188,Swirling Every Day from 6am-8pm,,,
+MCO A/S 4,228,"1 Jeff Fuqua Blvd, Terminal B, Airside 4",,Orlando,FL,32827,USA,,28.43108558654785,-81.30807495117188,Swirling Every Day from 7am - 8pm,,,
+Atlanta Airport,165,"Hartfield Jackson ATL Int&#039L Airport Concourse A, gate A9 600 N. Terminal Pkwy",,Atlanta,GA,30320,USA,,33.64122772216797,-84.44448852539062,7am-10pm,,,
+Lenox Square Macys,230,3393 Peach Tree Rd. NE,,Atlanta,GA,30326,USA,404-467-7756,33.84784698486328,-84.36360168457031,"Mon - Thurs   10am - 10:00pm
+Friday- Sat   10am - 9:30pm
+Sun   11am-6:30pm",,,
+Buckhead Triangle,4,"3637 Peachtree Rd., Suite B1",,Atlanta,GA,30319,USA,404 949 0459,33.85304260253906,-84.35858154296875,"Sun - Thur 11 AM - 9 PM
+Fri 11 AM-10 PM
+Sat 11 AM -11 PM",,,
+Akers Mill,71,"2937 Cobb Parkway SE, #102",,Atlanta,GA,30339,USA,770-977-9770,33.88079833984375,-84.46247100830078,"Sun-Thurs 11AM - 10:00PM
+Fri + Sat 11 AM - 11:00 PM",,,
+PITT,180,"Pittsburgh International Airport, Landside Terminal/Mezzanine level",,Pittsburgh,PA,15231,USA,(412) 472-0525,40.49599838256836,-80.2566909790039,,,,
+Radford University,105,P.O. Box 6892 - Bonnie Hurlburt Student Center,,Radford,VA,24142,USA,540 831 6720,37.138118743896484,-80.55148315429688,Monday - Sunday  11am - 10pm,,,
+Charlotte Airport,72,5501 Josh Birmingham Pkwy Concourse D,,Charlotte,NC,28208,USA,n/a,35.22351837158203,-80.94416809082031,6AM - 10PM,,,
+Avalon,300,2200 Avalon Blvd Suite 200,,Alpharetta,GA,30009,USA,678-2485162,34.07003402709961,-84.27811431884766,"Sun - Thur    11am - 9:30pm
+Fri - Sat  11am - 10:30pm",,,
+Colorado &amp Mississippi,73,1000 S Colorado Blvd Building A,,Glendale,CO,80246,USA,303 756 7465,39.69837951660156,-104.94062042236328,"Sun - Thur 12 PM - 10 PM
+Fri + Sat 12 PM - 11 PM",,,
+South Station,175,700 Atlantic Ave,,Boston,MA,02110,USA,(857) 239-9597,42.352142333984375,-71.05503845214844,"Monday-Friday 8am-10pm
+Saturday and Sunday 10am-8pm",,,
+Boston Prudential,93,800 Boylston St.,,Boston,MA,02199,USA,617 236 2294,42.346229553222656,-71.08084869384766,"Swirling Daily
+Sunday to Thursday: 10am-11pm
+Friday and Saturday 10am-11pm",,,
+Boston Logan Airport,173,"300 terminal c, Harborside St.
+Terminal C",,Boston,MA,2128,USA,617-561-0200,42.36721420288086,-71.0179214477539,,,,
+Boston University,167,775 Commonwealth Ave,,Boston,MA,2215,USA,617-358-1885,42.350685119628906,-71.10899353027344,Closed from March 11th to March 17th for BU Spring Break. We re-open on Monday March 18th.,,,
+South Shore Mall,126,250 Granite St,,Braintree,MA,2184,USA,781-848-3776,42.219970703125,-71.02276611328125,"Monday-Saturday 11am-9pm
+Sunday 11am-6pm",,,
+Wellesley,100,180 Linden St,,Wellesley,MA,02481,USA,781 239 3400,42.31438446044922,-71.29852294921875,"Sunday - Thursday: 10:00am - 9:00pm
+Friday &amp Saturday: 10:00am - 10:00pm",,,
+Ocean Drive,183,"1144 Ocean Dr., Suite 106A",,Miami,FL,33139,USA,786.484.0451,25.782529830932617,-80.13047790527344,"Sunday - Thursday: 11am - 11pm
+Friday &amp Saturday: 11am - 12am",,,
+Midtown Miami,213,"3401 N. Miami Ave, Ste 122",,Miami,FL,33127,USA,305.548.8678,25.865856170654297,-80.19759368896484,"Sunday - Thursday 11 am - 11 pm 
+Friday &amp Saturday 11 am - 12 midnight",,,
+Aventura,25,21211 Biscayne,,Aventura,FL,33180,USA,305-935-3503,25.97292709350586,-80.142578125,"Sun - Thurs 11 AM - 11 PM
+Fri + Sat 11 AM - 12 AM",,,
+Canal Street,8,300 Canal St.,,New Orleans,LA,70130,USA,504-899-4260,29.950420379638672,-90.0660400390625,"Sun-Thur 11am - 11pm
+Fri + Sat 11am - 1am",,,
+Mid City,207,"411 Carrollton Ave, Ste 2",,New Orleans,LA,70119,USA,504-899-4260,29.977895736694336,-90.09878540039062,Mon - Sun 11am-11pm,,,
+Magazine Street,69,5601 Magazine Street,,New Orleans,LA,70115,USA,504 899 4260,29.921207427978516,-90.11708068847656,"Monday - Thursday 12 pm - 10 pm
+Friday and Saturday 11 am -11 pm
+Sunday 11am-10pm",,,
+Elmwood,168,1208 S. Clearview Parkway,,New Orleans,LA,70123,USA,(504) 899-4260,29.962520599365234,-90.18475341796875,"Monday - Thursday 12 pm - 10 pm
+Friday  12 pm - 11pm
+Saturday -  Sunday 11am-11pm",,,
+Mandeville,145,3460 Hwy 190,,Mandeville,LA,70471,USA,985-612-7306,30.390981674194336,-90.08226013183594,Monday - Sunday Noon - 10 pm,,,
+Honolulu Airport,85,300 Rodgers Boulevard - Main Terminal,,Honolulu,HI,96819,USA,808-836-2566,21.40561866760254,-157.86766052246094,,,,
+Salt  Lake City Airport,144,1776 N Terminal Drive Concourse C,,Salt Lake City,UT,,USA,n/a,40.78825378417969,-111.98140716552734,,,,

@@ -1,0 +1,2465 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths desktop landscape ng-scope" lang="en" ng-app="vshoppeApp" ng-controller="CommonCtrl" style=""><head><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style .gm-style-iw{font-weight:300;font-size:13px;overflow:hidden}.gm-style .gm-iw{color:#2c2c2c}.gm-style .gm-iw b{font-weight:400}.gm-style .gm-iw a:link,.gm-style .gm-iw a:visited{color:#4272db;text-decoration:none}.gm-style .gm-iw a:hover{color:#4272db;text-decoration:underline}.gm-style .gm-iw .gm-title{font-weight:400;margin-bottom:1px}.gm-style .gm-iw .gm-basicinfo{line-height:18px;padding-bottom:12px}.gm-style .gm-iw .gm-website{padding-top:6px}.gm-style .gm-iw .gm-photos{padding-bottom:8px;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none}.gm-style .gm-iw .gm-sv,.gm-style .gm-iw .gm-ph{cursor:pointer;height:50px;width:100px;position:relative;overflow:hidden}.gm-style .gm-iw .gm-sv{padding-right:4px}.gm-style .gm-iw .gm-wsv{cursor:pointer;position:relative;overflow:hidden}.gm-style .gm-iw .gm-sv-label,.gm-style .gm-iw .gm-ph-label{cursor:pointer;position:absolute;bottom:6px;color:#fff;font-weight:400;text-shadow:rgba(0,0,0,0.7) 0 1px 4px;font-size:12px}.gm-style .gm-iw .gm-stars-b,.gm-style .gm-iw .gm-stars-f{height:13px;font-size:0}.gm-style .gm-iw .gm-stars-b{position:relative;background-position:0 0;width:65px;top:3px;margin:0 5px}.gm-style .gm-iw .gm-rev{line-height:20px;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none}.gm-style.gm-china .gm-iw .gm-rev{display:none}.gm-style .gm-iw .gm-numeric-rev{font-size:16px;color:#dd4b39;font-weight:400}.gm-style .gm-iw.gm-transit{margin-left:15px}.gm-style .gm-iw.gm-transit td{vertical-align:top}.gm-style .gm-iw.gm-transit .gm-time{white-space:nowrap;color:#676767;font-weight:bold}.gm-style .gm-iw.gm-transit img{width:15px;height:15px;margin:1px 5px 0 -20px;float:left}.gm-iw {text-align:left;}.gm-iw .gm-numeric-rev {float:left;}.gm-iw .gm-photos,.gm-iw .gm-rev {direction:ltr;}.gm-iw .gm-stars-f, .gm-iw .gm-stars-b {background:url("https://maps.gstatic.com/mapfiles/api-3/images/review_stars.png") no-repeat;background-size: 65px 26px;float:left;}.gm-iw .gm-stars-f {background-position:left -13px;}.gm-iw .gm-sv-label,.gm-iw .gm-ph-label {left: 4px;}</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" /><style type="text/css">.gm-style { font: 400 11px Roboto, Arial, sans-serif;text-decoration: none; }.gm-style img { max-width: none; }</style><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+<meta charset="UTF-8" />
+<meta name="fragment" content="!" />
+<script type="text/javascript" src="https://assistjs.skimresources.com/js/skimtag.vitaminshoppe.com.js"></script><script src="//bat.bing.com/bat.js" async=""></script><script type="text/javascript" src="https://dx.steelhousemedia.com/spx?shaid=11608&amp;tdr=&amp;plh=https%3A%2F%2Fwww.vitaminshoppe.com%2Fsl%2Fstore-locator%3F_requestid%3D1197044"></script><script type="text/javascript" src="https://cdn.mercent.com/js/tracker.js"> </script><script type="text/javascript" src="https://cdn.rlcdn.com/js/ga.js?1493008530033"></script><script async="" src="https://d1n00d49gkbray.cloudfront.net/vitaminshoppe/vitaminshoppe.js"></script><script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" src="//s.btstatic.com/lib/473523be7903d77144092ea64bd8cddd038ac1bb.js?v=2"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20170411114922/recaptcha__en.js"></script><script type="text/javascript" src="//s.btstatic.com/lib/b8c04e8c5ce3d8010c93eefbc4c7052aa4872e4e.js?v=2"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" src="//s.thebrighttag.com/tag?site=ZroXyZH&amp;H=-bpkywlf"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mainCompressed" src="/js/scripts/nonBrowse/mainCompressed.js"></script><base href="/" />
+
+
+
+
+    <meta name="format-detection" content="telephone=no" />
+    
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0" />
+    
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+     <link rel="stylesheet" type="text/css" href="/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    
+        
+    <script type="text/javascript" async="" src="//dnn506yrbagrg.cloudfront.net/pages/scripts/0031/6648.js?414724"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//s.btstatic.com/tag.js#site=ZroXyZH"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-PD53KQ"></script><script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+    
+					<script src="https://cdn.optimizely.com/js/2230543447.js"></script>
+					
+					
+    <script type="text/javascript" src="/js/modernizr.js"></script>
+    <script charset="utf-8" src="/js/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/form-validation.js"></script>
+    <script type="text/javascript" src="/js/commonJS.js"></script>
+      <script type="text/javascript" src="/js/placeholders.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.ui.touch-punch.js"></script>
+ <script type="text/javascript" src="/js/jquery.qtip.js"></script>
+  <script type="text/javascript" src="/js/jquery.selectBoxIt.min.js"></script>
+
+	
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="/css/ie.css" />
+        <![endif]-->
+        <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="/css/ie9.css" />
+        <![endif]-->
+    
+	<!-- RT-404 , common landing page -->	
+	<!-- RT-259 start --> 
+ <!-- RT - 259 end -->	<!-- RT - 109 start --> 
+	<!-- RT - 109 end --> 
+ <title>Vitamin Shoppe Store Locator</title>
+    <meta name="description" content="Store Locator page" />
+  
+ <!----> 
+    <script type="text/javascript">
+      var lpTag = lpTag || {}; lpTag.vars = lpTag.vars  || []; lpTag.dbs = lpTag.dbs || [];
+    lpTag.section = 'default';
+      var arrLPvars = [ 
+	    { scope:'page', name:'unit', value:'vitaminshoppe-sales' },
+        { scope:'session', name:'language', value:'english' },
+        { scope:'page', name:'pageLocation', value:'header' }
+      ];
+      lpTag.vars.push(arrLPvars);
+    </script>
+    
+				<link rel="canonical" href="https://www.vitaminshoppe.com/sl/store-locator" />
+			
+ 
+ 
+      <link rel="stylesheet" type="text/css" href="/css/store-locator.css" />
+      <link rel="stylesheet" type="text/css" href="/css/stores.css" />
+      <link rel="stylesheet" type="text/css" href="/css/map-style.css" />
+      
+      <script type="text/javascript" src="/js/store-locator.js"></script>
+      <script type="text/javascript" src="/js/map-config.js"></script>
+      <script type="text/javascript" src="/js/map-interact.js"></script>
+      <script type="text/javascript" src="/js/storeLocatorSrchRslt.js"></script>
+        
+      
+	    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.vitaminshoppe.com/m/sl/store-locator" />
+	  
+    
+    <link rel="stylesheet" type="text/css" href="/css/compressed/staticPages.css" />
+    <link rel="stylesheet" type="text/css" href="/css/compressed/homePage.css" />
+    <link rel="stylesheet" type="text/css" href="/css/compressed/headerNav.css" />
+    <link rel="stylesheet" type="text/css" href="/css/compressed/footer.css" />
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/marker.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/onion.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/ViewportInfoService.GetViewportInfo?1m6&amp;1m2&amp;1d33.27548217020797&amp;2d-119.54082553426599&amp;2m2&amp;1d35.12743898758041&amp;2d-116.85250112195115&amp;2u10&amp;4sen-US&amp;5e0&amp;6sm%40378000000&amp;7b0&amp;8e0&amp;callback=_xdc_._q3s80h&amp;token=36465"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/stats.js"></script><style>.grecaptcha-badge:hover { right: 4px !important }</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i10!2i174!3i407!1m4!1m3!1i10!2i175!3i407!1m4!1m3!1i10!2i174!3i408!1m4!1m3!1i10!2i174!3i409!1m4!1m3!1i10!2i175!3i408!1m4!1m3!1i10!2i175!3i409!1m4!1m3!1i10!2i176!3i407!1m4!1m3!1i10!2i177!3i407!1m4!1m3!1i10!2i176!3i408!1m4!1m3!1i10!2i176!3i409!1m4!1m3!1i10!2i177!3i408!1m4!1m3!1i10!2i177!3i409!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e3!12m1!5b1&amp;callback=_xdc_._kmcsy9&amp;token=26024"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fwww.vitaminshoppe.com%2Fsl%2Fstore-locator%3F_requestid%3D1197044&amp;2sgme-thevitaminshoppe&amp;3sdesktop-store-locator-results&amp;callback=_xdc_._a6j3oc&amp;token=94040"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/27/12/usage.js"></script><script src="//gateway.answerscloud.com/vitaminshoppe/production/gateway.min.js" type="text/javascript" async="true" data-vendor="acs" data-role="gateway"></script><script type="text/javascript" async="" src="//r.skimresources.com/api/?callback=skimCookieCallbackSkimresources"></script><script type="text/javascript" async="" src="//r.redirectingat.com/api/?callback=skimCookieCallbackRedirectingat"></script></head>
+<body class="desktop windows">
+
+
+		<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-PD53KQ"
+		height="0" width="0" style="display:none;visibility:hidden"
+		&gt;&lt;/iframe&gt;</noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,
+		f);
+		})(window,document,'script','dataLayer','GTM-PD53KQ');</script>
+
+<noscript>
+	&lt;div class="error-master"&gt;JavaScript must be enabled to use this site. Please enable JavaScript in your browser and refresh the page&lt;/div&gt;
+</noscript>
+	
+	
+	
+	
+			 <!-- My Account js files -->
+			 <script type="text/javascript" src="/js/product-functions.js"></script>
+			 <script type="text/javascript" src="/js/my-account.js"></script>
+			 <script type="text/javascript" src="/js/signin.js"></script>
+			  
+ 
+ 
+  <!-- Changes related to carousel -->
+ <link rel="stylesheet" href="/wsi/bower_components/slick-carousel/slick/slick.css" />
+ <link rel="stylesheet" href="/wsi/bower_components/slick-carousel/slick/slick-theme.css" />
+ 
+ <script>
+ function layering(){}
+ var appWebResources = {
+		 "siteWideBestSellers":"https://recs.richrelevance.com/rrserver/api/rrPlatform/recsUsingStrategy?apiClientKey=a4e20b4d9cc0ee39&amp;apiKey=3d1793d5639baeb9&amp;userId=",
+		 "storelocator":"//content.vitaminshoppe.com/storelocator",
+		 "pdpUrl":"//content.vitaminshoppe.com/pdp",
+		 "pdpinventory":"//content.vitaminshoppe.com/pdpinventory",
+		 "singleskumultistore":"//content.vitaminshoppe.com/singleskumultistore",
+		 "pdpRichRelevenceUrl":"https://recs.richrelevance.com/rrserver/api/rrPlatform/recsForPlacements?apiClientKey=44d6b2d4d6b41f5d&amp;apiKey=3d1793d5639baeb9&amp;placements=",
+		 "imageUrl":"https://content.vitaminshoppe.com/img",
+		 "richRelevanceMyRec":"https://recs.richrelevance.com/rrserver/api/rrPlatform/myRecs?apiClientKey=a4e20b4d9cc0ee39&amp;apiKey=3d1793d5639baeb9",
+		 "reCaptchaKey" : "6Lc9KhoUAAAAANwF7CCUvbxpaLZC5PuYvMboh7Nc"
+		};
+  layering.prototype.getLayeringObj = function(){
+	  return appWebResources;
+	};
+ </script>
+  <div>
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div id="site-wrapper" class="site-wrapper"> 
+      <div id="site-canvas" ng-controller="UserCtrl" ng-click="cartClose()" class="ng-scope">
+		<vshoppe-promotion><div>
+<div element-size="" key="contentSize" class="promoMsgWrapper">
+	<div class="container">
+		<div class="row">
+			<div ng-class="{hideNotification:showmenu,slideNotification:!showmenu}" class="slideNotification">
+				<div class="col-md-9 col-sm-12 notification">
+					<div class="container">
+					    <div class="row-fluid">
+					        <div class="span6 offset3">
+					            <div id="myCarousel" class="carousel slide horizontal">
+					                <div class="carousel-inner">
+					                    <div class="active item">
+					                       <div class="col-md-9 col-sm-12 notification" ng-click="headerNavGlobalMsgClick()">
+					                       	
+					                       	<content-asset html="userInitDetails.headerPromotion" class="ng-isolate-scope"><!-- ngIf: asset.change --><!-- ngIf: !asset.change || asset.change == undefined --><div class="content-asset ng-scope" ng-if="!asset.change || asset.change == undefined" ng-html-compile="asset.html"><style type="text/css" class="ng-scope">
+				  .promoLink {background:url(/images/promoBlueArrow.png) no-repeat 100% 50%;float:left;padding-right:15px; cursor:pointer; color:#666;}
+				  .promoLink:hover {color:#00b5ef;}
+				  .promoLink span{color:#00b5ef;}
+				  @media (min-width:320px) and (max-width:1023px){
+				  	.promoLink {margin-right:10px;margin-top:6px;}
+				  }
+				  @media (min-width:768px) and (max-width:1023px){
+				  	.promoLink {margin-top:8px;}
+				  }
+				  </style> 		 				  
+
+<a href="/c/top-sellers/N-cp98y2" class="promoLink ng-scope">10% off Your Purchase Use code APRSALE7</a></div><!-- end ngIf: !asset.change || asset.change == undefined --></content-asset>
+
+					                       </div>
+					                    </div>
+					                    <div class="item">
+					                        <div><a href="javascript:void()" data-toggle="modal" data-target="#shipingInfoOerder" class="redLink" ng-click="headerNavGlobalMsgClick()">Free Shipping On Orders $25 Or More</a></div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 utilityMobileMenu">
+					<ul class="utilityHeaderMenu" id="utility-nav">
+						<li class="links-block chat" id="lpChatHeader2"></li>
+						<li><a href="/u/contact-us.jsp">Help</a></li>
+						<li><a href="/sl/storeLocator.jsp">Store Locator</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- /********************************************** Shiping-Info **************************************************/ -->
+		
+		<div class="modal fade health-pdp promoModal" tabindex="-1" id="shipingInfoOerder" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-body">
+							<a href="javascript:void()" class="close" data-dismiss="modal">×</a>
+							<div class="row">
+								<div class="col-md-12 col-sm-12 col-xs-12 free-shipping-info">
+									<div class="content" style="padding: 0 37px">
+										<div class="head" style="padding-top: 5px" id="head"><span class="corisande-bold">FREE STANDARD SHIPPING</span> on orders of $25 or more</div>
+										<h4 class="corisande-bold18">How to get FREE Standard Shipping:</h4>
+										<ol class="numbers corisande-regular">
+										    <li>Ship to an address within the United States (including U.S. territories)</li>
+										    <li data-node-index="$nid_132356527">Place your online order of $25 or more* - after promotions and before tax are applied</li>
+										    <li>Use "Standard" shipping option at checkout</li>
+										</ol>
+										<span class="corisande-bold">Order by 6pm</span> for same day shipping
+										<p class="text corisande-regular">Domestic orders placed Monday - Friday by 6 p.m. Eastern Time will be packed and shipped the same day, pending verification of billing information and the shipping method selected. International orders and orders containing gift cards, out-of-stock items or refrigerated items will be processed as quickly as possible, but won't necessarily be shipped out the same day.       <br />
+										Excludes all orders placed on major US holidays (Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Christmas Day and New Year's Day).
+										</p><div class="head other" id="head" data-node-index="$nid_132356526">Rely on the       <br />
+										Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+										<div class="text">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+<script>
+	
+	var chat = $("#utility-nav li#lpChatHeader2");
+	chat.on("mouseenter", function (e) {
+	    e.preventDefault();
+	    $(this).siblings("li").find("div.utility-sub-menu").fadeOut();
+	    $(this).find("div.utility-sub-menu").stop(true, true).delay(200).show(0);
+	});
+	chat.on("mouseleave", function (e) {
+	    e.preventDefault();
+	    $(this).find("div.utility-sub-menu").stop(true, true).delay(200).hide(0);
+	    $(this).removeClass("hover");
+	});
+	
+	
+	$('.carousel').carousel({
+		   interval: 5000
+		})
+	
+</script>
+</div></vshoppe-promotion>
+        <vshoppe-mobile-menu><div class="visible-xs visible-sm">
+	<div id="menuleft" ng-style="{'top': contentSize.height + 'px'}" class="menuleft hideNav" ng-show="toggleMenu" ng-class="{'showNav':showmenu,'hideNav':!showmenu}" style="top: 40px;">
+		<div ng-switch="" on="userStatus">
+			<!-- ngSwitchWhen: anonymous --><div ng-switch-when="anonymous" class="ng-scope">
+				<div class="mobileSignin">
+					<span class="userIcon"></span> <a href="/s/myAccount/login.jsp">
+						<span class="mob-signIn">Sign In/Register</span> <span class="mobileArrowIcon"></span>
+					</a>
+				</div>
+			</div><!-- end ngSwitchWhen: -->
+			<!-- ngSwitchWhen: loggedIn -->
+			<!-- ngSwitchWhen: autoLoggedIn -->
+			<!-- ngSwitchDefault: -->
+		</div>
+		<!--            Old code-->
+
+		<div class="mobileNavWrapper">
+			<ul class="mobileLeftMenu leftmenushow" ng-class="{&#10;&#9;&#9;&#9;&#9;&#9;leftmenuhide: showLevelThree,&#10;&#9;&#9;&#9;&#9;&#9;leftmenushow: !showLevelThree&#10;&#9;&#9;&#9;&#9;}">
+				<li>
+         	<a ng-click="shopAllMobile(0)" ng-class="{&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;activeMobile: isMobileSelected(0) &amp;&amp; (selectedMenu == 'showHideMobile'),&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;notActiveMobile: !(isMobileSelected(0) &amp;&amp; (selectedMenu == 'showHideMobile'))&#10;&#9;&#9;&#9;&#9;&#9;&#9;}" class="ng-binding notActiveMobile">
+						SHOP ALL CATEGORIES
+					</a>
+					<ul id="shopAllMobile" class="shopAllMobile open ng-hide" ng-show="selectedMenu == 'showHideMobile'">
+						<!-- ngRepeat: x in Level1Categories -->
+					</ul>
+					<hr />
+				</li>
+
+
+				<li>
+					<a ng-click="brandMobile(1)" ng-class="isMobileSelected(1) ? 'activeMobile' : 'notActiveMobile'" class="ng-binding notActiveMobile">
+						BRANDS
+					</a>
+					<ul id="brandsMobile" class="brandsMobile open ng-hide" ng-show="selectedMenu == 'showHideBrandMobile'">
+						<!-- ngRepeat: x in featBrands|limitTo: 6 -->
+						<a class="moreBrandsLink" href="/browse-brands/">More Brands</a>
+					</ul>
+					<hr /></li>
+
+				<li>
+					<a ng-click="healthMobile(2)" ng-class="isMobileSelected(2) ? 'activeMobile' : 'notActiveMobile'" class="ng-binding notActiveMobile">
+						HEALTH CONCERNS
+					</a>
+					<ul class="healthConcernsMobile open ng-hide" ng-show="selectedMenu == 'showHideHealthMobile'">
+						<!-- ngRepeat: x in healthLevelOne -->
+					</ul>
+					<hr />
+				</li>
+
+				<li>
+					<a ng-click="goalsMobile(3)" ng-class="isMobileSelected(3) ? 'activeMobile' : 'notActiveMobile'" class="ng-binding notActiveMobile">
+						GOALS
+					</a>
+					<ul id="goalsMobile" class="goalsMobile open ng-hide" ng-show="selectedMenu == 'showHideSolMobile'">
+						<!-- ngRepeat: x in goalLinks | limitTo: 8 | filter:{displayName: ''} | filter:{url: ''} -->
+					</ul>
+					<hr /></li>
+
+				<li>
+					<a ng-click="dealsMobile(4)" ng-class="isMobileSelected(4) ? 'activeMobile' : 'notActiveMobile'" class="ng-binding notActiveMobile">
+						DEALS
+					</a>
+					<ul id="dealsMobile" class="dealsMobile open ng-hide" ng-show="selectedMenu == 'showHideDealMobile'">
+						<!-- ngRepeat: x in dealPageLinks | limitTo: 5 | filter:{dealPageLinkName: ''} | filter:{dealPageLink: ''} -->
+					</ul>
+					<hr /></li>
+
+				<li>
+					<a ng-click="learnMobile(5)" ng-class="isMobileSelected(5) ? 'activeMobile' : 'notActiveMobile'" class="ng-binding notActiveMobile">
+						LEARN
+					</a>
+					<ul id="learnMobile" class="learnMobile open ng-hide" ng-show="selectedMenu == 'showHideLearnMobile'">
+						<!-- ngRepeat: x in learnLinks | limitTo: 5 | filter:{displayName: ''} | filter:{url: ''} -->
+					</ul>
+					<hr />
+				</li>
+
+				<li class="signOutMobile ng-hide" ng-show="userStatus == 'loggedIn'">
+					<a ng-click="logoutUser()">
+						Sign out
+					</a>
+				</li>
+			</ul>
+
+			<div class="levelTwoWrapper levelThreeNotActive" ng-class="{&#10;&#9;&#9;&#9;&#9;&#9;levelThreeActive: showLevelThree,&#10;&#9;&#9;&#9;&#9;&#9;levelThreeNotActive: !showLevelThree,&#10;&#9;&#9;&#9;&#9;&#9;levelThreeClose: closelevelThree,&#10;&#9;&#9;&#9;&#9;}">
+				<div class="levelTwoNav">
+					<div class="levelTwoHeader">
+						<span ng-click="backToMenu()" class="backToMenu"></span><span ng-click="backToMenu()" class="leveOneHeading ng-binding"></span>
+					</div>
+					<div class="levelTwoBody">
+						<p class="categoryTitle">
+							<a href="" class="ng-binding">Shop all
+								</a>
+						</p>
+						<ul class="levelTwoList">
+							<!-- ngIf: isFeaturedCategories != null -->
+							<!-- ngRepeat: z in Level2Categories -->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+</div></div></vshoppe-mobile-menu>
+		<div id="site-overlay" ng-style="{'top': contentSize.height + 50 + 'px'}" class="mobileOverlay" ng-class="{show:showmenu}" ng-swipe-left="showmenu=false" style="top: 90px;"></div>
+        <div id="site-body" ng-style="{'top': contentSize.height + 'px'}" ng-class="{hidePage:showmenu,slide:!showmenu}" class="slide" style="top: 40px;">
+          <vshoppe-header><header class="hidden-xs hidden-sm">
+  <div class="headerWrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-9 logoWrapper">
+          <div class="logoMain">
+            <a ng-click="homePgCoreDLPush();" href="/">
+              <img src="https://content.vitaminshoppe.com/img/logo.png" alt="The Vitamin Shoppe" />
+            </a>
+          </div> <!-- logoMain -->
+        </div>
+        <div class="col-md-3 col-sm-3 userBlockWrapper">
+          <div class="row userNav">
+            <div class="col-md-6 userBlock">
+              <div id="userLink" ng-click="toggleLoginDrawer()" ng-class="{&#10;                  'active' : loginDrawer.show,&#10;                  'notActive': !loginDrawer.show&#10;                  }" class="notActive">
+                <!--Changing UI against status-->
+                <div ng-switch="" on="userStatus">
+                  <!-- ngSwitchWhen: anonymous --><div ng-switch-when="anonymous" class="ng-scope">
+                    <span class="userIcon white" ng-class="{&#10;                        'blue' : loginDrawer.show,&#10;                        'white': !loginDrawer.show }">
+                    </span>
+                    <span class="signInText">Sign In/Register</span>
+                  </div><!-- end ngSwitchWhen: -->
+                  <!-- ngSwitchWhen: loggedIn -->
+                  <!-- ngSwitchWhen: autoLoggedIn -->
+                  <!-- ngSwitchDefault: -->
+                </div> <!-- userStatus -->
+              
+              </div>
+            </div>
+            <a href="/s/quickreorder" class="col-md-4 reorderBlock">
+              <span class="reorderIcon"></span>
+              <span class="reorderText">Reorder</span>
+            </a>
+            <div class="col-md-2 minCartBlock" ng-click="ShowHideCart($event)">
+              <span class="noi ng-binding">0</span>
+              <span href="#" class="cartIcon"></span>
+            </div>
+          </div>
+          <div class="cartDropdown ng-hide" ng-show="IsVisibleCart">
+            <div ng-show="isCartEmpty()" class="emptydropdown">
+              <div class="col-md-12 borderBelow">
+                <span class="emptyCartMsg">There are no items in your cart</span>
+              </div>
+              <div class="row">
+                <div class="col-md-12 subTotal">
+                  <span class="textAlignRight"><span>Subtotal </span><span class="ng-binding"></span></span>
+                  <span class="shipMsg ng-binding"></span>
+                </div>
+              </div>
+            </div>
+
+            <div ng-hide="isCartEmpty()" class="ng-hide">
+              <div class="row">
+                <div class="cartHeader col-md-12 cartBorderBelow">
+                  <span ng-show="jsonData.order.totalCommerceItemCount &gt;= 2" class="ng-hide">
+                    <span class="ng-binding"></span>
+                    <span>items in your cart</span>
+                  </span>
+                  <span ng-show="jsonData.order.totalCommerceItemCount == 1" class="ng-hide">
+                    <span class="ng-binding"></span>
+                    <span>item in your cart</span>
+                  </span>
+                </div>
+              </div>
+              
+              <div class="row miniCartItem">
+                <div class="col-md-12">
+                  <!-- ngRepeat: data in jsonData.order.commerceItems -->
+                  </div><!-- col-md-12 -->
+                </div><!-- miniCartItem -->
+                <div class="row">
+                  <div class="col-md-12 subTotal">
+                    <span class="textAlignRight margin10">
+                      <span>Subtotal </span>
+                      <span class="ng-binding"></span>
+                    </span>
+                    <button class="cartbtn" onclick="window.location.href='/cart/cart.jsp'">View Cart &amp; Check Out</button>
+                    <span class="shipMsg ng-binding"></span>
+                    <span class="awardsMsg ng-binding"></span>
+                  </div>
+                </div> <!-- row -->
+              </div>
+            </div>
+          </div>
+          
+        </div><!-- row -->
+      </div>
+    <div class="loginDrawerWrapper open ng-hide" ng-show="loginDrawer.show">
+      <div class="container">
+        <div class="row">
+          <div ng-switch="" on="userStatus">
+            <!-- ngSwitchWhen: anonymous --><div ng-switch-when="anonymous" class="ng-scope">
+              <div class="signInDrawer">
+	<div ng-switch="" on="userStatus">
+		<!-- ngSwitchWhen: anonymous --><div ng-switch-when="anonymous" class="ng-scope">
+			<div class="col-md-3 loginDrawerColOne">
+	<form name="signInForm" novalidate="" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength ng-valid-minlength">
+		<div class="signInWrapper">
+			<h3>Sign In</h3>
+			<div class="errorMsgInHeader ng-binding"></div>
+			<ul class="signInMain">
+				<li class="inputRow" ng-class="{'inputRowError': !signInForm.userEmail.$valid &amp;&amp; (signInForm.userEmail.$touched || signInForm.$submitted) &amp;&amp; signInForm.userEmail.$invalid}" ng-model-options="{ updateOn: 'blur' }"><span class="input-pipeline"> 
+					<input name="userEmail" id="userEmail" ng-model="user.userEmail" type="email" placeholder="Enter your email address" value="" maxlength="65" ng-pattern="/^(?=.{1,40}$)([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/" required="" class="ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength" />
+				</span></li>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userEmail.$error.required &amp;&amp; (signInForm.userEmail.$touched || signInForm.$submitted) &amp;&amp; signInForm.userEmail.$invalid">
+					Please enter a valid email. </span>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userEmail.$error.pattern &amp;&amp; (signInForm.userEmail.$touched || signInForm.$submitted) &amp;&amp; signInForm.userEmail.$invalid">
+					Please enter a valid email. </span>
+				<li class="inputRow" ng-class="{'inputRowError': !signInForm.userPassword.$valid &amp;&amp; (signInForm.userPassword.$touched || signInForm.$submitted) &amp;&amp; signInForm.userPassword.$invalid}" ng-model-options="{ updateOn: 'blur' }"><span class="input-pipeline"> 
+					<input name="userPassword" id="userPassword" ng-model="user.userPassword" type="password" placeholder="Password" value="" maxlength="35" ng-minlength="6" ng-maxlength="35" ng-pattern="/^\S*$/" required="" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-valid-minlength ng-valid-maxlength" />
+				</span></li>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userPassword.$error.required &amp;&amp; (signInForm.userPassword.$touched || signInForm.$submitted) &amp;&amp; signInForm.userPassword.$invalid">
+					Please enter a valid password. </span>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userPassword.$error.minlength &amp;&amp; (signInForm.userPassword.$touched || signInForm.$submitted) &amp;&amp; signInForm.userPassword.$invalid">
+					Password must contain at least 6 characters and not exceed 35
+					characters </span>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userPassword.$error.maxlength &amp;&amp; (signInForm.userPassword.$touched || signInForm.$submitted) &amp;&amp; signInForm.userPassword.$invalid">
+					Password must contain at least 6 characters and not exceed 35
+					characters </span>
+				<span class="errorMsg ng-hide" ng-show="signInForm.userPassword.$error.pattern &amp;&amp; (signInForm.userPassword.$touched || signInForm.$submitted) &amp;&amp; signInForm.userPassword.$invalid">
+					Passwords cannot contain spaces </span>
+				<li>
+					<!-- ngIf: isRecaptchaEnable --><div ng-if="isRecaptchaEnable" class="ng-scope">
+						<div class="g-recaptcha ng-isolate-scope" vc-recaptcha="" key="reCaptchaKey" on-create="setWidgetId(widgetId)" on-success="setResponse(response, user)" on-expire="cbExpiration()" size="invisible" required="false"><div class="grecaptcha-badge" style="width: 256px; height: 60px; transition: right 0.3s ease; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px;"><div class="grecaptcha-logo"><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6Lc9KhoUAAAAANwF7CCUvbxpaLZC5PuYvMboh7Nc&amp;co=aHR0cHM6Ly93d3cudml0YW1pbnNob3BwZS5jb206NDQz&amp;hl=en&amp;v=r20170411114922&amp;size=invisible&amp;cb=t2ul2c6fnq76" title="recaptcha widget" width="256" height="60" frameborder="0" scrolling="no" name="undefined"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+					</div><!-- end ngIf: isRecaptchaEnable -->
+					<button ng-click="validateAndSubmitForm(signInForm, user)">Sign In</button> 
+					<a href="/s/myAccount/passwordReset.jsp" class="forgotPassword hidden-xs hidden-sm">Forgot Password</a>
+				</li>
+			</ul>
+		</div>
+	</form>
+	<div class="signInWrapper registerWrapper">
+		<form name="preRegisterForm" ng-submit="preRegisterForm.$valid &amp;&amp; registerUser(register)" novalidate="" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength">
+			<h3>Register an account</h3>
+			<div class="errorMsgInHeader ng-binding"></div>
+			<p class="hidden-xs hidden-sm">Check out faster, track purchases,
+				save your preferences, and get personalized recommendations</p>
+			<p class="visible-xs visible-sm">Registering with Vitamin Shoppe
+				allows you to:</p>
+			<ul class="visible-xs visible-sm register">
+				<li>Track orders and view purchase history</li>
+				<li>Checkout faster with your saved profile</li>
+				<li>Personalized preferences and recommendations</li>
+			</ul>
+			<ul class="signInMain">
+				<li class="inputRow" ng-class="{'inputRowError': !preRegisterForm.registerEmail.$valid &amp;&amp; (preRegisterForm.registerEmail.$touched || preRegisterForm.$submitted) &amp;&amp; preRegisterForm.registerEmail.$invalid}" ng-model-options="{ updateOn: 'blur' }"><span class="input-pipeline"> <input name="registerEmail" ng-model="register.registerUser" type="email" placeholder="Enter your email address" maxlength="65" ng-pattern="/^(?=.{1,40}$)([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/" required="" class="ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength" />
+				</span></li>
+				<span class="errorMsg ng-hide" ng-show="preRegisterForm.registerEmail.$error.required &amp;&amp; (preRegisterForm.registerEmail.$touched || preRegisterForm.$submitted) &amp;&amp; preRegisterForm.registerEmail.$invalid">Please
+					enter a valid email.</span>
+				<span class="errorMsg ng-hide" ng-show="preRegisterForm.registerEmail.$error.pattern &amp;&amp; (preRegisterForm.registerEmail.$touched || preRegisterForm.$submitted) &amp;&amp; preRegisterForm.registerEmail.$invalid">Please
+					enter a valid email.</span>
+				<!--  <span class="errorMsg" ng-show="preRegisterForm.registerEmail.$error.maxlength && preRegisterForm.$submitted">Max length</span> -->
+				<li><button type="submit">Register</button></li>
+			</ul>
+		</form>
+	</div>
+
+</div>
+		</div><!-- end ngSwitchWhen: -->
+		<!-- ngSwitchWhen: autoLoggedIn -->
+		<!-- ngSwitchDefault: -->
+	</div>
+
+	<div class="col-md-6 loginDrawerColTwo">
+		<div class="healthyAward">
+			<h3>Healthy Awards</h3>
+			<p>It’s free to join. Redeem your points for free merchandise.
+				Earn 1 point for every dollar you spend – the more you buy, the
+				more you save.</p>
+			<ul class="checkListMenu">
+				<li>$5 in awards for every 100 points</li>
+				<li>Advanced sales, coupons, and special promotions</li>
+				<li>Exclusive, members-only, valuable coupons</li>
+				<li>Offers: invitations to special in0store events – health
+					screenings, celebrity appearances, seminars and more...</li>
+			</ul>
+			<div class="earnPoints">
+				<p>Ready to earn points with every purchase?</p>
+				<p class="bold">Register for an account and start redeeming!</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-md-3 loginDrawerColThree">
+		<div class="quickReorder">
+			<h3>Quick Reordering</h3>
+			<p>Reordering the products you need has never been easier! As a
+				Vitamin Shoppe member, reorder quickly and easy from any device.</p>
+			<h3>Auto Delivery</h3>
+			<p>Auto Delivery is the most convenient way to enjoy your
+				favorite vitamin Shoppe products.</p>
+			<ul class="checkListMenu">
+				<li>We send you your chosen items based upon a frequency that
+					you set</li>
+				<li>You can make changes online whenever you need</li>
+			</ul>
+		</div>
+	</div>
+</div>
+            </div><!-- end ngSwitchWhen: -->
+            <!-- ngSwitchWhen: loggedIn -->
+            <!-- ngSwitchDefault: -->
+          </div>
+        </div>
+      </div>
+  </div>
+</div></header>
+</vshoppe-header>
+          <vshoppe-mobile-header><div class="headerslide">
+	<header class="visible-xs visible-sm">
+		<div class="headerWrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="navigation">
+							<a href="" ng-class="{'menuCloseButton':showmenu,'':!showmenu}" class="mobileMenu" ng-click="toggleMenu()"> <span ng-class="{closeIcon:showmenu,show:!showmenu}" class="show"><span class="menuIcon"></span></span> <span ng-class="{hide:showmenu,show:!showmenu}" class="show"><span class="menuTxt">menu</span></span>
+							</a> <a href="/" class="mobileLogo"><img src="/images/logo.png" /></a>
+							<a href="/cart/cart.jsp" class="mobileCart"><span class="noi ng-binding ng-hide" ng-hide="isCartEmpty()">0</span><span class="cartIcon emptyCartIcon" ng-class="{'emptyCartIcon' : (cartCount == 0)}"></span></a>
+						</div>
+					</div>
+					<div class="mobileSearch search-wrapper col-xs-12">
+						<form name="searchForm" ng-submit="searchForm.$valid &amp;&amp; applySearch(srch)" novalidate="" class="ng-pristine ng-invalid ng-invalid-required">
+							<span class="input-pipeline">
+							<span>
+							<input type="text" id="seachInput" placeholder="Searching for something?" name="seachInput" ng-model="srch.search" class="search-box-clear clear_txtBox ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" typeahead-on-select="applySearch(srch)" typeahead-focus-first="false" uib-typeahead="suggestion for suggestion in suggestedResult($viewValue)" autocomplete="off" required="" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-5-5095" /><ul class="dropdown-menu ng-isolate-scope ng-hide" ng-show="isOpen() &amp;&amp; !moveInProgress" ng-style="{top: position().top+'px', left: position().left+'px'}" role="listbox" aria-hidden="true" uib-typeahead-popup="" id="typeahead-5-5095" matches="matches" active="activeIdx" select="select(activeIdx, evt)" move-in-progress="moveInProgress" query="query" position="position" assign-is-open="assignIsOpen(isOpen)" debounce="debounceUpdate">
+    <!-- ngRepeat: match in matches track by $index -->
+</ul>
+							<div id="clr_btn" class="close-icon" ng-click="clearSearch()"></div>
+							</span>
+							</span>
+							<button type="submit">
+								<span></span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+</div></vshoppe-mobile-header>
+          <vshoppe-mega-menu><div class="hidden-xs hidden-sm navigationHeader">
+  <div class="navigationWrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-9 navWrapper">
+          <ul class="mainNav">
+            <!-- ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                SHOP ALL CATEGORIES
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                BRANDS
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                HEALTH CONCERNS
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                GOALS
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                DEALS
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems --><li ng-repeat="menuItem in menu.menuItems" class="ng-scope">
+              <a ng-click="selectMenuSection(menuItem)" href="javascript:void(0)" ng-class="{&#10;                  active: isSelected(menuItem.id),&#10;                  notActive: !isSelected(menuItem.id)&#10;                }" class="ng-binding notActive">
+                LEARN
+              </a>
+            </li><!-- end ngRepeat: menuItem in menu.menuItems -->
+          <li><style>.site-wrapper .navigationWrapper .mainNav li a.optimizely{text-transform: uppercase;}.site-wrapper .navigationWrapper .mainNav li a.optimizely:before{background: url(/images/spriteIcons.png) no-repeat -7px -496px;content: " ";height: 15px;margin: 0px 0 0 -13px;position: absolute; width: 20px;text-transform: uppercase;}@media (max-width: 1300px) and (min-width: 1024px) {.site-wrapper .navigationWrapper .mainNav li {padding-right: 20px;}}@media (max-width: 1368px) and (min-width: 1024px) {.site-wrapper .navigationWrapper .mainNav li a {font-size: 1vw;}}.site-wrapper .navigationWrapper .mainNav &gt; li:nth-child(8){display: none;}</style><a class="optimizely" href="/c/protein/N-8ea">Protein</a></li></ul>
+        </div>
+        <div class="col-md-3 col-sm-3 searchWrapper">
+          <div class="searchMain" ng-class="{inputFocus: focused, inputBlur: inputVal}">
+            <form name="searchForm" ng-submit="searchForm.$valid &amp;&amp; applySearch(srch)" novalidate="" class="ng-pristine ng-invalid ng-invalid-required">
+              <div class="col-md-10"> <span class="search-icon"></span><label class="sr-only" for="seachInput" aria-hidden="true">search</label>
+                <input type="text" id="seachInput" placeholder="Searching for something?" name="seachInput" ng-model="srch.search" ng-init="focused = false" ng-focus="focused = true; inputVal=false" ng-blur="search.length &gt; 0?inputVal = true:inputVal = false; search.length &gt; 0?focused = true:focused = false;" typeahead-on-select="applySearch(srch)" typeahead-focus-first="false" uib-typeahead="suggestion for suggestion in suggestedResult($viewValue)" autocomplete="off" required="" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-6-2279" /><ul class="dropdown-menu ng-isolate-scope ng-hide" ng-show="isOpen() &amp;&amp; !moveInProgress" ng-style="{top: position().top+'px', left: position().left+'px'}" role="listbox" aria-hidden="true" uib-typeahead-popup="" id="typeahead-6-2279" matches="matches" active="activeIdx" select="select(activeIdx, evt)" move-in-progress="moveInProgress" query="query" position="position" assign-is-open="assignIsOpen(isOpen)" debounce="debounceUpdate">
+    <!-- ngRepeat: match in matches track by $index -->
+</ul>
+              </div>
+              <div class="col-md-2"> <button type="submit" class="searchIcon">Search</button> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ngIf: menu.menuItems.length > 0 --><vshoppe-shop-all-menu-section class="ng-hide ng-scope ng-isolate-scope" ng-if="menu.menuItems.length &gt; 0" ng-show="isSelected('shopAll')" menu-item="menu.menuItems[0]"><div class="dropdownWrapper open">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-2 col-sm-2 shopAllLeftCol">
+        <ul id="shopLeftCol">
+          <!-- ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop0" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope active" style="">
+            <a href="/c/vitamins-supplements/N-87v" class="ng-binding">
+              Vitamins &amp; Supplements
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop1" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/protein-fitness/N-8e9" class="ng-binding">
+              Protein &amp; Fitness
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop2" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/digestion-super-foods/N-8h6" class="ng-binding">
+              Digestion &amp; Super Foods
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop3" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/weight-control/N-8i9" class="ng-binding">
+              Weight Control
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop4" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/foods-drinks/N-8ir" class="ng-binding">
+              Foods &amp; Drinks
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop5" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/herbs-homeopathy/N-8jz" class="ng-binding">
+              Herbs &amp; Homeopathy
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop6" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/intimate-well-being/N-8n7" class="ng-binding">
+              Intimate Well-Being
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop7" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/bath-beauty/N-8no" class="ng-binding">
+              Bath &amp; Beauty
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop8" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/aromatherapy/N-cp98rd" class="ng-binding">
+              Aromatherapy
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop9" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/healthy-home/N-8ml" class="ng-binding">
+              Healthy Home
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop10" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/kids/N-8xa" class="ng-binding">
+              Kids
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 --><li id="leftNavShop11" ng-repeat="category in $ctrl.categories | limitTo: 12" ng-class="{ active: $ctrl.active == $index }" ng-mouseover="$ctrl.activate($index)" class="ng-scope">
+            <a href="/c/pets/N-8y3" class="ng-binding">
+              Pets
+            </a>
+          </li><!-- end ngRepeat: category in $ctrl.categories | limitTo: 12 -->
+        </ul>
+      </div>
+
+      <div class="col-md-10 col-sm-10">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="shopAllCenterCol col-md-9" ng-class="$ctrl.showMediaContent ? 'col-md-9' : 'col-md-12'" style="">
+              <h2>
+                <a href="/c/vitamins-supplements/N-87v" class="ng-binding">
+                  Vitamins &amp; Supplements
+                </a>
+              </h2>
+
+              <div class="level-two-categories">
+                <!-- ngIf: $ctrl.activeCategory.featuredCategories.length !== 0 --><vshoppe-category-list ng-if="$ctrl.activeCategory.featuredCategories.length !== 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: 'Featured' }" categories="$ctrl.activeCategory.featuredCategories" category-url="$ctrl.activeCategory.url" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --><span ng-if="!$ctrl.header.url" class="ng-binding ng-scope">Featured</span><!-- end ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/n/N-1z12iipZ87v" class="ng-binding ng-scope">New</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: $ctrl.activeCategory.featuredCategories.length !== 0 -->
+
+                <!-- ngRepeat: category in $ctrl.activeCategory.categories | limitTo: 7 --><!-- ngIf: category.categories.length > 0 --><vshoppe-category-list ng-repeat="category in $ctrl.activeCategory.categories | limitTo: 7" ng-if="category.categories.length &gt; 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: category.label, url: category.url }" categories="category.categories" category-url="category.url" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><a ng-if="$ctrl.header.url" href="/c/vitamins/N-87w" class="ng-binding ng-scope">Vitamins</a><!-- end ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/vitamin-a/N-87x" class="ng-binding ng-scope">Vitamin A</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/vitamin-b/N-882" class="ng-binding ng-scope">Vitamin B</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/vitamin-c/N-88i" class="ng-binding ng-scope">Vitamin C</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/vitamin-d/N-88o" class="ng-binding ng-scope">Vitamin D</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/vitamin-e/N-88r" class="ng-binding ng-scope">Vitamin E</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 --><div ng-if="$ctrl.categories.length &gt; 5" class="ng-scope">
+    <!-- ngIf: $ctrl.categoryUrl --><a ng-if="$ctrl.categoryUrl" class="see-all-link ng-scope" href="/c/vitamins/N-87w">
+      See all
+    </a><!-- end ngIf: $ctrl.categoryUrl -->
+  </div><!-- end ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: category.categories.length > 0 --><!-- end ngRepeat: category in $ctrl.activeCategory.categories | limitTo: 7 --><!-- ngIf: category.categories.length > 0 --><vshoppe-category-list ng-repeat="category in $ctrl.activeCategory.categories | limitTo: 7" ng-if="category.categories.length &gt; 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: category.label, url: category.url }" categories="category.categories" category-url="category.url" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><a ng-if="$ctrl.header.url" href="/c/supplements/N-8ay" class="ng-binding ng-scope">Supplements</a><!-- end ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/omega-fatty-acids/N-8az" class="ng-binding ng-scope">Omega Fatty Acids</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/amino-acids/N-8cf" class="ng-binding ng-scope">Amino Acids</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/antioxidants/N-8cn" class="ng-binding ng-scope">Antioxidants</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/co-q10-ubiquinol/N-8df" class="ng-binding ng-scope">Co Q10 / Ubiquinol</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/glucosamine-chondroitin-joint-formulas/N-8di" class="ng-binding ng-scope">Glucosamine &amp; Chondroitin/Joint Formulas</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 --><div ng-if="$ctrl.categories.length &gt; 5" class="ng-scope">
+    <!-- ngIf: $ctrl.categoryUrl --><a ng-if="$ctrl.categoryUrl" class="see-all-link ng-scope" href="/c/supplements/N-8ay">
+      See all
+    </a><!-- end ngIf: $ctrl.categoryUrl -->
+  </div><!-- end ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: category.categories.length > 0 --><!-- end ngRepeat: category in $ctrl.activeCategory.categories | limitTo: 7 --><!-- ngIf: category.categories.length > 0 --><vshoppe-category-list ng-repeat="category in $ctrl.activeCategory.categories | limitTo: 7" ng-if="category.categories.length &gt; 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: category.label, url: category.url }" categories="category.categories" category-url="category.url" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><a ng-if="$ctrl.header.url" href="/c/multivitamins/N-892" class="ng-binding ng-scope">Multivitamins</a><!-- end ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/men-s-multivitamins/N-893" class="ng-binding ng-scope">Men's Multivitamins</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/women-s-multivitamins/N-89a" class="ng-binding ng-scope">Women's Multivitamins</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/whole-food-multivitamins/N-89l" class="ng-binding ng-scope">Whole Food Multivitamins</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/prenatal-multivitamins/N-8ah" class="ng-binding ng-scope">Prenatal Multivitamins</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/50-multivitamins/N-8a7" class="ng-binding ng-scope">50+ Multivitamins</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 --><div ng-if="$ctrl.categories.length &gt; 5" class="ng-scope">
+    <!-- ngIf: $ctrl.categoryUrl --><a ng-if="$ctrl.categoryUrl" class="see-all-link ng-scope" href="/c/multivitamins/N-892">
+      See all
+    </a><!-- end ngIf: $ctrl.categoryUrl -->
+  </div><!-- end ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: category.categories.length > 0 --><!-- end ngRepeat: category in $ctrl.activeCategory.categories | limitTo: 7 --><!-- ngIf: category.categories.length > 0 --><vshoppe-category-list ng-repeat="category in $ctrl.activeCategory.categories | limitTo: 7" ng-if="category.categories.length &gt; 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: category.label, url: category.url }" categories="category.categories" category-url="category.url" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><a ng-if="$ctrl.header.url" href="/c/minerals/N-8dk" class="ng-binding ng-scope">Minerals</a><!-- end ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/calcium/N-8dl" class="ng-binding ng-scope">Calcium</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/iron/N-8ds" class="ng-binding ng-scope">Iron</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/magnesium/N-8dt" class="ng-binding ng-scope">Magnesium</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/multiminerals/N-8du" class="ng-binding ng-scope">Multiminerals</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/zinc/N-8dx" class="ng-binding ng-scope">Zinc</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 --><div ng-if="$ctrl.categories.length &gt; 5" class="ng-scope">
+    <!-- ngIf: $ctrl.categoryUrl --><a ng-if="$ctrl.categoryUrl" class="see-all-link ng-scope" href="/c/minerals/N-8dk">
+      See all
+    </a><!-- end ngIf: $ctrl.categoryUrl -->
+  </div><!-- end ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: category.categories.length > 0 --><!-- end ngRepeat: category in $ctrl.activeCategory.categories | limitTo: 7 -->
+
+                <!-- ngIf: $ctrl.activeCategory.moreCategories.length > 0 --><vshoppe-category-list ng-if="$ctrl.activeCategory.moreCategories.length &gt; 0" ng-class="$ctrl.showMediaContent ? 'col-md-4' : 'col-md-3'" header="{ label: 'More Categories' }" categories="$ctrl.activeCategory.moreCategories" class="ng-scope ng-isolate-scope col-md-4"><div class="categories">
+  <div class="head"><!-- ngIf: $ctrl.header.url --><!-- ngIf: !$ctrl.header.url --><span ng-if="!$ctrl.header.url" class="ng-binding ng-scope">More Categories</span><!-- end ngIf: !$ctrl.header.url --></div>
+  <!-- ngRepeat: category in $ctrl.categories|limitTo: 5 --><div class="category-item ng-scope" ng-repeat="category in $ctrl.categories|limitTo: 5">
+    <!-- ngIf: category.url --><a ng-if="category.url" href="/c/pill-cases-accessories/N-cp97ht" class="ng-binding ng-scope">Pill Cases &amp; Accessories</a><!-- end ngIf: category.url -->
+    <!-- ngIf: !category.url -->
+  </div><!-- end ngRepeat: category in $ctrl.categories|limitTo: 5 -->
+  <!-- ngIf: $ctrl.categories.length > 5 -->
+</div>
+</vshoppe-category-list><!-- end ngIf: $ctrl.activeCategory.moreCategories.length > 0 -->
+
+              </div>
+            </div>
+
+            <!-- ngIf: $ctrl.showMediaContent --><div id="inCarousel" class="col-md-3 shopAllRightCol ng-scope" ng-if="$ctrl.showMediaContent">
+              
+              <content-asset html="$ctrl.activeCategory.promoMediaContent" change="true" class="ng-isolate-scope"><!-- ngIf: asset.change --><div class="content-asset ng-binding ng-scope" ng-if="asset.change" ng-bind-html="asset.html | trusted"><div style="width:100%; max-width:250px; margin-top:25px; text-align:center;">
+    <!-- <a ng-click="headerNavSBACClick('ruv1002')" href="/p/r-u-ved-carditone-30-each-caplets/ruv1002"> -->
+    <a href="/p/r-u-ved-carditone-30-each-caplets/ruv1002">
+        <div style="color:#012169; font-size:1.8rem;font-family:'corisandebold'; text-transform:uppercase; margin-bottom:20px;">Carditone (30 Caplets)</div>
+        <div>
+            <img alt="" src="//s7.vitaminshoppe.com/is/image/VitaminShoppe/2001899_set?wid=180&amp;$OP_PNG$&amp;fmt=png-alpha" style="max-height:180px;" />
+        </div>
+    </a>
+    <p style=" background: url('/images/plpl2/starRatingBlue.png') 56% -203px no-repeat; height:18px; margin:10px 0 0 0"></p>
+    <p style="text-decoration: underline; text-transform:uppercase;margin:10px 0 0 0"><a href="/p/r-u-ved-carditone-30-each-caplets/ruv1002#link3">3 Reviews</a></p>
+    <a href="/p/r-u-ved-carditone-30-each-caplets/ruv1002">
+        <button style="padding:10px 30px; margin:10px 0 0 0;">Shop now</button>
+    </a>
+     <!-- <button ng-click="getProductAddToCart('ruv1002');headerNavSBAC_ATC('ruv1002')" style="padding:10px 30px; margin:10px 0 0 0;">Add to cart</button> -->
+</div>
+</div><!-- end ngIf: asset.change --><!-- ngIf: !asset.change || asset.change == undefined --></content-asset>
+
+            </div><!-- end ngIf: $ctrl.showMediaContent -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</vshoppe-shop-all-menu-section><!-- end ngIf: menu.menuItems.length > 0 -->
+
+  <div class="brands open ng-hide" ng-show="isSelected('showHideBrand')">
+    <div class="container">
+      <div class="brandDrawerContent">
+        <div class="row featuredBrandItems borderBelow">
+          <!-- ngRepeat: x in featBrands | limitTo:6 -->
+          </div>
+        <div class="row">
+          <div class="brandsList col-md-12">
+            <ul>
+              <!-- ngRepeat: y in brandItems | limitTo:5:0 -->
+            </ul>
+            <ul>
+              <!-- ngRepeat: y in brandItems | limitTo:5:5 -->
+            </ul>
+            <ul>
+              <!-- ngRepeat: y in brandItems | limitTo:5:10 -->
+            </ul>
+            <ul>
+              <!-- ngRepeat: y in brandItems | limitTo:5:15 -->
+            </ul>
+            <ul>
+              <!-- ngRepeat: y in brandItems | limitTo:5:20 -->
+            </ul>
+          </div>
+          <div class="col-md-12 showAllBrands"> <a href="/browse-brands/">All Brands</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="healthConcerns open ng-hide" ng-show="isSelected('showHideHealth')">
+    <div class="container">
+      <div class="row healthConcernsDrawer">
+        <div class="col-md-12 healthFeatureBlock">
+          <!-- ngRepeat: x in sampObj|limitTo:5:0 -->
+        </div>
+        <div class="col-md-12 healthNonFeatureBlock">
+          <ul class="">
+            <!-- ngRepeat: x in sampObj|limitTo:10:5 -->
+          </ul>
+        </div>
+        <div class="col-md-12"> <a class="seeAllHC" href="">All Health Concerns</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="goals open ng-hide" ng-show="isSelected('showHideGoal')">
+    <div id="goalsDrawerMedia">
+
+      <content-asset html="goalsDesktopMedia" class="ng-isolate-scope"><!-- ngIf: asset.change --><!-- ngIf: !asset.change || asset.change == undefined --><div class="content-asset ng-scope" ng-if="!asset.change || asset.change == undefined" ng-html-compile="asset.html"></div><!-- end ngIf: !asset.change || asset.change == undefined --></content-asset>
+
+    </div>
+  </div>
+  <div class="deals open ng-hide" ng-show="isSelected('showHideDeal')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 dealColOne">
+          <div class="dealLinks">
+            <h3>Deals</h3>
+            <ul>
+              <!-- ngRepeat: x in dealPageLinks | limitTo:5 | filter:{dealPageLinkName: ''} | filter:{dealPageLink: ''} -->
+            </ul>
+          </div>
+          <div class="signUpSaveDrawer">
+            <vshoppe-sign-up-save><div class="row signupemail-wrapper">
+	<div class="row savemail">
+		<div class="col-sm-12 col-xs-12">
+			<h2 class="secondaryHeading">
+				SIGN UP &amp; <span>SAVE</span>
+			</h2>
+			<h2 class="primaryHeading">
+				SIGN UP <span>AND SAVE</span>
+			</h2>
+			<p class="mob-signup-text">Get special offers, exclusive
+				promotions, and health information sent directly to your inbox.</p>
+
+		</div>
+		<div class="input-signup">
+			<form name="newsletterForm" ng-submit="newsletterForm.$valid &amp;&amp; newsLetterSignUp(userNewsletterEmail)" novalidate="" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength">
+				<div class="newsletterForm">
+					<span class="newsLetterFormInput" ng-class="{'inputRowError': !newsletterForm.newsletterEmail.$valid &amp;&amp; (newsletterForm.newsletterEmail.$touched || newsletterForm.$submitted) &amp;&amp; newsletterForm.newsletterEmail.$invalid}" ng-model-options="{ updateOn: 'blur' }"> <span class="inputLeftPipe">|</span> <label class="sr-only" for="signUpSave" aria-hidden="true">signUpSave</label> <input name="newsletterEmail" id="signUpSave" class="input-box dealsDrawerInput ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength" ng-model="userNewsletterEmail" type="email" placeholder="Enter your email" maxlength="65" value="" ng-pattern="/^(?=.{1,40}$)([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/" required="" /> <label class="sr-only" for="signUpSaveHome" aria-hidden="true">signUpSaveHome</label> <input name="newsletterEmail" id="signUpSaveHome" class="input-box ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength" ng-model="userNewsletterEmail" type="email" placeholder="Enter your email address" maxlength="65" value="" ng-pattern="/^(?=.{1,40}$)([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/" required="" />
+
+					</span> <span class="errorMsg ng-hide" ng-show="newsletterForm.newsletterEmail.$error.required &amp;&amp; (newsletterForm.newsletterEmail.$touched || newsletterForm.$submitted) &amp;&amp; newsletterForm.newsletterEmail.$invalid">Please
+						enter a valid email.</span> <span class="errorMsg ng-hide" ng-show="newsletterForm.newsletterEmail.$error.pattern &amp;&amp; (newsletterForm.newsletterEmail.$touched || newsletterForm.$submitted) &amp;&amp; newsletterForm.newsletterEmail.$invalid">Please
+						enter a valid email.</span>
+				</div>
+				<button type="submit">SIGN UP</button>
+			</form>
+		</div>
+	</div>
+</div></vshoppe-sign-up-save>
+          </div>
+        </div>
+        <div class="col-md-9 dealColTwo">
+
+          <div class="col-md-6" id="dealsMainPromo">
+            
+            <content-asset html="dealsMainPromo" class="ng-isolate-scope"><!-- ngIf: asset.change --><!-- ngIf: !asset.change || asset.change == undefined --><div class="content-asset ng-scope" ng-if="!asset.change || asset.change == undefined" ng-html-compile="asset.html"></div><!-- end ngIf: !asset.change || asset.change == undefined --></content-asset>
+
+          </div>
+
+          <!-- ngRepeat: promo in dealsFeaturePromo -->
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="learn open ng-hide" ng-show="isSelected('showHideLearn')">
+    <content-asset html="learnDesktopMedia" class="ng-isolate-scope"><!-- ngIf: asset.change --><!-- ngIf: !asset.change || asset.change == undefined --><div class="content-asset ng-scope" ng-if="!asset.change || asset.change == undefined" ng-html-compile="asset.html"></div><!-- end ngIf: !asset.change || asset.change == undefined --></content-asset>
+  </div>
+
+</div></vshoppe-mega-menu>
+          <vshoppe-change-store-overlay><!-- Modal -->
+	<div id="changeStore" tabindex="-1" ng-class="{'cart-change-store-modal' : isCartChangeStore, 'pdp-change-store-modal' : !isCartChangeStore}" class="modal health-pdp fade pdp-change-store-modal" role="dialog">
+	<div class="modal-dialog">
+	    <!-- Modal content-->
+	    <div class="row">
+	    	<div class="col-md-12">
+	      	<div id="pickup-in-store-overlay" class="popupbox" ng-class="{'cart-change-store' : isCartChangeStore}" style="top: 25px; display: block;">
+	      		<div class="popup-data">
+	      			<a href="javascript:void(0)" class="close" data-dismiss="modal">×</a>
+	      			<div class="store-head col-md-12" id="store-head">Change Store</div>
+	      			<!-- ngIf: isCartChangeStore -->
+	      			<!-- ngIf: !isCartChangeStore --><div class="product-block shadow hidden-xs hidden-sm ng-scope" ng-if="!isCartChangeStore">
+	      				<span class="image">
+	      					<a href="javascript:" data-dismiss="modal" tabindex="-1" class="close nostyle">
+		      					<!--WPS-4183: Adding check to ensure empty image tag don't appear -->
+		      					<!-- ngIf: productInfo.imageUrl!= null && productInfo.imageUrl!='' && productInfo.imageUrl!= undefined -->
+	      					</a>
+	      				</span>
+	      				<div class="prod-detail">
+				            <p class="brand ng-binding"></p>
+				            <p class="title close nostyle ng-binding" data-dismiss="modal"></p>
+				            <p class="quantity ng-binding">Item #: /</p>
+
+				            <div class="extra-padding">
+					            <span class="stars no-star" ng-class="{'no-star':productInfo.rating==null,'one-star':productInfo.rating==1,'two-star':productInfo.rating==2,'three-star':productInfo.rating==3,'four-star':productInfo.rating==4,'five-star':productInfo.rating==5,'one-and-half-star':productInfo.rating==1.5,'two-and-half-star':productInfo.rating==2.5,'three-and-half-star':productInfo.rating==3.5,'four-and-half-star':productInfo.rating==4.5}">
+            					</span>
+           					</div>
+				        </div>
+	      			</div><!-- end ngIf: !isCartChangeStore -->
+	      			<div class="row">
+	      			<div class="location-search ">
+			        	<div class="col-md-3 loc-search-label"><label>Please enter city, state or ZIP code</label></div>
+			         	<div class="col-md-3 search-bar-container">
+				         	<div class="search-bar" id="store-search-bar">
+				           		<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+				           		<!-- WPS:4580 - Disable the search button on successful store response -->
+				           		<form name="changeStoreForm" ng-submit="findStoresUsingAddress(searchAddress)" class="ng-pristine ng-valid">
+				           		<input type="text" placeholder="Enter City, State or ZIP Code" id="bops_store_search" ng-model="searchAddress" class="input-focus ui-autocomplete-input ng-pristine ng-untouched ng-valid ng-empty" autocomplete="off" value="" ng-change="findNewStore()" />
+				           		<input type="submit" class="findBOPSStore" id="findBOPSStoreBtn" value="" ng-disabled="isStorelistPresnt" />
+				         		</form>
+				         	</div>
+			         	</div>
+			         	<div class="col-md-3 loc-or-label"><label class="or">or</label></div>
+			            <div class="col-md-3 use-curr-loc-btn"><button id="searchStoreUsingCurrentLocation" ng-click="findStoresUsingCurrentLocation()">Use current location</button></div>
+			        </div>
+			        </div>
+	      		</div>
+	      		<div id="bops-store-results">
+					<div class="store-content-container valid">
+						<div class="store-table">
+							<div id="popup-find-in-store-loadingResults" ng-class="{'cart-change-store' : isCartChangeStore}" ng-show="showStoreLoader" class="ng-hide">
+					      	    <div class="popupDisclaimer">
+					       		 <span><img src="https://content.vitaminshoppe.com/img/bx_loader.gif" /></span> <span class="updatingResults">updating results</span>
+					      	   	</div>
+    	   					</div>
+							<!-- ngIf: isMultipleLocation -->
+							<!-- ngIf: bopsStores.length > 0 && !isMultipleLocation -->
+							
+							<div class="empty-store ng-hide" ng-show="bopsStores.length == 0 || showEmptyOverlay">
+								<p class="results-head size24 ng-hide" ng-show="storesNotFound &amp;&amp; storeErrorMessage == ''">
+									We're sorry, but we are unable to find a location near you. 
+								</p>
+								<p class="results-head size24 ng-binding ng-hide" ng-show="storesNotFound &amp;&amp; storeErrorMessage != ''">
+									
+								</p>
+							</div>
+							
+						    <div class="pagination ng-hide" ng-show="bopsStores.length &gt; 3">
+				            <a href="javascript:" ng-click="prevPage()" class="prev"></a>
+				            <!-- ngRepeat: n in range(pagedItems.length) -->
+				            <a href="javascript:" ng-click="nextPage()" class="next"></a>
+			          		</div>
+			          		<div class="button-block">
+			          			<button data-dismiss="modal">Cancel</button>
+			          		</div>
+						</div>
+					</div>
+				</div>
+	      	</div>
+	      	</div>
+	      	</div>
+		</div>
+	</div>
+</vshoppe-change-store-overlay>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <script src="/wsi/bower_components/requirejs/require.js" data-main="/js/scripts/nonBrowseScripts.js"></script> -->
+
+  </div>
+ <script>
+ $(document).ready(function () {
+        $('body').on('click', '.mobileMenu', function(e){
+            $("body").toggleClass("addfixed");
+            $("body #main-body-container").toggleClass("slideBody");
+        });
+});
+ </script>
+  	
+	
+	
+	
+	
+	
+<!-- main body begins -->
+<form action="/sl/store-locator" method="GET" class="ng-pristine ng-valid"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden" /> </div><div style="display:none"><input name="_dynSessConf" value="-6710728215167249221" type="hidden" /> </div>
+<section id="main-body-container" role="main" aria-label="Main" style="margin-top: 0px;">
+  <section id="main-body-holder">
+    <section class="page-container container mtop15 store-locator store-search-results" style="margin-top: 0px;">
+      
+<!-- TODO: breadcrumb begins -->
+
+		<div id="breadcrumbs" class="corisande-regular"><a href="/">Home</a> <span>|</span> <a href="/sl/store-locator">Store Locator</a>
+      	<span>|</span><span class="text">Search Results</span></div>
+      
+ <!-- breadcrumb end -->
+
+<h1 class="orange-heading">Store Locator</h1>
+<div class="title-text-bottom size18">
+  the Vitamin Shoppe has more than 700 stores located in 45 states, the District of Columbia and Puerto Rico
+</div>
+
+
+<article class="search-box">
+<div class="col-md-9 col-sm-12 col-xs-12">
+  <div class="search-label bold"><label for="search-locations">Please enter city, state or ZIP code:</label></div>
+  <div class="search-bar">
+    <div class="search-top">
+   
+   <input name="/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.successURL" value="/sl/store-locator" type="hidden" /><input name="_D:/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.successURL" value=" " type="hidden" /><input name="/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.errorURL" value="/sl/store-locator" type="hidden" /><input name="_D:/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.errorURL" value=" " type="hidden" />
+      <span id="search-locations">
+      	<input placeholder="Enter City, State or ZIP Code" name="/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.address" value="Los Angeles" class="input-focus multi-state-field field-active" type="text" /><input name="_D:/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.address" value=" " type="hidden" />
+	<span><input id="FindLocation" name="/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.locateItems" value="" type="submit" /><input name="_D:/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.locateItems" value=" " type="hidden" /></span>
+	  </span>
+      <span class="or-padding">or</span>
+	  <input type="button" id="currentLocation" name="currentLocation" value="use Current Location" onclick="locateMe()" />
+      
+      
+
+    </div>
+  </div>
+</div>
+  <div class="search-hints col-md-3 col-sm-12 col-xs-12">
+    <a class="blue-link-small bold" href="/sl/browse-by-state">Browse by State</a><br />
+    <a href="/u/contact-us.jsp" class="blue-link-small bold">Corporate Headquarters</a><br />
+    <a href="/u/contact-us.jsp" class="blue-link-small bold">Distribution Center</a> </div>
+</article>
+<link rel="STYLESHEET" type="text/css" href="/css/stores.css?v=08132013" />
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;client=gme-thevitaminshoppe&amp;channel=desktop-store-locator-results"></script>
+<script type="text/javascript" src="/js/storeLocatorSrchRslt.js"></script>
+
+
+  <article class="results-container">
+  
+    <p class="results-head corisande-bold18 store-text"> Showing 15 closest stores within 100 miles of Los Angeles</p>
+    <div class="row">
+    <div class="col-md-8 pad-right">
+    <div class="results-left">
+      <div class="block shadow map" id="map_canvas" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 127px; top: 173px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 383px; top: 173px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 383px; top: -83px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 127px; top: -83px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 127px; top: 429px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 383px; top: 429px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -129px; top: 173px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 639px; top: 173px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -129px; top: 429px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 639px; top: -83px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -129px; top: -83px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 639px; top: 429px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 127px; top: 173px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 383px; top: 173px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 383px; top: -83px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 127px; top: -83px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 127px; top: 429px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 383px; top: 429px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -129px; top: 173px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 639px; top: 173px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -129px; top: 429px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 639px; top: -83px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -129px; top: -83px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 639px; top: 429px;"></div></div></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 642px; height: 526px;"><img src="https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&amp;1i44673&amp;2i104275&amp;2e1&amp;3u10&amp;4m2&amp;1u642&amp;2u526&amp;5m5&amp;1e0&amp;5sen-US&amp;6sus&amp;10b1&amp;12b1&amp;token=101571" style="width: 642px; height: 526px;" /></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 127px; top: 173px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i175!3i408!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=25695" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 383px; top: 173px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i176!3i408!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=107994" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 383px; top: -83px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i176!3i407!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=75763" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: -129px; top: 173px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i174!3i408!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=74467" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 127px; top: -83px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i175!3i407!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=124535" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: -129px; top: -83px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i174!3i407!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=42236" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 639px; top: -83px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i177!3i407!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=26991" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 639px; top: 173px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i177!3i408!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=59222" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: -129px; top: 429px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i174!3i409!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=106698" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 127px; top: 429px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i175!3i409!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=57926" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 383px; top: 429px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i176!3i409!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=9154" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div style="position: absolute; left: 639px; top: 429px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i177!3i409!4i256!2m3!1e0!2sm!3i378066972!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0&amp;token=91453" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"><div style="cursor: default; position: absolute; width: 383px; height: 242px; left: 105px; top: 19px; z-index: 19;"><div style="position: absolute; left: 0px; top: 0px;"><div style="width: 0px; height: 0px; border-right: 10px solid transparent; border-left: 10px solid transparent; border-top: 24px solid rgba(0, 0, 0, 0.0980392); position: absolute; left: 182px; top: 242px;"></div><div style="position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.2); border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; width: 383px; height: 242px;"></div><div style="border-top-width: 24px; position: absolute; left: 182px; top: 239px;"><div style="position: absolute; overflow: hidden; left: -6px; top: -1px; width: 16px; height: 30px;"><div style="position: absolute; left: 6px; background-color: rgb(255, 255, 255); transform: skewX(22.6deg); transform-origin: 0px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div><div style="position: absolute; overflow: hidden; top: -1px; left: 10px; width: 16px; height: 30px;"><div style="position: absolute; left: 0px; background-color: rgb(255, 255, 255); transform: skewX(-22.6deg); transform-origin: 10px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div></div><div style="position: absolute; left: 1px; top: 1px; border-radius: 2px; background-color: rgb(255, 255, 255); width: 381px; height: 240px;"></div></div><div class="gm-style-iw" style="top: 9px; position: absolute; left: 15px; width: 353px;"><div style="display: inline-block; overflow: auto; max-height: 459px; max-width: 541px;"><div style="overflow: auto;"><div id="infowin-hldr" class="infowin-hldr"><div class="infowin-lft col-md-6"><img src="https://s7.vitaminshoppe.com/is/image/VitaminShoppe/216_set?$STR_LCTR$" width="100" /></div><div class="infowin-rgt col-md-6"><div class="row place-title bold"><a href="/sl/glendale-216"><b>Glendale, CA</b></a></div><div class="row">401 North Glendale Avenue<br /></div><div class="row">Glendale, CA 91206</div><div class="row bold">(818) 240-3679</div><div class="row ptop14" style="text-transform: capitalize;">Monday-Saturday 9-9<br /> sunday 11-6</div><div class="row ptop14">6.89 miles away</div><div class="row"><a class="gray-link-small" href="/sl/directions/store-locator-search?store=216" data-event="click" data-widget-'store="" locator'="" data-state="Glendale, CA" data-action="get directions">Get Directions</a></div></div></div></div></div></div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 10px; z-index: 10000; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div></div></div></div><iframe style="visibility: hidden; z-index: 0; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></iframe></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=34.205032,-118.21003&amp;z=10&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;" /></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 171px; top: 173px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 168px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2017 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 97px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div style="cursor: pointer; width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;" /></div><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@34.2050319,-118.2100303,10z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><div title="Zoom in" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" /></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><div title="Zoom out" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" /></div></div></div></div><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;" /></div></div></div></div></div></div>
+      <div class="map-text size10 corisande-regular">The map is informational only. No representation is made or warranty given as to its content or usability. User assumes all risk of use. the Vitamin Shoppe and their suppliers assume no responsibility for any loss resulting from such use.</div>
+
+      <div class="hidden-xs">
+      <a id="1608-SPARK-Store-Locator" class="content-block shadow isClickable" style="width: 588px; height: 526px; padding: 0px; margin-bottom: 10px; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" href="/lp/spark-workshops-and-consultations" data-promotion-id="Store Locator" data-promotion-name="1608_Appt Booking Project"><img alt="SPARK powered by the Vitamin Shoppe" src="http://s7.vitaminshoppe.com/is/image/VitaminShoppe/Appt_Booking_Tool_Store_Locator-2_03?scl=1.0&amp;fmt=png" style="position: absolute; outline: rgb(35, 142, 230) solid 0px; left: -1px; width: auto; right: auto; height: auto; bottom: auto; top: 0px;" /><p style="position: absolute; font-size: 27px; color: rgb(21, 36, 103); outline: rgb(35, 142, 230) solid 0px; width: auto; right: auto; height: auto; bottom: auto; left: 264.983px; top: 175.965px; font-family: corisandebold;">IGNITE THE MIND &amp;<br /> INVIGORATE THE BODY.</p><p style="position: absolute; font-size: 20px; color: rgb(255, 255, 255); width: auto; right: auto; height: auto; bottom: auto; left: 56.9863px; top: 390.983px; outline: rgb(35, 142, 230) solid 0px;">Want to feel good? Eat better? Look great? SPARK it up!</p><p style="position: absolute; font-size: 23px; color: rgb(255, 255, 255); outline: rgb(35, 142, 230) solid 0px; font-family: corisandebold; width: auto; right: auto; height: auto; bottom: auto; left: 39.9803px; top: 422.984px;">SIGN UP IN MINUTES, JUST A FEW SIMPLE STEPS!</p><p class=" white-link-large" style="position: absolute; font-size: 18px; color: rgb(255, 255, 255); font-family: corisandebold; width: auto; right: auto; height: auto; bottom: auto; left: 245.944px; top: 466.947px; outline: rgb(35, 142, 230) solid 0px;">Learn More</p></a>
+      </div>
+    </div>
+    </div>
+    
+    <div class="col-md-4 pad-left">
+    <div class="results-right">
+      
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/glendale-216">Glendale, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">6.89 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    401 North Glendale Avenue<br /> Glendale, CA 91206  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(818) 240-3679" class="tel-no gray-link size12 bold">(818) 240-3679</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=216">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","1","216","Glendale, CA","401 North Glendale Avenue","","","Glendale","CA",
+                          "US","91206","(818) 240-3679","{Monday-Saturday=9-9, sunday=11-6}","34.1520139","-118.2448967", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/216_set?$STR_LCTR$","6.89","","/sl/glendale-216");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/losangeles-193">Fairfax, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">6.93 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    101 North Fairfax Avenue<br /> Los Angeles, CA 90036  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(323) 936-6839" class="tel-no gray-link size12 bold">(323) 936-6839</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=193">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","2","193","Fairfax, CA","101 North Fairfax Avenue","","","Los Angeles","CA",
+                          "US","90036","(323) 936-6839","{Monday-Saturday=9-9, sunday=11-6}","34.0745164","-118.3616691", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/193_set?$STR_LCTR$","6.93","","/sl/losangeles-193");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/southgate-653">South Gate, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">7.66 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    4741 FIRESTONE BLVD<br /> SOUTH GATE, CA 90280  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(323) 567-2687" class="tel-no gray-link size12 bold">(323) 567-2687</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=653">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","3","653","South Gate, CA","4741 FIRESTONE BLVD","","","SOUTH GATE","CA",
+                          "US","90280","(323) 567-2687","{Monday-Saturday=9-9, sunday=11-6}","33.952429","-118.185393", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/653_set?$STR_LCTR$","7.66","","/sl/southgate-653");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/pasadena-175">Pasadena, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">8.92 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    181 South Lake Avenue<br /> Unit 5<br /> PASADENA, CA 91109  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(626) 405-0209" class="tel-no gray-link size12 bold">(626) 405-0209</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=175">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","4","175","Pasadena, CA","181 South Lake Avenue","Unit 5","","PASADENA","CA",
+                          "US","91109","(626) 405-0209","{Monday-Saturday=9-9, sunday=11-6}","34.1427894","-118.1325685", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/175_set?$STR_LCTR$","8.92","","/sl/pasadena-175");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/downey-742">Downey, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">10.88 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    12136 LAKEWOOD BLVD<br /> DOWNEY, CA 90242  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(562) 803-7854" class="tel-no gray-link size12 bold">(562) 803-7854</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=742">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","5","742","Downey, CA","12136 LAKEWOOD BLVD","","","DOWNEY","CA",
+                          "US","90242","(562) 803-7854","{Monday-Saturday=9-9, sunday=11-6}","33.9256178","-118.1306596", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/742_set?$STR_LCTR$","10.88","","/sl/downey-742");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/westlosangeles-416">West Los Angeles, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">10.97 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    1901 Westwood Blvd<br /> West Los Angeles, CA 90025  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(310) 234-2718" class="tel-no gray-link size12 bold">(310) 234-2718</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Friday 10-8<br /> Monday-Thursday 10-9<br /> Saturday 10-7<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=416">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","6","416","West Los Angeles, CA","1901 Westwood Blvd","","","West Los Angeles","CA",
+                          "US","90025","(310) 234-2718","{Friday=10-8, Monday-Thursday=10-9, Saturday=10-7, sunday=11-6}","34.047923","-118.4352193", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/416_set?$STR_LCTR$","10.97","","/sl/westlosangeles-416");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/studiocity-838">Studio City, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">11.52 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    12741 VENTURA BLVD<br /> STUDIO CITY, CA 91604  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(818) 761-1826" class="tel-no gray-link size12 bold">(818) 761-1826</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=838">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","7","838","Studio City, CA","12741 VENTURA BLVD","","","STUDIO CITY","CA",
+                          "US","91604","(818) 761-1826","{Monday-Saturday=9-9, sunday=11-6}","34.1452575","-118.4107794", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/838_set?$STR_LCTR$","11.52","","/sl/studiocity-838");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/pasadena-848">East Pasadena, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">11.72 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    3535 E FOOTHILL BLVD<br /> PASADENA, CA 91107  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(626) 351-9560" class="tel-no gray-link size12 bold">(626) 351-9560</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=848">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","8","848","East Pasadena, CA","3535 E FOOTHILL BLVD","","","PASADENA","CA",
+                          "US","91107","(626) 351-9560","{Monday-Saturday=9-9, sunday=11-6}","34.1506928","-118.0769302", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/848_set?$STR_LCTR$","11.72","","/sl/pasadena-848");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/losangeles-323">Marina Del Rey, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">12.22 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    13376 Washington Blvd<br /> Los Angeles, CA 90066  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(310) 301-3590" class="tel-no gray-link size12 bold">(310) 301-3590</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=323">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","9","323","Marina Del Rey, CA","13376 Washington Blvd","","","Los Angeles","CA",
+                          "US","90066","(310) 301-3590","{Monday-Saturday=9-9, sunday=11-6}","33.9918401","-118.4442774", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/323_set?$STR_LCTR$","12.22","","/sl/losangeles-323");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/manhattanbeach-276">Manhattan Beach, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">13.05 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    1800-G Rosecrans Blvd.<br /> MANHATTAN BEACH, CA 90266  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(310) 643-5634" class="tel-no gray-link size12 bold">(310) 643-5634</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=276">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","10","276","Manhattan Beach, CA","1800-G Rosecrans Blvd.","","","MANHATTAN BEACH","CA",
+                          "US","90266","(310) 643-5634","{Monday-Saturday=9-9, sunday=11-6}","33.9010506","-118.3801205", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/276_set?$STR_LCTR$","13.05","","/sl/manhattanbeach-276");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/santamonica-562">Santa Monica, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">13.26 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    2838 WILSHIRE BLVD<br /> SANTA MONICA, CA 90403  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(310) 828-8138" class="tel-no gray-link size12 bold">(310) 828-8138</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 10-8<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=562">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","11","562","Santa Monica, CA","2838 WILSHIRE BLVD","","","SANTA MONICA","CA",
+                          "US","90403","(310) 828-8138","{Monday-Saturday=10-8, sunday=11-6}","34.0380594","-118.474619", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/562_set?$STR_LCTR$","13.26","","/sl/santamonica-562");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/lakewood-606">Lakewood, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">14.89 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    4327 CANDLEWOOD STREET<br /> LAKEWOOD, CA 90712  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(562) 531-1580" class="tel-no gray-link size12 bold">(562) 531-1580</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=606">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","12","606","Lakewood, CA","4327 CANDLEWOOD STREET","","","LAKEWOOD","CA",
+                          "US","90712","(562) 531-1580","{Monday-Saturday=9-9, sunday=11-6}","33.8541384","-118.1414607", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/606_set?$STR_LCTR$","14.89","","/sl/lakewood-606");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/torrance-567">Torrance, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">15.07 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    19510 HAWTHORNE BLVD<br /> TORRANCE, CA 90503  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(310) 921-3574" class="tel-no gray-link size12 bold">(310) 921-3574</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=567">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","13","567","Torrance, CA","19510 HAWTHORNE BLVD","","","TORRANCE","CA",
+                          "US","90503","(310) 921-3574","{Monday-Saturday=9-9, sunday=11-6}","33.8540295","-118.3533643", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/567_set?$STR_LCTR$","15.07","","/sl/torrance-567");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/encino-578">Encino, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">16.14 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    16624 VENTURA BLVD<br /> ENCINO, CA 91436  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(818) 386-0284" class="tel-no gray-link size12 bold">(818) 386-0284</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=578">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","14","578","Encino, CA","16624 VENTURA BLVD","","","ENCINO","CA",
+                          "US","91436","(818) 386-0284","{Monday-Saturday=9-9, sunday=11-6}","34.1577804","-118.495459", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/578_set?$STR_LCTR$","16.14","","/sl/encino-578");
+          </script>
+          
+          
+          <div class="block shadow results">
+            <h4>
+              <a class="head gray-link corisande-bold18" href="/sl/cityofindustry-409">City of Industry, CA</a>
+            </h4>
+            <table class="store-location">      
+              <tbody><tr>
+                <td rowspan="2" class="contact-info address padding-top0">
+                  <span class="distance text-blue extended">18.75 miles away</span>
+                  <br />
+                  <span class="contact-info address extended">
+                    17501 Colima Road<br /> Suite A<br /> City of Industry, CA 91748  </span> </td> 
+                <td class="tel bold padding-bottom10"><a href="tel:(626) 810-8381" class="tel-no gray-link size12 bold">(626) 810-8381</a></td> 
+              </tr>     
+              <tr> 
+               <td class="contact-info timings padding-top0" style="float: right; width: 131px;" itemprop="hoursAvailable" rowspan="2">
+                  Monday-Saturday 9-9<br /> sunday 11-6<br /> 
+                </td>
+              </tr>
+              <tr>
+                <td class="direction-link"><a class="gray-link-small bold size12" href="/sl/directions/store-locator-search?store=409">Get Directions</a></td> </tr> </tbody></table> </div> 
+          <script type="text/javascript">
+                  getDetailsfrmBean("15","15","409","City of Industry, CA","17501 Colima Road","Suite A","","City of Industry","CA",
+                          "US","91748","(626) 810-8381","{Monday-Saturday=9-9, sunday=11-6}","33.9912962","-117.9246015", "https://s7.vitaminshoppe.com/is/image/VitaminShoppe/409_set?$STR_LCTR$","18.75","","/sl/cityofindustry-409");
+          </script>
+          
+          
+ </div> </div> </div> </article>
+
+ </section> </section>
+</section>
+<div style="display:none"><input name="_DARGS" value="/sl/gadgets/storeLocatorContent.jsp" type="hidden" /> </div></form><script type="text/javascript" id="">(function(){function r(){function g(a,b,h){google_tag_manager["GTM-PD53KQ"].macro('gtm5')&amp;&amp;console.log("load New Impressions To Control Array: ",a,b,h);for(var k=0;k&lt;a.length;k++){var e=!1;for(j=0;j&lt;b.length;j++)if(b[j].id===a[k].id){e=!0;break}0==e&amp;&amp;(a[k].type=h,b.push(a[k]))}return b}var a=google_tag_manager["GTM-PD53KQ"].macro('gtm6');if(a=JSON.parse(JSON.stringify(a)))window._ap.ecommerce=window._ap.ecommerce||{},window._ap.ecommerce.promotions=window._ap.ecommerce.promotions||[],window._ap.ecommerce.impressions=window._ap.ecommerce.impressions||
+[],window._ap.ecommerce.attempts=window._ap.ecommerce.attempts||0,a.promoView&amp;&amp;a.promoView.promotions&amp;&amp;(window._ap.ecommerce.promotions=g(a.promoView.promotions,window._ap.ecommerce.promotions,"Promotion")),a.impressions&amp;&amp;(window._ap.ecommerce.impressions=g(a.impressions,window._ap.ecommerce.impressions,"Product"))}function m(){function g(b){for(var e=[],l=0;l&lt;b.length;l++){n+=b[l].recorded?1:0;var d;if(d=!b[l].recorded){d=b[l];var c;"Promotion"===d.type?(c=d.id,"name"===a.promotion.key&amp;&amp;(c=d.name),
+c=document.querySelector("["+a.promotion.attributeName+'\x3d"'+c+'"]')):(c=d.id,"name"===a.product.key&amp;&amp;(c=d.name),c="["+a.product.attributeName+'\x3d"'+c+'"]',google_tag_manager["GTM-PD53KQ"].macro('gtm7')&amp;&amp;console.log("document.querySelector("+c+")"),c=document.querySelector(c));if(c)if(void 0===c.getBoundingClientRect)d=!0;else{var g=a.pctVisible,f=window.scrollY;d=f+window.innerHeight;f=c.getBoundingClientRect().top+f;c=f+c.offsetHeight*g;d=c&lt;=d}else google_tag_manager["GTM-PD53KQ"].macro('gtm8')&amp;&amp;console.log("Element not found: ",a,d),d=!angular}d&amp;&amp;
+h&lt;=k&amp;&amp;(e.push(b[l]),b[l].recorded=!0,h+=JSON.stringify(b[l]).length)}return e}google_tag_manager["GTM-PD53KQ"].macro('gtm9')&amp;&amp;console.log("analyticsProsTrackDynamicImpressions");var a=google_tag_manager["GTM-PD53KQ"].macro('gtm10'),n=0,b=0,h=0,k=7500;if(window._ap&amp;&amp;window._ap.ecommerce){var e=[];window._ap.ecommerce.promotions&amp;&amp;0&lt;window._ap.ecommerce.promotions.length&amp;&amp;(b+=window._ap.ecommerce.promotions.length,e=g(window._ap.ecommerce.promotions));var f=[];window._ap.ecommerce.impressions&amp;&amp;0&lt;window._ap.ecommerce.impressions.length&amp;&amp;(b+=window._ap.ecommerce.impressions.length,
+f=g(window._ap.ecommerce.impressions));0&lt;e.length&amp;&amp;0===f.length?dataLayer.push({event:"promotionImpressions",ecommerce:{promoView:{promotions:e}}}):0&lt;f.length&amp;&amp;0===e.length?dataLayer.push({event:"productImpressions",ecommerce:{impressions:f}}):0&lt;e.length&amp;&amp;0&lt;f.length&amp;&amp;dataLayer.push({event:"productImpressions",ecommerce:{impressions:f,promoView:{promotions:e}}});google_tag_manager["GTM-PD53KQ"].macro('gtm11')&amp;&amp;console.log("window._ap.ecommerce.attempts: ",window._ap.ecommerce.attempts);h&gt;k&amp;&amp;(google_tag_manager["GTM-PD53KQ"].macro('gtm12')&amp;&amp;console.log("intPayloadSize \x3e MAX_PAYLOAD"),
+setTimeout(m.bind(void 0),10));google_tag_manager["GTM-PD53KQ"].macro('gtm13')&amp;&amp;console.log("intPayloadSize: ",h,"intNumberOfImpressionsSeen: ",n,"window._ap.ecommerce.attempts:",window._ap.ecommerce.attempts);0&lt;b&amp;&amp;0===h&amp;&amp;0===n&amp;&amp;10&gt;window._ap.ecommerce.attempts&amp;&amp;(google_tag_manager["GTM-PD53KQ"].macro('gtm14')&amp;&amp;console.log("(intPayloadSize \x3d\x3d\x3d 0) \x26\x26 (intNumberOfImpressionsSeen \x3d\x3d\x3d 0) \x26\x26 (window._ap.ecommerce.attempts \x3c 10): ",window._ap.ecommerce.attempts),setTimeout(m.bind(void 0),1E3),window._ap.ecommerce.attempts++)}}
+function p(g){clearTimeout(q);q=setTimeout(m,google_tag_manager["GTM-PD53KQ"].macro('gtm15'))}window._ap=window._ap||{};window._ap.ecommerce||(window.addEventListener("scroll",p),window.addEventListener("resize",p));"addDynamicImpressions"===google_tag_manager["GTM-PD53KQ"].macro('gtm16')&amp;&amp;(r(),m());var q=null})();</script><script type="text/javascript" id="" src="//d1htpt0i4k7m8x.cloudfront.net/js/engagementTimer.minified.js"></script><script type="text/javascript" id="">(function(e,f,g,h,p){function r(k){for(var c=this.length;c--&amp;&amp;this[c]!==k;);return c}function q(k){var c=window.dataLayer=window.dataLayer||[],h=void 0,d=k.allExperiments||[],a,l=Object.prototype.hasOwnProperty,e,m,f,n,b={},g;for(a in d)l.call(d,a)&amp;&amp;(e=l.call(d[a],"enabled"),m=(m=l.call(d[a],"google_analytics"))?d[a].google_analytics.slot:h,f=d[a].name,n=k.variationNamesMap[a]||null,b[a]={enabled:e,slot:m,name:f,variation:n,bucketed:null!==n,active:g=!!~r.call(k.activeExperiments,a),state:g?"active":
+"inactive"});for(a in b)l.call(b,a)&amp;&amp;b[a].bucketed&amp;&amp;c.push({event:"optimizely_bucket",optimizely_key:a,optimizely_slot:b[a].slot,optimizely_experiment:b[a].name,optimizely_variation:b[a].variation,optimizely_variation_state:b[a].state,optimizely_variation_active:b[a].active});c.push({event:"optimizely_loaded",optimizely:b})}e?q(e):(p=0,h=setInterval(function(){50&lt;p++?(clearInterval(h),dataLayer.push({event:"optimizely_missing"})):f[g]&amp;&amp;(q(f[g]),clearInterval(h))},50))})(window.optimizely,window,"optimizely");</script><script type="text/javascript" id="">var _AP={cleanPageUrl:function(a){var h=function(a){var e=/(([^&lt;&gt;()\[\]\\.,;:\s@"]+(\.[^&lt;&gt;()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;return e.test(a)},k=function(a){var e=[],b;for(b in a)e.push(b+"\x3d"+encodeURIComponent(a[b]));return 0&lt;e.length?"?"+e.join("\x26"):""};if(!a)return a;var b=a.split("?");a=b[0];var b=1&lt;b.length?b[1]:null,f=a.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);if(f)for(var c=0;c&lt;f.length;c++)a=
+a.replace(f[c],"redacted");if(null!=b){var d={};b.replace(RegExp("([^?\x3d\x26]+)(\x3d([^\x26]*))?","g"),function(a,b,f,c){try{d[b]=decodeURIComponent(c)}catch(l){d[b]=c}});for(var g in d)h(d[g])&amp;&amp;(d[g]="redacted")}return a+k(d)}};window.dataLayer=window.dataLayer||[];if(0===window.dataLayer.filter(function(a){return void 0!==a.originalLocation}).length){var pageUrl=document.location.protocol+"//"+document.location.hostname+document.location.pathname+document.location.search;window.dataLayer.push({originalLocation:_AP.cleanPageUrl(pageUrl)})};</script>
+
+<script type="text/javascript" id="">(function(){var a={engagedEvents:["mouseover","keydown","touchstart","touchmove"]};_apEngage(a)})();</script>
+     
+<script type="text/javascript">
+//SL-45 If user is tablet user and it first time come to this page then ask user to share GEO location.
+//And based on GEO cordinates call above form to find near by stores.
+//This happens only one time. if user next time again come to same page it behave like desktop site and ask to enter address.
+//To check above condition check the cookies to identifiy that user already visit this page.
+var isGeoCoordinateSet ='true';
+var istablet=istablet();
+var ssc = getCookie("storeSearchCriteria");
+  if (istablet &amp;&amp; isGeoCoordinateSet == 'false' &amp;&amp; ssc == "") {
+    locateMe();
+  }
+</script>
+
+<!-- main body end -->
+
+
+	
+ 
+	
+	
+	
+	
+ 
+ 
+ 
+ 	<script type="text/javascript">
+	  (function () {
+	    var tagjs = document.createElement("script");
+	    var s = document.getElementsByTagName("script")[0];
+	    tagjs.async = true;
+	    tagjs.src = "//s.btstatic.com/tag.js#site=ZroXyZH";
+	    s.parentNode.insertBefore(tagjs, s);
+	  }());
+	</script>
+	<noscript>
+	  &lt;iframe src="//s.thebrighttag.com/iframe?c=ZroXyZH" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"&gt;&lt;/iframe&gt;
+	</noscript>
+	
+	                    <script language="javascript" type="text/javascript">
+	                        var fsr_cmmmc =" ";
+	                    </script>
+	                
+<footer class="footer">
+	<div class="footerDesktop hidden-xs hidden-sm">
+		<div class="footerWrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5>INSPIRE, NOURISH, THRIVE EVERYDAY.</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<h6>
+							HELP &amp; <span class="bold">MY ACCOUNT</span>
+						</h6>
+						<ul id="desktopLinks1">
+						<li><a target="_self" href="https://www.vitaminshoppe.com/s/myAccount" title="My Account">My Account</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/help.jsp" title="Click for Help">Help</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/myHealthyAwards/index.jsp" title="My Healthy Awards">My Healthy Awards</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/purchaseHistory" title="Order Tracking &amp; History">Order Tracking &amp; History</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/quickreorder" title="Quick Reorder">Quick Reorder</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/order-by-item-number.jsp" title="Order By Item Number">Order By Item Number</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/faq.jsp" title="FAQs">FAQs</a></li></ul>
+					</div>
+
+					<div class="col-md-3">
+						<h6>
+							VALUE &amp; <span class="bold">SAVINGS</span>
+						</h6>
+						<ul id="desktopLinks2">
+						<li><a target="_self" href="https://www.vitaminshoppe.com/b/vitamin-shoppe/N-9c1" title="Vitamin Shoppe Brand">Vitamin Shoppe Brand</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/shipping-policy.jsp" title="Free Shipping Information">Free Shipping Information</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/signup/email-sign-up-save" title="Sign Up &amp; Save">Sign Up &amp; Save</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/sv/sale/N-1z12pxm" title="Sale Products">Sale Products</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/global/gadgets/healthyAwardsClub.jsp" title="Healthy Awards (NEW)">Healthy Awards (NEW)</a></li></ul>
+					</div>
+
+					<div class="col-md-3">
+						<h6>
+							POLICIES &amp; <span class="bold">SERVICES</span>
+						</h6>
+						<ul id="desktopLinks3">
+						<li><a target="_self" href="https://www.vitaminshoppe.com/u/privacy.jsp " title="Privacy Policy">Privacy Policy</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/shipping-policy.jsp" title="Shipping Rates &amp; Policies">Shipping Rates &amp; Policies</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/return.jsp " title="Returns Policy">Returns Policy</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/terms.jsp" title="Terms of Use">Terms of Use (Updated 5/4/16)</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/lp/affiliate" title="Affiliate Program">Affiliate Program</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/gift-card-info.jsp" title="Gift Cards">Gift Cards</a></li></ul>
+					</div>
+
+					<div class="col-md-3">
+						<h6>
+							CORPORATE <span class="bold">INFORMATION</span>
+						</h6>
+						<ul id="desktopLinks4">
+						<li><a target="_self" href="https://www.vitaminshoppe.com/u/about-vshoppe.jsp " title="About the Vitamin Shoppe">About the Vitamin Shoppe</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/contact-us.jsp" title="Contact Us">Contact Us</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/sl/store-locator" title="Store Locator">Store Locator</a></li><li><a target="_blank" href="https://vitaminshoppe.investorroom.com/" title="Investor Relations">Investor Relations</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/u/careers.jsp" title="Careers">Careers</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/u/site-map" title="Site Map">Site Map</a></li></ul>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="awardsSection">
+            <div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<h6>
+						HONORS &amp; <span class="bold">AWARDS:</span>
+					</h6>
+				</div>
+				<div class="col-md-10" id="awards"><style>
+      .award1 {
+    width: 29%;
+    padding: 27px 0px 27px 19px;
+}  
+        .award2 {
+                width: 20%;
+    padding: 13px 0px 13px 0px;
+}
+        .award3 {
+       width: 20%;
+    padding: 14px 1px 14px 0px;
+}
+    .award4 {
+       width: 30%;
+            padding: 27px 0px 27px 8px;
+}
+    
+    .award1 img{
+      width: 82px;
+      height: 35px;
+    }
+    
+    .award2 img{
+        width: 44px;
+      height: 60px; 
+    }
+    
+    .award3 img{
+      width: 52px;
+      height: 58px;   
+    }
+    
+    .award4 img{
+       width: 90px;
+      height: 29px;  
+    }
+      .awardsWrapper{
+        width: 60%;
+    display: flex;
+    }
+    @media (min-width:320px) and (max-width:1023px){
+     .awardsWrapper img {
+    width: 100%;
+    height: auto;
+         
+}   
+      .award1 {
+    width: 25%;
+    padding: 0px;
+    margin-right: 8%;
+}  
+        .award1 a{
+            margin-top: 10%;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .award2 {
+                width: 12%;
+    padding: 0px;
+    margin-right:8%;
+    }
+        .award3 {
+       width: 14%;
+    padding: 0px;
+    margin-right: 8%;
+}
+    .award4 {
+       width: 25%;
+      padding: 0px;
+}
+        .award4 a{
+            margin-top: 15%;
+            display: inline-block;
+            width: 100%;
+        }
+         
+      .awardsWrapper{
+    width: 100%;
+    padding: 15px 35px;
+          }
+    }
+</style>
+ <div class="awardsWrapper">
+                            <div class="award1">
+                                <a href="http://www.bbb.org/new-jersey/business-reviews/vitamins-and-food-supplements/the-vitamin-shoppe-in-secaucus-nj-16004762/" target="_blank"><img src="/images/footer/image1.png" alt="accredited business" /></a>
+                            </div>
+                            <div class="award2">
+                                <a href="http://www.bizrate.com/ratings_guide/cust_reviews__mid--19205.html" target="_blank"><img src="/images/footer/image2.png" alt="circle of excellence" /></a>
+                            </div>
+                            <div class="award3">
+                                <a href="javascript:" target="_blank"><img src="/images/footer/image3.png" alt="award" /></a>
+                            </div>
+                            <div class="award4">
+                                <a href="http://www.stellaservice.com/profile/VitaminShoppe.com/" target="_blank"><img src="/images/footer/image4.png" alt="stella service" />
+                                    
+                            </a></div><a href="http://www.stellaservice.com/profile/VitaminShoppe.com/" target="_blank">
+                        </a></div></div>
+			</div>
+            </div>
+		</div>
+		<div class="copyrightWrapper">
+            <div class="container">
+			<div class="row">
+				<div class="col-md-12 copyRight">
+					<div class="footerMedialeft" id="footerCopyLeft"><div class="star">**</div>
+     <div class="disclaimer">All online offers and prices are valid for online 
+      purchases only and may be different from those in our retail stores. 
+      The products and the claims made about specific products on or
+      through this site have not been evaluated by the United States Food and
+      Drug Administration and are not intended to diagnose, treat, cure or 
+      prevent disease. The information provided on this site is for 
+      informational purposes only and is not intended as a substitute for 
+      advice from your physician or other health care professional or any 
+      information contained on or in any product label or packaging. You 
+      should not use the information on this site for diagnosis or treatment 
+      of any health problem or for prescription of any medication or other
+      treatment. You should consult with a healthcare professional
+      before starting any diet, exercise or supplementation program,
+      before taking any medication, or if you have or suspect you might
+      have a health problem. Please view our full Terms Of Use Agreement
+      for more information and the terms and conditions governing your
+      use of this site. WEIGHT MANAGEMENT: Supports a weight management
+      program that includes exercise and a calorie, carbohydrate, or fat
+      restricted diet.</div></div>
+					<div class="footerMediaright copyright" id="footerCopyRight"><div class="copyright">
+    © 2017 the Vitamin Shoppe ®
+    <br />Buy one, get one 50% off on all Smarty Pants brand products. Offer valid through 4/23/2017. Mix and Match within same brand only. Discount taken off price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off on all The Vitamin Shoppe and Body Tech brand products. Offer valid through 4/30/2017. Mix and Match. Discount taken off price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off select Celsius brand products. Offer valid through 4/30/17 at 11:59 p.m. Mix and Match. Discount taken off value price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off LifeAid brand products. Offer valid through 4/30/17 at 11:59 p.m. Mix and Match. Discount taken off value price of second item of equal or lesser value.
+    <br />All sale prices are valid through 4/30/2017.
+<br />
+</div>
+</div>
+				</div>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footerMobile visible-xs visible-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12">
+					<h5>INSPIRE,NOURISH,THRIVE EVERYDAY.</h5>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 callWrapper">
+					<a class="callus" href="tel:1-888-482-9433">CALL US</a> <a class="chat">LIVE CHAT</a>
+				</div>
+			</div>
+
+			<div class="row menu">
+				<div class="col-sm-12 col-xs-12">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h6 class="panel-title">
+									<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne"> <span class="indicator arrowDown"></span> HELP &amp; <span class="bold">MY
+											ACCOUNT</span></a>
+								</h6>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul id="mobileLinks1">
+									<li><a target="_self" href="https://www.vitaminshoppe.com/s/myAccount" title="My Account">My Account</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/help.jsp" title="Click for Help">Help</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/myHealthyAwards/index.jsp" title="My Healthy Awards">My Healthy Awards</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/purchaseHistory" title="Order Tracking &amp; History">Order Tracking &amp; History</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/s/quickreorder" title="Quick Reorder">Quick Reorder</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/order-by-item-number.jsp" title="Order By Item Number">Order By Item Number</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/faq.jsp" title="FAQs">FAQs</a></li></ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h6 class="panel-title">
+									<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo"> <span class="indicator arrowDown"></span> VALUE &amp; <span class="bold">SAVINGS</span></a>
+								</h6>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul id="mobileLinks2">
+									<li><a target="_self" href="https://www.vitaminshoppe.com/b/vitamin-shoppe/N-9c1" title="Vitamin Shoppe Brand">Vitamin Shoppe Brand</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/shipping-policy.jsp" title="Free Shipping Information">Free Shipping Information</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/signup/email-sign-up-save" title="Sign Up &amp; Save">Sign Up &amp; Save</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/sv/sale/N-1z12pxm" title="Sale Products">Sale Products</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/global/gadgets/healthyAwardsClub.jsp" title="Healthy Awards (NEW)">Healthy Awards (NEW)</a></li></ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h6 class="panel-title">
+									<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree"> <span class="indicator arrowDown"></span> POLICIES &amp; <span class="bold">SERVICES</span></a>
+								</h6>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul id="mobileLinks3">
+									<li><a target="_self" href="https://www.vitaminshoppe.com/u/privacy.jsp " title="Privacy Policy">Privacy Policy</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/shipping-policy.jsp" title="Shipping Rates &amp; Policies">Shipping Rates &amp; Policies</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/return.jsp " title="Returns Policy">Returns Policy</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/terms.jsp" title="Terms of Use">Terms of Use (Updated 5/4/16)</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/lp/affiliate" title="Affiliate Program">Affiliate Program</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/gift-card-info.jsp" title="Gift Cards">Gift Cards</a></li></ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h6 class="panel-title">
+									<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour"> <span class="indicator arrowDown"></span> CORPORATE &amp; <span class="bold">INFORMATION</span></a>
+								</h6>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul id="mobileLinks4">
+									<li><a target="_self" href="https://www.vitaminshoppe.com/u/about-vshoppe.jsp " title="About the Vitamin Shoppe">About the Vitamin Shoppe</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/u/contact-us.jsp" title="Contact Us">Contact Us</a></li><li><a target="_self" href="https://www.vitaminshoppe.com/sl/store-locator" title="Store Locator">Store Locator</a></li><li><a target="_blank" href="https://vitaminshoppe.investorroom.com/" title="Investor Relations">Investor Relations</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/u/careers.jsp" title="Careers">Careers</a></li><li><a target="_blank" href="https://www.vitaminshoppe.com/u/site-map" title="Site Map">Site Map</a></li></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 awards" id="awardsMobile"> 
+                        
+            <style>
+      .award1 {
+    width: 29%;
+    padding: 27px 0px 27px 19px;
+}  
+        .award2 {
+                width: 20%;
+    padding: 13px 0px 13px 0px;
+}
+        .award3 {
+       width: 20%;
+    padding: 14px 1px 14px 0px;
+}
+    .award4 {
+       width: 30%;
+            padding: 27px 0px 27px 8px;
+}
+    
+    .award1 img{
+      width: 82px;
+      height: 35px;
+    }
+    
+    .award2 img{
+        width: 44px;
+      height: 60px; 
+    }
+    
+    .award3 img{
+      width: 52px;
+      height: 58px;   
+    }
+    
+    .award4 img{
+       width: 90px;
+      height: 29px;  
+    }
+      .awardsWrapper{
+        width: 60%;
+    display: flex;
+    }
+    @media (min-width:320px) and (max-width:1023px){
+     .awardsWrapper img {
+    width: 100%;
+    height: auto;
+         
+}   
+      .award1 {
+    width: 25%;
+    padding: 0px;
+    margin-right: 8%;
+}  
+        .award1 a{
+            margin-top: 10%;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .award2 {
+                width: 12%;
+    padding: 0px;
+    margin-right:8%;
+    }
+        .award3 {
+       width: 14%;
+    padding: 0px;
+    margin-right: 8%;
+}
+    .award4 {
+       width: 25%;
+      padding: 0px;
+}
+        .award4 a{
+            margin-top: 15%;
+            display: inline-block;
+            width: 100%;
+        }
+         
+      .awardsWrapper{
+    width: 100%;
+    padding: 15px 35px;
+          }
+    }
+</style>
+ <div class="awardsWrapper">
+                            <div class="award1">
+                                <a href="http://www.bbb.org/new-jersey/business-reviews/vitamins-and-food-supplements/the-vitamin-shoppe-in-secaucus-nj-16004762/" target="_blank"><img src="/images/footer/image1.png" alt="accredited business" /></a>
+                            </div>
+                            <div class="award2">
+                                <a href="http://www.bizrate.com/ratings_guide/cust_reviews__mid--19205.html" target="_blank"><img src="/images/footer/image2.png" alt="circle of excellence" /></a>
+                            </div>
+                            <div class="award3">
+                                <a href="javascript:" target="_blank"><img src="/images/footer/image3.png" alt="award" /></a>
+                            </div>
+                            <div class="award4">
+                                <a href="http://www.stellaservice.com/profile/VitaminShoppe.com/" target="_blank"><img src="/images/footer/image4.png" alt="stella service" />
+                                    
+                            </a></div><a href="http://www.stellaservice.com/profile/VitaminShoppe.com/" target="_blank">
+                        </a></div></div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 copyrightWrapper">
+				<div class="cont">
+					<p class="mobfooterMedialeft" id="footerCopyLeftMobile"><div class="star">**</div>
+     <div class="disclaimer">All online offers and prices are valid for online 
+      purchases only and may be different from those in our retail stores. 
+      The products and the claims made about specific products on or
+      through this site have not been evaluated by the United States Food and
+      Drug Administration and are not intended to diagnose, treat, cure or 
+      prevent disease. The information provided on this site is for 
+      informational purposes only and is not intended as a substitute for 
+      advice from your physician or other health care professional or any 
+      information contained on or in any product label or packaging. You 
+      should not use the information on this site for diagnosis or treatment 
+      of any health problem or for prescription of any medication or other
+      treatment. You should consult with a healthcare professional
+      before starting any diet, exercise or supplementation program,
+      before taking any medication, or if you have or suspect you might
+      have a health problem. Please view our full Terms Of Use Agreement
+      for more information and the terms and conditions governing your
+      use of this site. WEIGHT MANAGEMENT: Supports a weight management
+      program that includes exercise and a calorie, carbohydrate, or fat
+      restricted diet.</div></p>
+					<p class="mobfooterMediaright" id="footerCopyRightMobile"><div class="copyright">
+    © 2017 the Vitamin Shoppe ®
+    <br />Buy one, get one 50% off on all Smarty Pants brand products. Offer valid through 4/23/2017. Mix and Match within same brand only. Discount taken off price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off on all The Vitamin Shoppe and Body Tech brand products. Offer valid through 4/30/2017. Mix and Match. Discount taken off price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off select Celsius brand products. Offer valid through 4/30/17 at 11:59 p.m. Mix and Match. Discount taken off value price of second item of equal or lesser value.
+    <br />Buy one, get one 50% off LifeAid brand products. Offer valid through 4/30/17 at 11:59 p.m. Mix and Match. Discount taken off value price of second item of equal or lesser value.
+    <br />All sale prices are valid through 4/30/2017.
+<br />
+</div>
+</p>
+				</div>
+
+			</div>
+		</div>
+        </div>
+
+	</div>
+</footer>
+
+  <div style="display: none;" id="popup-container">
+    <div class="overlay"></div>
+  <!-- Data content required to how on click of details link on cart page -->
+    <div id="free-shipping-return" class="popupbox">
+    <a href="javascript:" class="close" aria-label="Close"></a>
+    <div class="content">
+       <style type="text/css">
+  #free-shipping-return .corisande-bold{
+    font-family: corisandebold;
+    color: #01226b;
+    font-size: 3rem;
+  }
+  #free-shipping-return .corisande-bold18{
+    font-family: corisanderegular;
+    color: #01226b;
+    font-size: 3rem;
+  }
+  #free-shipping-return .numbers.corisande-regular &gt; li{
+    list-style: initial;
+  }
+  #free-shipping-return .modal-body {
+    position: relative;
+    padding: 40px;
+  }
+  #free-shipping-return .head, .head.other{
+    color: #01226b;
+    font-size: 3rem;
+  }
+  #free-shipping-return span.corisande-bold18{
+    font-size: 1.6rem;
+  }
+</style>
+<div class="head"><span class="corisande-bold">FREE STANDARD SHIPPING</span> on orders of $25 or more</div>
+<h4 class="corisande-bold18">How to get FREE Standard Shipping:</h4>
+<ol class="numbers corisande-regular">
+  <li>Ship to an address within the United States (including U.S. territories)</li>
+  <li>Place your online order of $25 or more* - after promotions and before tax are applied</li>
+  <li>Use "Standard" shipping option at checkout</li>
+</ol>
+<p><span class="corisande-bold18">Order by 6pm</span> for same day shipping</p>
+<p class="text corisande-regular">Domestic orders placed Monday - Friday by 6 p.m. Eastern Time will be packed and shipped the same day, pending verification of billing information and the shipping method selected. International orders and orders containing gift cards, out-of-stock items     or refrigerated items will be processed as quickly as possible, but won't necessarily be shipped out the same day. <br />
+  Excludes all orders placed on major US holidays (Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Christmas Day and     New Year's Day).</p>
+<p> </p>
+<div class="head" style="padding-bottom: 30px;">PICK UP IN STORE FOR FREE</div>
+<ul class="numbers corisande-regular">
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">There is no shipping cost for Pick Up In Store orders</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Not all products are available for in store pickup</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Please bring a valid photo ID and your order confirmation number to pick up your item(s)</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">A signature will be required upon pick up</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Your item(s) will remain available for 10 days from the time you receive your Ready for Pick Up email</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">In most cases, your order should be ready in roughly 2 hours</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Orders placed within two hours of store closing might not be available the same day</li>
+  <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;"><a href="/u/faq.jsp#bopsfaq" class="gray-link bold" target="_blank"><u>View Pick up In Store FAQs</u></a> for additional information</li>
+</ul>
+<div class="head other">Rely on the <br />
+  Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+<div class="text">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form     of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div>
+ </div> </div> 
+  <div id="free-shipping-return-adp" class="popupbox">
+    <a href="javascript:" class="close" aria-label="Close"></a>
+    <div class="content">
+       <div class="head" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">AUTO DELIVERY</div>
+<div class="text corisande-regular">Auto Delivery is the most convenient way to enjoy your favorite Vitamin Shoppe products. We automatically send you your chosen items based upon a frequency that you can set. The program is easy to use and customizable, so you can make changes online whenever you need. Just tell us how often you want your items, and we'll take it from there.</div>
+<ul class="numbers corisande-regular" style="margin-top: 20px; width: 100%; float: left;">
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">To subscribe, simply select the Auto Delivery option and shipment frequency<br />for your desired product.</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">Not all products are available for Auto Delivery</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;"><a href="/u/faq.jsp#autodelivery" class="gray-link bold">View Auto Delivery FAQs</a> for additional information</li>
+</ul>
+<div class="head other" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">Rely on the
+<br /> Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+<div class="text corisande-regular">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div> 
+ </div> </div> 
+  
+    <div id="popup-healthy-awards" class="popupbox">
+      <a href="javascript:" class="close" aria-label="Close"></a>
+      <style>
+body{
+  font-family: corisanderegular;
+}
+
+  .popupHealthyAwards &gt; h4{
+    font-family: corisanderegular;
+    color: #01226b;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .popupHealthyAwards &gt; .link-text{
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .popupHealthyAwards{
+    margin: 2%;
+  }
+</style>
+
+
+<div class="popupHealthyAwards">
+    <h4>Vitamin Shoppe Healthy Awards Program - Free to join!</h4>
+    <h4 style="color:#53565a;font-weight:bold;font-size: 14px;">
+Earn credits for free merchandise -<br />
+Over $29,000,000 given away last year
+</h4>
+    <p style="color: #666">When you make a purchase at our website, you are automatically enrolled in our loyalty program, which earns you points towards free merchandise. The more you purchase over time, the more free products you earn. Last year, customers like you earned
+        over $29,000,000 in free merchandise credits, which can be used to purchase anything we sell.</p>
+    <p class="link-text"><a target="_blank" href=" /u/global/gadgets/healthyAwardsClub.jsp">For full program details, click here</a>.</p>
+</div>
+
+    </div>
+    <div id="sms-terms" class="popupbox">
+      <a href="javascript:" class="close" aria-label="Close"></a>
+      <div class="popupDisclaimer">
+        <div class="content">
+          <div class="head">Text Messaging (SMS) Terms &amp; Conditions Highlights</div>
+          <ul>
+            <li>You will not receive more than 5 text messages per month</li>
+            <li>You can opt out of the SMS program at any time by replying to 49833 with the word "STOP"</li>
+            <li>Data and text message rates will apply to each text message sent or received in accordance with your wireless plan</li>
+          </ul>
+          <p><a href="/u/privacy.jsp" class="gray-link-small bold" target="_blank">View the full terms and conditions</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="popupbox" id="popup-disclaimer" style="display:none;">
+      <a class="close" href="javascript:" aria-label="Close"></a>
+      <div class="popupDisclaimer">
+        These products are dietary supplements and are not intended to diagnose, treat cure or prevent any disease. Reviews are not intended as a substitute for appropriate medical care or the advice of a physician or another medical professional. Actual results may vary among users. Vitaminshoppe.com makes no warranty or representation, expressed or implied, as to the accuracy or validity of the information contributed by outside product review submissions, and assumes no responsibility or liability regarding the use of such information. The information and statements regarding the dietary supplements have not been evaluated by the Food and Drug Administration. If you have a medical condition or disease, please talk to your health care provider. If you are currently taking a prescription medication, you should work with your health care provider before discontinuing any drug or altering any drug regimen, including augmenting your regimen with dietary supplements. Do not attempt to self-diagnose any disease or ailment based on the reviews and do not use the information contained herein for diagnosing or treating a health problem or disease. Proper medical care is critical to good health. If you have a health concern or suspect you have an undiagnosed sign or symptom, please consult a physician or health care practitioner.
+      </div>
+    </div>
+    <div class="popupbox" id="popup-qnadisclaimer" style="display:none;">
+      <a class="close" href="javascript:" aria-label="Close"></a>
+      <div class="popupDisclaimer">
+        <div class="chat in">
+<div class="msg 1st">These products are dietary supplements and are  not intended to diagnose, treat cure or prevent any disease. Reviews are not  intended as a substitute for appropriate medical care or the advice of a  physician or another medical professional. Actual results may vary among users.  Vitaminshoppe.com makes no warranty or representation, expressed or implied, as  to the accuracy or validity of the information contributed by outside product  review submissions, and assumes no responsibility or liability regarding the use  of such information. The information and statements regarding the dietary  supplements have not been evaluated by the Food and Drug Administration. If you  have a medical condition or disease, please talk to your health care provider.  If you are currently taking a prescription medication, you should work with your  health care provider before discontinuing any drug or altering any drug regimen,  including augmenting your regimen with dietary supplements. Do not attempt to  self-diagnose any disease or ailment based on the reviews and do not use the  information contained herein for diagnosing or treating a health problem or  disease. Proper medical care is critical to good health. If you have a health  concern or suspect you have an undiagnosed sign or symptom, please consult a  physician or health care practitioner.</div>
+<div id="insert"> </div>
+<div class="clear"> </div>
+</div>
+<div class="break"> </div>
+ </div> </div> 
+    <div class="popupbox" id="popup-autodelivery" style="display:none;" role="dialog">
+      <a href="javascript:" class="close" aria-label="Close"></a>
+      <div class="content autodelivery">
+        <p class="text">Deleting your default Credit Card will prevent Auto Delivery orders from shipping to you.</p>
+
+        <p class="text">If you still wish to delete your card, please go to <a href="/s/msi/subscriber.jsp" class="gray-link bold">"My Auto Delivery"</a> and stop any active subscriptions. Once you have stopped all subscriptions, you can return to this page and delete your card.</p>
+
+        <p class="text">How to stop a subscription:</p>
+
+        <ol>
+          <li>Go to <a href="/s/msi/subscriber.jsp" class="gray-link bold">"My Auto Delivery"</a></li>
+          <li>Click on "My Subscriptions" tab</li>
+          <li>Click "Edit" next to the item you want to stop subscription for</li>
+          <li>Click "Stop Subscription"</li>
+        </ol>
+        <a href="javascript:" class="cancel-button corisande-regular size18 cancelModal">Cancel</a>
+        <a href="/s/msi/subscriber.jsp" class="overlay-button corisande-regular size18">Go to My Auto Delivery</a>
+      </div>
+    </div>
+      
+    
+    <div class="popupbox" id="popup-autodelivery-orderdetails" style="display:none;" role="dialog">
+      <a href="javascript:" class="close" aria-label="Close"></a>
+      <div class="content">  
+        <div class="head" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">AUTO DELIVERY</div>
+<div class="text corisande-regular">Auto Delivery is the most convenient way to enjoy your favorite Vitamin Shoppe products. We automatically send you your chosen items based upon a frequency that you can set. The program is easy to use and customizable, so you can make changes online whenever you need. Just tell us how often you want your items, and we'll take it from there.</div>
+<ul class="numbers corisande-regular" style="margin-top: 20px; width: 100%; float: left;">
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">To subscribe, simply select the Auto Delivery option and shipment frequency<br />for your desired product.</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">Not all products are available for Auto Delivery</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;"><a href="/u/faq.jsp#autodelivery" class="gray-link bold">View Auto Delivery FAQs</a> for additional information</li>
+</ul>
+<div class="head other" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">Rely on the
+<br /> Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+<div class="text corisande-regular">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div> 
+ </div> </div> 
+    <div class="popupbox autodeliveryPopUp" id="popup-autodelivery-reorder" style="display:none;" role="dialog">
+      <a href="javascript:" class="close" aria-label="Close"></a> 
+      <div class="content" tabindex="-1">  
+      <div>
+        <div class="head" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">AUTO DELIVERY</div>
+<div class="text corisande-regular">Auto Delivery is the most convenient way to enjoy your favorite Vitamin Shoppe products. We automatically send you your chosen items based upon a frequency that you can set. The program is easy to use and customizable, so you can make changes online whenever you need. Just tell us how often you want your items, and we'll take it from there.</div>
+<ul class="numbers corisande-regular" style="margin-top: 20px; width: 100%; float: left;">
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">To subscribe, simply select the Auto Delivery option and shipment frequency<br />for your desired product.</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;">Not all products are available for Auto Delivery</li>
+<li style="list-style-type: disc; clear: both; margin-bottom: 5px;"><a href="/u/faq.jsp#autodelivery" class="gray-link bold">View Auto Delivery FAQs</a> for additional information</li>
+</ul>
+<div class="head other" style="color: #f58220; float: left; font-size: 30px; letter-spacing: -1px; padding: 35px 0 30px; width: 100%;">Rely on the
+<br /> Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+<div class="text corisande-regular">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div> 
+      </div>
+      </div>
+    </div>
+    
+  <div class="popupbox" id="popup-loadingResults" style="display: none;">
+      <div class="popupDisclaimer">
+        <span>
+          <img src="/images/bx_loader.gif" alt="Updating Results" />
+        </span>
+        <span class="updatingResults">
+          updating results
+        </span>
+      </div>
+    </div>
+    <div class="popupbox" id="popup-processingOrder" style="display: none;">
+      <div class="popupDisclaimer">
+      <span><img src="/images/bx_loader.gif" alt="Updating results in progress" /></span> <span class="updatingResults">Updating results in progress</span>
+      </div>
+    </div>
+  <div class="popupbox" id="popup-errorResultsDiv" style="display: none;">
+    <div id="popup-errorResults">
+      <a class="close" href="javascript:" aria-label="Close"></a>
+    </div>
+      <div class="popupDisclaimer">
+      <span><img src="/images/bx_loader.gif" alt="We're sorry, we were not able to complete your request, please try again" /></span> <span class="errorResults">We're sorry,we were not able to complete your request,please try again</span> </div> </div> <div id="unusedFreeShipping">
+<p><style type="text/css">
+
+  #unusedFreeShipping .corisande-bold{
+    font-family: corisandebold;
+    color: #01226b;
+    font-size: 3rem;
+  }
+  #unusedFreeShipping .corisande-bold18{
+    font-family: corisanderegular;
+    color: #01226b;
+    font-size: 3rem;
+  }
+#unusedFreeShipping .numbers.corisande-regular &gt; li{
+    list-style: initial;
+  }
+  #unusedFreeShipping .modal-body {
+    position: relative;
+    padding: 40px;
+  }
+  #unusedFreeShipping .head,#unusedFreeShipping .head.other{
+    color: #01226b;
+    font-size: 3rem;
+  }
+  #unusedFreeShipping span.corisande-bold18{
+    font-size: 1.6rem;
+  }
+</style></p>
+<div class="head"><span class="corisande-bold">FREE STANDARD SHIPPING</span> on orders of $25 or more</div>
+<h4 class="corisande-bold18">How to get FREE Standard Shipping:</h4>
+<ol class="numbers corisande-regular">
+    <li>Ship to an address within the United States (including U.S. territories)</li>
+    <li>Place your online order of $25 or more* - after promotions and before tax are applied</li>
+    <li>Use "Standard" shipping option at checkout</li>
+</ol>
+<p><span class="corisande-bold18">Order by 6pm</span> for same day shipping</p>
+<p class="text corisande-regular">Domestic orders placed Monday - Friday by 6 p.m. Eastern Time will be packed and shipped the same day, pending verification of billing information and the shipping method selected. International orders and orders containing gift cards, out-of-stock items     or refrigerated items will be processed as quickly as possible, but won't necessarily be shipped out the same day. <br />
+Excludes all orders placed on major US holidays (Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Christmas Day and     New Year's Day).</p>
+<p> </p>
+<div class="head" style="padding-bottom: 25px;">PICK UP IN STORE FOR FREE</div>
+<ul class="numbers corisande-regular">
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">There is no shipping cost for Pick Up In Store orders</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Not all products are available for in store pickup</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Please bring a valid photo ID and your order confirmation number to pick up your item(s)</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">A signature will be required upon pick up</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Your item(s) will remain available for 10 days from the time you receive your Ready for Pick Up email</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">In most cases, your order should be ready in roughly 2 hours</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;">Orders placed within two hours of store closing might not be available the same day</li>
+    <li style="list-style-type: disc; color: #808080; clear: both; margin-bottom: 5px;"><a href="/u/faq.jsp#bopsfaq" class="gray-link bold" target="_blank"><u>View Pick up In Store FAQs</u></a> for additional information</li>
+</ul>
+<div class="head other">Rely on the <br />
+Vitamin Shoppe<sup class="size18">®</sup> 100% Satisfaction Guarantee</div>
+<div class="text">You may return any item purchased from the Vitamin Shoppe for any reason within thirty (30) days of purchase. For online and catalog orders, the product ship date is the date of purchase. Refunds for unopened items will be issued via your original form     of payment with one exception. Online orders paid for with PayPal and returned to a Vitamin Shoppe retail store will be refunded via merchandise credit.</div></div>
+
+    
+    <div id="popup-quick-view" class="quick-view popupbox" style="display:none;"></div>
+    
+	<div id="pickup-in-store" class="popupbox" style="display:none; top: 50px;">
+    <div class="popup-data">
+       <a href="javascript:" class="close greyx" aria-label="Close"></a>
+       <div class="head">Choose a Pick Up Store</div>
+       <div class="product-block shadow">
+         <!-- ABN - 26 START -->
+         <!-- <span class="image"><a href="javascript:" class="close nostyle"><img src="https://s7.vitaminshoppe.com/is/image/VitaminShoppe/_set?$PUS_PRD$" alt="Product Image for "></a></span> -->
+         <span class="image"><a href="javascript:" tabindex="-1" class="close nostyle"><img src="https://s7.vitaminshoppe.com/is/image/VitaminShoppe/_set?$PUS_PRD$" alt="" /></a></span>
+         <!-- ABN-26 END -->
+         
+         <div class="prod-detail">
+           <p class="brand"></p>
+           <p class="title close nostyle"></p>           
+           <p class="quantity">Item #: /</p> 
+           
+           <div class="ptcWidgetReviewsAverageStars">
+             <div class="ptcWidgetReviewsAverageButtonOffClose clickablePointer">
+               <div class="ptcWidgetReviewsAverageButtonOnClose clickablePointer" style="width:0%">
+                 <div class="ptcWidgetReviewsAverageButtonImg">
+                    <span class="visually-hidden">
+                      0.0 Stars </span> </div> </div> </div> </div> </div> 
+ </div> <form action="/p/gadgets/#" class="findBOPSStoreForm ng-pristine ng-valid" method="GET"><div style="display:none"><input name="_dyncharset" value="UTF-8" type="hidden" /> </div><div style="display:none"><input name="_dynSessConf" value="-6710728215167249221" type="hidden" /> </div>
+       	<div class="location-search">
+        	<label>Please enter city, state or ZIP code</label>
+         	<div class="search-bar" id="store-search-bar">
+           		<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" placeholder="Enter City, State or ZIP Code" id="bops_store_search" class="input-focus ui-autocomplete-input" autocomplete="off" value="" />
+           		<input type="button" class="findBOPSStore" id="findBOPSStoreBtn" value="" />
+         	</div>
+         	<label>or</label>
+            <a href="javascript:" class="button-orange no-carrot corisande-regular size18" id="searchStoreUsingCurrentLocation">Use current location</a>
+         </div>
+       </form>
+ </div> 
+       <div id="bops-store-results">
+ 		 
+	</div>	
+	</div>
+
+    <div id="compare-popup" class="popupbox">
+    <div class="popup-data">
+      <a href="javascript:" class="close" aria-label="Close"></a>
+      <div class="message-block">
+        <h3 class="corisande-bold18">You have selected 3 items.</h3>
+        <p class="corisande-regular">You've chosen the maximum number (3) of items to compare at one time. Compare these three items, or remove them and add new ones.</p>
+        <div class="button-block">
+          <a href="javascript:" class="button-cancel corisande-regular size18" onclick="document.getElementById('popup-container').style.display = 'none'">Continue Shopping</a>
+          <a href="/com/u/compare-products" class="button-dark-blue corisande-regular size18">Compare Now</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- add zoom button functionality -->
+        <div id="store-image-view" class="popupbox">
+        <div class="popup-data">
+          <a href="javascript:" class="greyx close" aria-label="Close"></a>
+          <div class="image-container"><img src="//:0" alt="" style="width: 100%;" /></div>
+        </div>
+        <!-- end zoom -->
+
+   
+ </div> 
+<script>
+	
+			$.ajax({
+					url : "/rest/model/core/rest/navigation/actor/VSINavigationActor/footerSummary",
+					success : function(data) {
+					var footerLinks, awards, footerdata1, footerdata2, footerdata3, footerdata4, li, a, desktopLinks1, desktopLinks2, desktopLinks3, desktopLinks4, mobileLinks1, mobileLinks2, mobileLinks3, mobileLinks4,temp,footerCopyLeft,footerCopyRight;
+					footerLinks = data.footerLinks;
+					awards=data.awards;
+					footerCopyLeft=data.footerCopyLeft;
+					footerCopyRight=data.footerCopyRight;
+					footerdata1 = footerLinks[0].mediaLinks;
+					footerdata2 = footerLinks[1].mediaLinks;
+					footerdata3 = footerLinks[2].mediaLinks;
+					footerdata4 = footerLinks[3].mediaLinks;
+					desktopLinks1 = document.getElementById("desktopLinks1");
+					desktopLinks2 = document.getElementById("desktopLinks2");
+					desktopLinks3 = document.getElementById("desktopLinks3");
+					desktopLinks4 = document.getElementById("desktopLinks4");
+					mobileLinks1 = document.getElementById("mobileLinks1");
+					mobileLinks2 = document.getElementById("mobileLinks2");
+					mobileLinks3 = document.getElementById("mobileLinks3");
+					mobileLinks4 = document.getElementById("mobileLinks4");
+					$('#awards').append(awards);
+					$('#awardsMobile').append(awards);
+					$('#footerCopyLeft').append(footerCopyLeft);
+					$('#footerCopyRight').append(footerCopyRight);
+					$('#footerCopyLeftMobile').append(footerCopyLeft);
+					$('#footerCopyRightMobile').append(footerCopyRight);
+
+					for ( var i = 0; i &lt; footerdata1.length; i++) {
+						li = document.createElement("li");
+						a = document.createElement("a");
+						temp=footerdata1[i].target;
+						if(temp=="Existing"){
+						a.setAttribute("target","_self");	
+						}
+						else if(temp=="New"){
+						a.setAttribute("target","_blank");	
+						}
+						a.setAttribute("href", footerdata1[i].url);
+						a.setAttribute("title", footerdata1[i].title);
+						a.innerHTML = footerdata1[i].displayName;
+						li.appendChild(a);
+						desktopLinks1.appendChild(li);
+						mobileLinks1.appendChild(li.cloneNode(true));
+					}
+					for ( var i = 0; i &lt; footerdata2.length; i++) {
+						li = document.createElement("li");
+						a = document.createElement("a");
+						temp=footerdata2[i].target;
+						if(temp=="Existing"){
+						a.setAttribute("target","_self");	
+						}
+						else if(temp=="New"){
+						a.setAttribute("target","_blank");	
+						}
+						a.setAttribute("href", footerdata2[i].url);
+						a.setAttribute("title", footerdata2[i].title);
+						a.innerHTML = footerdata2[i].displayName;
+						li.appendChild(a);
+						desktopLinks2.appendChild(li);
+						mobileLinks2.appendChild(li.cloneNode(true));
+					}
+					for ( var i = 0; i &lt; footerdata3.length; i++) {
+						li = document.createElement("li");
+						a = document.createElement("a");
+						temp=footerdata3[i].target;
+						if(temp=="Existing"){
+						a.setAttribute("target","_self");	
+						}
+						else if(temp=="New"){
+						a.setAttribute("target","_blank");	
+						}
+						a.setAttribute("href", footerdata3[i].url);
+						a.setAttribute("title", footerdata3[i].title);
+						a.innerHTML = footerdata3[i].displayName;
+						li.appendChild(a);
+						desktopLinks3.appendChild(li);
+						mobileLinks3.appendChild(li.cloneNode(true));
+					}
+					for ( var i = 0; i &lt; footerdata4.length; i++) {
+						li = document.createElement("li");
+						a = document.createElement("a");
+						temp=footerdata4[i].target;
+						if(temp=="Existing"){
+						a.setAttribute("target","_self");	
+						}
+						else if(temp=="New"){
+						a.setAttribute("target","_blank");	
+						}
+						a.setAttribute("href", footerdata4[i].url);
+						a.setAttribute("title", footerdata4[i].title);
+						a.innerHTML = footerdata4[i].displayName;
+						li.appendChild(a);
+						desktopLinks4.appendChild(li);
+						mobileLinks4.appendChild(li.cloneNode(true));
+					}
+				}
+			});
+	//Bootstrap accordion code starts
+	function toggleChevron(e) {
+		$(e.target).prev('.panel-heading').find('span.indicator').toggleClass('arrowUp arrowDown');
+		$('#accordion .panel-heading').removeClass('highlight');
+		$(e.target).prev('.panel-heading').addClass('highlight');
+	}
+	$('#accordion').on('hidden.bs.collapse', toggleChevron);
+	$('#accordion').on('shown.bs.collapse', toggleChevron);
+	//Bootstrap accordion code ends
+</script>
+  <!-- siteSection is passed from HeaderBreadcrumbs.jsp -->   <!-- siteSection is passed from HeaderBreadcrumbs.jsp --> 
+				<script type="text/javascript">
+				dataLayer = dataLayer || [];
+				dataLayer.push({"siteVersion":"WSI - March 23, 2017","cartTotal":"0.00","siteSubSectionThree":"","potentialContinuityCustomer":"0","currencyCode":"USD","siteSubSection":"","bopsCustomer":"0","pageLevel":"Stores","customer":"new","country":"US","pageType":"Stores","siteSection":"Stores","category":"General","crmClientId":"","email":"","event":"dataLayer-loaded","mwCustomerNumber":"","isOGUser":"0","siteSubSectionTwo":""});	</script>	
+ 
+	
+	
+	
+		<script src="/wsi/bower_components/requirejs/require.js" data-main="/js/scripts/nonBrowse/mainCompressed.js"></script>
+	
+
+
+</div><script type="text/javascript" id="">(function(){window._ap=window._ap||{};window._ap.ecommerce={};var a=google_tag_manager[google_tag_manager["GTM-PD53KQ"].macro('gtm34')].dataLayer.get("analyticsProsEcommerce");a&amp;&amp;google_tag_manager[google_tag_manager["GTM-PD53KQ"].macro('gtm35')].dataLayer.set("analyticsProsEcommerce",null)})();</script><script type="text/javascript" id="">(function(d){dataLayer=window.dataLayer||[];var g=0,e=Math.max;window.onscroll=function(){var b,a=window;b=a.innerHeight||(document.documentElement?document.documentElement.clientHeight:document.body.clientHeight)||document.body.clientHeight;var c;c=document.body;var f=document.documentElement;c=document.height||e(e(c.scrollHeight,f.scrollHeight),e(c.offsetHeight,f.offsetHeight),e(c.clientHeight,f.clientHeight));a=a.pageYOffset||(document.documentElement?document.documentElement.scrollTop:document.body.scrollTop)||
+document.body.scrollTop;b=c-(b+a);b=b/c*100;b=100-b;for(a=d.length;a;)a--,b&gt;=d[a]&amp;&amp;(currentMilestone=d[a],currentMilestone&gt;g&amp;&amp;(g=currentMilestone,a=d[a].toString()+"%",dataLayer.push({event:"scroll-tracking-milestone","milestone-value":a})),a=0)}})([0,25,50,75,100]);</script>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit"></script><div style="visibility: hidden; position: absolute; width:100%; top: -10000px; left: 0px; right: 0px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: #fff; opacity: 0.5;  filter: alpha(opacity=50)"></div><div style="margin: 0 auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid #ccc; z-index: 2000000000; background-color: #fff; overflow: hidden;"><iframe src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=r20170411114922&amp;k=6Lc9KhoUAAAAANwF7CCUvbxpaLZC5PuYvMboh7Nc#8k9epyp3joa6" title="recaptcha challenge" frameborder="0" scrolling="no" name="8k9epyp3joa6" style="width: 100%; height: 100%;"></iframe></div></div>
+       
+<img src="//amplifypixel.outbrain.com/pixel?mid=001c104846e80c582c98f9e11bc64e882e" /><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.5600995531310395"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.6251825204744226" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=4016004&amp;Ver=2&amp;mid=513d503d-ce43-05dd-66da-19cb1a211127&amp;evt=pageLoad&amp;sid=94563d06-0&amp;lt=7231&amp;pi=-1748725250&amp;lg=en-US&amp;sw=1360&amp;sh=663&amp;sc=24&amp;tl=Vitamin Shoppe Store Locator&amp;p=https%3A%2F%2Fwww.vitaminshoppe.com%2Fsl%2Fstore-locator%3F_requestid%3D1197044&amp;r=&amp;rn=283036" /></div></body></html>

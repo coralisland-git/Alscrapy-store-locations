@@ -1,0 +1,17 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Jackson,,1430 Union University Drive,,Jackson,TN,38305,United States,,,,,,,1
+West End,,2323 Elliston Place,,Nashville,TN,37203,United States,,,,,,,1
+Berkeley Heights,,1700 North Side Drive,,Atlanta,GA,30318,United States,,,,,,,1
+Florence,,2887 Florence Blvd.,,Florence,AL,35630,United States,(256) 712-5152,,,Daily ~ 10:30am – 9:00pm,,,0
+Cookeville,,1010 S Jefferson St.,,Cookeville,TN,38501,United States,(931) 525-2583,,,Mon-Sun ~ 11am-9pm,,,0
+Hendersonville,,112 Saundersville Rd.,,Hendersonville,TN,37075,United States,(615) 824-3052,,,Mon-Sun ~ 11am-8:30pm,,,0
+Franklin/Cool Springs,,4091 Mallory Lane,,Franklin,TN,37067,United States,(615) 794-0320,,,Mon-Sun ~ 11am-9pm,,,0
+Lenox Village Lifestyle Center,,"6900 Lenox Village Dr., Suite 16",,Nashville,TN,37211,United States,(615) 834-0782,,,Mon-Sun ~ 11am-9pm,,,0
+Mt. Juliet,,"640 S. Mt. Juliet Rd, #230",,Mt Juliet,TN,37122,United States,(615) 288-3613,,,Mon-Sun ~ 11am-9pm,,,0
+Murfreesboro,,1122 Memorial Blvd.,,Murfreesboro,TN,37129,United States,(615) 494-3781,,,"Mon-Sat ~ 11am-9pm, Sun ~ 11am-6pm",,,0
+Murfreesboro Fortress,,1141 Fortress Blvd.,,Murfreesboro,TN,37128,United States,(615) 203-5516,,,Mon-Sun ~ 11am-9pm,,,0
+Smyrna,,635 President Place,,Smyrna,TN,37167,United States,(615) 220-9995,,,"Mon-Sat ~ 11am-9pm, Sun ~ 11am-8pm",,,0
+Downtown Nashville,,500 Church St.,,Nashville,TN,37219,United States,(615) 748-3002,,,Mon – Fri 10:30 AM – 3 PM,,,0
+Nashville International Airport,,A Blue Coast Burrito Express Location,,Concourse C,,,United States,,,,Mon-Sun ~ 9am-9pm,,,0
+Lipscomb University,,One University Park Drive,,Nashville,TN,37214,United States,(615) 966-1000,,,"Mon-Thurs ~ 10am-8pm, Fri ~ 10am-7pm, Sat ~ 11am-7pm",,,0
+Nashville West Shopping Center,,"6800 Charlotte Pike, Suite 106",,Nashville,TN,37209,United States,(615) 354-8171,,,Mon-Sun ~ 11am-9pm,,,0
