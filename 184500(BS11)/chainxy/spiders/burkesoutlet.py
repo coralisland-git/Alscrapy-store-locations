@@ -16,86 +16,59 @@ class burkesoutlet(scrapy.Spider):
 	domain = ''
 	history = []
 
+	def __init__(self):
+		self.driver = webdriver.Chrome("./chromedriver")
+		script_dir = os.path.dirname(__file__)
+		file_path = script_dir + '/geo/US_States.json'
+		with open(file_path) as data_file:    
+			self.location_list = json.load(data_file)
+
 	def start_requests(self):
-		init_url = 'https://www.burkesoutlet.com/StoreLocator/GetMarkers'
-
-		header = {
-			"accept":"application/json, text/plain, */*",
-			"accept-encoding":"gzip, deflate, br",
-			"content-type":"application/json;charset=UTF-8",
-			"x-newrelic-id":"UwQHWFZUGwIBVVBQBAcO"
-					}
-		payload = {
-
-		}
-		# formdata = {
-
-		# }
-
-		# yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
-		# yield scrapy.Request(url=init_url, body=json.dumps(payload), headers=header,callback=self.body)
-		
-		yield scrapy.Request(url=init_url, headers=header, method='post', body=json.dumps(payload), callback=self.body) 
-
+		init_url = 'https://www.burkesoutlet.com/store-locator/'
+		yield scrapy.Request(url=init_url, callback=self.body)
+	
 	def body(self, response):
-		print("=========  Checking.......")
+		self.driver.get("https://www.burkesoutlet.com/store-locator/")
+		self.driver.find_element_by_id('stateDesktop').send_keys('Alabama')
+		self.driver.find_element_by_xpath('//form[contains(@class, "find-store-by-city-state")]//button[contains(@class, "searchbtn")]').click()
+		source = self.driver.page_source.encode("utf8")
+		tree = etree.HTML(source)
 		with open('response.html', 'wb') as f:
-			f.write(response.body)
-		# store_list = json.loads(response.body)['model']['Markers']
-		# print("=========  Checking.......", len(store_list))
+			f.write(source)
+		# store_list = tree.xpath('//section//div[contains(@class, "stores")]//a[2]/@href')
 		# for store in store_list:
-		# 	try:
-		# 		item = ChainItem()
-		# 		detail = self.eliminate_space(store.xpath())
-		# 		item['store_name'] = self.validate(store['name'])
-		# 		item['store_number'] = self.validate(store['store_number'])
-		# 		item['address'] = self.validate(store['address'])
-		# 		item['address2'] = self.validate(store['address2'])
-				
-		# 		address = ''
-		# 		item['address'] = ''
-		# 		item['city'] = ''
-		# 		addr = usaddress.parse(address)
-		# 		for temp in addr:
-		# 			if temp[1] == 'PlaceName':
-		# 				item['city'] += temp[0].replace(',','')	+ ' '
-		# 			elif temp[1] == 'StateName':
-		# 				item['state'] = temp[0].replace(',','')
-		# 			elif temp[1] == 'ZipCode':
-		# 				item['zip_code'] = temp[0].replace(',','')
-		# 			else:
-		# 				item['address'] += temp[0].replace(',', '') + ' '
+		# 	yield scrapy.Request(url=store, callback=self.parse_page)
 
-		# 		address = ''
-		# 		addr = address.split(',')
-		# 		item['city'] = self.validate(addr[0].strip())
-		# 		item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-		# 		item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-
-		# 		item['city'] = self.validate(store['city'])
-		# 		item['state'] = self.validate(store['state'])
-		# 		item['zip_code'] = self.validate(store['zip'])
-		# 		item['country'] = self.validate(store['country'])
-		# 		item['phone_number'] = self.validate(store['phone'])
-		# 		item['latitude'] = self.validate(store['latitude'])
-		# 		item['longitude'] = self.validate(store['longitude'])
-
-		# 		h_temp = ''
-		# 		hour_list = ''
-		# 		for hour in hour_list:
-		# 			h_temp += hour + ', '
-		# 		item['store_hours'] = h_temp[:-2]
-
-		# 		item['store_hours'] = self.validate(store['hours'])
-		# 		item['store_type'] = ''
-		# 		item['other_fields'] = ''
-		# 		item['coming_soon'] = ''
-		# 		if item['store_number'] not in self.history:
-		# 			self.history.append(item['store_number'])
-		# 			yield item	
-		# 	except:
-		# 		pdb.set_trace()		
-
+	def parse_page(self, response):
+		try:
+			item = ChainItem()
+			detail = self.eliminate_space(response.xpath('//div[contains(@class, "address")]//text()').extract())
+			item['store_name'] = ''
+			item['store_number'] = ''
+			item['address'] = self.validate(detail[0])
+			addr = detail[1].split(',')
+			item['city'] = self.validate(addr[0].strip())
+			sz = addr[1].strip().split(' ')
+			item['state'] = ''
+			item['zip_code'] = self.validate(sz[len(sz)-1])
+			for temp in sz[:-1]:
+				item['state'] += self.validate(temp) + ' '
+			item['phone_number'] = detail[2]
+			item['country'] = 'United States'
+			h_temp = ''
+			hour_list = self.eliminate_space(response.xpath('//div[contains(@class, "hours")]//text()').extract())
+			cnt = 1
+			for hour in hour_list:
+				h_temp += hour
+				if cnt % 2 == 0:
+					h_temp += ', '
+				else:
+					h_temp += ' '
+				cnt += 1
+			item['store_hours'] = h_temp[:-2]
+			yield item	
+		except:
+			pdb.set_trace()		
 
 	def validate(self, item):
 		try:
@@ -106,6 +79,6 @@ class burkesoutlet(scrapy.Spider):
 	def eliminate_space(self, items):
 		tmp = []
 		for item in items:
-			if self.validate(item) != '':
+			if self.validate(item) != '' and 'STORE HOURS:' not in self.validate(item):
 				tmp.append(self.validate(item))
 		return tmp
