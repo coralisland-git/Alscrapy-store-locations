@@ -34,7 +34,7 @@ class upack(scrapy.Spider):
 		}
 		for store in store_list:
 			country = self.validate(store.xpath('.//h3/text()').extract_first()).lower()
-			if 'kingdom' not in country or 'australia' not in country:
+			if 'kingdom' not in country and 'australia' not in country:
 				store = store.xpath('.//a/@href').extract()
 				for store_link in store:
 					store_link = self.domain + store_link
