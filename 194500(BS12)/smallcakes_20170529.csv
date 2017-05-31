@@ -1,0 +1,177 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Huntsville,,"2000 Cecil Ashburn Drive, Ste 106",,Huntsville,AL,35802,United States,(256) 382-3797,,,,,,0
+Oxford,,100 Ali Way,,Oxford,AL,36203,United States,(256) 624-6470,,,,,,0
+Cave Creek,,28255 N Tatum Blvd Suite 5,,Cave Creek,AZ,85331,United States,(480) 781-2952,,,,,,0
+Lake Havasu,,2105 McCulloch Blvd,,Lake Havasu,AZ,86403,United States,(928) 680-0851,,,,,,0
+Phoenix,,4302 E Ray Rd. #102,,Phoenix,AZ,85044,United States,,,,,,,1
+Scottsdale,,"9699 N Hayden Rd, Suite 109",,Scottsdale,AZ,85258,United States,(480) 282-8611,,,,,,0
+Texarkana,,3910 N State Line Ave,,Texarkana,AR,71854,United States,(870) 779-9000,,,,,,0
+Carmichael,,4005 Manzanita Ave.,,Carmichael,CA,,United States,(916) 973-1768,,,,,,0
+Fresno,,585 W Nees Ave Suite 115,,Fresno,CA,93711,United States,,,,,,,1
+Los Angeles,,,,Los Angeles,CA,,United States,,,,,,,1
+Roseville,,2030 Douglas Blvd,,Roseville,CA,95611,United States,(916) 774-0000,,,,,,0
+San Fransico,,,,San Francisco,CA,,United States,,,,,,,1
+Aurora,,,,Aurora,CO,,United States,,,,,,,1
+Castle Rock,,34 E Allen St,,Castle Rock,CO,80108,United States,(303) 688-2253,,,,,,0
+Colorado Springs,,7335 N Academy Blvd,,Colorado Springs,CO,80920,United States,(719) 266-0000,,,,,,0
+Park Meadows,,7600 E Park Meadows Dr.,,Lone Tree,CO,80124,United States,(303) 688-2253,,,,,,0
+Brandon,,2030 Badlands Drive,,Brandon,FL,33511,United States,(813) 606-4404,,,,,,0
+Destin,,36150 Emerald Coast PKWY,,Destin,FL,32541,United States,(850) 460-7487,,,,,,0
+Ellenton/Bradenton,,6202 US Highway 301 N,,Ellenton,FL,34222,United States,(941) 417-2370,,,,,,0
+Ft. Walton Beach,,60 2nd Street,,Fort Walton Beach,FL,32579,United States,(850) 613-6868,,,,,,0
+Jacksonville,,"13141 City Station Drive, Suite 145",,Jacksonville,FL,32218,United States,(904) 518-3920,,,,,,0
+Jupiter,,"2562 W. Indiantown Rd, Suite B5",,Jupiter,FL,33458,United States,(561) 406-5656,,,,,,0
+Lake Mary,,4300 W Lake Mary Blvd,,Lake Mary,FL,32746,United States,(407) 333-9080,,,,,,0
+Lakeland,,Lakeside Village,,Lakeland,FL,33803,United States,(863) 226-5449,,,,,,0
+Largo,,"10500 Ulmerton Road,?#736",,Largo,FL,33771,United States,,,,,,,1
+Ocala,,"4701 SW College Rd., Unit 106",,Ocala,FL,34474,United States,(352) 484-1127,,,,,,0
+Oldsmar,,"3705 Tampa Rd, Suite 4",,Oldsmar,FL,34677,United States,(813) 616-8812,,,,,,0
+Avalon Park,,"12001 Avalon Lake Dr, Ste A",,Orlando,FL,32828,United States,(407) 250-6923,,,,,,0
+Orlando (Hunters Creek),,"13526 Village Park Dr., Suite 224",,Orlando,FL,32837,United States,(407) 985-1973,,,,,,0
+Panama City,,603 W 23rd St.,,Panama City,FL,32405,United States,(850) 873-6700,,,,,,0
+Panama City Beach,,,,Panama City Beach,FL,,United States,,,,,,,1
+Pensacola,,5046 Bayou Blvd.,,Pensacola,FL,32503,United States,(850) 332-5245,,,,,,0
+Port St. Lucie,,2084 Courtyard Commons,,Port St. Lucie,FL,34986,United States,(772) 323-0916,,,,,,0
+Seacrest Beach 30A,,"10343 East County Hwy 30A, Unit C112",,Seacrest Beach,FL,32413,United States,(850) 213-4037,,,,,,0
+Stuart,,2297 SE Federal HWY,,Stuart,FL,34994,United States,(772) 210-6193,,,,,,0
+Tallahassee #1,,1480 Appalachee Prkwy,,Tallahassee,FL,32301,United States,(850) 765-2785,,,,,,0
+Tallahassee #2,,"3479 Thomasville Rd., Unit 6",,Tallahassee,FL,32309,United States,,,,,,,1
+Tampa,,14398 N. Dale Mabry Hwy,,Tampa,FL,33618,United States,(813) 968-6800,,,,,,0
+Winter Park,,1949 Aloma Ave.,,Winter Park,FL,32792,United States,(407) 681-7501,,,,,,0
+Albany,,2818 Old Dawson Rd.,,Albany,GA,31707,United States,(229) 420-9700,,,,,,0
+Alpharetta,,4055 Old Milton Pkwy,,Alpharetta,GA,30005,United States,(470) 545-2051,,,,,,0
+Atlanta,,2566 Briarcliff Rd.,,Atlanta,GA,30329,United States,(404) 621-9634,,,,,,0
+Canton,,8012 Cumming Hwy,,Canton,GA,30115,United States,(678) 880-7561,,,,,,0
+Dacula,,"802 Dacula Rd., Ste 101",,Dacula,GA,30019,United States,,,,,,,0
+Augusta,,4460 Washington Rd.,,Evans,GA,30809,United States,(706) 863-3332,,,,,,0
+Kathleen,,670 Lake Joy Rd.,,Kathleen,GA,31047,United States,(478) 225-5405,,,,,,0
+Kennesaw,,,,Kennesaw,GA,,United States,,,,,,,1
+Marietta,,3718 Dallas Highway,,Marietta,GA,30064,United States,(770) 421-9720,,,,,,0
+Newnan,,101 Newnan Crossing Bypass,,Newnan,GA,30265,United States,(770) 252-1400,,,,,,0
+Peachtree City,,2866 GA Hwy 54,,Peachtree City,GA,30269,United States,(770) 415-9900,,,,,,1
+Savannah,,7090 Hodgson Memorial Drive,,Savannah,GA,31406,United States,(912) 200-4395,,,,,,0
+Smyrna,,4624 Camp Highland Rd.,,Smyrna,GA,30082,United States,(770) 436-7400,,,,,,0
+Snellville,,"1350 Scenic Hwy, Ste 824",,Snellville,GA,30078,United States,,,,,,,1
+St. Simons Island,,1600 Frederica Rd,,St. Simons Island,GA,31522,United States,(912) 434-9106,,,,,,0
+Stockbridge,,"1445 Rock Quarry Rd, Suite #104",,Stockbridge,GA,30281,United States,(678) 759-1662,,,,,,1
+Thomasville,,127 North Broad St.,,Thomasville,GA,31792,United States,(229) 233-8180,,,,,,0
+Tifton,,1430 Hwy 82 West,,Tifton,GA,31793,United States,(229) 396-5655,,,,,,0
+Warner Robins,,206 Russell Pkwy.,,Warner Robins,GA,31088,United States,(478) 225-6418,,,,,,0
+Valdosta,,3209 North Oak St.,,West Valdosta,GA,31605,United States,(229) 469-4892,,,,,,0
+Woodstock,,2035 Towne Lake Parkway,,Woodstock,GA,30189,United States,(678) 324-1910,,,,,,0
+Boise,,9050 W. Overland Road #130,,Boise,ID,83703,United States,(208) 377-8300,,,,,,0
+Nampa,,,,Nampa,ID,,United States,,,,,,,1
+Chicago,,3054 N. Greenview Ave,,Chicago,IL,60657,United States,(773) 661-9634,,,,,,0
+Crystal Lake,,,,Crystal Lake,IL,,United States,,,,,,,1
+DeKalb,,817 W Lincoln Hwy,,DeKalb,IL,60115,United States,(815) 901-0123,,,,,,0
+Elmhurst,,"623 W. North Ave, Suite C",,Elmhurst,IL,60126,United States,(630) 359-4903,,,,,,0
+Glenview,,2700-2800 Pfingsten Rd,,Glenview,IL,60026,United States,,,,,,,1
+Naperville,,115 E. Ogden Ave,,Naperville,IL,60563,United States,(630) 548-1668,,,,,,0
+South Naperville,,"4827 S. RT 59, Suite 101",,Naperville,IL,60564,United States,(331) 229-8175,,,,,,0
+Orland Park,,14225 95th Ave,,Orland Park,IL,60462,United States,,,,,,,0
+South Barrington,,100 W Higgins Rd,,South Barrington,IL,60010,United States,(224) 484-8838,,,,,,0
+St. Charles,,"117 W. Main Street, Suite 120",,St. Charles,IL,60174,United States,(630) 587-2253,,,,,,0
+Western Springs,,,,Western Springs,IL,,United States,,,,,,,1
+Bloomington,,,,Bloomington,IN,,United States,,,,,,,1
+Carmel,,,,Carmel,IN,,United States,,,,,,,1
+Fishers,,,,Fishers,IN,,United States,,,,,,,1
+Greenwood,,"1279 N. Emerson Avenue, Unit D",,Greenwood,IN,46143,United States,(317) 881-6990,,,,,,0
+Indianapolis,,,,Indianapolis,IN,,United States,,,,,,,1
+West Des Moines,,"6305 Mills Civic Pkwy, Ste 3109",,West Des Moines,IA,50266,United States,(515) 327-9338,,,,,,0
+Garden City,,1110 Campus Drive,,Garden City,KS,67846,United States,(620) 805-6675,,,,,,0
+Great Bend,,4901 10th St.,,Great Bend,KS,67530,United States,(620) 262-2116,,,,,,0
+Hays,,,,Hays,KS,,United States,,,,,,,1
+Lawrence,,4801 Bauer Farm Drive Suite F,,Lawrence,KS,66049,United States,(785) 856-1141,,,,,,0
+Olathe,,14150 W. 119th,,Olathe,KS,66062,United States,(913) 397-9975,,,,,,0
+Shawnee,,12221 W. Shawnee Mission Parkway,,Shawnee,KS,66216,United States,(913) 808-5300,,,,,,0
+Topeka,,1223 SW Wanamaker Rd,,Topeka,KS,66604,United States,(785) 286-7065,,,,,,0
+Wichita,,8338 E 21st St.,,Wichita,KS,,United States,(316) 685-2253,,,,,,0
+Wichita #2,,,,Wichita,KS,,United States,,,,,,,1
+Baton Rouge,,,,Baton Rouge,LA,,United States,,,,,,,1
+Monroe,,1621 North 18th,,Monroe,LA,71201,United States,(318) 651-3796,,,,,,0
+Apple Valley,,"15624 Pilot Knob Road, Suite #300",,Apple Valley,MN,55124,United States,(952) 388-1079,,,,,,0
+D'lberville,,3920 Promenade Pkwy J,,D'iberville,MS,39540,United States,,,,,,,0
+Hattiesburg,,,,Hattiesburg,MS,,United States,,,,,,,1
+Jackson,,,,Jackson,MS,,United States,,,,,,,1
+Columbia,,"2609 East Broadway, Suite 218",,Columbia,MO,65201,United States,,,,,,,1
+Joplin,,"420 N. Rangeline Rd., Ste 13",,Joplin,MO,64801,United States,(417) 553-4585,,,,,,0
+Kansas City/Crown Center,,2450 Grand Blvd,,Kansas City,MO,64108,United States,(816) 283-8788,,,,,,0
+Kansas City,,13165 State Line Rd,,Kansas City,MO,64145,United States,(816) 941-0995,,,,,,0
+Parkville,,6127 NW 63rd Ter,,Kansas City,MO,64151,United States,(816) 505-1777,,,,,,0
+Kirkwood,,343 S Kirkwood Road,,Kirkwood,MO,63122,United States,(314) 698-2780,,,,,,0
+Lee's Summit,,880 NW Blue Parkway,,Lee's Summit,MO,64086,United States,(816) 554-7400,,,,,,0
+Liberty,,9754 N Ash Ave,,Liberty,MO,64157,United States,(816) 792-0441,,,,,,0
+St. Joseph,,"5107 N. Belt Highway, Suite 110B",,Saint Joseph,MO,64506,United States,816232,,,,,,0
+Sedalia,,"3040 West Broadway, Suite 390",,Sedalia,MO,65301,United States,(660) 951-1070,,,,,,0
+St. Robert,,"213 St. Robert Blvd, Ste 2",,St. Robert,MO,65584,United States,,,,,,,0
+Warrensburg,,118 W Pine,,Warrensburg,MO,64093,United States,(660) 362-1476,,,,,,0
+Kearney Hill Top Mall,,5011 2nd Ave,,Kearney,NE,68847,United States,(308) 455-3355,,,,,,0
+Papillion,,"120 Olson Dr, Suite 105",,Papillion,NE,68046,United States,(402) 934-3844,,,,,,0
+LBI,,412 North Bay Avenue,,Beach Haven,NJ,08008,United States,(609) 342-0412,,,,,,0
+Manahawkin,,,,Manahawkin,NJ,,United States,,,,,,,1
+Montclair,,25 Church Street,,Montclair,NJ,07042,United States,(973) 744-8100,,,,,,0
+Morristown,,,,Morristown,NJ,,United States,,,,,,,1
+Albuquerque,,8101 San Pedro NE,,Albuquerque,NM,87113,United States,(505) 404-1800,,,,,,0
+Patchogue,,17 West Main Street,,Patchogue,NY,11772,United States,(631) 500-9300,,,,,,0
+Scarsdale,,749 Central Park Ave,,Scarsdale,NY,10583,United States,(914) 713-3971,,,,,,0
+Asheville,,"33 Town Square, Blvd Unit 130",,Asheville,NC,28803,United States,(828) 676-2711,,,,,,0
+Cary,,1132 Parkside Main Street,,Cary,NC,27519,United States,(919) 388-2253,,,,,,0
+Charlotte,,,,Charlotte,NC,,United States,,,,,,,1
+Durham,,"4711 Hope Valley Road, 4D",,Durham,NC,27707,United States,(919) 937-2922,,,,,,0
+Fayetteville,,"2132 Skibo Road, Suite 114",,Fayetteville,NC,28314,United States,(910) 229-5789,,,,,,1
+Greensboro,,,,Greensboro,NC,,United States,,,,,,,1
+Huntersville,,"9818 Gilead Rd, Ste B-102",,Huntersville,NC,28078,United States,(704) 727-0284,,,,,,0
+Raleigh,,"2526 Hillsborough St, Ste 104",,Raleigh,NC,27607,United States,(919) 821-0772,,,,,,0
+Enid,,4408 W Owen K Garriott Rd,,Enid,OK,73703,United States,,,,,,,1
+Jenks,,"807 East A Street, Suite 123",,Jenks,OK,74037,United States,(918) 528-3222,,,,,,0
+Stillwater,,Lakeview Pointe Shopping Center,,Stillwater,OK,74074,United States,(405) 332-4190,,,,,,0
+Tulsa,,5964 South Yale Ave,,Tulsa,OK,74135,United States,(918) 402-3050,,,,,,0
+Yukon,,"1600 Garth Brooks Blvd, #120",,Yukon,OK,73099,United States,(405) 494-7056,,,,,,0
+Columbia,,"10244 Two Notch Rd, Suite 1",,Columbia,SC,29229,United States,,,,,,,0
+North Augusta,,1069 Edgefield Road,,North Augusta,SC,29860,United States,(803) 599-5049,,,,,,0
+Rapid City,,1745 Eligin St.,,Rapid City,SD,57701,United States,(605) 791-5577,,,,,,0
+Bartlett,,"6600 Stage Road, Suite 109",,Bartlett,TN,38134,United States,,,,,,,0
+Collierville,,"2150 Poplar Avenue, Suite 107",,Collierville,TN,38017,United States,(901) 221-7559,,,,,,0
+Franklin,,1114 Hillsboro Road,,Franklin,TN,37064,United States,,,,,,,0
+Arlington,,4000 5 Points Blvd Suite 161,,Arlington,TX,76018,United States,,,,,,,1
+Austin,,,,Austin,TX,,United States,,,,,,,1
+Corpus Christi,,5638 Saratoga Blvd.,,Corpus Christi,TX,78414,United States,(361) 985-0931,,,,,,0
+Cypress,,29110 Hwy 290,,Cypress,TX,77429,United States,(281) 758-1515,,,,,,0
+Dallas,,"17194 Preston Road, Suite 102",,Dallas,TX,75248,United States,,,,,,,0
+El Paso,,2900 N. Mesa Suite G,,El Paso,TX,79902,United States,(915) 307-4562,,,,,,0
+Forney,,,,Forney,TX,75035,United States,,,,,,,1
+Ft. Worth,,,,Fort Worth,TX,,United States,,,,,,,1
+Friendswood,,"3141 FM 528 Road, Suite 348",,Friendswood,TX,77546,United States,,,,,,,1
+Frisco,,5999 Custer Rd.,,Frisco,TX,75035,United States,(972) 668-0222,,,,,,0
+Garland,,"4280 Lavon Dr., Suite 224",,Garland,TX,75040,United States,(972) 414-3003,,,,,,0
+Houston #1,,12149 FM 1960 West,,Houston,TX,77090,United States,(281) 671-0104,,,,,,0
+Houston #2,,"1531 Eldridge Parkway, Ste. 130",,Houston,TX,77077,United States,(281) 920-9110,,,,,,0
+Houston #3,,"2055 Westheimer, Ste. 115",,Houston,TX,77098,United States,,,,,,,1
+Humble,,,,Humble,TX,,United States,,,,,,,1
+Katy,,"24437 Katy Freeway, Suite #400",,Katy,TX,77494,United States,(281) 394-7455,,,,,,0
+Kingwood,,"1310 Northpark Dr, Suite 400",,Kingwood,TX,77339,United States,,,,,,,1
+Longview,,"3407 N 4th St., Suite 100",,Longview,TX,75605,United States,(903) 617-8557,,,,,,0
+McAllen,,,,McAllen,TX,,United States,,,,,,,1
+Mckinney,,,,Mckinney,TX,,United States,,,,,,,1
+Mesquite,,1418 N. Galloway,,Mesquite,TX,75149,United States,(972) 807-6395,,,,,,0
+Missouri City,,"6261 Highway 6, Suite 100B",,Missouri City,TX,77459,United States,(832) 539-6890,,,,,,0
+New Braunfels,,,,New Braunfels,TX,,United States,,,,,,,0
+Pearland,,"11200 W Broadway St, Ste. 655",,Pearland,TX,77584,United States,,,,,,,1
+Plano,,,,Plano,TX,,United States,,,,,,,1
+Prosper,,,,Prosper,TX,,United States,,,,,,,1
+Richmond,,"7770 W Grand Pkwy S, Suite D",,Richmond,TX,77406,United States,(832) 945-5527,,,,,,0
+Rockwall,,"951 Interstate 30, Suite 109",,Rockwall,TX,75087,United States,(469) 264-7889,,,,,,0
+Rosenberg,,536 Minonite Road,,Rosenberg,TX,77469,United States,,,,,,,0
+Round Rock,,,,Round Rock,TX,,United States,,,,,,,1
+San Antonio,,10919 Culebra Rd.,,San Antonio,TX,78253,United States,(210) 417-4442,,,,,,0
+Selma,,"8222 Agora Pkwy, Suite 104",,Selma,TX,78154,United States,(210) 659-9098,,,,,,0
+Spring,,,,Spring,TX,,United States,,,,,,,1
+Temple,,6102 W Adams Ave.,,Temple,TX,76502,United States,(254) 742-7662,,,,,,0
+Texarkana,,3626 Richmond Rd,,Texarkana,TX,75503,United States,(903) 223-0533,,,,,,0
+Tyler,,"5875 Old Bullard Rd, Suite 300",,Tyler,TX,75703,United States,(903) 561-8988,,,,,,0
+Waco,,,,Waco,TX,,United States,,,,,,,1
+Newport News,,12515 Jefferson Ave,,Newport News,VA,23602,United States,(757) 369-0890,,,,,,0
+Richmond,,11512 Busy Street,,Richmond,VA,23236,United States,(804) 464-1665,,,,,,0
+Williamsburg,,"4640 Casey Boulevard, Suite 120",,Williamsburg,VA,23188,United States,(757) 585-7101,,,,,,0
+Everett,,,,Everett,WA,,United States,,,,,,,1
+Issaquah,,"94 Front St N, Ste A",,Issaquah,WA,98027,United States,(425) 677-7431,,,,,,0

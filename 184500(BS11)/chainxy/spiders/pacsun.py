@@ -54,7 +54,9 @@ class pacsun(scrapy.Spider):
 					for hour in hour_list:
 						h_temp += hour + ', '
 					item['store_hours'] = h_temp[:-2]
-					yield item	
+					if item['store_name'] + item['address'] + item['phone_number'] not in self.history:
+						self.history.append(item['store_name'] + item['address'] + item['phone_number'])
+						yield item	
 				except:
 					pass
 
