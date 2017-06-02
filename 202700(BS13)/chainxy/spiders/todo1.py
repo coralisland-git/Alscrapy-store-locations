@@ -55,24 +55,20 @@ class todo1(scrapy.Spider):
 	def parse_page(self, response):
 		try:
 			item = ChainItem()
-			item['store_name'] = self.validate(response.xpath('//span[@class="location-name-brand"]//text()').extract_first()) + ' ' + self.validate(response.xpath('//span[@class="location-name-geo"]/text()').extract_first())
-			item['address'] = self.validate(response.xpath('//span[@class="c-address-street-1"]/text()').extract_first())
-			item['city'] = self.validate(response.xpath('//span[@class="c-address-city"]//span/text()').extract_first())
-			item['state'] = self.validate(response.xpath('//span[@class="c-address-state"]/text()').extract_first())
-			item['zip_code'] = self.validate(response.xpath('//span[@class="c-address-postal-code"]/text()').extract_first())
-			item['country'] = self.validate(response.xpath('//abbr[contains(@class, "c-address-country-name")]/text()').extract_first())
-			item['phone_number'] = self.validate(response.xpath('//span[@id="telephone"]/text()').extract_first())
-			h_temp = ''
-			hour_list = response.xpath('//table[@class="c-location-hours-details"]//tr')
-			for hour in hour_list:
-				temp = self.eliminate_space(hour.xpath('.//text()').extract())
-				for te in temp:
-					h_temp += te.strip() + ' '
-				h_temp += ', '
-			item['store_hours'] = h_temp[:-2]
+			item['store_name'] = self.validate(response.xpath('//span[@itemprop="name"]/text()').extract_first())
+			item['address'] = self.validate(response.xpath('//span[@itemprop="streetAddress"]/text()').extract_first())
+			item['city'] = self.validate(response.xpath('//span[@itemprop="addressLocality"]/text()').extract_first())
+			item['state'] = self.validate(response.xpath('//span[@itemprop="addressRegion"]/text()').extract_first())
+			item['zip_code'] = self.validate(response.xpath('//span[@itemprop="postalCode"]/text()').extract_first())
+			item['country'] = self.validate(response.xpath('//abbr[@itemprop="addressCountry"]/text()').extract_first())
+			item['phone_number'] = self.validate(response.xpath('//span[@itemprop="telephone"]/text()').extract_first())
+			item['latitude'] = self.validate(response.xpath('//meta[@itemprop="latitude"]/@content').extract_first())
+			item['longitude'] = self.validate(response.xpath('//meta[@itemprop="longitude"]/@content').extract_first())
+			item['store_hours'] = self.validate(response.xpath('//span[@itemprop="openingHours"]/text()').extract_first())
 			yield item			
 		except:
 			pass
+
 
 	def check_country(self, item):
 		if 'PR' in item:

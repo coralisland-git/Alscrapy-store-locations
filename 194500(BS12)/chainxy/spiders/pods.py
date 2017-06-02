@@ -33,8 +33,11 @@ class pods(scrapy.Spider):
 			if 'kingdom' not in country and 'australia' not in country:
 				store = store.xpath('.//a/@href').extract()
 				for store_link in store:
-					store_link = self.domain + store_link
-					yield scrapy.Request(url=store_link, callback=self.parse_page)
+					if 'http' in store_link:
+						yield scrapy.Request(url=store_link, callback=self.parse_page1)
+					else:
+						store_link = self.domain + store_link
+						yield scrapy.Request(url=store_link, callback=self.parse_page)
 
 	def parse_page(self, response):
 		try:
@@ -76,6 +79,19 @@ class pods(scrapy.Spider):
 						yield item				
 				except:
 					pass
+		except:
+			pass
+
+	def parse_page1(self, response):
+		try:
+			addr_list = self.eliminate_space(response.xpath('//div[@id="address"]//text()').extract())
+			item = ChainItem()
+			item['address'] = addr_list[1]
+			item['city'] = self.validate(addr_list[2].split(',')[0])
+			item['state'] = self.validate(addr_list[2].split(',')[1])[:2].strip()
+			item['zip_code'] = self.validate(addr_list[2].split(',')[1])[2:].strip()
+			item['country'] = 'Canada'
+			yield item
 		except:
 			pass
 

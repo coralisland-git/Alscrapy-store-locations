@@ -1,0 +1,11 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Fitz Motors,17463,1701 N. Ash,,Spokane,WA,99205,US,(509) 326-4767,47.6733664,-117.43722739999998,,,,
+Greenacres Auto Repair,17618,525 N. Barker Road,,Spokane Valley,WA,99016,US,(509) 924-0728,47.662353,-117.1537055,,,,
+A-1 Automotive Sales & Service,16462,N. 20 Napa,,Spokane,WA,99202,US,(509) 535-4700,47.657458,-117.381248,Monday - Friday: 8:30 AM - 5:00 PM,,,
+"Buck's Tire & Automotive, Inc.",19772,918 W. Mallon Ave.,,Spokane,WA,99201,US,(509) 327-1513,47.665519,-117.42551600000002,,,,
+Walker's Automotive,19245,19009 E. Appleway,,Spokane Valley,WA,99016,US,(509) 922-0468,47.6615928,-117.14928399999997,Mon - Fri: 8:00 AM - 5:30 PM,,,
+North West Auto Services,20862,8525 N. Freya St.,,Spokane,WA,99217,US,(509) 466-0346,47.7343965,-117.36248310000002,"Monday - Friday: 8:00 AM - 6:00 PM, Saturday: 8:00 AM - 6:00 PM",,,
+Car Works,16974,421 S. Dishman Mica Rd.,,Spokane Valley,WA,99206,US,(509) 927-8440,47.6522803,-117.2792387,Monday - Friday: 8:00 AM - 5:00 PM,,,
+Russ Laws Automotive,18794,7019 E. Trent Ave.,,Spokane,WA,99212,US,(509) 922-2179,47.6755652,-117.309859,Monday - Friday: 8:00 AM - 5:30 PM,,,
+Tune Tech,19185,420 N. Pines Rd.,,Spokane,WA,99206,US,(509) 893-8863,47.660973,-117.239803,Monday - Friday: 7:30 AM - 5:30 PM,,,
+TDC Auto Repair,20784,611 S. Dishman Mica Rd.,,Spokane,WA,99206,US,(509) 924-2847,47.65117799999999,-117.278008,Monday - Friday: 8:00 AM - 5:00 PM,,,

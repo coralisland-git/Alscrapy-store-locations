@@ -31,6 +31,7 @@ class goodyearautoservice(scrapy.Spider):
 	
 	def body(self, response):
 		self.driver.get("https://www.goodyearautoservice.com/en-US/shop")
+		time.sleep(1)
 		source = self.driver.page_source.encode("utf8")
 		tree = etree.HTML(source)
 		# store_list = tree.xpath('//li[@class="store-results__results__item"]//h4[@class="nav-my-store__store-title"]//a/@href')
@@ -40,6 +41,9 @@ class goodyearautoservice(scrapy.Spider):
 		pagenation = self.driver.find_element_by_class_name('store-results__pagination--next')
 		pdb.set_trace()
 		pagenation.click()
+		source = self.driver.page_source.encode("utf8")
+		with open('response.html', 'wb') as f:
+			f.write(response.body)
 		time.sleep(5)
 		# while pagenation:
 		# 	pagenation.click()
