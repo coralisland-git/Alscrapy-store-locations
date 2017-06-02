@@ -10,7 +10,6 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import pdb
 
 class econrads(scrapy.Spider):
 	name = 'econrads'
@@ -23,7 +22,7 @@ class econrads(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
-		store_list = response.xpath('//div[@class="sidemenu//a/@href"]').extract()
+		store_list = response.xpath('//div[@class="sidemenu"]//a/@href').extract()
 		for store in store_list:
 			store = self.domain + store
 			yield scrapy.Request(url=store, callback=self.parse_page)
@@ -49,7 +48,7 @@ class econrads(scrapy.Spider):
 			item['store_hours'] = h_temp[:-2]
 			yield item	
 		except:
-			pdb.set_trace()		
+			pass	
 
 	def validate(self, item):
 		try:
@@ -63,39 +62,3 @@ class econrads(scrapy.Spider):
 			if self.validate(item) != '':
 				tmp.append(self.validate(item))
 		return tmp
-
-	def check_country(self, item):
-		if 'PR' in item:
-			return 'Puert Rico'
-		else:
-			for state in self.US_States_list:
-				if item in state['abbreviation']:
-					return 'United States'
-			return 'Canada'
-
-	def format(self, item):
-		try:
-			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
-		except:
-			return ''
-
-	def fixLazyJson (self, in_text):
-		tokengen = tokenize.generate_tokens(StringIO(in_text).readline)
-		result = []
-		for tokid, tokval, _, _, _ in tokengen:
-			if (tokid == token.NAME):
-				if tokval not in ['true', 'false', 'null', '-Infinity', 'Infinity', 'NaN']:
-					tokid = token.STRING
-					tokval = u'"%s"' % tokval
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			elif (tokid == token.OP) and ((tokval == '}') or (tokval == ']')):
-				if (len(result) > 0) and (result[-1][1] == ','):
-					result.pop()			
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			result.append((tokid, tokval))
-
-		return tokenize.untokenize(result)

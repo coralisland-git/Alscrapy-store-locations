@@ -55,7 +55,7 @@ class todo1(scrapy.Spider):
 	def parse_page(self, response):
 		try:
 			item = ChainItem()
-			item['store_name'] = self.validate(response.xpath('//span[@class="location-name-brand"]/text()').extract_first()) + ' ' + self.validate(response.xpath('//span[@class="location-name-geo"]/text()').extract_first())
+			item['store_name'] = self.validate(response.xpath('//span[@class="location-name-brand"]//text()').extract_first()) + ' ' + self.validate(response.xpath('//span[@class="location-name-geo"]/text()').extract_first())
 			item['address'] = self.validate(response.xpath('//span[@class="c-address-street-1"]/text()').extract_first())
 			item['city'] = self.validate(response.xpath('//span[@class="c-address-city"]//span/text()').extract_first())
 			item['state'] = self.validate(response.xpath('//span[@class="c-address-state"]/text()').extract_first())
@@ -83,6 +83,12 @@ class todo1(scrapy.Spider):
 					return 'United States'
 			return 'Canada'
 
+	def validate(self, item):
+		try:
+			return item.strip()
+		except:
+			return ''
+
 	def eliminate_space(self, items):
 		tmp = []
 		for item in items:
@@ -90,8 +96,10 @@ class todo1(scrapy.Spider):
 				tmp.append(self.validate(item))
 		return tmp
 
-	def validate(self, item):
-		try:
-			return item.strip()
-		except:
-			return ''
+	def str_concat(self, items, unit):
+		tmp = ''
+		for item in items[:-1]:
+			if self.validate(item) != '':
+				tmp += self.validate(item) + unit
+		tmp += self.validate(items[-1])
+		return tmp

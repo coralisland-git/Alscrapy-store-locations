@@ -15,8 +15,8 @@ import tokenize
 import token
 from StringIO import StringIO
 
-class todo(scrapy.Spider):
-	name = ''
+class test(scrapy.Spider):
+	name = 'test'
 	domain = ''
 	history = []
 
@@ -30,7 +30,7 @@ class todo(scrapy.Spider):
 			self.US_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = ''
+		init_url = 'https://www.goodyearautoservice.com/en-US/shop/_jcr_content/content/store_results.content?currentPage=1'
 
 		# header = {
 

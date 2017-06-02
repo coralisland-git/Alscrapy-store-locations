@@ -11,12 +11,9 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 import pdb
-import tokenize
-import token
-from StringIO import StringIO
 
-class todo(scrapy.Spider):
-	name = ''
+class midas(scrapy.Spider):
+	name = 'midas'
 	domain = ''
 	history = []
 
@@ -30,8 +27,7 @@ class todo(scrapy.Spider):
 			self.US_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = ''
-
+		init_url = 'https://www.midas.com/losangeles/area.aspx?dmanum=508001&cityproxsort=los%20angeles&stateproxsort=ca&country=us'
 		# header = {
 
 		# }
@@ -49,8 +45,9 @@ class todo(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
+		data = response.body
 		with open('response.html', 'wb') as f:
-			f.write(response.body)
+			f.write(data)
 
 		# store_list = json.loads(response.body)
 		# for store in store_list:
@@ -114,7 +111,7 @@ class todo(scrapy.Spider):
 
 	def validate(self, item):
 		try:
-			return item.strip()
+			return item.encode('UTF-8').strip()
 		except:
 			return ''
 
