@@ -11,13 +11,13 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 import time
-import pdb
 
 class bmoharris(scrapy.Spider):
 	name = 'bmoharris'
 	domain = ''
 	history = []
 	site_list = []
+
 
 	def __init__(self):
 		self.driver = webdriver.Chrome("./chromedriver")
@@ -31,23 +31,32 @@ class bmoharris(scrapy.Spider):
 		yield scrapy.Request(url=init_url, callback=self.body)
 	
 	def body(self, response):
+		cnt = 0
 		self.driver.get("https://branchlocator.bmoharris.com/")
-		self.driver.find_element_by_id('ATMTab').click()
 		for location in self.location_list:
-			self.driver.find_element_by_id('inputaddress').send_keys(location['city'])
-			self.driver.find_element_by_id('search_button').click()
-			time.sleep(2)
-			source = self.driver.page_source.encode("utf8")
-			tree = etree.HTML(source)
-			store_list = tree.xpath('//ul[@class="content-list poi-result"]//li[@class="poi-item"]//span[@class="desktopPhone viewBubble"]//a/@href')
-			for store in store_list:
-				self.site_list.append(store)
-			time.sleep(1)
+			try:
+				self.driver.find_element_by_id('BranchTab').click()
+				self.driver.find_element_by_id('inputaddress').send_keys(location['city'])
+				self.driver.find_element_by_id('search_button').click()
+				time.sleep(3)
+				source = self.driver.page_source.encode("utf8")
+				tree = etree.HTML(source)
+				store_list = tree.xpath('//ul[@class="content-list poi-result"]//li[@class="poi-item"]//span[@class="desktopPhone viewBubble"]//a/@href')
+				if store_list:
+					self.site_list.append(store_list)
+				self.driver.find_element_by_id('ATMTab').click()
+				time.sleep(2)
+				source = self.driver.page_source.encode("utf8")
+				tree = etree.HTML(source)
+				store_list = tree.xpath('//ul[@class="content-list poi-result"]//li[@class="poi-item"]//span[@class="desktopPhone viewBubble"]//a/@href')
+				if store_list:
+					self.site_list.append(store_list)
+			except:
+				pass
 
-			if len(self.site_list) > 10:
-				break	
-		for site in site_list:
-			yield scrapy.Request(url=store, callback=self.parse_page)
+		for site in self.site_list:
+			for link in site:
+				yield scrapy.Request(url=link, callback=self.parse_page)
 
 	def parse_page(self, response):
 		try:
