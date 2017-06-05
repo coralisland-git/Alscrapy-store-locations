@@ -27,14 +27,15 @@ class packrat(scrapy.Spider):
 	def body(self, response):
 		print("=========  Checking.......")
 		store_list = response.xpath('//a[@class="location-list__city"]/@href').extract()
+		print('~~~~~~~~~~~~~~~~~~~~~', len(store_List))
 		for store in store_list:
 			store = self.domain + store
-			header = {
-				"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-				"Accept-Encoding":"gzip, deflate, sdch, br",
-				"Referer":"https://www.1800packrat.com/locations/"
-			}
-			yield scrapy.Request(url=store, headers=header, method='get',callback=self.parse_page)
+			# header = {
+			# 	"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+			# 	"Accept-Encoding":"gzip, deflate, sdch, br",
+			# 	"Referer":"https://www.1800packrat.com/locations/"
+			# }
+			# yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
 		try:
