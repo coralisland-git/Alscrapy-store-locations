@@ -1,0 +1,109 @@
+
+====================== GeoCoder ===============================================
+
+import geocoder
+g = geocoder.google('Mountain View, CA')
+g.geojson
+g.json
+g.wkt
+g.osm
+g.latlng[0]
+g.latlng[1]
+
+---------------------- Reverse -------------------------
+
+g = geocoder.google([45.15, -75.14], method='reverse')
+g.city
+g.state
+g.state_long
+g.country_long
+
+
+=======================	remove the symbol in the string =========================
+
+import unicodedata
+def format(self, item):
+		try:
+			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
+		except:
+			return ''
+
+======================= split the address in to detail ============================
+
+address = self.validate(detail.xpath('.//div[@class="hero__content__info"]/p[1]/text()')).split(',')
+if len(address) == 4:		
+	item['address'] = address[0] 
+	item['address2'] = address[1]
+	item['city'] = address[2]
+	item['state'] = address[3].strip().split(' ')[0].strip()
+	item['zip_code'] = address[3].strip().split(' ')[1].strip()
+else:
+	item['address'] = address[0] 
+	item['address2'] = ''
+	item['city'] = address[1]
+	item['state'] = address[2].strip().split(' ')[0].strip()
+	item['zip_code'] = address[2].strip().split(' ')[1].strip()			
+
+======================= parsing address ================================
+addr = address.split(',')
+item['city'] = self.validate(addr[0].strip())
+item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
+item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
+
+
+
+
+======================  get the zipcode for every state of usa ============================
+
+http://data.mongabay.com/igapo/zip_codes/xls/IL.html
+
+====================== convert csv to json ================================================
+
+http://www.csvjson.com/csv2json
+
+
+================ parsing hours from html data when we get the data as json =====================
+
+try:
+	h_temp = ''
+	hour_list = etree.HTML(store['hours']).xpath('//table//tr')
+	for hour in hour_list:
+		h_temp += hour.xpath('.//td[1]/text()')[0] + ' ' + hour.xpath('.//td[2]//text()')[0] + ', '
+	item['store_hours'] = h_temp[:-2]
+except:
+	item['store_hours'] = ''	
+
+
+=-============================ parsing the usaddress ============
+
+import usaddress
+addr = usaddress.parse(address)
+for temp in addr:
+	if temp[1] == 'PlaceName':
+		item['city'] += temp[0].replace(',','')	+ ' '
+	elif temp[1] == 'StateName':
+		item['state'] = temp[0]
+	elif temp[1] == 'ZipCode':
+		item['zip_code'] = temp[0]
+	else:
+		item['address'] += temp[0].replace(',', '') + ' '
+
+
+============================= common header =================
+
+header = {
+			'Accept':'application/json, text/javascript, */*; q=0.01',
+			'Accept-Encoding':'gzip, deflate, br',
+			'Content-Type':'application/json',
+			'X-Requested-With':'XMLHttpRequest'
+		}
+
+============================ remove the space in array =============
+
+
+def eliminatespace(self, items):
+		tmp = []
+		for item in items:
+			if self.validate(item) != '':
+				tmp.append(self.validate(item))
+		return tmp

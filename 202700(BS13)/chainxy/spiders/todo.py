@@ -31,17 +31,6 @@ class todo(scrapy.Spider):
 
 	def start_requests(self):
 		init_url = ''
-
-		# header = {
-
-		# }
-		# payload = {
-
-		# }
-		# formdata = {
-
-		# }
-
 		# yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 		# yield scrapy.Request(url=init_url, body=json.dumps(payload), headers=header,callback=self.body)
 		

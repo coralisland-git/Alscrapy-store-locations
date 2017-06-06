@@ -1,0 +1,9 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Burnaby: Gilley Ave,,7117 Gilley Avenue,,Burnaby,,V5J 4W9,Canada,604-434-2812,,,"SUN-THUR 9am-6pm, FRI 9am-7pm, HOLIDAYS 10am-5pm",,,
+Burnaby: Market Crossing,,7370 Market Crossing,,Burnaby,,V5J 0A2,Canada,604-431-8458,,,"MON-SAT 9am-9pm, SUN 9am-6pm, HOLIDAYS 10am-5pm",,,
+Richmond: Richlea Square,,117  10151 No. 3 Road,,Richmond,,V7A 4R6,Canada,604 241 7586,,,"SUN 9am-7pm, MON-SAT 9am-9pm, HOLIDAYS 10am-5pm",,,
+Vancouver: Grandview,,3033 Grandview Highway,,Vancouver,,V5M 2E4,Canada,604 436 3001,,,"SUN 9am-6pm, MON-SAT 9am-9pm, HOLIDAYS 10am-5pm",,,
+Vancouver: Main St,,2949 Main Street,,Vancouver,,V5T 3G4,Canada,604 873 4117,,,"SUN 9am-6pm, MON-SAT 9am-9pm, HOLIDAYS 10am-5pm",,,
+Vancouver: Arbutus St,,2738 Arbutus Street,,Vancouver,,V6K 3A9,Canada,604 730 1768,,,"SUN 9am-6pm, MON-SAT 9am-9pm, HOLIDAYS 10am-5pm",,,
+South Surrey,,#103  3010 152 Street,,South Surrey,,V4P 3N7,Canada,604 536 2330,,,"SUN 9am-6pm, MON-SAT 9am-9pm, HOLIDAYS 10am-5pm",,,
+Langley,,#103-20645 Langley Bypass,,Langley,,V3A 5E8,Canada,604 514 1406,,,"SUN 9am-6pm, MON-SAT 9am-8pm, HOLIDAYS 10am-5pm",,,
