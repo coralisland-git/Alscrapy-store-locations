@@ -1,0 +1,10 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Fairmount,,2000 Hamilton Street ,,Philadelphia ,PA,19130,United States,215-372-7193,39.962004,-75.1722752,,,,
+Narberth,,701 Montgomery Ave ,,Narberth ,PA,19072,United States,610-617-3300,40.0099642,-75.25509219999998,,,,
+Washington Square West,,1032 Pine St ,,Philadelphia ,PA,19107,United States,215-545-4100,39.9447139,-75.15941800000002,,,,
+Old City,,315 Market St ,,Philadelphia ,PA,19106,United States,215-923-4333,39.950675,-75.146184,,,,
+Passyunk Ave,,1700 E Passyunk Ave ,,Philadelphia ,PA,19148,United States,215-271-5200,39.9286804,-75.16508490000001,,,,
+Rittenhouse Square,,1635 Spruce St ,,Philadelphia ,PA,19103,United States,215-545-5900,39.947801,-75.16942499999999,,,,
+Graduate Hospital,,2101 South St # 102 ,,Philadelphia ,PA,19146,United States,267-687-8051,39.9452866,-75.17709439999999,,,,
+Northern Liberties,,858 N 3rd St ,,Philadelphia ,PA,19123,United States,267-519-0376,39.9649386,-75.14267050000001,,,,
+Headhouse Square,,604 S 2nd St ,,Philadelphia ,PA,19147,United States,215-278-2275,39.94095009999999,-75.14586450000002,,,,

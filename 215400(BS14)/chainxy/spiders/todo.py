@@ -25,9 +25,9 @@ class todo(scrapy.Spider):
 		file_path = script_dir + '/geo/cities.json'
 		with open(file_path) as data_file:    
 			self.location_list = json.load(data_file)
-		file_path = script_dir + '/geo/US_States.json'
+		file_path = script_dir + '/geo/US_CA_States.json'
 		with open(file_path) as data_file:    
-			self.US_States_list = json.load(data_file)
+			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
 		init_url = ''
@@ -123,13 +123,10 @@ class todo(scrapy.Spider):
 		return tmp
 
 	def check_country(self, item):
-		if 'PR' in item:
-			return 'Puert Rico'
-		else:
-			for state in self.US_States_list:
-				if item in state['abbreviation']:
-					return 'United States'
-			return 'Canada'
+		for state in self.US_CA_States_list:
+			if item.lower() in state['abbreviation'].lower():
+				return state['country']
+		return ''
 
 	def get_state(self, item):
 		for state in self.US_States_list:

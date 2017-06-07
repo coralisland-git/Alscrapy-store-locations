@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -10,58 +11,55 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 
-class petdepot(scrapy.Spider):
-	name = 'petdepot'
+class staterda(scrapy.Spider):
+	name = 'staterda'
 	domain = ''
 	history = []
 
 	def start_requests(self):
-		init_url = 'https://petdepot.net/wp-admin/admin-ajax.php?action=store_search&autoload=1'
+		init_url = 'https://state-rda.com/wp-admin/admin-ajax.php'
 		header = {
 			"Accept":"*/*",
-			"Accept-Encoding":"gzip, deflate, sdch, br",
+			"Accept-Encoding":"gzip, deflate, br",
+			"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
 			"X-Requested-With":"XMLHttpRequest"
+				}
+		formdata = {
+			"address":"",
+			"formdata":"addressInput=",
+			"lat":"37.09024",
+			"lng":"-95.71289100000001",
+			"name":"",
+			"radius":"10000",
+			"tags":"",
+			"action":"csl_ajax_onload"
 		}
-		payload = {
-			"action":"store_search",
-			"lat":"34.100843",
-			"lng":"-117.76783499999999",
-			"max_results":"5",
-			"radius":"50",
-			"autoload":"1"
-		}
-		yield scrapy.Request(url=init_url, body=json.dumps(payload),  headers=header, callback=self.body) 
+		yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 
 	def body(self, response):
 		print("=========  Checking.......")
-		store_list = json.loads(response.body)
+		store_list = json.loads(response.body)['response']
 		for store in store_list:
 			try:
 				item = ChainItem()
-				item['store_name'] = self.validate(store['store'])
+				item['store_name'] = self.validate(store['name'])
 				item['store_number'] = self.validate(store['id'])
 				item['address'] = self.validate(store['address'])
 				item['address2'] = self.validate(store['address2'])
 				item['city'] = self.validate(store['city'])
 				item['state'] = self.validate(store['state'])
 				item['zip_code'] = self.validate(store['zip'])
-				item['country'] = self.validate(store['country'])
+				item['country'] = 'United States'
 				item['phone_number'] = self.validate(store['phone'])
 				item['latitude'] = self.validate(store['lat'])
 				item['longitude'] = self.validate(store['lng'])
-				h_temp = ''
-				hour_list = etree.HTML('<div>'+self.validate(store['hours'])+'</div>').xpath('//div/text()')
-				for hour in hour_list:
-					h_temp += hour + ', '
-				item['store_hours'] = h_temp[:-2]
-				yield item			
+				yield item	
 			except:
 				pass
 
-
 	def validate(self, item):
 		try:
-			return item.strip().replace(';','')
+			return item.strip().replace('#039;', "'").replace(';','')
 		except:
 			return ''
 
@@ -70,4 +68,12 @@ class petdepot(scrapy.Spider):
 		for item in items:
 			if self.validate(item) != '':
 				tmp.append(self.validate(item))
+		return tmp
+
+	def str_concat(self, items, unit):
+		tmp = ''
+		for item in items[:-1]:
+			if self.validate(item) != '':
+				tmp += self.validate(item) + unit
+		tmp += self.validate(items[-1])
 		return tmp

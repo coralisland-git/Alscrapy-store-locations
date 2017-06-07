@@ -1,0 +1,6 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Paso Robles,,2450 Ramada Drive,,,,,United States,805.238.1177,,,"Monday-Friday: 7:30am-6:00pm, Saturday: 8am-5pm, Sunday: Closed",,,
+San Luis Obispo,,224 Tank Farm Road,,,,,United States,805.543.3751,,,"Monday-Friday: 7:30am-6:00pm, Saturday: 8am-5pm, Sunday: Closed",,,
+Arroyo Grande,,1079 El Camino Real,,,,,United States,805.489.5514,,,"Monday-Friday: 7:30am-6:00pm, Saturday: 8am-5pm, Sunday: Closed",,,
+Santa Maria,,1920 N. Broadway,,,,,United States,805.922.2737,,,"Monday-Friday: 7:30am-6:00pm, Saturday: 8am-5pm, Sunday: Closed",,,
+Buellton,,700 McMurray Road,,,,,United States,805.688.8101,,,"Monday-Friday: 7:30am-6:00pm, Saturday: 8am-5pm, Sunday: Closed",,,

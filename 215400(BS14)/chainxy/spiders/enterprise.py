@@ -11,38 +11,43 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 
-class cosbar(scrapy.Spider):
-	name = 'cosbar'
+class enterprise(scrapy.Spider):
+	name = 'enterprise'
 	domain = ''
 	history = []
 
+	def __init__(self):
+		script_dir = os.path.dirname(__file__)
+		file_path = script_dir + '/geo/cities.json'
+		with open(file_path) as data_file:    
+			self.location_list = json.load(data_file)
+		file_path = script_dir + '/geo/US_CA_States.json'
+		with open(file_path) as data_file:    
+			self.US_CA_States_list = json.load(data_file)
+
 	def start_requests(self):
-		init_url = 'https://www.cosbar.com/store-locator/'
-		header = {
-			"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-			"Accept-Encoding":"gzip, deflate, sdch, br"
-		}
-		yield scrapy.Request(url=init_url, headers=header, callback=self.body) 
+		init_url = 'https://www.enterprise.com/en/car-rental/locations/us/_jcr_content.mapdata.js'
+		yield scrapy.Request(url=init_url, callback=self.body) 
 
 	def body(self, response):
 		print("=========  Checking.......")
-		data = response.body.split('var locations = ')[1].split('//	var states =')[0].strip()[:-1]
-		store_list = json.loads(data)
+		store_list = json.loads(response.body)
 		for store in store_list:
 			try:
 				item = ChainItem()
-				item['store_name'] = self.validate(store['store_name'])
-				item['address'] = self.validate(store['address'])
-				item['city'] = self.validate(store['district'])
+				item['store_name'] = self.validate(store['shortTitle'])
+				item['store_number'] = self.validate(store['peopleSoftId'])
+				item['address'] = self.validate(store['addressLines'][0])
+				item['city'] = self.validate(store['city'])
 				item['state'] = self.validate(store['state'])
-				item['zip_code'] = self.validate(store['postal_code'])
-				item['country'] = self.validate(store['country'])
-				item['phone_number'] = self.validate(store['store_phone'])
+				item['zip_code'] = self.validate(store['postalCode'])
+				item['country'] = self.validate(store['countryCode'])
+				item['phone_number'] = self.validate(store['formattedPhone'])
 				item['latitude'] = self.validate(store['latitude'])
 				item['longitude'] = self.validate(store['longitude'])
-				yield item	
+				yield item
 			except:
-				passs
+				pass	
 
 	def validate(self, item):
 		try:

@@ -10,7 +10,6 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import pdb
 
 class doggiestylepets(scrapy.Spider):
 	name = 'doggiestylepets'
@@ -23,67 +22,32 @@ class doggiestylepets(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
-		data = response.body.split('var wpgmaps_localize_marker_data = ')[1].split('var wpgmaps_localize_cat_ids')[0]
-		pdb.set_trace()
-		# store_list = json.loads(response.body)
-		# for store in store_list:
-		# 	try:
-		# 		item = ChainItem()
-		# 		detail = self.eliminate_space(store.xpath())
-		# 		item['store_name'] = self.validate(store['name'])
-		# 		item['store_number'] = self.validate(store['store_number'])
-		# 		item['address'] = self.validate(store['address'])
-		# 		item['address2'] = self.validate(store['address2'])
-				
-		# 		address = ''
-		# 		item['address'] = ''
-		# 		item['city'] = ''
-		# 		addr = usaddress.parse(address)
-		# 		for temp in addr:
-		# 			if temp[1] == 'PlaceName':
-		# 				item['city'] += temp[0].replace(',','')	+ ' '
-		# 			elif temp[1] == 'StateName':
-		# 				item['state'] = temp[0].replace(',','')
-		# 			elif temp[1] == 'ZipCode':
-		# 				item['zip_code'] = temp[0].replace(',','')
-		# 			else:
-		# 				item['address'] += temp[0].replace(',', '') + ' '
-
-		# 		address = ''
-		# 		addr = address.split(',')
-		# 		item['city'] = self.validate(addr[0].strip())
-		# 		item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-		# 		item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-
-		# 		item['city'] = self.validate(store['city'])
-		# 		item['state'] = self.validate(store['state'])
-		# 		item['zip_code'] = self.validate(store['zip'])
-		# 		item['country'] = self.validate(store['country'])
-		# 		item['phone_number'] = self.validate(store['phone'])
-		# 		item['latitude'] = self.validate(store['latitude'])
-		# 		item['longitude'] = self.validate(store['longitude'])
-
-		# 		h_temp = ''
-		# 		hour_list = self.eliminate_space(response.xpath('//text()').extract())
-		# 		cnt = 1
-		# 		for hour in hour_list:
-		# 			h_temp += hour
-		# 			if cnt % 2 == 0:
-		# 				h_temp += ', '
-		# 			else:
-		# 				h_temp += ' '
-		# 			cnt += 1
-		# 		item['store_hours'] = h_temp[:-2]
-
-		# 		item['store_hours'] = self.validate(store['hours'])
-		# 		item['store_type'] = ''
-		# 		item['other_fields'] = ''
-		# 		item['coming_soon'] = ''
-		# 		if item['address']+item['phone_number'] not in self.history:
-		# 			self.history.append(item['address']+item['phone_number'])
-		# 			yield item	
-		# 	except:
-		# 		pdb.set_trace()		
+		data = response.body.split('var wpgmaps_localize_marker_data = ')[1].split('var wpgmaps_localize_cat_ids')[0].strip()[:-1]
+		store_list = json.loads(data)['1']
+		for key, store in store_list.items():
+			try:
+				item = ChainItem()
+				item['store_name'] = self.validate(store['title'])			
+				address = self.validate(store['address'])
+				item['address'] = ''
+				item['city'] = ''
+				addr = usaddress.parse(address)
+				for temp in addr:
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
+					elif temp[1] == 'StateName':
+						item['state'] = temp[0].replace(',','')
+					elif temp[1] == 'ZipCode':
+						item['zip_code'] = temp[0].replace(',','')
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
+				item['country'] = 'United States'
+				item['phone_number'] = self.validate(store['desc'])
+				item['latitude'] = self.validate(store['lat'])
+				item['longitude'] = self.validate(store['lng'])
+				yield item	
+			except:
+				pass
 
 	def validate(self, item):
 		try:
@@ -105,45 +69,3 @@ class doggiestylepets(scrapy.Spider):
 				tmp += self.validate(item) + unit
 		tmp += self.validate(items[-1])
 		return tmp
-
-	def check_country(self, item):
-		if 'PR' in item:
-			return 'Puert Rico'
-		else:
-			for state in self.US_States_list:
-				if item in state['abbreviation']:
-					return 'United States'
-			return 'Canada'
-
-	def get_state(self, item):
-		for state in self.US_States_list:
-			if item.lower() in state['name'].lower():
-				return state['abbreviation']
-		return ''
-
-	def format(self, item):
-		try:
-			return item.encode('raw-unicode-escape').strip()
-		except:
-			return ''
-
-	def fixLazyJson (self, in_text):
-		tokengen = tokenize.generate_tokens(StringIO(in_text).readline)
-		result = []
-		for tokid, tokval, _, _, _ in tokengen:
-			if (tokid == token.NAME):
-				if tokval not in ['true', 'false', 'null', '-Infinity', 'Infinity', 'NaN']:
-					tokid = token.STRING
-					tokval = u'"%s"' % tokval
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			elif (tokid == token.OP) and ((tokval == '}') or (tokval == ']')):
-				if (len(result) > 0) and (result[-1][1] == ','):
-					result.pop()			
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			result.append((tokid, tokval))
-
-		return tokenize.untokenize(result)

@@ -5,64 +5,73 @@ from scrapy.spiders import Spider
 from scrapy.http import FormRequest
 from scrapy.http import Request
 from chainxy.items import ChainItem
-from lxml import etree
-from selenium import webdriver
-from lxml import html
-import pdb
 
-class buchheitonline(scrapy.Spider):
-	name = 'buchheitonline'
-	domain = ''
-	history = []
+class Buchheitonline(scrapy.Spider):
+    name = 'buchheitonline'
+    domain = 'http://www.buchheitonline.com'
+    history = []
 
-	def start_requests(self):
-		init_url = 'http://www.buchheitonline.com/locations.aspx'
-		header = {
-			'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-			'Accept-Encoding':'gzip, deflate, sdch'
-		}
-		yield scrapy.Request(url=init_url, headers=header, callback=self.body) 
+    def start_requests(self):
+        init_url = 'http://www.buchheitonline.com/locations.aspx'
+        yield scrapy.Request(url=init_url, callback=self.body)
 
-	def body(self, response):
+    def body(self, response):
+        store_list = response.xpath('//table//table//table//table//tbody//tr//td')
+        for store in store_list:
+            address = store.xpath('.//text()').extract()
+            address = self.normalize(address)
+            item = ChainItem()
+            item['store_name'] = self.validate(address[0])           
+            item['address'] = self.validate(address[1])
+            item['city'] = self.validate(address[2].split(',')[0])
+            item['state'] = self.validate(address[2].split(',')[1].strip()).split(' ')[0]
+            item['zip_code'] = self.validate(address[2].split(',')[1].strip()).split(' ')[1]
+            item['phone_number'] = self.validate(address[3])
+            item['country'] = 'United States'
+            hour_list = self.normalize(address[5:])
+            h_temp = ''
+            for hour in hour_list:
+                if self.validate(hour) is '':
+                    pass
+                else:
+                    h_temp += self.validate(hour).replace("to", "-") + ", "
+            item['store_hours'] = h_temp[:-2]
+            if item['store_name'] in self.history:
+                continue
+            self.history.append(item['store_name'])
+            yield item
 
-		store_list = response.xpath('//table[@style="color: #000000; height: 159px; width: 625px;"]//td')
-		print("=========  Checking.......", len(store_list))
-		for store in store_list:
-			detail = self.eliminate_space(store.xpath('.//text()').extract())
-			if 'Office Hours' not in detail:
-				try:
-					item = ChainItem()
-					item['store_name'] = detail[0]
-					item['address'] = detail[1]
-					addr = detail[2].split(',')
-					item['city'] = self.validate(addr[0].strip())
-					item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-					item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-					item['country'] = 'United States'
-					item['phone_number'] = detail[3]
-					h_temp = ''
-					for cnt in range(5, len(detail)):
-						h_temp += detail[cnt] + ', '
-					item['store_hours'] = h_temp[:-2]
-					yield item			
-				except:
-					pdb.set_trace()
+        item = ChainItem()
+        address = response.xpath('//table//table//table//tbody//tr//td//span[1]')[0].xpath(".//text()").extract()
+        address = self.normalize(address)
+        item['store_name'] = self.validate(address[0])
+        item['address'] = self.validate(address[1])
+        item['city'] = self.validate(address[2].split(',')[0])
+        item['state'] = self.validate(address[2].split(',')[1].strip()).split(' ')[0]
+        item['zip_code'] = self.validate(address[2].split(',')[1].strip()).split(' ')[1]
+        item['phone_number'] = self.validate(address[3])
+        item['country'] = 'United States'
+        item['store_hours'] = self.validate(address[5].replace("to", "-"))
+        yield item
 
-	def validate(self, item):
-		try:
-			return item.strip()
-		except:
-			return ''
+    def validate(self, item):
+        try:
+            return item.strip().encode('utf-8').translate(None, "\r\n\t").replace("\xc2\xa0", " ")
+        except:
+            return ''
 
-	def eliminate_space(self, items):
-		tmp = []
-		for item in items:
-			if self.validate(item) != '':
-				tmp.append(self.validate(item))
-		return tmp
-
-	def format(self, item):
-		try:
-			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
-		except:
-			return ''
+    def normalize(self, arr):
+        newarr = []
+        for item in arr:
+            if self.validate(item) is '':
+                pass
+            else:
+                newarr.append(item)
+        count = 0 
+        for item in newarr:
+            if 'Hour' in item:
+                break
+            count += 1 
+        if count == 5:
+            newarr.pop(2)
+        return newarr
