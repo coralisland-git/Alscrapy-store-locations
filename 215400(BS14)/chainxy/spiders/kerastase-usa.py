@@ -1,4 +1,4 @@
-# from __future__ import unicode_literals
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -10,10 +10,9 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import pdb
 
-class shopko(scrapy.Spider):
-	name = 'shopko'
+class kerastaseusa(scrapy.Spider):
+	name = 'kerastase-usa'
 	domain = ''
 	history = []
 
@@ -22,47 +21,47 @@ class shopko(scrapy.Spider):
 		file_path = script_dir + '/geo/US_Cities.json'
 		with open(file_path) as data_file:    
 			self.location_list = json.load(data_file)
-		file_path = script_dir + '/geo/US_States.json'
-		with open(file_path) as data_file:    
-			self.US_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = 'http://www.shopko.com/custserv/locate_store.cmd'
+		init_url = 'http://storelocator.api.lorealebusiness.com//api/SalonFinderservice/GetSalonFinderstores'
 		header = {
-			"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+			"Accept":"application/json, text/javascript, */*; q=0.01",
 			"Accept-Encoding":"gzip, deflate",
-			"Content-Type":"application/x-www-form-urlencoded"
+			"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
+			"X-Requested-With":"XMLHttpRequest"
 		}
 		for location in self.location_list:
 			formdata = {
-				"useCurrentLocation":"yes",
-				"latitude":"",
-				"longitude":"",
-				"cityStateZip":location['city'],
-				"search-submit":"",
 				"radius":"100",
+				"StoreName":"",
+				"storesperpage":"5",
+				"pagenum":"",
+				"latitude":str(location['latitude']),
+				"longitude":str(location['longitude']),
+				"brand":"Kerastase",
+				"Nametype":"N"
 			}
 			yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
-		
+
 	def body(self, response):
-		print("=========  Checking.......")
 		try:
-			data = response.body.split('var stores = [')[1].split('</script>')[0][2:-3]
-			store_list = data.split('],[')
+			store_list = json.loads(response.body)[0]['Stores']
 			for store in store_list:
 				try:
-					detail = self.eliminate_space(store.split("','"))
 					item = ChainItem()
-					item['store_name'] = detail[2].split(':')[1].strip()
-					item['address'] = detail[3]			
-					address = detail[6]
-					addr = address.split(',')
-					item['city'] = self.validate(addr[0].strip())
-					item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-					item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-					item['country'] = 'United States'
-					item['phone_number'] = detail[7]
-					item['store_hours'] = self.validate(detail[8])[:-1]
+					item['store_name'] = self.validate(store['SalonName'])
+					item['store_number'] = self.validate(str(store['StoreID']))
+					item['address'] = self.validate(store['Address'])
+					item['city'] = self.validate(store['City'])
+					item['state'] = self.validate(store['State'])
+					item['zip_code'] = self.validate(store['ZipCode'])
+					item['country'] = "United States"
+					item['phone_number'] = self.validate(store['Phone'])
+					item['latitude'] = self.validate(str(store['Latitude']))
+					item['longitude'] = self.validate(str(store['Longitude']))
+					item['store_hours'] = self.validate(store['workingHours'])
+					item['store_type'] = self.validate(store['Type'])
+					item['other_fields'] = ''
 					if item['address']+item['phone_number'] not in self.history:
 						self.history.append(item['address']+item['phone_number'])
 						yield item	
@@ -73,7 +72,7 @@ class shopko(scrapy.Spider):
 
 	def validate(self, item):
 		try:
-			return item.strip().replace('<br>', ',')
+			return item.strip()
 		except:
 			return ''
 

@@ -1,4 +1,4 @@
-# from __future__ import unicode_literals
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -10,41 +10,37 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import tokenize
-import token
-from StringIO import StringIO
 
-class davines(scrapy.Spider):
-	name = 'davines'
-	domain = 'http://www.davines.com'
+class oneill(scrapy.Spider):
+	name = 'oneill'
+	domain = ''
 	history = []
 
 	def __init__(self):
 		script_dir = os.path.dirname(__file__)
-		file_path = script_dir + '/geo/US_Cities.json'
+		file_path = script_dir + '/geo/US_Zipcode.json'
 		with open(file_path) as data_file:    
-			self.US_Cities_list = json.load(data_file)
-		file_path = script_dir + '/geo/CA_Cities.json'
+			self.location_list = json.load(data_file)
+		file_path = script_dir + '/geo/US_CA_States.json'
 		with open(file_path) as data_file:    
-			self.CA_Cities_list = json.load(data_file)
+			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
-		for location in self.US_Cities_list:
-			init_url = 'http://www.davines.com/en/salon-locator/?country=US&citypostal=%s&specialty=all' %location['city']
+		for location in self.location_list:
+			init_url = 'http://us.oneill.com/dealers/?gmw_post=dealer&gmw_address%5B0%5D='+str(location['zipcode'])+'&gmw_distance=200&gmw_units=imperial&gmw_form=1&gmw_per_page=5&gmw_lat&gmw_lng&gmw_px=pt&action=gmw_post'
 			yield scrapy.Request(url=init_url, callback=self.body) 
-		for location in self.CA_Cities_list:
-			init_url = 'http://www.davines.com/en/salon-locator/?country=CA&citypostal=%s&specialty=all' %location['city'].split('(')[0].strip()
-			yield scrapy.Request(url=init_url, callback=self.body)
 
 	def body(self, response):
-		data = response.body.split('var locations = [];')[1].split('$(document).ready(function() {')[0].strip()
-		store_list = data.split('locations.push(')
-		for store in store_list[1:]:
+		print("=========  Checking.......")
+		store_list = response.xpath('//div[@class="dealer-location vcard"]')
+		for store in store_list:
 			try:
-				store = json.loads(self.fixLazyJson(self.format(store.strip()[:-2])))
 				item = ChainItem()
-				item['store_name'] = self.validate(store['title'])
-				address = self.validate(store['address'])
+				item['store_name'] = self.validate(store.xpath('.//h2[@class="dealer-location__name org"]/text()').extract_first())
+				detail = self.eliminate_space(store.xpath('.//div[@class="dealer-location__address adr"]//text()').extract())
+				address = detail[0]
+				if 'USA' in detail[0]:
+					address = detail[0].replace('USA','').strip()[:-1]
 				item['address'] = ''
 				item['city'] = ''
 				addr = usaddress.parse(address)
@@ -57,48 +53,29 @@ class davines(scrapy.Spider):
 						item['zip_code'] = temp[0].replace(',','')
 					else:
 						item['address'] += temp[0].replace(',', '') + ' '
-				item['country'] = self.validate(store['country'])
-				if item['country'] == 'CA':
-					try:
-						addr_list = address.split(',')
-						if len(addr_list) == 3:
-							item['address'] = addr_list[0]
-							item['city'] = addr_list[1]
-							if len(addr_list[2].strip().split(' ')) < 2:
-								item['state'] = addr_list[2].strip()
-							else:
-								if 'british' in address.lower() and len(addr_list) == 2:
-									item['state'] = addr_list[2].strip()
-								else:
-									item['state'] = addr_list[2].strip()[:-7].strip()
-									item['zip_code'] = addr_list[2].strip()[-7:].strip()
-						else:
-							item['address'] = addr_list[0] + ' ' + addr_list[1]
-							item['city'] = addr_list[2]
-							if len(addr_list[3].strip().split(' ')) < 2 or 'british' in address:
-								item['state'] = addr_list[3].strip()
-							else:
-								item['state'] = addr_list[3].strip()[:-7].strip()
-								item['zip_code'] = addr_list[3].strip()[-7:].strip()
-					except:
-						pass
-				item['phone_number'] = self.validate(store['phone'])
-				item['latitude'] = self.validate(store['lat'])
-				item['longitude'] = self.validate(store['lng'])
+
+				item['country'] = self.check_country(item['state'])
+				if item['country'] == '' or item['country'] == 'CA':
+					item['state'] = address.split(',')[1].strip()[:2]
+					item['zip_code'] = address.split(',')[1].strip()[2:].strip()
+					item['country'] = 'CA'
+				item['phone_number'] = ''
+				for de in detail:
+					if '(' in de:
+						item['phone_number'] = de
 				if item['address']+item['phone_number'] not in self.history:
 					self.history.append(item['address']+item['phone_number'])
 					yield item	
 			except:
-				pass
+				pdb.set_trace()		
 
-		pagenation = response.xpath('//a[@class="pagination-next"]/@href').extract_first()
+		pagenation = response.xpath('//div[@class="dealer__list__pagination"]//a[2]/@href').extract_first()
 		if pagenation:
-			pagenation = self.domain + pagenation
 			yield scrapy.Request(url=pagenation, callback=self.body)
 
 	def validate(self, item):
 		try:
-			return item.strip().replace('<br>',',').replace(';','')
+			return item.strip().replace('\u2019', "'")
 		except:
 			return ''
 
@@ -131,7 +108,7 @@ class davines(scrapy.Spider):
 
 	def format(self, item):
 		try:
-			return item.decode('UTF-8').strip()
+			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
 		except:
 			return ''
 

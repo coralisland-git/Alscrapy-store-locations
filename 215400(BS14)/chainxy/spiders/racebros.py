@@ -10,7 +10,6 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import pdb
 
 class racebros(scrapy.Spider):
 	name = 'racebros'
@@ -25,44 +24,36 @@ class racebros(scrapy.Spider):
 		yield scrapy.Request(url=init_url, callback=self.body)
 	
 	def body(self, response):
-		self.driver.get("https://www.racebros.com/")
+		self.driver.get("https://www.racebros.com/contact")
 		source = self.driver.page_source.encode("utf8")
 		tree = etree.HTML(source)
-		pdb.set_trace()
-		# store_list = tree.xpath('//section//div[contains(@class, "stores")]//a[2]/@href')
-		# for store in store_list:
-		# 	yield scrapy.Request(url=store, callback=self.parse_page)
+		store_list = tree.xpath('//div[@class="c2inlineContent"]//div[@class="txtNew"]')
+		h_temp = self.eliminate_space(store_list[5].xpath('.//text()'))[0].split('stores')[1].strip().replace('or',',')
+		for store in store_list[1:4]:
+			try:
+				item = ChainItem()
+				detail = self.eliminate_space(store.xpath('.//text()'))
+				item['store_name'] = detail[0]
+				address = detail[1] + ',' + detail[2]
+	  			item['address'] = ''
+				item['city'] = ''
+				addr = usaddress.parse(address)
+				for temp in addr:
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
+					elif temp[1] == 'StateName':
+						item['state'] = temp[0].replace(',','')
+					elif temp[1] == 'ZipCode':
+						item['zip_code'] = temp[0].replace(',','')
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
 
-	def parse_page(self, response):
-		try:
-			item = ChainItem()
-			detail = self.eliminate_space(response.xpath('//div[contains(@class, "address")]//text()').extract())
-			item['store_name'] = ''
-			item['store_number'] = ''
-			item['address'] = self.validate(detail[0])
-			addr = detail[1].split(',')
-			item['city'] = self.validate(addr[0].strip())
-			sz = addr[1].strip().split(' ')
-			item['state'] = ''
-			item['zip_code'] = self.validate(sz[len(sz)-1])
-			for temp in sz[:-1]:
-				item['state'] += self.validate(temp) + ' '
-			item['phone_number'] = detail[2]
-			item['country'] = 'United States'
-			h_temp = ''
-			hour_list = self.eliminate_space(response.xpath('//div[contains(@class, "hours")]//text()').extract())
-			cnt = 1
-			for hour in hour_list:
-				h_temp += hour
-				if cnt % 2 == 0:
-					h_temp += ', '
-				else:
-					h_temp += ' '
-				cnt += 1
-			item['store_hours'] = h_temp[:-2]
-			yield item	
-		except:
-			pdb.set_trace()		
+				item['country'] = 'United States'
+				item['phone_number'] = detail[3]
+				item['store_hours'] = h_temp
+				yield item
+			except:
+				pass
 
 	def validate(self, item):
 		try:

@@ -1,0 +1,4 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Springfield,,2310 West Kearney ,,Springfield ,MO,65903,United States,417-862-4378,,,"Mon-Fri 7:30AM-6PM, Saturday 7:30AM-5PM , Sunday 10AM-3PM.",,,
+Carthage,,2309 Fairlawn Drive ,,Carthage ,MO,64836,United States,417-358-3529,,,"Mon-Fri 7:30AM-6PM, Saturday 7:30AM-5PM , Sunday 10AM-3PM.",,,
+Monett,,210 S. Hwy 37 ,,Monett ,MO,65708,United States,417-235-7739,,,"Mon-Fri 7:30AM-6PM, Saturday 7:30AM-5PM , Sunday 10AM-3PM.",,,
