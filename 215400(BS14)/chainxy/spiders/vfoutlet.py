@@ -38,15 +38,16 @@ class vfoutlet(scrapy.Spider):
 			try:
 				item = ChainItem()
 				item['store_name'] = self.validate(store['store_name'])
-				item['address'] = self.validate(store['address'])
-				item['address2'] = self.validate(store['address_2'])
+				item['address'] = self.validate(store['address_2'])
+				if len(store['address_2']) < 12:
+					item['address'] = self.validate(store['address']) + ' '+ self.validate(store['address_2'])
 				item['phone_number'] = self.validate(store['phone'])
 				item['latitude'] = self.validate(store['latitude'])
 				item['longitude'] = self.validate(store['longitude'])
 				url = self.domain + self.validate(store['rewrite_request_path'])
 				yield scrapy.Request(url=url, callback=self.parse_page, meta={'item':item})
 			except:
-				pdb.set_trace()		
+				pass
 
 	def parse_page(self, response):
 		try:

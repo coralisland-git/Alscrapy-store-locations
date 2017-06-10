@@ -78,6 +78,11 @@ class loveheals(scrapy.Spider):
 						else:
 							item['address'] += temp[0].replace(',', '') + ' '
 					item['country'] = self.check_country(item['state'])
+				address = address.upper()[:-8].strip()
+				a_list = item['store_name'].upper().split(' ')
+				for a in a_list:
+					address = self.validate(address.replace(a, '')).replace(',','')
+				item['address'] = address
 				item['phone_number'] = self.validate(store['phone'])
 				item['latitude'] = self.validate(str(store['latitude']))
 				item['longitude'] = self.validate(str(store['longitude']))

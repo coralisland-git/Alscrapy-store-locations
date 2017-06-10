@@ -9,85 +9,82 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import usaddress
 import pdb
-import tokenize
-import token
-from StringIO import StringIO
 
 class shopgarageonline(scrapy.Spider):
 	name = 'shopgarageonline'
-	domain = ''
+	domain = 'https://locations.cititrends.com/'
 	history = []
 
+	def __init__(self):
+		script_dir = os.path.dirname(__file__)
+		file_path = script_dir + '/geo/US_States.json'
+		with open(file_path) as data_file:    
+			self.US_States_list = json.load(data_file)
+	
 	def start_requests(self):
-		init_url = 'http://www.garageclothing.com/us/json/storeLocationsJSON.jsp'
-		yield scrapy.Request(url=init_url, callback=self.body) 
+		init_url  = 'http://www.garageclothing.com/us/locator/us'
+		header = {
+			"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+			"Accept-Encoding":"gzip, deflate, sdch"
+		}
+		yield scrapy.Request(url=init_url, headers=header, method="get", callback=self.parse_state) 
 
-	def body(self, response):
-		print("=========  Checking.......")
-		with open('response.html', 'wb') as f:
+	def parse_state(self, response):
+		with open('response1.html', 'wb') as f:
 			f.write(response.body)
+		state_list = response.xpath('//div[@id="storeLocatorAll"]//a/@href').extract()
+		pdb.set_trace()
+		# for state in state_list : 
+		# 	state_link = self.domain + state
+		# 	if len(state.split('/')) == 1:
+		# 		yield scrapy.Request(url=state_link, callback=self.parse_city)	
+		# 	elif len(state.split('/')) == 2:				
+		# 		yield scrapy.Request(url=state_link, callback=self.parse_store)
+		# 	else :
+		# 		yield scrapy.Request(url=state_link, callback=self.parse_page)
 
-		# store_list = json.loads(response.body)
-		# for store in store_list:
-		# 	try:
-		# 		item = ChainItem()
-		# 		detail = self.eliminate_space(store.xpath())
-		# 		item['store_name'] = self.validate(store['name'])
-		# 		item['store_number'] = self.validate(store['store_number'])
-		# 		item['address'] = self.validate(store['address'])
-		# 		item['address2'] = self.validate(store['address2'])
-				
-		# 		address = ''
-		# 		item['address'] = ''
-		# 		item['city'] = ''
-		# 		addr = usaddress.parse(address)
-		# 		for temp in addr:
-		# 			if temp[1] == 'PlaceName':
-		# 				item['city'] += temp[0].replace(',','')	+ ' '
-		# 			elif temp[1] == 'StateName':
-		# 				item['state'] = temp[0].replace(',','')
-		# 			elif temp[1] == 'ZipCode':
-		# 				item['zip_code'] = temp[0].replace(',','')
-		# 			else:
-		# 				item['address'] += temp[0].replace(',', '') + ' '
+	def parse_city(self, response):
+		city_list = response.xpath('//li[@class="c-directory-list-content-item"]//a/@href').extract()
+		for city in city_list :
+			city_link = self.domain + city
+			if len(city.split('/')) == 2:
+				yield scrapy.Request(url=city_link, callback=self.parse_store)
+			else:
+				yield scrapy.Request(url=city_link, callback=self.parse_page)
+	
+	def parse_store(self, response):
+		store_list = response.xpath('//div[@class="c-location-grid-item"]//h5//a/@href').extract()
+		for store in store_list:
+			store_link = self.domain + store[3:]
+			yield scrapy.Request(url=store_link, callback=self.parse_page)
 
-		# 		address = ''
-		# 		addr = address.split(',')
-		# 		item['city'] = self.validate(addr[0].strip())
-		# 		item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-		# 		item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
+	def parse_page(self, response):
+		try:
+			item = ChainItem()
+			item['store_name'] = self.validate(response.xpath('//span[@itemprop="name"]/text()').extract_first())
+			item['address'] = self.validate(response.xpath('//span[@itemprop="streetAddress"]/text()').extract_first())
+			item['city'] = self.validate(response.xpath('//span[@itemprop="addressLocality"]/text()').extract_first())
+			item['state'] = self.validate(response.xpath('//span[@itemprop="addressRegion"]/text()').extract_first())
+			item['zip_code'] = self.validate(response.xpath('//span[@itemprop="postalCode"]/text()').extract_first())
+			item['country'] = self.validate(response.xpath('//abbr[@itemprop="addressCountry"]/text()').extract_first())
+			item['phone_number'] = self.validate(response.xpath('//span[@itemprop="telephone"]/text()').extract_first())
+			item['latitude'] = self.validate(response.xpath('//meta[@itemprop="latitude"]/@content').extract_first())
+			item['longitude'] = self.validate(response.xpath('//meta[@itemprop="longitude"]/@content').extract_first())
+			item['store_hours'] = self.validate(response.xpath('//span[@itemprop="openingHours"]/text()').extract_first())
+			yield item			
+		except:
+			pass
 
-		# 		item['city'] = self.validate(store['city'])
-		# 		item['state'] = self.validate(store['state'])
-		# 		item['zip_code'] = self.validate(store['zip'])
-		# 		item['country'] = self.validate(store['country'])
-		# 		item['phone_number'] = self.validate(store['phone'])
-		# 		item['latitude'] = self.validate(store['latitude'])
-		# 		item['longitude'] = self.validate(store['longitude'])
 
-		# 		h_temp = ''
-		# 		hour_list = self.eliminate_space(response.xpath('//text()').extract())
-		# 		cnt = 1
-		# 		for hour in hour_list:
-		# 			h_temp += hour
-		# 			if cnt % 2 == 0:
-		# 				h_temp += ', '
-		# 			else:
-		# 				h_temp += ' '
-		# 			cnt += 1
-		# 		item['store_hours'] = h_temp[:-2]
-
-		# 		item['store_hours'] = self.validate(store['hours'])
-		# 		item['store_type'] = ''
-		# 		item['other_fields'] = ''
-		# 		item['coming_soon'] = ''
-		# 		if item['address']+item['phone_number'] not in self.history:
-		# 			self.history.append(item['address']+item['phone_number'])
-		# 			yield item	
-		# 	except:
-		# 		pdb.set_trace()		
+	def check_country(self, item):
+		if 'PR' in item:
+			return 'Puert Rico'
+		else:
+			for state in self.US_States_list:
+				if item in state['abbreviation']:
+					return 'United States'
+			return 'Canada'
 
 	def validate(self, item):
 		try:
@@ -109,42 +106,3 @@ class shopgarageonline(scrapy.Spider):
 				tmp += self.validate(item) + unit
 		tmp += self.validate(items[-1])
 		return tmp
-
-	def check_country(self, item):
-		for state in self.US_CA_States_list:
-			if item.lower() in state['abbreviation'].lower():
-				return state['country']
-		return ''
-
-	def get_state(self, item):
-		for state in self.US_States_list:
-			if item.lower() in state['name'].lower():
-				return state['abbreviation']
-		return ''
-
-	def format(self, item):
-		try:
-			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
-		except:
-			return ''
-
-	def fixLazyJson (self, in_text):
-		tokengen = tokenize.generate_tokens(StringIO(in_text).readline)
-		result = []
-		for tokid, tokval, _, _, _ in tokengen:
-			if (tokid == token.NAME):
-				if tokval not in ['true', 'false', 'null', '-Infinity', 'Infinity', 'NaN']:
-					tokid = token.STRING
-					tokval = u'"%s"' % tokval
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			elif (tokid == token.OP) and ((tokval == '}') or (tokval == ']')):
-				if (len(result) > 0) and (result[-1][1] == ','):
-					result.pop()			
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			result.append((tokid, tokval))
-
-		return tokenize.untokenize(result)

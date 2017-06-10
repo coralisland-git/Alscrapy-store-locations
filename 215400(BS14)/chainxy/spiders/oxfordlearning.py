@@ -24,7 +24,11 @@ class oxfordlearning(scrapy.Spider):
 
 	def start_requests(self):
 		init_url = 'https://www.oxfordlearning.com/locations/'
-		yield scrapy.Request(url=init_url, callback=self.body) 
+		header = {
+			"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+			"accept-encoding":"gzip, deflate, sdch, br"
+		}
+		yield scrapy.Request(url=init_url, headers=header, callback=self.body) 
 
 	def body(self, response):
 		print("=========  Checking.......")

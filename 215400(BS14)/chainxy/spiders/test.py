@@ -13,24 +13,17 @@ import time
 import usaddress
 import pdb
 
-class oribe(scrapy.Spider):
-	name = 'oribe'
+class test(scrapy.Spider):
+	name = 'test'
 	domain = ''
 	history = []
 	count = 0
 
 	def __init__(self):
 		self.driver = webdriver.Chrome("./chromedriver")
-		script_dir = os.path.dirname(__file__)
-		file_path = script_dir + '/geo/US_Cities.json'
-		with open(file_path) as data_file:    
-			self.US_location_list = json.load(data_file)
-		file_path = script_dir + '/geo/US_CA_States.json'
-		with open(file_path) as data_file:    
-			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = 'http://www.oribe.com'
+		init_url = 'https://www.coppel.com'
 		yield scrapy.Request(url=init_url, callback=self.body)
 	
 	def body(self, response):
@@ -56,6 +49,25 @@ class oribe(scrapy.Spider):
 			except:
 				pass
 
+		# for location in self.CA_location_list:
+		# 	try:
+		# 		search_text = self.driver.find_element_by_xpath('//div[@class="location-search"]//input')
+		# 		search_text.clear()
+		# 		search_text.send_keys(location['city'].split('(')[0])
+		# 		time.sleep(1)
+		# 		self.driver.find_element_by_xpath('//i[@class="ss-gizmo ss-search"]').click()
+		# 		time.sleep(3)
+		# 		source = self.driver.page_source.encode("utf8")
+		# 		tree = etree.HTML(source)
+		# 		store_list = tree.xpath('//li[contains(@class, "store featured")]')
+		# 		if store_list:
+		# 			source_list.append(store_list)
+		# 			self.count += len(store_list)
+		# 		print('~~~~~~~~~~~~~~~~~~~', self.count)
+
+		# 	except:
+		# 		pass
+
 		for source in source_list:
 			for store in source:
 				try:
@@ -75,21 +87,14 @@ class oribe(scrapy.Spider):
 						else:
 							item['address'] += temp[0].replace(',', '') + ' '
 					item['country'] = self.check_country(item['state'])
-					if item['country'] != 'US':
-						item['state'] = address.split(' ')[-3].strip()
-						item['zip_code'] = address[-7:].strip() 
-						item['country'] = "CA"
 					try:
 						item['phone_number'] = self.validate(store.xpath('.//div[@class="phone"]/text()')[0])
 					except:
 						item['phone_number'] = ''
 
 					if item['address']+item['phone_number'] not in self.history:
-						if item['country'] == 'CA' and (item['phone_number'] == '' or ('ext' not in item['phone_number'].lower() and len(item['phone_number']) > 14 )):
-							pass
-						else:
-							self.history.append(item['address']+item['phone_number'])
-							yield item	
+						self.history.append(item['address']+item['phone_number'])
+						yield item	
 				except:
 					pass
 

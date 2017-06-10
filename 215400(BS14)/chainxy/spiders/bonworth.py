@@ -9,8 +9,8 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
+import time
 import usaddress
-import pdb
 
 class bonworth(scrapy.Spider):
 	name = 'bonworth'
@@ -30,46 +30,48 @@ class bonworth(scrapy.Spider):
 	
 	def body(self, response):
 		self.driver.get("https://www.bullseyelocations.com/pages/bw-main?f=1")
-		self.driver.find_element_by_id('txtCityStateZip').send_keys('new york')
-		self.driver.find_element_by_name('ctl00$ContentPlaceHolder1$searchButton').click()
-		source = self.driver.page_source.encode("utf8")
-		tree = etree.HTML(source)
-		with open('response.html', 'wb') as f:
-			f.write(source)
-		# store_list = tree.xpath('//section//div[contains(@class, "stores")]//a[2]/@href')
-		# for store in store_list:
-		# 	yield scrapy.Request(url=store, callback=self.parse_page)
+		source_list = []
+		for location in self.location_list:
+			try:
+				search_text = self.driver.find_element_by_id('txtCityStateZip')
+				search_text.clear()
+				search_text.send_keys(location['name'])
+				time.sleep(1)
+				self.driver.find_element_by_name('ctl00$ContentPlaceHolder1$radiusList').send_keys('200 mi')
+				self.driver.find_element_by_name('ctl00$ContentPlaceHolder1$searchButton').click()
+				time.sleep(5)
+				source = self.driver.page_source.encode("utf8")
+				tree = etree.HTML(source)
+				store_list = tree.xpath('//ul[@id="resultsCarouselWide"]//li[contains(@class, "jcarousel-item")]')
+				if store_list:
+					source_list.append(store_list)
+			except:
+				pass
 
-	def parse_page(self, response):
-		try:
-			item = ChainItem()
-			detail = self.eliminate_space(response.xpath('//div[contains(@class, "address")]//text()').extract())
-			item['store_name'] = ''
-			item['store_number'] = ''
-			item['address'] = self.validate(detail[0])
-			addr = detail[1].split(',')
-			item['city'] = self.validate(addr[0].strip())
-			sz = addr[1].strip().split(' ')
-			item['state'] = ''
-			item['zip_code'] = self.validate(sz[len(sz)-1])
-			for temp in sz[:-1]:
-				item['state'] += self.validate(temp) + ' '
-			item['phone_number'] = detail[2]
-			item['country'] = 'United States'
-			h_temp = ''
-			hour_list = self.eliminate_space(response.xpath('//div[contains(@class, "hours")]//text()').extract())
-			cnt = 1
-			for hour in hour_list:
-				h_temp += hour
-				if cnt % 2 == 0:
-					h_temp += ', '
-				else:
-					h_temp += ' '
-				cnt += 1
-			item['store_hours'] = h_temp[:-2]
-			yield item	
-		except:
-			pdb.set_trace()		
+		for source in source_list:
+			for store in source:
+				try:
+					item = ChainItem()
+					item['store_name'] = self.validate(store.xpath('.//h3[@itemprop="name"]/text()')[0])
+					item['address'] = self.validate(store.xpath('.//span[@itemprop="streetAddress"]/text()')[0])
+					item['city'] = self.validate(store.xpath('.//span[@itemprop="addressLocality"]/text()')[0])[:-1]
+					item['state'] = self.validate(store.xpath('.//span[@itemprop="addressRegion"]/text()')[0])
+					item['zip_code'] = self.validate(store.xpath('.//span[@itemprop="postalCode"]/text()')[0])
+					item['country'] = 'United States'
+					item['phone_number'] = self.validate(store.xpath('.//span[@itemprop="telephone"]/text()')[0])
+					item['latitude'] = self.validate(store.xpath('.//meta[@itemprop="latitude"]/@content')[0])
+					item['longitude'] = self.validate(store.xpath('.//meta[@itemprop="longitude"]/@content')[0])
+					hour_list = self.eliminate_space(store.xpath('.//div[@class="popDetailsHours"]//text()'))
+					h_temp = ''
+					item['store_hours'] = self.validate(store.xpath('.//span[@itemprop="openingHours"]//text()'))
+					for hour in hour_list:
+						h_temp += hour + ', '
+					item['store_hours'] = h_temp[:-2]
+					if item['address']+item['phone_number'] not in self.history:
+						self.history.append(item['address']+item['phone_number'])
+						yield item	
+				except:
+					pass
 
 	def validate(self, item):
 		try:
@@ -80,6 +82,6 @@ class bonworth(scrapy.Spider):
 	def eliminate_space(self, items):
 		tmp = []
 		for item in items:
-			if self.validate(item) != '' and 'STORE HOURS:' not in self.validate(item):
+			if self.validate(item) != '':
 				tmp.append(self.validate(item))
 		return tmp

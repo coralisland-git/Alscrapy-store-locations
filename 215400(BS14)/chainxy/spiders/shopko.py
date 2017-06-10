@@ -40,7 +40,7 @@ class shopko(scrapy.Spider):
 				"longitude":"",
 				"cityStateZip":location['city'],
 				"search-submit":"",
-				"radius":"100",
+				"radius":"500",
 			}
 			yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 		

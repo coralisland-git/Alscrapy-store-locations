@@ -67,7 +67,7 @@ class oneill(scrapy.Spider):
 					self.history.append(item['address']+item['phone_number'])
 					yield item	
 			except:
-				pdb.set_trace()		
+				pass
 
 		pagenation = response.xpath('//div[@class="dealer__list__pagination"]//a[2]/@href').extract_first()
 		if pagenation:
@@ -99,36 +99,3 @@ class oneill(scrapy.Spider):
 			if item.lower() in state['abbreviation'].lower():
 				return state['country']
 		return ''
-
-	def get_state(self, item):
-		for state in self.US_States_list:
-			if item.lower() in state['name'].lower():
-				return state['abbreviation']
-		return ''
-
-	def format(self, item):
-		try:
-			return unicodedata.normalize('NFKD', item).encode('ascii','ignore').strip()
-		except:
-			return ''
-
-	def fixLazyJson (self, in_text):
-		tokengen = tokenize.generate_tokens(StringIO(in_text).readline)
-		result = []
-		for tokid, tokval, _, _, _ in tokengen:
-			if (tokid == token.NAME):
-				if tokval not in ['true', 'false', 'null', '-Infinity', 'Infinity', 'NaN']:
-					tokid = token.STRING
-					tokval = u'"%s"' % tokval
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			elif (tokid == token.OP) and ((tokval == '}') or (tokval == ']')):
-				if (len(result) > 0) and (result[-1][1] == ','):
-					result.pop()			
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-			result.append((tokid, tokval))
-
-		return tokenize.untokenize(result)
