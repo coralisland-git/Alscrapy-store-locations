@@ -20,8 +20,8 @@ FEED_EXPORT_FIELDS = ['store_number', 'address'] # which fields should be export
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'chainxy (+http://www.yourdomain.com)'
-USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-
+# USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
 
 # Obey robots.txt rules
 # ROBOTSTXT_OBEY = True
