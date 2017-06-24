@@ -1,6 +1,7 @@
 import scrapy
 import json
 import csv
+import os
 from scrapy.spiders import Spider
 from scrapy.http import FormRequest
 from scrapy.http import Request
@@ -13,8 +14,10 @@ class SmithsfoodanddrugSpider(scrapy.Spider):
     uid_list = []
 
     def start_requests(self):
-        fp = open('states.json', 'rb')
-        locations = json.loads(fp.read())
+        script_dir = os.path.dirname(__file__)
+        file_path = script_dir + '/geo/US_States.json'
+        with open(file_path) as data_file:    
+            locations = json.load(data_file)
 
         form_data = {"query":"query storeSearch($searchText: String!, $filters: [String]!) {\n  storeSearch(searchText: $searchText, filters: $filters) {\n    stores {\n      ...storeSearchResult\n    }\n    fuel {\n      ...storeSearchResult\n    }\n    shouldShowFuelMessage\n  }\n}\n\nfragment storeSearchResult on Store {\n  banner\n  vanityName\n  divisionNumber\n  storeNumber\n  phoneNumber\n  showWeeklyAd\n  showShopThisStoreAndPreferredStoreButtons\n  distance\n  latitude\n  longitude\n  address {\n    addressLine1\n    addressLine2\n    city\n    countryCode\n    stateCode\n    zip\n  }\n  pharmacy {\n    phoneNumber\n  }\n}\n","variables":{"searchText":"AI","filters":[]},"operationName":"storeSearch"}
 
@@ -28,7 +31,7 @@ class SmithsfoodanddrugSpider(scrapy.Spider):
                 'accept':'*/*',
                 'accept-encoding':'gzip, deflate, br'
             }
-            variables = { 'searchText': row['code'].encode('utf-8'), 'filters' : [] }
+            variables = { 'searchText': row['abbreviation'].encode('utf-8'), 'filters' : [] }
             form_data['variables'] = variables
 
             yield scrapy.Request(

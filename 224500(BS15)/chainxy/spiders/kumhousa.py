@@ -10,10 +10,6 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
-import pdb
-import tokenize
-import token
-from StringIO import StringIO
 
 class kumhousa(scrapy.Spider):
 	name = 'kumhousa'
@@ -68,7 +64,7 @@ class kumhousa(scrapy.Spider):
 					self.history.append(item['address']+item['phone_number'])
 					yield item	
 			except:
-				pdb.set_trace()		
+				pass
 
 	def validate(self, item):
 		try:
