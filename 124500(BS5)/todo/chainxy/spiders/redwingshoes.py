@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -8,7 +9,6 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import pdb
 
 class redwingshoes(scrapy.Spider):
 	name = 'redwingshoes'
@@ -76,7 +76,7 @@ class redwingshoes(scrapy.Spider):
 			item['store_hours'] = h_temp[:-2]
 			yield item			
 		except:
-			pdb.set_trace()
+			pass
 
 	def country(self, item):
 		temp = item.split('/')

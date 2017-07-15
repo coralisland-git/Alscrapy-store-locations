@@ -11,6 +11,7 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 import time
+import pdb
 
 class minuteclinic(scrapy.Spider):
 	name = 'minuteclinic'
@@ -54,7 +55,7 @@ class minuteclinic(scrapy.Spider):
 			for addr in addr_list:
 				if 'locate' in addr.lower() or 'corner' in addr.lower() or 'shop' in addr.lower() or 'null' in addr.lower() or 'intersection' in addr.lower() or 'market' in addr.lower():
 					addr = self.validate(addr.split(',')[0])
-				address += addr + ', '
+				address += addr + ' '
 			item['address'] = ''
 			item['city'] = ''
 			item['state'] = ''

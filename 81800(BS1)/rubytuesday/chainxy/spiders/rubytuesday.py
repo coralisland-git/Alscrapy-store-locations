@@ -9,6 +9,7 @@ from lxml import etree
 
 from selenium import webdriver
 from lxml import html
+import pdb
 
 class rubytuesday(scrapy.Spider):
 	name = 'rubytuesday'
@@ -40,11 +41,11 @@ class rubytuesday(scrapy.Spider):
 			item['store_number'] = ''
 			item['address'] = self.validate(store.xpath('.//address[@class="restaurant-location-address micro"]/text()').extract_first())
 			item['address2'] = ''
-			address = store.xpath('.//address[@class="restaurant-location-address micro"]/text()').extract()
-			item['city'] = self.validate(address[1].split(',')[0].split())
+			address = self.eliminate_space(store.xpath('.//address[@class="restaurant-location-address micro"]/text()').extract())
+			item['city'] = self.validate(address[1].split(',')[0].strip())
 			item['state'] = self.validate(address[1].split(',')[1].strip()[0:2])
 			item['zip_code'] = self.validate(address[1].split(',')[1].strip()[-5:])
-			item['country'] = self.country
+			item['country'] = 'United States'
 			item['phone_number'] = self.validate(store.xpath('.//a[@class="phone micro"]/text()').extract_first())
 			item['latitude'] = ''
 			item['longitude'] = ''
@@ -117,3 +118,10 @@ class rubytuesday(scrapy.Spider):
 			return item.strip()
 		except:
 			return ''
+
+	def eliminate_space(self, items):
+		tmp = []
+		for item in items:
+			if self.validate(item) != '':
+				tmp.append(self.validate(item))
+		return tmp

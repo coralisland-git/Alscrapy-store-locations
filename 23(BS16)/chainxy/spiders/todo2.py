@@ -17,7 +17,7 @@ class todo2(scrapy.Spider):
 	domain = ''
 	history = []
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		self.driver = webdriver.Chrome("./chromedriver")
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_States.json'

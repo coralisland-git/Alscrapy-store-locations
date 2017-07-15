@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -6,7 +7,6 @@ from scrapy.http import FormRequest
 from scrapy.http import Request
 from chainxy.items import ChainItem
 from lxml import etree
-
 from selenium import webdriver
 from lxml import html
 
@@ -15,7 +15,7 @@ class batteriesplus(scrapy.Spider):
 	domain = 'https://www.batteriesplus.com/'
 	history = ['']
 	
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/cities.json'
 		with open(file_path) as data_file:    
@@ -41,7 +41,6 @@ class batteriesplus(scrapy.Spider):
 					item['state'] = store.xpath('.//strong[@class="listing-city"]//span/text()').extract_first().strip().split(',')[1].split('#')[0].strip()
 					item['store_hours'] = opening_soon
 				else: 
-					
 					item['store_number'] = store.xpath('.//strong[@class="listing-city"]//span/text()').extract_first().strip().split(',')[1].split('#')[1].strip()
 					item['address'] = store.xpath('.//div[@class="listing-address"]/text()').extract_first().strip()
 					item['city'] = store.xpath('.//strong[@class="listing-city"]//span/text()').extract_first().strip().split(',')[0].strip()
@@ -55,17 +54,10 @@ class batteriesplus(scrapy.Spider):
 						weektime = hour.xpath('./text()').extract_first().strip()
 						h_temp = h_temp + weekday + weektime
 					item['store_hours'] = h_temp
-				item['store_name'] = ''
-				item['address2'] = ''
-				item['zip_code'] = ''
 				item['country'] = 'United States'
-				item['latitude'] = ''
-				item['longitude'] = ''
-				item['store_type'] = ''
-				item['other_fields'] = ''
-				item['coming_soon'] = ''
-				if item['store_name']+str(item['store_number']) not in self.history:
-					yield item
-					self.history.append(item['store_name']+str(item['store_number']))
+				if item['store_number']+item['address'] in self.history:
+					continue
+				self.history.append(item['store_number']+item['address'])
+				yield item		
 			except:
 				pass

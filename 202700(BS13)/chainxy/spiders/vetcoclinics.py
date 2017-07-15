@@ -10,6 +10,7 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
+import pdb
 
 class vetcoclinics(scrapy.Spider):
 	name = 'vetcoclinics'
@@ -27,8 +28,13 @@ class vetcoclinics(scrapy.Spider):
 
 	def start_requests(self):
 		for location in self.location_list:
+			zipcode = str(location['zipcode'])
+			tep = 5 - len(str(location['zipcode']))
+			for ind in range(0, tep):
+				zipcode = '0' + zipcode
 			init_url = 'https://www.vetcoclinics.com/_assets/dynamic/ajax/locator.php?zip='+str(location['zipcode'])
 			yield scrapy.Request(url=init_url, callback=self.body) 
+
 
 	def body(self, response):
 		print("=========  Checking.......")
@@ -77,7 +83,7 @@ class vetcoclinics(scrapy.Spider):
 						self.history.append(item['address']+item['phone_number'])
 						yield item	
 				except:
-					pass
+					pdb.set_trace()
 		except:
 			pass	
 

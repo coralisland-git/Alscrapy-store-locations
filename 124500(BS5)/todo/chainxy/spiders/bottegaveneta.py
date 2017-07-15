@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -23,28 +24,34 @@ class bottegaveneta(scrapy.Spider):
 		store_list = json.loads(response.body)
 		print("=========  Checking.......", len(store_list))
 		for store in store_list:
-			item = ChainItem()
-			item['store_name'] = self.validate(store['post_title'])
-			item['store_number'] = self.validate(str(store['ID']))
-			item['address'] = self.format(store['wpcf-yoox-store-address'])
-			item['city'] = self.validate(store['wpcf-city'])
 			try:
-				item['country'] = self.validate(store['location']['country']['name'])
+				item = ChainItem()
+				item['store_name'] = self.validate(store['post_title'])
+				item['store_number'] = self.validate(str(store['ID']))
+				item['address'] = self.format(store['wpcf-yoox-store-address'])
+				item['city'] = self.validate(store['wpcf-city'])
+				try:
+					item['country'] = self.validate(store['location']['country']['name'])
+				except:
+					item['country'] = self.validate(store['wpcf-yoox-store-country-iso'])
+				try:
+					item['phone_number'] = self.validate(store['wpcf-yoox-store-phone'])
+				except:
+					pass
+				item['latitude'] = self.validate(store['lat'])
+				item['longitude'] = self.validate(store['lng'])
+				try:
+					item['store_hours'] = self.validate(store['wpcf-yoox-store-hours'])
+				except:
+					pass
+				item['store_type'] = ''
+				item['other_fields'] = ''
+				item['coming_soon'] = ''
+				if item['store_number'] not in self.history:
+					self.history.append(item['store_number'])
+					yield item		
 			except:
-				item['country'] = self.validate(store['wpcf-yoox-store-country-iso'])
-			try:
-				item['phone_number'] = self.validate(store['wpcf-yoox-store-phone'])
-			except:
-				pass
-			item['latitude'] = self.validate(store['lat'])
-			item['longitude'] = self.validate(store['lng'])
-			item['store_hours'] = self.validate(store['wpcf-yoox-store-hours'])
-			item['store_type'] = ''
-			item['other_fields'] = ''
-			item['coming_soon'] = ''
-			if item['store_number'] not in self.history:
-				self.history.append(item['store_number'])
-				yield item			
+				pass	
 
 	def validate(self, item):
 		try:

@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -8,63 +9,83 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import time
-import unicodedata
+import usaddress
 
 class pharmachoicecanada(scrapy.Spider):
 	name = 'pharmachoicecanada'
-	domain = ''
+	domain = 'http://www.pharmachoice.com'
 	history = []
 
 	def __init__(self):
-		self.driver = webdriver.Chrome("./chromedriver")
+		script_dir = os.path.dirname(__file__)
+		file_path = script_dir + '/geo/US_CA_States.json'
+		with open(file_path) as data_file:    
+			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = 'http://www.pharmachoice.com'
-		yield scrapy.Request(url=init_url, callback=self.body) 
+		for location in self.US_CA_States_list:
+			if location['country'] == 'CA':
+				init_url = 'http://www.pharmachoice.com/pc_locate/ajax/province/'+location['abbreviation']
+				header = {
+					"Accept":"application/json, text/javascript, */*; q=0.01",
+					"Accept-Encoding":"gzip, deflate",
+					"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
+					"X-Requested-With":"XMLHttpRequest"
+				}
+				formdata = {
+					"pc_locate_x_prov":"",
+					"js":"true",
+					"ajax_page_state[theme]":"pharmachoice",
+				}
+				yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 
 	def body(self, response):
 		print("=========  Checking.......")
-		self.driver.get("http://www.pharmachoice.com")
-		time.sleep(1)
-		# el = self.driver.find_element_by_id('pc_locate_lst_prov')
-		# el.find_elements_by_tag_name('option')[1].click()
-		# for option in el.find_elements_by_tag_name('option'):
-		# 	option.click()
-		# 	time.sleep(2)
-			# self.driver.find_element_by_id('pc_locate_lnk_back').click()
-		# source = self.driver.page_source.encode("utf8")
-		# tree = etree.HTML(source)
-		# self.driver.find_element_by_xpath('//a[@class="map-arrow"]').click()
-		# store_list = tree.xpath('//div[@id="tabStores"]//div')
-		# for cnt in range(1, len(store_list)):
-		# 	self.driver.find_element_by_xpath('//div[@id="tabStores"]//div['+str(cnt)+']//a').click()
-		# 	source = self.driver.page_source.encode("utf8")
-		# 	tree = etree.HTML(source)
-		# 	item = ChainItem()
-		# 	detail = self.eliminatespace(tree.xpath('//div[@class="info_content"]//p//text()'))
-		# 	item['store_name'] = detail[0].replace(':','')
-		# 	item['address'] = detail[1]
-		# 	addr = detail[2].split(',')
-		# 	item['city'] = self.validate(addr[0].strip())
-		# 	item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-		# 	item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-		# 	item['country'] = 'United States'
-		# 	item['phone_number'] = detail[4]
-		# 	if 'Hours:' in detail:
-		# 		item['store_hours'] = detail[len(detail)-1]
-		# 	yield item		
-		# self.driver.close()
+		data = json.loads(response.body)
+		data = data[1]['data'].replace('\u003C','<').replace('\u0022','"').replace('\u003E','>').strip()
+		tree = etree.HTML(data)
+		store_list = tree.xpath('//a[@class="pc_locate-lnk_set use-ajax"]/@href')
+		for store in store_list:
+			store = self.domain + store
+			yield scrapy.Request(url=store, callback=self.parse_page)
 
-	def eliminatespace(self, items):
-		tmp = []
-		for item in items:
-			if self.validate(item) != '':
-				tmp.append(self.validate(item))
-		return tmp
+	def parse_page(self, response):
+		detail = response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][1]')
+		item = ChainItem()
+		item['store_name'] = detail.xpath('.//strong/text()').extract_first()
+		if item['store_name'] == None:
+			item['store_name'] = detail.xpath('.//span[@class="organisation-name"]/text()').extract_first()
+		item['address'] = detail.xpath('.//div[@class="thoroughfare"]/text()').extract_first()
+		item['city'] = detail.xpath('.//span[@class="locality"]/text()').extract_first()
+		item['state'] = detail.xpath('.//span[@class="state"]/text()').extract_first()
+		item['zip_code'] = detail.xpath('.//span[@class="postal-code"]/text()').extract_first()
+		item['country'] = 'Canada'
+		item['phone_number'] = self.eliminate_space(response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][2]/text()').extract())[0]
+		if item['address']+item['phone_number'] not in self.history:
+			self.history.append(item['address']+item['phone_number'])
+			yield item	
 
 	def validate(self, item):
 		try:
 			return item.strip()
 		except:
 			return ''
+
+	def eliminate_space(self, items):
+		tmp = []
+		for item in items:
+			if self.validate(item) != '':
+				tmp.append(self.validate(item))
+		return tmp
+
+	def check_country(self, item):
+		for state in self.US_CA_States_list:
+			if item.lower() in state['abbreviation'].lower():
+				return state['country']
+		return ''
+
+	def get_state(self, item):
+		for state in self.US_States_list:
+			if item.lower() in state['name'].lower():
+				return state['abbreviation']
+		return ''

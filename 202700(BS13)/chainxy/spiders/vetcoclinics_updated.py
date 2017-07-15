@@ -15,12 +15,12 @@ import tokenize
 import token
 from StringIO import StringIO
 
-class todo(scrapy.Spider):
-	name = ''
-	domain = ''
+class vetcoclinics_updated(scrapy.Spider):
+	name = 'vetcoclinics_updated'
+	domain = 'https://www.vetcoclinics.com'
 	history = []
 
-	def __init__(self, *args, **kwargs):
+	def __init__(self):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/cities.json'
 		with open(file_path) as data_file:    
@@ -30,18 +30,31 @@ class todo(scrapy.Spider):
 			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = ''
+		init_url = 'https://www.vetcoclinics.com/services-and-clinics/clinic-locations-and-schedules-ip/'
 		# yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 		# yield scrapy.Request(url=init_url, body=json.dumps(payload), headers=header,callback=self.body)
 		
-		yield scrapy.Request(url=init_url, callback=self.body) 
+		yield scrapy.Request(url=init_url, callback=self.parse_state) 
 
-	def body(self, response):
+	def parse_state(self,  response):
 		print("=========  Checking.......")
+		state_list = response.xpath('//select[@id="formclinic_state"]//option/@value').extract()
+		for state in state_list:
+			state = self.domain + state
+			yield scrapy.Request(url=state, callback=self.parse_city)	
+
+	def parse_city(self, response):
+		city_list = response.xpath('//div[@id="module_clinic_sitemap"]//ul//a/@href').extract()
+		for city in city_list:
+			city = self.domain + city
+			yield scrapy.Request(url=city, callback=self.parse_store)
+
+	def parse_store(self, response):
 		with open('response.html', 'wb') as f:
 			f.write(response.body)
-
-		# store_list = json.loads(response.body)
+		store_list = response.xpath('//div[@class="scroll-pane"]//ul//li')
+		pdb.set_trace()
+		
 		# for store in store_list:
 		# 	try:
 		# 		item = ChainItem()

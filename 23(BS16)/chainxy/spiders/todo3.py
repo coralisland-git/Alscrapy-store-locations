@@ -16,7 +16,7 @@ class todo3(scrapy.Spider):
 	domain = 'https://stores.buybuybaby.com/'
 	history = []
 
-	def start_requests(self):
+	def __init__(self, *args, **kwargs):
 		init_url = 'https://stores.buybuybaby.com/'
 		yield scrapy.Request(url=init_url, callback=self.parse_state)
 

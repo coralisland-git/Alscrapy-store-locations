@@ -30,8 +30,6 @@ class stripesstores(scrapy.Spider):
 
 		print("=========  Checking.......")
 		store_list = response.xpath('//collection//poi')
-		with open('res.json', 'wb') as f:
-			f.write(response.body)
 		for store in store_list:
 			item = ChainItem()
 			item['store_name'] = self.validate(store.xpath('.//name/text()')).split('#')[0].strip()
@@ -49,9 +47,9 @@ class stripesstores(scrapy.Spider):
 			item['store_type'] = self.validate(store.xpath('.//store_type/text()'))
 			item['other_fields'] = ''
 			item['coming_soon'] = self.validate(store.xpath('.//openingsoon/text()'))
-			if item['store_number'] in self.history:
+			if item['store_number']+item['address'] in self.history:
 				continue
-			self.history.append(item['store_number'])
+			self.history.append(item['store_number']+item['address'])
 			yield item				
 
 	def validate(self, item):

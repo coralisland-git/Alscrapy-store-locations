@@ -16,7 +16,7 @@ class simplyselfstorage(scrapy.Spider):
 	history = []
 	count = 0
 	
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_States.json'
 		with open(file_path) as data_file:    
@@ -24,16 +24,11 @@ class simplyselfstorage(scrapy.Spider):
 
 	def start_requests(self):
 		init_url  = 'https://www.simplyss.com/'
-		yield scrapy.Request(url=init_url, callback=self.parse_city) 
+		yield scrapy.Request(url=init_url, callback=self.parse_store) 
 
-	def parse_city(self, response):
-		city_list = response.xpath('//div[contains(@class, "home-search-by-city-row")]//a/@href').extract()
-		for city in city_list : 
-			yield scrapy.Request(url=city, callback=self.parse_store)
-	
 	def parse_store(self, response):
-		store_list = response.xpath('//a[contains(@class, "see-all-units-btn pull-right")]/@href').extract()
-		for store in store_list:
+		store_list = response.xpath('//div[contains(@class, "find-your-spot-locations")]//a/@href').extract()
+		for store in store_list : 
 			yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
@@ -57,7 +52,7 @@ class simplyselfstorage(scrapy.Spider):
 					item['zip_code'] = temp[0].replace(',','')
 				else:
 					item['address'] += temp[0].replace(',', '') + ' '
-			item['phone_number'] = self.validate(store.xpath('.//font[@itemprop="telephone"][1]/text()').extract_first()) + ',  ' + self.validate(store.xpath('.//font[@itemprop="telephone"][2]/text()').extract_first())
+			item['phone_number'] = self.validate(store.xpath('.//font[@itemprop="telephone"][1]/text()').extract_first()) + '  ' + self.validate(store.xpath('.//font[@itemprop="telephone"][2]/text()').extract_first())
 			item['country'] = self.check_country(item['state'])
 			h_temp = ''
 			hour_list_office = self.eliminate_space(store.xpath('.//div[@class="col-md-6 no-padding-sides"][1]//span//text()').extract())

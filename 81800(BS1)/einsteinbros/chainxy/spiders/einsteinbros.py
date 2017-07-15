@@ -56,6 +56,7 @@ class einsteinbros(scrapy.Spider):
 			item['coming_soon'] = '1'
 			if store['status'] == 'open':
 				item['coming_soon'] = '0'
-			if item['store_name']+str(item['store_number']) not in self.history:
-				yield item
-				self.history.append(item['store_name']+str(item['store_number']))
+			if item['address']+str(item['phone_number']) in self.history:
+				continue
+			self.history.append(item['address']+str(item['phone_number']))
+			yield item

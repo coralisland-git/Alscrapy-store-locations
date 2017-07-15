@@ -1,3 +1,5 @@
+
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -8,11 +10,6 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import pdb
-import tokenize
-import token
-from StringIO import StringIO
-import unicodedata
 
 class brookshirebrothers(scrapy.Spider):
 	name = 'brookshirebrothers'
@@ -26,75 +23,29 @@ class brookshirebrothers(scrapy.Spider):
 
 	def body(self, response):
 		data = response.body.split('var locationCoordinates =')[1].strip()[:-9].strip()
-		# data = data.decode('utf-8').strip()
-		with open('response-brook.html', 'wb') as f:
-			f.write(data)
-		# data = self.fixLazyJson(data)
-		
-		print("=========  Checking.......",len(data))
-		
-		# store_list = json.loads(data)
-		# try:
-		# 	data = response.body.split('var locationCoordinates =')[1].strip()[:-9].strip()
-		# 	data = [line.decode('utf-8').strip() for line in data.readlines()]
-		# 	with open('response.html', 'wb') as f:
-		# 		f.write(data)
-		# 	# store_list = json.loads(self.fixLazyJson(data))
-		# 	# for store in store_list:
-		# 	# 	item = ChainItem()
-		# 	# 	item['store_name'] = store['name']
-		# 	# 	item['store_number'] = store['store_number']
-		# 	# 	item['address'] = store['address']
-		# 	# 	item['address2'] = store['crossStreet']
-		# 	# 	item['city'] = store['city']
-		# 	# 	item['state'] = store['state']
-		# 	# 	item['zip_code'] = store['zip']
-		# 	# 	item['country'] = store['country']
-		# 	# 	item['phone_number'] = store['phone']
-		# 	# 	item['latitude'] = store['latitude']
-		# 	# 	item['longitude'] = store['longitude']
-		# 	# 	item['store_hours'] = store['hours']
-		# 	# 	item['store_type'] = ''
-		# 	# 	item['other_fields'] = ''
-		# 	# 	item['coming_soon'] = ''
-		# 	# 	if item['store_number'] not in self.history:
-		# 	# 		self.history.append(item['store_number'])
-		# 	# 		yield item		
-		# except:
-		# 	pdb.set_trace()
+		store_list = data.split('type:"Feature",')
+		for store in store_list[1:]:
+			store = store.split('keywords')[0].strip()
+			item = ChainItem()
+			item['store_name'] = self.get_value(store, 'title:')
+			item['address'] = self.get_value(store, 'address:')
+			item['city'] = self.get_value(store, 'locality:').split(',')[0].strip()
+			item['state'] = self.get_value(store, 'locality:').split(',')[1].split('<span>')[0].strip()
+			item['zip_code'] = self.get_value(store, 'locality:').split(',')[1].split('<span>')[1].split('</span>')[0].strip()
+			item['country'] = 'United States'
+			item['phone_number'] = self.get_value(store, 'tel:')
+			item['latitude'] = self.get_value(store, 'coordinates:').split(',')[0]
+			item['longitude'] = self.get_value(store, 'coordinates:').split(',')[1].split('"')[0]
+			if item['address']+item['phone_number'] not in self.history:
+				self.history.append(item['address']+item['phone_number'])
+				yield item	
 			
-
-	def fixLazyJson (self, in_text):
-		tokengen = tokenize.generate_tokens(StringIO(in_text).readline)
-
-		result = []
-		for tokid, tokval, _, _, _ in tokengen:
-		# fix unquoted strings
-			if (tokid == token.NAME):
-				if tokval not in ['true', 'false', 'null', '-Infinity', 'Infinity', 'NaN']:
-					tokid = token.STRING
-					tokval = u'"%s"' % tokval
-
-		# fix single-quoted strings
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-
-		# remove invalid commas
-			elif (tokid == token.OP) and ((tokval == '}') or (tokval == ']')):
-				if (len(result) > 0) and (result[-1][1] == ','):
-					result.pop()
-
-			# fix single-quoted strings
-			elif (tokid == token.STRING):
-				if tokval.startswith ("'"):
-					tokval = u'"%s"' % tokval[1:-1].replace ('"', '\\"')
-
-			result.append((tokid, tokval))
-
-		return tokenize.untokenize(result)
-
-
+	def get_value(self, item, params):
+		try:
+			item = item.split(params)[1].split('",')[0].strip()[1:]
+			return item
+		except:
+			return ''
 
 	def validate(self, item):
 		try:

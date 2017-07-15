@@ -16,7 +16,7 @@ class todo4(scrapy.Spider):
 	domain = ''
 	history = []
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_Cities.json'
 		with open(file_path) as data_file:    
