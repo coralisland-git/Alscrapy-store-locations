@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -15,7 +16,7 @@ class medicineshoppe(scrapy.Spider):
 	domain = 'http://www.medicineshoppe.com'
 	history = ['']
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		self.driver = webdriver.Chrome("./chromedriver")
 
 	def start_requests(self):
@@ -41,43 +42,47 @@ class medicineshoppe(scrapy.Spider):
 					yield scrapy.Request(url=url_link, callback=self.parse_page)
 			
 	def parse_page(self, response):
-		print('---------------parse_page--------------')
-		store = response.xpath('//div[@class="inner-details"]')
-		item = ChainItem()
-		item['store_name'] = 'The Medicine Shoppe Pharmacy'
-		item['store_number'] = ''
-		item['address'] = self.validate(store.xpath('.//div[@class="scaddress"]/text()'))
-		item['address2'] = ''
-		address = self.validate(store.xpath('.//div[@class="sccityzip"]/text()'))
-		print('!!!!!!!!!!!!!!!!!!!!', address)
-		item['city'] = address.split(',')[0].strip()
-		item['state'] = address.split(',')[1].strip()[:2]
-		item['zip_code'] = address.split(',')[1].strip()[2:].strip()
-		item['country'] = 'United States'
-		item['phone_number'] = self.validate(response.xpath('//div[@class="contact-info"]//dd[1]/text()'))
-		item['latitude'] = ''
-		item['longitude'] = ''
-		item['store_hours'] = ''
-		h_temp = ''
-		week_list = response.xpath('//div[@class="pharmacy-hours"]//strong/text()').extract()
-		if len(week_list) == 0:
-			hour_list = response.xpath('//div[@class="pharmacy-hours"]//ul//li')
+		try:
+			store = response.xpath('//div[@class="inner-details"]')
+			item = ChainItem()
+			item['store_name'] = 'The Medicine Shoppe Pharmacy'
+			item['store_number'] = ''
+			item['address'] = self.validate(store.xpath('.//div[@class="scaddress"]/text()').extract_first())
+			item['address2'] = ''
+			address = self.validate(store.xpath('.//div[@class="sccityzip"]/text()').extract_first())
+			item['city'] = address.split(',')[0].strip()
+			item['state'] = address.split(',')[1].strip()[:2]
+			item['zip_code'] = address.split(',')[1].strip()[2:].strip()
+			item['country'] = 'United States'
+			item['phone_number'] = self.validate(response.xpath('//div[@class="contact-info"]//dd[1]/text()').extract_first())
+			item['latitude'] = ''
+			item['longitude'] = ''
+			item['store_hours'] = ''
+			h_temp = ''
+			hour_list = self.eliminate_space(response.xpath('//div[@class="pharmacy-hours"]//text()').extract())
+			cnt = 1
 			for hour in hour_list:
-				h_temp += self.validate(hour.xpath('.//div[@class="day"]/text()')) + self.validate(hour.xpath('.//div[@class="time"]/text()')) + ', '
-			item['store_hours'] = h_temp[:-2]
-		else:			
-			hour_list = response.xpath('//div[@class="pharmacy-hours"]/text()').extract()
-			for cnt in range(0,len(week_list)-1):
-				h_temp += week_list[cnt].strip() + hour_list[2*cnt+1].strip() + ', ' 
-			item['store_hours'] = h_temp[:-2]
-		item['store_type'] = ''
-		item['other_fields'] = ''
-		item['coming_soon'] = ''
-		yield item
+				h_temp += hour
+				if cnt % 2 == 0:
+					h_temp += ', '
+				else:
+					h_temp += ' '
+				cnt += 1
+			item['store_hours'] = h_temp[:-2]	
+			yield item
+		except:
+			pass
 
 
 	def validate(self, item):
 		try:
-			return item.extract_first().strip()
+			return item.strip()
 		except:
 			return ''
+
+	def eliminate_space(self, items):
+		tmp = []
+		for item in items:
+			if self.validate(item) != '' and 'hours' not in self.validate(item).lower() :
+				tmp.append(self.validate(item))
+		return tmp

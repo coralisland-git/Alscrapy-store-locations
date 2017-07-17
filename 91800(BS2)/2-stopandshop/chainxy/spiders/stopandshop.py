@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -62,4 +63,7 @@ class stopandshop(scrapy.Spider):
 		yield item		
 
 	def validate(self, item):
-		return item.extract_first().strip()
+		try:
+			return item.extract_first().strip()
+		except:
+			return ''

@@ -15,7 +15,6 @@ class countrystyle(scrapy.Spider):
 	history = ['']
 
 	def start_requests(self):
-
 		init_url  = 'https://www.countrystyle.com/wp-content/themes/CS/locator/data/cs_locations.json'
 		yield scrapy.Request(url=init_url, callback=self.body) 
 

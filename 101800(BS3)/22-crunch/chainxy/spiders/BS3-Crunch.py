@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -8,73 +9,77 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import time
+import usaddress
 
-class BS3Crunch(scrapy.Spider):
-	name = 'BS3-Crunch'
-	domain = 'https://www.crunch.com'
+class crunch(scrapy.Spider):
+	name = 'crunch'
+	domain = ''
 	history = []
 
-	def __init__(self):
-		self.driver = webdriver.Chrome("./chromedriver")
+	def __init__(self, *args, **kwargs):
+		script_dir = os.path.dirname(__file__)
+		file_path = script_dir + '/geo/US_Cities.json'
+		with open(file_path) as data_file:    
+			self.location_list = json.load(data_file)
+		file_path = script_dir + '/geo/US_Zipcode.json'
+		with open(file_path) as data_file:    
+			self.US_Zip_list = json.load(data_file)
 
 	def start_requests(self):
+		for location in self.location_list:
+			try:
+				zipcode = str(self.get_zipcode(location['city'])['zipcode'])
+				for ind in range(0, 5-len(zipcode)):
+					zipcode = '0'+zipcode
+				init_url = 'https://www.crunch.com/locations?zipcode='+zipcode
+				header = {
+					"Accept":"application/json, text/javascript, */*; q=0.01",
+					"Accept-Encoding":"gzip, deflate, br",
+					"X-Requested-With":"XMLHttpRequest"
+				}
+				yield scrapy.Request(url=init_url, headers=header, method='GET', callback=self.body) 
+			except:
+				pass
 
-		init_url  = 'https://www.crunch.com/locations'
-		yield scrapy.Request(url=init_url, callback=self.parse_store) 
-	
-	def parse_store(self, response):
-		store_location = []
-		location_list =[]
-		self.driver.get("https://www.crunch.com/locations")
-		time.sleep(1)
-		source = self.driver.page_source.encode("utf8")
-		tree = etree.HTML(source)
-		store_list = tree.xpath('//div[@class="locations-grid"]//a/@href')
+	def body(self, response):
+		print("=========  Checking.......")
+		store_list = json.loads(response.body)
 		for store in store_list:
-			store_link = self.domain + store
-			yield scrapy.Request(url=store_link, callback=self.parse_detail)
-
-	def parse_detail(self, response):
-		detail = response.xpath('//div[@class="hero__content type--center"]')
-		item = ChainItem()
-		item['store_name'] = self.validate(detail.xpath('.//h1/text()'))
-		item['store_number'] = ''
-		address = self.validate(detail.xpath('.//div[@class="hero__content__info"]/p[1]/text()')).split(',')
-		if len(address) == 4:		
-			item['address'] = address[0] 
-			item['address2'] = address[1]
-			item['city'] = address[2]
-			item['state'] = address[3].strip().split(' ')[0].strip()
-			item['zip_code'] = address[3].strip().split(' ')[1].strip()
-		else:
-			item['address'] = address[0] 
-			item['address2'] = ''
-			item['city'] = address[1]
-			item['state'] = address[2].strip().split(' ')[0].strip()
-			item['zip_code'] = address[2].strip().split(' ')[1].strip()			
-		item['country'] = 'United States'
-		item['phone_number'] = self.validate(detail.xpath('.//div[@class="hero__content__info"]//p[2]/text()'))
-		item['latitude'] = ''
-		item['longitude'] = ''
-		h_temp = ''
-		check_list = response.xpath('//div[@class="tab-module__content__group"]')
-		for check in check_list:
-			if self.validate(check.xpath('./h2/text()')) == 'Hours of Fun':
-				hour_list = check.xpath('.//ul//li//p[@class="list-block__item__link__title type--c5 type--gray-light"]//span/text()').extract()
-				for hour in hour_list:
-					h_temp += hour.strip() + ', '
-		item['store_hours'] = h_temp[:-2]
-		item['store_type'] = ''
-		item['other_fields'] = ''
-		item['coming_soon'] = ''
-		if item['store_name']+str(item['phone_number']) not in self.history:
-			yield item
-			self.history.append(item['store_name']+str(item['phone_number']))
-	
+			try:
+				item = ChainItem()
+				item['store_name'] = self.validate(store['name'])
+				item['store_number'] = self.validate(store['id'])
+				item['address'] = self.validate(store['address']['address_1'])
+				item['address2'] = self.validate(store['address']['address_2'])
+				item['city'] = self.validate(store['address']['city'])
+				item['state'] = self.validate(store['address']['state'])
+				item['zip_code'] = self.validate(store['address']['zip'])
+				item['country'] = 'United States'
+				item['phone_number'] = self.validate(store['phone'])
+				item['latitude'] = self.validate(str(store['latitude']))
+				item['longitude'] = self.validate(str(store['longitude']))
+				if item['address']+item['phone_number'] not in self.history:
+					self.history.append(item['address']+item['phone_number'])
+					yield item	
+			except:
+				pass
 
 	def validate(self, item):
 		try:
-			return item.extract_first().strip().replace('\n', '').replace('\r', '').replace(';','')
+			return item.strip()
 		except:
 			return ''
+
+	def eliminate_space(self, items):
+		tmp = []
+		for item in items:
+			if self.validate(item) != '':
+				tmp.append(self.validate(item))
+		return tmp
+
+	def get_zipcode(self, item):
+		for zipcode in self.US_Zip_list:
+			if item.lower() in zipcode['city'].lower():
+				return zipcode
+				break
+		return ''

@@ -1,0 +1,4 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Bellevue,,15600 NE 8th St,, Bellevue,WA,98008,United States,425.641.1000,,,"Mon - Fri: 5:00am - 10:00pm, Sat - Sun: 7:00am - 8:00pm",,,
+Lakewood WA,,6111 Lakewood Towne Center Blvd SW,, Lakewood,WA,98499,United States,253.240.3240,,,"Enrollment Center Hours:, Mon - Fri: 10:00am - 7:00pm, Sat - Sun: 10:00am - 6:00pm",,,
+Silverdale,,9577 Ridgetop Blvd NW,, Silverdale,WA,98383,United States,360.698.6000,,,"Mon - Fri: 5:00am - 11:00pm, Sat - Sun: 7:00am - 8:00pm",,,

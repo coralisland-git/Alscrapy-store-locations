@@ -41,7 +41,7 @@ class round(scrapy.Spider):
 	def parse_detail(self, response):
 		title = self.validate(response.xpath('//h1[@class="intro__slogan"]/text()'))
 		item = ChainItem()
-		if title == '':
+		try:
 			detail = response.xpath('//div[@class="media-left v-top club__info"]')
 			item['store_name'] = ''
 			item['store_number'] = ''
@@ -66,11 +66,8 @@ class round(scrapy.Spider):
 			if item['phone_number'] not in self.history:
 				self.history.append(item['phone_number'])
 				yield item	
-		else:
-			item['city'] = self.validate(response.xpath('.//h1[@class="intro__slogan"]/text()')).split(',')[0].split(':')[1].strip()
-			item['state'] = response.meta['state']
-			item['coming_soon'] = '1'
-			yield item
+		except:
+			pass
 		
 	def validate(self, item):
 		try:

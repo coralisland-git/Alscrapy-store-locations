@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -9,14 +10,12 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 
-
 class pitapit(scrapy.Spider):
 	name = 'pitapit'
 	domain = 'https://pitapit.ca/'
 	history = []
 
 	def start_requests(self):
-	
 		init_url  = 'https://www.unoapp.com/app/source/api/index.php?calltype=jsonp&request=location/widget&callback=jQuery1110016124005288633625_1493639086757&api_id=unoapp-generic-key&data%5Bid%5D=8ef23580c964f3754038036876cf0e18'
 		yield scrapy.Request(url=init_url, callback=self.body) 
 
@@ -27,6 +26,8 @@ class pitapit(scrapy.Spider):
 		for store in store_list:
 			item = ChainItem()
 			item['store_name'] = store['display_name']
+			if '<br>' in item['store_name']:
+				item['store_name'] = item['store_name'].split('<br>')[0].strip()
 			item['store_number'] = store['id']
 			item['address'] = store['address']['line1']
 			item['address2'] = store['address']['line2']

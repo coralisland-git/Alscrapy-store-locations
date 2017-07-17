@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -14,7 +15,7 @@ class hooters(scrapy.Spider):
 	domain = 'https://www.hooters.com/'
 	history = []
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/cities.json'
 		with open(file_path) as data_file:    
@@ -26,35 +27,36 @@ class hooters(scrapy.Spider):
 			yield scrapy.Request(url=init_url, callback=self.body) 
 
 	def body(self, response):
-
-		store_list = json.loads(response.body)
-		print("=========  Checking.......", len(store_list))
+		print("=========  Checking.......")
+		store_list = json.loads(response.body)['locations']
 		for store in store_list:
-			item = ChainItem()
-			item['store_name'] = store['name']
-			item['store_number'] = store['id']
-			item['address'] = store['address']
-			item['address2'] = ''
-			item['city'] = store['city']
-			item['state'] = store['state']
-			item['zip_code'] = store['zip']
-			item['country'] = store['country']
-			item['phone_number'] = store['phone']
-			item['latitude'] = store['latitude']
-			item['longitude'] = store['longitude']
-			item['store_hours'] = ''
-			if store['weekday_hours'] != '':
-				item['store_hours'] = 'Weekday ' + store['weekday_hours'] 
-			if store['sunday_hours'] != '':
-				item['store_hours'] += ', Sunday ' + store['sunday_hours']
-			item['store_type'] = ''
-			item['other_fields'] = ''
-			item['coming_soon'] = ''
-			if item['store_number'] in self.history:
-				continue
-			self.history.append(item['store_number'])
-			if item['country'] == 'USA' or item['country'] == 'U. S. Virgin Islands':
-				yield item			
+			try:
+				item = ChainItem()
+				item['store_name'] = store['name']
+				item['store_number'] = store['id']
+				item['address'] = store['address']
+				item['city'] = store['city']
+				item['state'] = store['state']
+				item['zip_code'] = store['zip']
+				item['country'] = store['country']
+				item['phone_number'] = store['phone']
+				item['latitude'] = store['latitude']
+				item['longitude'] = store['longitude']
+				item['store_hours'] = ''
+				if store['weekday_hours'] != '':
+					item['store_hours'] = 'Weekday ' + store['weekday_hours'] 
+				if store['sunday_hours'] != '':
+					item['store_hours'] += ', Sunday ' + store['sunday_hours']
+				item['store_type'] = ''
+				item['other_fields'] = ''
+				item['coming_soon'] = ''
+				if item['address']+item['phone_number'] in self.history:
+					continue
+				self.history.append(item['address']+item['phone_number'])
+				if item['country'] == 'USA' or item['country'] == 'U. S. Virgin Islands':
+					yield item		
+			except:
+				pass
 
 	def validate(self, item):
 		try:

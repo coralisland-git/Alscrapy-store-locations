@@ -1,0 +1,8 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Santa Ana Store,,"2741 W MacArthur Blvd,",,Santa Ana,CA,92704,United States,(714) 597-7651,,,Mon-Sunday: 7AM to 9PM,,,
+Van Nuys Store,,7227 Van Nuys Blvd.,,Van Nuys,CA,91405,United States,(818) 464-4322,,,Mon-Sunday: 7AM to 9PM,,,
+Claremont Store,,436 Auto Center Drive.,,Claremont,CA,91711,United States,(909) 267-7252,,,Mon-Sunday: 7AM to 9PM,,,
+Altadena Store,,2260 N. Lincoln Ave.,,Altadena,CA,91001,United States,(626) 296-9311,,,Mon-Sunday: 7AM to 9PM,,,
+Los Angeles Store,,2716 N. San Fernando Rd.,,Los Angeles,CA,90065,United States,(323) 225-0044,,,Mon-Sunday: 7AM to 9PM,,,
+Anaheim Store,,10500 Magnolia Ave.,,Anaheim,CA,92804,United States,(714) 527-5809,,,Mon-Sunday: 7AM to 9PM,,,
+Northridge Store,,19500 Plummer St.,,Northridge,CA,91324,United States,(818) 350-5970,,,Mon-Sunday: 7AM to 9PM,,,
