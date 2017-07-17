@@ -79,3 +79,9 @@ class holidayinnexpress(scrapy.Spider):
 			return item.encode('raw-unicode-escape').replace('\xa0', '').strip().replace(',','')
 		except:
 			return ''
+
+	def check_country(self, item):
+		for state in self.US_CA_States_list:
+			if item.lower() in state['abbreviation'].lower():
+				return state['country']
+		return ''

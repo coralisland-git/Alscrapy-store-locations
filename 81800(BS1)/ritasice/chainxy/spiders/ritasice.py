@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -6,7 +7,6 @@ from scrapy.http import FormRequest
 from scrapy.http import Request
 from chainxy.items import ChainItem
 from lxml import etree
-
 from selenium import webdriver
 from lxml import html
 import geocoder
@@ -22,9 +22,12 @@ class ritasice(scrapy.Spider):
 		with open(file_path) as data_file:    
 			self.location_list = json.load(data_file)
 
+		file_path = script_dir + '/geo/US_CA_States.json'
+		with open(file_path) as data_file:
+			self.US_CA_States_list = json.load(data_file)
+
 	def start_requests(self):
 		init_url  = 'https://www.ritasice.com/wp-admin/admin-ajax.php'
-
 		header = {
 		'X-Requested-With':'XMLHttpRequest'
 		}
@@ -70,12 +73,7 @@ class ritasice(scrapy.Spider):
 				item['city'] = store['city']
 				item['state'] = store['state']
 				item['zip_code'] = store['zip']
-				try:
-					zipcode = int(item['zip_code'])
-					item['country'] = 'United States'
-				except:
-					item['country'] = 'Canada'
-				
+				item['country'] = self.check_country(item['state'])				
 				item['phone_number'] = store['phone']
 				item['latitude'] = store['lat']
 				item['longitude'] = store['lng']
@@ -100,7 +98,7 @@ class ritasice(scrapy.Spider):
 					yield item
 					self.history.append(item['store_name']+str(item['store_number']))
 			except:
-					pass
+				pdb.set_trace()
 		
 
 	def convert(self, item):
@@ -108,3 +106,11 @@ class ritasice(scrapy.Spider):
 
 	def eliminater(self, item):
 		return item.replace('&amp;', ' ').replace('&#039;', ' ')
+
+	def check_country(self, item):
+		for state in self.US_CA_States_list:
+			if item != '' and item.lower() in state['abbreviation'].lower():
+				return state['country']
+			if item == '':
+				return 'CA'
+		return ''

@@ -18,7 +18,7 @@ class sherwinwilliams(scrapy.Spider):
 	history = []
 	count = 0
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_Cities.json'
 		with open(file_path) as data_file:    
@@ -29,6 +29,9 @@ class sherwinwilliams(scrapy.Spider):
 		file_path = script_dir + '/geo/US_CA_States.json'
 		with open(file_path) as data_file:    
 			self.US_CA_States_list = json.load(data_file)
+		file_path = script_dir + '/geo/US_States.json'
+		with open(file_path) as data_file:    
+			self.US_States_list = json.load(data_file)
 
 	def start_requests(self):
 		kind_list = ['CommercialPaintStore', 'FinishesStore', 'FloorCoveringStore', 'SprayEquipmentStore']
@@ -40,23 +43,23 @@ class sherwinwilliams(scrapy.Spider):
 				}
 		init_url = 'https://www.sherwin-williams.com/AjaxStoreLocatorSideBarView?langId=-1&storeId=10151'
 		for location in self.US_location_list:
-			# for kind in kind_list:
-			formdata = {
-				"sideBarType":"LSTORES",
-				"latitude":str(location['latitude']),
-				"longitude":str(location['longitude']),
-				"radius":"75",
-				"uom":"SMI",
-				"abbrv":"us",
-				"address":location['city']+", "+location['state']+", United States",
-				# "address":"New York, New York, United States",
-				"storeType": 'CommercialPaintStore',
-				"requesttype":"ajax",
-				"langId":"",
-				"storeId":"10151",
-				"catalogId":"10001",
-			}
-			yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
+			for kind in kind_list:
+				formdata = {
+					"sideBarType":"LSTORES",
+					"latitude":str(location['latitude']),
+					"longitude":str(location['longitude']),
+					"radius":"75",
+					"uom":"SMI",
+					"abbrv":"us",
+					"address":location['city']+", "+self.get_state(location['state'])+", United States",
+					# "address":"New York, New York, United States",
+					"storeType": kind,
+					"requesttype":"ajax",
+					"langId":"",
+					"storeId":"10151",
+					"catalogId":"10001",
+				}
+				yield scrapy.FormRequest(url=init_url, headers=header, formdata=formdata, method='post', callback=self.body)
 
 		# for location in self.CA_location_list:
 		# 	for kind in kind_list:
@@ -83,9 +86,13 @@ class sherwinwilliams(scrapy.Spider):
 		store_list = response.xpath('.//ul[@id="storeResults"]//h5[@class="font-weight--bold"]//a/@href').extract()
 		for store in store_list:
 			store = self.domain + store
+			# self.count += 1
+			# print('~~~~~~~~`', store, '============', self.count)
 			yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
+		self.count += 1
+		print('~~~~~~~~`', response.url, '============', self.count)
 		try:
 			item = ChainItem()
 			detail = self.eliminate_space(response.xpath('.//div[@class="sw-col--1-1 sw-col-md--1-2"][1]//text()').extract())

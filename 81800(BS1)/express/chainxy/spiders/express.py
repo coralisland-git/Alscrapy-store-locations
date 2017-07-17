@@ -13,38 +13,49 @@ from lxml import html
 class express(scrapy.Spider):
 	name = 'express'
 	domain = 'https://stores.express.com/'
+	domain2 = 'https://stores.expressfactoryoutlet.com/'
 	history = ['']
 
 	def start_requests(self):
-		urls = ['https://stores.express.com/us', 'https://stores.express.com/pr/pr']
-		yield scrapy.Request(url=urls[0], callback=self.parse_state) 
-		yield scrapy.Request(url=urls[1], callback=self.parse_city) 
+		urls = ['https://stores.express.com/us', 'https://stores.express.com/pr/pr', 'https://stores.expressfactoryoutlet.com/us']
+		yield scrapy.Request(url=urls[0], callback=self.parse_state, meta={'param':'main'}) 
+		yield scrapy.Request(url=urls[1], callback=self.parse_city, meta={'param':'main'}) 
+		yield scrapy.Request(url=urls[2], callback=self.parse_state, meta={'param':'outlet'}) 
 
 	def parse_state(self, response):
 		state_list = response.xpath('//li[@class="c-directory-list-content-item"]')
 		for state in state_list : 
 			go_url = state.xpath('.//a/@href').extract_first()
-			state_link = self.domain + go_url
+			if response.meta['param'] == 'outlet':
+				state_link = self.domain2 + go_url
+			else:
+				state_link = self.domain + go_url
 			if len(go_url.split('/')) == 2 :
-				yield scrapy.Request(url=state_link, callback=self.parse_city)
+				yield scrapy.Request(url=state_link, callback=self.parse_city, meta={'param':response.meta['param']})
 			else :
-				yield scrapy.Request(url=state_link, callback=self.parse_detail)
+				yield scrapy.Request(url=state_link, callback=self.parse_detail, meta={'param':response.meta['param']})
 
 	def parse_city(self, response):
 		city_list = response.xpath('//li[@class="c-directory-list-content-item"]')	
 		for city in city_list :
 			go_url = city.xpath('.//a/@href').extract_first()
-			city_link = self.domain + go_url[3:]
+			if response.meta['param'] == 'outlet':
+				city_link = self.domain2 + go_url[3:]
+			else:
+				city_link = self.domain + go_url[3:]
 			if len(go_url.split('/')) == 5 :
-				yield scrapy.Request(url=city_link, callback=self.parse_detail)
+				yield scrapy.Request(url=city_link, callback=self.parse_detail, meta={'param':response.meta['param']})
 			else :
-				yield scrapy.Request(url=city_link, callback=self.parse_store)
+				yield scrapy.Request(url=city_link, callback=self.parse_store, meta={'param':response.meta['param']})
 	
 	def parse_store(self, response):
 
 		store_list = response.xpath('//div[@class="location-tile-subheader"]//a')
 		for store in store_list:
-			store_link = self.domain + store.xpath('./@href').extract_first()[6:]
+			if response.meta['param'] == 'outlet':
+				store_link = self.domain2 + store.xpath('./@href').extract_first()[6:]
+			else:
+				store_link = self.domain + store.xpath('./@href').extract_first()[6:]
 			yield scrapy.Request(url=store_link, callback=self.parse_detail)
 
 	def parse_detail(self, response):
