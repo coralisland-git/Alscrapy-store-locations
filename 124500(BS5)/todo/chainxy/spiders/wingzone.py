@@ -26,7 +26,6 @@ class wingzone(scrapy.Spider):
 		
 		init_url = 'https://wingzone.com/locations/'
 		yield scrapy.Request(url=init_url, callback=self.body) 
-		# yield scrapy.Request(url='https://wingzone.com/stores/st-louis/', callback=self.parse_page)
 
 	def body(self, response):
 		store_list = response.xpath('//div[contains(@class,"store-info")]')
@@ -36,33 +35,23 @@ class wingzone(scrapy.Spider):
 				yield scrapy.Request(url=store_url, callback=self.parse_page)
 			else :
 				item = ChainItem()
-				item['store_name'] = self.validate(store.xpath('.//div[@class="box"]//h3//text()'))		
+				item['store_name'] = self.validate(store.xpath('.//div[@class="box"]//h3//text()')).replace('*COMING SOON*','').strip()
 				address = self.validate(store.xpath('.//div[@class="box"]//p/text()'))
 				addr = usaddress.parse(address)
 				item['address'] = ''
 				item['city'] = ''
 				for temp in addr:
-					if temp[1] == 'AddressNumber':
-						item['address'] += temp[0] + ' '
-					elif temp[1] == 'StreetName':
-						item['address'] += temp[0] + ' '
-					elif temp[1] == 'StreetNamePostType':
-						item['address'] += temp[0] + ' '
-					elif temp[1] == 'OccupancyType':
-						item['address'] += temp[0] + ' '
-					elif temp[1] == 'OccupancyIdentifier':	
-						item['address'] += temp[0] + ' '
-					elif temp[1] == 'PlaceName':
-						item['city'] += temp[0]	+ ' '
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
 					elif temp[1] == 'StateName':
-						item['state'] = temp[0]
+						item['state'] = temp[0].replace(',','')
 					elif temp[1] == 'ZipCode':
-						item['zip_code'] = temp[0]
+						item['zip_code'] = temp[0].replace(',','')
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
 				item['country'] = 'United States'
-				if item['city'] == '' :
-					item['address'] = self.validate(store.xpath('.//div[@class="box"]//p/text()'))
-					item['country'] = ''
-				yield item
+				if item['zipcode'] != '' and len(item['zipcode']) == 5 :
+					yield item
 
 
 	def parse_page(self, response):
@@ -85,7 +74,7 @@ class wingzone(scrapy.Spider):
 			elif temp[1] == 'OccupancyIdentifier':	
 				item['address'] += temp[0] + ' '
 			elif temp[1] == 'PlaceName':
-				item['city'] += temp[0]	+ ' '
+				item['city'] += temp[0].replace(',','')	+ ' '
 			elif temp[1] == 'StateName':
 				item['state'] = temp[0]
 			elif temp[1] == 'ZipCode':

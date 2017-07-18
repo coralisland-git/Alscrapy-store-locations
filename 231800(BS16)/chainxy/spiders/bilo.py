@@ -1,4 +1,4 @@
-from __future__ import unicode_literals
+# from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -49,6 +49,7 @@ class bilo(scrapy.Spider):
 				item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
 				item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
 				item['country'] = 'United States'
+				item['phone_number'] = ''
 				for de in detail:
 					if 'main phone:' in de.lower():
 						item['phone_number'] = de.split('phone:')[1].strip()

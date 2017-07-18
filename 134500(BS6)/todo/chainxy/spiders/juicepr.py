@@ -22,9 +22,6 @@ class juicepr(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
-		with open('response.html', 'wb') as f:
-			f.write(response.body)
-
 		state_list = response.xpath('//div[@class="grid-wrapper"]//a/@href').extract()
 		for state in state_list:
 			state_url = self.domain + state
@@ -43,15 +40,19 @@ class juicepr(scrapy.Spider):
 				if temp[1] == 'PlaceName':
 					item['city'] += temp[0].replace(',','')	+ ' '
 				elif temp[1] == 'StateName':
-					item['state'] = temp[0]
+					item['state'] = temp[0].replace(',','')
 				elif temp[1] == 'ZipCode':
 					item['zip_code'] = temp[0]
 				else:
-					item['address'] += temp[0].replace(',', '') + ' '
+					item['address'] += '' + temp[0].replace(',', '') + ' '
 			item['country'] = 'United States'
 			if item['state'] == 'York,':
 				item['city'] += ' ' + item['state']
 				item['state'] = 'NY'
+			if '1296 Madison Ave' in item['address']:
+				item['state'] = self.validate(detail[1].strip().split(' ')[1])
+				item['zip_code'] = self.validate(detail[1].strip().split(' ')[0])
+				item['address'] = item['address'].replace(item['state'],'').replace(item['zip_code'],'')
 			h_temp = ''
 			hour_list = store.xpath('.//div[@class="hide"]//p//text()').extract()
 			cnt = 1

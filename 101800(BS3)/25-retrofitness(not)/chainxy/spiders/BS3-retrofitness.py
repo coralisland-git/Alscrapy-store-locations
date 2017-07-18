@@ -9,14 +9,13 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import time
-import pdb
 
 class retrofitness(scrapy.Spider):
 	name = 'retrofitness'
 	domain = 'https://www.retrofitness.com/'
 	history = []
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		self.driver = webdriver.Chrome("./chromedriver")
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_States.json'
@@ -24,27 +23,28 @@ class retrofitness(scrapy.Spider):
 			self.location_list = json.load(data_file)
 
 	def start_requests(self):
-		
 		init_url  = 'http://retrofitness.com/locator/'
 		yield scrapy.Request(url=init_url, callback=self.body) 
 
 	def body(self, response):
 		print("=========  Checking.......")
 		store_list = []
+		detect_list = ['HI','GU', 'FM', 'AS', 'AK', 'PR', 'KS','VI', 'SD', 'PW', 'MP', 'ND', 'NE','MT', 'MH', 'WA']
 		for location in self.location_list:
 			try :
-				self.driver.get("http://retrofitness.com/locator/")
-				time.sleep(2)
-				input = self.driver.find_element_by_id('bh-sl-address')
-				input.clear()
-				input.send_keys(location['name'])
-				self.driver.find_element_by_class_name('btn-find-button').click()
-				time.sleep(2)
-				source = self.driver.page_source.encode("utf8")
-				tree = etree.HTML(source)
-				data = tree.xpath('//div[@class="loc-web"]//a/@href')
-				for dat in data:
-					store_list.append(dat)
+				if location['abbreviation'] not in detect_list:
+					self.driver.get("http://retrofitness.com/locator/")
+					time.sleep(2)
+					input = self.driver.find_element_by_id('bh-sl-address')
+					input.clear()
+					input.send_keys(location['name'])
+					self.driver.find_element_by_class_name('btn-find-button').click()
+					time.sleep(2)
+					source = self.driver.page_source.encode("utf8")
+					tree = etree.HTML(source)
+					data = tree.xpath('//div[@class="loc-web"]//a/@href')
+					for dat in data:
+						store_list.append(dat)
 			except:
 				pass
 

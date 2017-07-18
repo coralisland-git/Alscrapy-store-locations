@@ -8,6 +8,7 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
+import usaddress
 
 class alonticatering(scrapy.Spider):
 	name = 'alonticatering'
@@ -36,18 +37,35 @@ class alonticatering(scrapy.Spider):
 	def body(self, response):
 		print("=========  Checking.......")
 		item = ChainItem()
-		detail = response.xpath('//div[contains(@class, "orange-box")]//p/text()').extract()
-		item['store_name'] = self.validate(detail[0]).split(',')[1].strip()
-		item['store_number'] = self.validate(detail[0]).split(',')[0].strip()[1:]
-		item['address'] = self.validate(detail[2])
-		addr = self.validate(detail[3]).split(',')
-		item['city'] = self.validate(addr[0].strip())
-		item['state'] = self.validate(addr[1].strip().split(' ')[0].strip())
-		item['zip_code'] = self.validate(addr[1].strip().split(' ')[1].strip())
-		item['phone_number'] = self.validate(detail[4]).split('Phone:')[1].strip()
-		if item['store_name'] not in self.history:
-			self.history.append(item['store_name'])
-			yield item
+		try:
+			detail = response.xpath('//div[contains(@class, "orange-box")]//p//text()').extract()
+			item['store_name'] = self.validate(detail[0]).strip()[1:]
+			if ',' in item['store_name']:
+				item['store_number'] = item['store_name'].split(',')[0].strip()
+				item['store_name'] = item['store_name'].split(',')[1].strip()
+			else: 
+				item['store_number'] = item['store_name'][:2].strip()
+				item['store_name'] = item['store_name'][2:].strip()
+			address = detail[2] + ', ' + detail[3]
+			item['address'] = ''
+			item['city'] = ''
+			addr = usaddress.parse(address)
+			for temp in addr:
+				if temp[1] == 'PlaceName':
+					item['city'] += temp[0].replace(',','')	+ ' '
+				elif temp[1] == 'StateName':
+					item['state'] = temp[0].replace(',','')
+				elif temp[1] == 'ZipCode':
+					item['zip_code'] = temp[0].replace(',','')
+				else:
+					item['address'] += temp[0].replace(',', '') + ' '
+
+			item['phone_number'] = self.validate(detail[4]).split('Phone:')[1].strip()
+			if item['store_name'] not in self.history:
+				self.history.append(item['store_name'])
+				yield item
+		except:
+			pass
 
 	def validate(self, item):
 		try:

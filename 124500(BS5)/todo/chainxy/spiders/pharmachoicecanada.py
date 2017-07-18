@@ -50,20 +50,23 @@ class pharmachoicecanada(scrapy.Spider):
 			yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
-		detail = response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][1]')
-		item = ChainItem()
-		item['store_name'] = detail.xpath('.//strong/text()').extract_first()
-		if item['store_name'] == None:
-			item['store_name'] = detail.xpath('.//span[@class="organisation-name"]/text()').extract_first()
-		item['address'] = detail.xpath('.//div[@class="thoroughfare"]/text()').extract_first()
-		item['city'] = detail.xpath('.//span[@class="locality"]/text()').extract_first()
-		item['state'] = detail.xpath('.//span[@class="state"]/text()').extract_first()
-		item['zip_code'] = detail.xpath('.//span[@class="postal-code"]/text()').extract_first()
-		item['country'] = 'Canada'
-		item['phone_number'] = self.eliminate_space(response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][2]/text()').extract())[0]
-		if item['address']+item['phone_number'] not in self.history:
-			self.history.append(item['address']+item['phone_number'])
-			yield item	
+		try:
+			detail = response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][1]')
+			item = ChainItem()
+			item['store_name'] = detail.xpath('.//strong/text()').extract_first()
+			if item['store_name'] == None:
+				item['store_name'] = detail.xpath('.//span[@class="organisation-name"]/text()').extract_first()
+			item['address'] = detail.xpath('.//div[@class="thoroughfare"]/text()').extract_first()
+			item['city'] = detail.xpath('.//span[@class="locality"]/text()').extract_first()
+			item['state'] = detail.xpath('.//span[@class="state"]/text()').extract_first()
+			item['zip_code'] = detail.xpath('.//span[@class="postal-code"]/text()').extract_first()
+			item['country'] = 'Canada'
+			item['phone_number'] = self.eliminate_space(response.xpath('//div[@class="li-overlay l-container-fluid"]//div[@class="li-group"][2]/text()').extract())[0]
+			if item['address']+item['phone_number'] not in self.history:
+				self.history.append(item['address']+item['phone_number'])
+				yield item	
+		except:
+			pass
 
 	def validate(self, item):
 		try:

@@ -1,0 +1,7 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Rio Ranch,1,25745 Baseline Rd.,,San Bernardino,CA,92410,United States,(909) 425 - 8670,,,,,,
+Rio Ranch,2,9001 Mission Blvd.,,Riverside,CA,92509,United States,(951) 685 - 2111,,,,,,
+Rio Ranch,4,5832 Riverside Dr,,Chino,CA,91710,United States,(909) 627 - 8214,,,,,,
+Rio Ranch,5,460 E. 4th St,,Perris,CA,92570,United States,(951) 443 - 3220,,,,,,
+Rio Ranch,6,3317 Ramsey St,,Banning,CA,92399,United States,(951) 849 - 0667,,,,,,
+Rio Ranch,7,11647 Cherry Ave,,Fontana,CA,92337,United States,(909) 356 - 2700,,,,,,

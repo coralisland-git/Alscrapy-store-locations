@@ -1,0 +1,7 @@
+store_name,store_number,address,address2,city,state,zip_code,country,phone_number,latitude,longitude,store_hours,store_type,other_fields,coming_soon
+Commack,,40 Vanderbilt Motor Parkway ,,Commack ,NY,11725,United States,631-499-8350,,,,,,
+Glen Cove,,190 Glen Cove Avenue ,,Glen Cove ,NY,11542,United States,516-609-0303,,,,,,
+Great Neck,,90 Horace Harding Boulevard ,,Great Neck ,NY,11020,United States,516-482-6287,,,,,,
+Mineola,,330 E. Jericho Turnpike ,,Mineola ,NY,11501,United States,516-280-6880,,,,,,
+North Bellmore,,2820 Jerusalem Avenue ,,North Bellmore ,NY,11793,United States,516-409-4800,,,,,,
+Port Washington,,770 Port Washington Boulevard ,,Port Washington ,NY,11050,United States,516-767-9050,,,,,,
