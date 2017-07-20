@@ -39,16 +39,16 @@ class aveda(scrapy.Spider):
 				search_form = self.driver.find_element_by_id('store-locator__search')
 				search_form.clear()
 				search_form.send_keys(location['city'])
-				# search_form.send_keys('Houston')
-				time.sleep(2)
+				# search_form.send_keys('new york')	
 				self.driver.find_element_by_xpath('//fieldset[@id="store-search-controls"]//button').click()
-				time.sleep(3)
+				time.sleep(9)
 				source = self.driver.page_source.encode("utf8")
 				tree = etree.HTML(source)
 				store_list = tree.xpath('//div[@class="sl-tooltip__row sl-tooltip__row--meta"]')
 				print('~~~~~~~~~~~~~~~', len(store_list))
 				if len(store_list) != 0:
 					source_list.append(store_list)
+				time.sleep(1)
 			except:
 				pass
 
@@ -84,37 +84,6 @@ class aveda(scrapy.Spider):
 				except:
 					pdb.set_trace()		
 
-	def parse_page(self, response):
-		try:
-			item = ChainItem()
-			detail = self.eliminate_space(response.xpath('//div[contains(@class, "address")]//text()').extract())
-			item['store_name'] = ''
-			item['store_number'] = ''
-			item['address'] = self.validate(detail[0])
-			addr = detail[1].split(',')
-			item['city'] = self.validate(addr[0].strip())
-			sz = addr[1].strip().split(' ')
-			item['state'] = ''
-			item['zip_code'] = self.validate(sz[len(sz)-1])
-			for temp in sz[:-1]:
-				item['state'] += self.validate(temp) + ' '
-			item['phone_number'] = detail[2]
-			item['country'] = 'United States'
-			h_temp = ''
-			hour_list = self.eliminate_space(response.xpath('//div[contains(@class, "hours")]//text()').extract())
-			cnt = 1
-			for hour in hour_list:
-				h_temp += hour
-				if cnt % 2 == 0:
-					h_temp += ', '
-				else:
-					h_temp += ' '
-				cnt += 1
-			item['store_hours'] = h_temp[:-2]
-			yield item	
-		except:
-			pdb.set_trace()		
-
 	def validate(self, item):
 		try:
 			return item.strip().replace('\n',' ').replace('\u2013', '-')
@@ -126,7 +95,7 @@ class aveda(scrapy.Spider):
 		for item in items:
 			if self.validate(item) != '' and 'STORE HOURS:' not in self.validate(item):
 				tmp.append(self.validate(item))
-		return tmp
+		return temp
 
 	def str_concat(self, items, unit):
 		tmp = ''
