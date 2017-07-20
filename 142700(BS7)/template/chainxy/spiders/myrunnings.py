@@ -48,7 +48,7 @@ class myrunnings(scrapy.Spider):
 				if temp[1] == 'PlaceName':
 					item['city'] += temp[0].replace(',','')	+ ' '
 				elif temp[1] == 'StateName':
-					item['state'] = temp[0]
+					item['state'] = temp[0].replace(',','')
 				elif temp[1] == 'ZipCode':
 					item['zip_code'] = temp[0]
 				else:
@@ -60,9 +60,11 @@ class myrunnings(scrapy.Spider):
 				if 'am' in hour.lower():
 					h_temp += hour + ', '
 				if 'Phone' in hour:
-					item['phone_number'] = hour		
+					item['phone_number'] = hour.split('Phone:')[1].strip()
 			item['store_hours'] = h_temp[:-2]
-			yield item			
+			if item['address']+item['phone_number'] not in self.history:
+				self.history.append(item['address']+item['phone_number'])
+				yield item	
 		except:
 			pass
 

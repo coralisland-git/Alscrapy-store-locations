@@ -17,7 +17,9 @@ class rockinghamcoop(scrapy.Spider):
 
 	def start_requests(self):
 		init_url = 'https://rockinghamcoop.com/locations.html'
-		yield scrapy.Request(url=init_url, callback=self.body) 
+		# yield scrapy.Request(url=init_url, callback=self.body) 
+		yield scrapy.Request(url='https://rockinghamcoop.com/elkton.html', callback=self.parse_page) 
+
 	def body(self, response):
 		store_list = response.xpath('//a[@class="nonblock nontext Button-Normal shadow rounded-corners clearfix colelem shared_content"]//@href').extract()
 												# 'nonblock nontext shadow rounded-corners Button-Normal clearfix colelem'
@@ -26,7 +28,7 @@ class rockinghamcoop(scrapy.Spider):
 			yield scrapy.Request(url=store_link, callback=self.parse_page)
 
 	def parse_page(self, response):
-		detail = self.eliminate_space(response.xpath('//div[@class="ts-p--Main-Body-Text clearfix grpelem shared_content"]//text()').extract())
+		detail = self.eliminate_space(response.xpath('//div[@class="ts-p--Main-Body-Text clearfix grpelem shared_content"][2]//text()').extract())
 		pdb.set_trace()
 
 		# # pdb.set_trace()

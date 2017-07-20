@@ -21,49 +21,50 @@ class countrymax(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
-		store_list_1 = response.xpath('.//div[@class="dialog"]//p/a/@href').extract()
-		store_list_2 = response.xpath('.//div[@class="dialog"]//p//span/a/@href').extract()
-		store_list = store_list_1 + store_list_2
+		store_list = response.xpath('.//div[@class="dialog"]//a/@href').extract()
 		for store in store_list:
 			yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
 		if 'Virtual' not in response.url:
-			detail = self.eliminate_space(response.xpath('//table//td[1]//text()').extract())	
-			item = ChainItem()
-			item['address'] = ''
-			item['city'] = ''
-			a_temp = ''
-			for cnt in range(1, len(detail)):
-				if detail[cnt].strip()[-1:] == ',':
-					detail[cnt] = detail[cnt][:-1]
-				a_temp += detail[cnt] + ' '
-				if ',' in detail[cnt]:
-					break
-			addr = usaddress.parse(self.validate(a_temp))
-			for temp in addr:
-				if temp[1] == 'PlaceName':
-					item['city'] += temp[0].replace(',','')	+ ' '
-				elif temp[1] == 'StateName':
-					item['state'] = temp[0].replace(',','')
-				elif temp[1] == 'ZipCode':
-					item['zip_code'] = temp[0]
-				else:
-					item['address'] += temp[0].replace(',', '') + ' '
-			item['country'] = 'United States'
-			h_temp = ''
-			for cnt in range(0,len(detail)-1):
-				if 'Phone:' in detail[cnt] and '-' in detail[cnt+1]:
-					item['phone_number'] = self.validate(detail[cnt+1])
-					for ind in range(cnt+3, len(detail) -2):
-						h_temp += detail[ind] + ', '
-				if 'Phone:' in detail[cnt] and '-' in detail[cnt]:
-					item['phone_number'] = self.validate(detail[cnt].split('Phone:')[1])
-					for ind in range(cnt+2, len(detail) -3):
-						h_temp += detail[ind] + ', '
+			try:
+				detail = self.eliminate_space(response.xpath('//table//td[1]//text()').extract())	
+				item = ChainItem()
+				item['address'] = ''
+				item['city'] = ''
+				a_temp = ''
+				for cnt in range(1, len(detail)):
+					if detail[cnt].strip()[-1:] == ',':
+						detail[cnt] = detail[cnt][:-1]
+					a_temp += detail[cnt] + ' '
+					if ',' in detail[cnt]:
+						break
+				addr = usaddress.parse(self.validate(a_temp))
+				for temp in addr:
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
+					elif temp[1] == 'StateName':
+						item['state'] = temp[0].replace(',','')
+					elif temp[1] == 'ZipCode':
+						item['zip_code'] = temp[0]
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
+				item['country'] = 'United States'
+				h_temp = ''
+				for cnt in range(0,len(detail)-1):
+					if 'Phone:' in detail[cnt] and '-' in detail[cnt+1]:
+						item['phone_number'] = self.validate(detail[cnt+1])
+						for ind in range(cnt+3, len(detail) -2):
+							h_temp += detail[ind] + ', '
+					if 'Phone:' in detail[cnt] and '-' in detail[cnt]:
+						item['phone_number'] = self.validate(detail[cnt].split('Phone:')[1])
+						for ind in range(cnt+2, len(detail) -3):
+							h_temp += detail[ind] + ', '
 
-			item['store_hours'] = h_temp[:-2]
-			yield item			
+				item['store_hours'] = h_temp[:-2]
+				yield item		
+			except:
+				pass	
 
 
 	def validate(self, item):

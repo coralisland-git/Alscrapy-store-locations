@@ -25,6 +25,18 @@ class publix(scrapy.Spider):
 		file_path = script_dir + '/geo/US_CA_States.json'
 		with open(file_path) as data_file:    
 			self.US_CA_States_list = json.load(data_file)
+		proxy_list = [	
+					'https://198.50.219.230:8080',
+					'https://158.69.223.147:3128',
+					'https://167.114.35.69:8080',
+					'https://144.217.201.17:8080',
+					'https://144.217.189.144:3128',
+					'https://144.217.170.87:3128',
+					'https://198.50.219.239:80',
+					'https://149.56.8.228:8080',
+					'https://149.56.201.164:80',
+					'https://158.69.31.45:3128'
+					]
 
 	def start_requests(self):
 		for location in self.location_list:
@@ -33,7 +45,7 @@ class publix(scrapy.Spider):
 				"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
 				"Accept-Encoding":"gzip, deflate"
 			}
-			yield scrapy.Request(url=init_url, headers=header, method='get', callback=self.body) 
+			yield scrapy.Request(url=init_url, headers=header, method='get', callback=self.body, meta={'proxy':proxy_list[0]}) 
 
 	def body(self, response):
 		print("=========  Checking.......")
