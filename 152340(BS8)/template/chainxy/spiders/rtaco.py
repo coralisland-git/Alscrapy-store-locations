@@ -16,14 +16,14 @@ class rtaco(scrapy.Spider):
 	history = []
 
 	def start_requests(self):
-		init_url = 'http://www.rtacos.com/rtaco-store-locator.html'
+		init_url = 'http://www.rtacos.com/just-dropdown.html'
 		yield scrapy.Request(url=init_url, callback=self.body) 
 
 	def body(self, response):
 		store_list = self.eliminate_space(response.xpath('//select//option/@value').extract())
 		for store in store_list:
-			store = self.domain + store[6:]	
-			yield scrapy.Request(url=store, callback=self.parse_page)
+			if 'http' in store:
+				yield scrapy.Request(url=store, callback=self.parse_page)
 
 	def parse_page(self, response):
 		item = ChainItem()
@@ -38,6 +38,11 @@ class rtaco(scrapy.Spider):
 					if '303' in detail[1]:
 						address = detail[2]
 						item['phone_number'] = detail[1]
+
+					if '50266' in detail[2]:
+						address = detail[1] + ' ' + detail[2]
+						item['store_name'] = detail[0][:-13].strip()
+						item['phone_number'] = detail[0][-13:].strip()
 
 				elif len(detail) == 2:
 					item['store_name'] = detail[0]
@@ -54,6 +59,10 @@ class rtaco(scrapy.Spider):
 					item['phone_number'] = self.validate(item['phone_number'].split(':')[1])
 				item['address'] = ''
 				item['city'] = ''
+				if '(' in address:
+					address = address.split('(')[0].strip()
+				if 'Phone' in address:
+					address = address.split('Phone')[0].strip()
 				addr = usaddress.parse(address)
 				for temp in addr:
 					if temp[1] == 'PlaceName':
@@ -75,6 +84,9 @@ class rtaco(scrapy.Spider):
 					item['coming_soon'] = '1'
 				else:
 					item['coming_soon'] = '0'
+				item['coming_soon'] = response.url
+				if item['phone_number'] == 'West Des Moines, IA 50266':
+					pdb.set_trace()
 				yield item			
 			except:
 				pass

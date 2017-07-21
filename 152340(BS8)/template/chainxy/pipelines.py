@@ -8,7 +8,8 @@ import csv
 import time
 import datetime
 from scrapy import signals
-from scrapy.contrib.exporter import CsvItemExporter
+# from scrapy.contrib.exporter import CsvItemExporter
+from scrapy.exporters import *
 
 class ChainxyPipeline(object):
 

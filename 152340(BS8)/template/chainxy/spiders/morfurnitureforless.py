@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -9,6 +10,7 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
+import pdb
 
 class morfurnitureforless(scrapy.Spider):
 	name = 'morfurnitureforless'
@@ -38,12 +40,13 @@ class morfurnitureforless(scrapy.Spider):
 				address += de + ', '
 		item['address'] = ''
 		item['city'] = ''
+		item['state'] = ''
 		addr = usaddress.parse(self.validate(address)[:-2].replace('United State', ''))
 		for temp in addr:
 			if temp[1] == 'PlaceName':
 				item['city'] += self.validate(temp[0]).replace(',','')	+ ' '
 			elif temp[1] == 'StateName':
-				item['state'] = self.validate(temp[0])
+				item['state'] += self.validate(temp[0]) + ' '
 			elif temp[1] == 'ZipCode':
 				item['zip_code'] = self.validate(temp[0]).replace(',','')
 			else:
