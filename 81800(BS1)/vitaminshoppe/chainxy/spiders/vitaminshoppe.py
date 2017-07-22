@@ -8,7 +8,7 @@ from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 from chainxy.items import ChainItem
 from lxml import etree
-
+import time
 from selenium import webdriver
 from lxml import html
 
@@ -22,26 +22,30 @@ class vitaminshoppe(scrapy.Spider):
 		self.driver = webdriver.Chrome("./chromedriver")
 
 	def start_requests(self):
-
 		init_url  = 'https://www.vitaminshoppe.com/'
 		yield scrapy.Request(url=init_url, callback=self.body) 
 
 	def body(self, response):
-
 		self.driver.get("https://www.vitaminshoppe.com/sl/storeLocator.jsp")  
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/cities.json'
 		with open(file_path) as data_file:    
 			location_list = json.load(data_file)
+		source_list = []
 		for location in location_list:
 			city = self.driver.find_element_by_name("/vitaminshoppe/commerce/locations/VsGeoLocatorFormHandler.address")
 			city.clear()
 			city.send_keys(location['city']+", "+location['state'])
 			self.driver.find_element_by_id("FindLocation").click()
+			time.sleep(2)
 			source = self.driver.page_source.encode("utf8")
 			tree = etree.HTML(source)
 			store_list = tree.xpath('//div[@class="block shadow results"]')
-			for store in store_list:
+			if len(store_list) != 0:
+				source_list.append(store_list)
+
+		for source in source_list:
+			for store in source:
 				try:
 					item = ChainItem()
 					item['store_name'] = store.xpath('.//h4//a/text()')[0].strip().split(',')[0]
@@ -66,8 +70,8 @@ class vitaminshoppe(scrapy.Spider):
 					item['store_type'] = ''
 					item['other_fields'] = ''
 					item['coming_soon'] = ''
-					if item['phone_number'] not in self.history:
+					if item['address']+item['phone_number'] not in self.history:
 						yield item
-						self.history.append(item['phone_number'])
+						self.history.append(item['address']+item['phone_number'])
 				except:
 					pass

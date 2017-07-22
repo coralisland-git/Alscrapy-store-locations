@@ -61,7 +61,7 @@ class beallstx(scrapy.Spider):
 					temp += ho + ' '
 				h_temp += temp + ', '
 			item['store_hours'] = h_temp[:-2]
-			if item['address'] != '':
+			if item['address'] != '' and 'Bealls' in item['store_name']:
 				yield item			
 		except:
 			pass

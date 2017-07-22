@@ -29,27 +29,21 @@ class h2oplus(scrapy.Spider):
 	
 	def start_requests(self):
 		init_url = 'https://www.mystore411.com/store/listing/2747/H2O-Plus-store-locations'		
-		yield scrapy.Request(url=init_url, callback=self.parse_state, meta = {'proxy':self.proxy_list[self.ind]}) 
+		yield scrapy.Request(url=init_url, callback=self.parse_state) 
 
 	def parse_state(self, response):
 		print("=========  Checking.......")
 		state_list = response.xpath('//table[@class="table1"][1]//a/@href').extract()
 		for state in state_list:
-			state_link = self.domain + state
-			self.count += 1
-			if self.count % 20 == 0:
-				self.ind += 1
-			yield scrapy.Request(url=state_link, callback=self.parse_store, meta = {'proxy':self.proxy_list[self.ind]})
+			state_link = self.domain + state	
+			yield scrapy.Request(url=state_link, callback=self.parse_store)
  
 	def parse_store(self, response):
 		store_list = response.xpath('//td[@class="dotrow"]//a')
 		for store in store_list:
 			store_name = store.xpath('./text()').extract_first()
 			store_link = self.domain + store.xpath('./@href').extract_first()
-			self.count += 1
-			if self.count % 20 == 0:
-				self.ind += 1
-			yield scrapy.Request(url=store_link, callback=self.parse_page, meta={'store_name':store_name, 'proxy':self.proxy_list[self.ind]})
+			yield scrapy.Request(url=store_link, callback=self.parse_page)
 
 	def parse_page(self, response):
 		try:
@@ -63,11 +57,11 @@ class h2oplus(scrapy.Spider):
 			item['city'] = self.validate(response.xpath('//span[@itemprop="addressLocality"]/text()').extract_first())
 			item['state'] = self.validate(response.xpath('//span[@itemprop="addressRegion"]/text()').extract_first())
 			item['zip_code'] = self.validate(response.xpath('//span[@itemprop="postalCode"]/text()').extract_first())
-			item['country'] = 'Canada'
+			item['country'] = 'United States'
 			item['phone_number'] = self.validate(response.xpath('//span[@itemprop="telephone"]/text()').extract_first())
 			yield item		
 		except:
-			pass
+			pdb.set_trace()
 
 
 	def validate(self, item):

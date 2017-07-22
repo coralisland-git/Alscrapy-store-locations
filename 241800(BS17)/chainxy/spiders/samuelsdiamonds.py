@@ -11,8 +11,8 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 
-class andrewsjewelers(scrapy.Spider):
-	name = 'andrews-jewelers'
+class samuelsdiamonds(scrapy.Spider):
+	name = 'samuelsdiamonds'
 	domain = ''
 	history = []
 
@@ -23,7 +23,7 @@ class andrewsjewelers(scrapy.Spider):
 			self.location_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = 'http://www.andrews-jewelers.com/ustorelocator/location/searchJson/'
+		init_url = 'http://www.samuelsdiamonds.com/ustorelocator/location/searchJson/'
 		header = {
 			"Accept":"text/javascript, text/html, application/xml, text/xml, */*",
 			"Accept-Encoding":"gzip, deflate",
@@ -32,7 +32,7 @@ class andrewsjewelers(scrapy.Spider):
 		}
 		for location in self.location_list:
 			formdata = {
-				"radius":"2000",
+				"radius":"25",
 				"address":location['city'],
 				"lat":str(location['latitude']),
 				"lng":str(location['longitude']),
@@ -59,7 +59,7 @@ class andrewsjewelers(scrapy.Spider):
 					item['longitude'] = self.validate(store['longitude'])
 					if item['address']+item['phone_number'] not in self.history:
 						self.history.append(item['address']+item['phone_number'])
-						if 'Andrews Jewelers'.lower() in item['store_name'].lower():
+						if 'Samuels Jewelers' in item['store_name']:
 							yield item	
 				except:
 					pass
@@ -68,7 +68,7 @@ class andrewsjewelers(scrapy.Spider):
 
 	def validate(self, item):
 		try:
-			return item.strip()
+			return item.strip().replace(';','')
 		except:
 			return ''
 

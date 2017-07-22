@@ -22,17 +22,38 @@ class binswangerglass(scrapy.Spider):
 
 	def body(self, response):
 		print("=========  Checking.......")
-		with open('response.html', 'wb') as f:
-			f.write(response.body)
-		store_list = response.xpath('//div[@id="company-locations"]//h3/a/@href').extract()
+		store_list = response.xpath('//div[@class="locations clear"]')
 		for store in store_list:
-			store = self.domain + store
-			yield scrapy.Request(url=store, callback=self.parse_page)
-
+			link = store.xpath('.//h3/a/@href').extract_first()
+			if link:
+				link = self.domain + link
+				yield scrapy.Request(url=link, callback=self.parse_page)
+			else:
+				item = ChainItem()
+				item['store_name'] = store.xpath('.//h3/text()').extract_first()
+				address = store.xpath('.//p[@class="address"]/text()').extract_first()
+				item['address'] = ''
+				item['city'] = ''
+				addr = usaddress.parse(address)
+				for temp in addr:
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
+					elif temp[1] == 'StateName':
+						item['state'] = temp[0].replace(',','')
+					elif temp[1] == 'ZipCode':
+						item['zip_code'] = temp[0].replace(',','')
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
+				item['country'] = 'United States'
+				item['phone_number'] = store.xpath('.//p[@class="phone"]//a/text()').extract_first()
+				yield item
+ 
 	def parse_page(self, response):
 		try:
 			item = ChainItem()
 			item['store_name'] = self.validate(response.xpath('//div[@id="location-name"]//h1/text()').extract_first())
+			if '-' in item['store_name']:
+				item['store_name'] = item['store_name'].split('-')[0].strip()
 			address = self.str_concat(response.xpath('//div[@class="location-info-contact-address clear"]//text()').extract(), ', ')
 			item['address'] = ''
 			item['city'] = ''
