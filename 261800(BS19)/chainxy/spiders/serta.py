@@ -1,4 +1,4 @@
-from __future__ import unicode_literals
+# from __future__ import unicode_literals
 import scrapy
 import json
 import os
@@ -11,13 +11,16 @@ from selenium import webdriver
 from lxml import html
 import usaddress
 import pdb
+import tokenize
+import token
+from StringIO import StringIO
 
-class pizzahut(scrapy.Spider):
-	name = 'pizzahut'
+class serta(scrapy.Spider):
+	name = 'serta'
 	domain = ''
 	history = []
 
-	def __init__(self):
+	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
 		file_path = script_dir + '/geo/US_Cities.json'
 		with open(file_path) as data_file:    
@@ -27,39 +30,41 @@ class pizzahut(scrapy.Spider):
 			self.US_Zip_list = json.load(data_file)
 
 	def start_requests(self):
-		# for location in self.location_list:
-		try:
-			init_url = 'https://www.pizzahut.com/api.php/site/api_ajax/search/carryout'
-			# init_url = 'https://www.oshkosh.com/on/demandware.store/Sites-Carters-Site/default/Stores-GetNearestStores?postalCode='+str(self.get_zipcode(location['city'])['zipcode'])+'&countryCode=US&distanceUnit=imperial&maxdistance=100&carters=false&oshkosh=true&lat='+str(self.get_zipcode(location['city'])['latitude'])+'&lng='+str(self.get_zipcode(location['city'])['longitude'])
-			header = {
-				"accept":"application/json, text/plain, */*",
-				"accept-encoding":"gzip, deflate, br",
-				"content-type":"application/json;charset=UTF-8"
-			}
-			payload = {
-				"customer_postal_code" : "90001",
-				"limit":"9"
-			}
-			yield scrapy.Request(url=init_url, headers=header, body=json.dumps(payload), method='post', callback=self.body) 
-		except:
-			pass
+		for location in self.US_Zip_list:
+			try:
+				init_url = 'https://www.serta.com/store-locator'
+				header = {
+					"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+					"Accept-Encoding":"gzip, deflate, br",
+					"Content-Type":"application/x-www-form-urlencoded"
+				}
+				zipcode = str(location['zipcode'])
+				for ind in range(0, 5-len(zipcode)):
+					zipcode = '0'+zipcode
+				formdata = {
+					"zip":zipcode,
+					"filter":""
+				}
+				yield scrapy.FormRequest(url=init_url, method="post", headers=header, formdata=formdata, callback=self.body) 
+			except:
+				pass
 
 	def body(self, response):
 		print("=========  Checking.......")
-		with open('response.html', 'wb') as f:
-			f.write(response.body)
 		try:
-			store_list = json.loads(response.body)['response']
-			pdb.set_trace()
+			data = response.body.split('PageData.dealerMap = ')[1].strip().split('var PageData')[0].strip()
+			store_list = json.loads(data)['locations']
 			for store in store_list:
 				try:
 					item = ChainItem()
-					item['store_number'] = self.validate(store['StoreNumber'])
+					item['store_name'] = self.validate(store['name'])
+					item['store_number'] = self.validate(str(store['id']))
 					item['address'] = self.validate(store['address'])
+					item['address2'] = self.validate(store['address2'])
 					item['city'] = self.validate(store['city'])
 					item['state'] = self.validate(store['state'])
 					item['zip_code'] = self.validate(store['zip'])
-					item['country'] = self.validate(store['country'])
+					item['country'] = 'United States'
 					item['phone_number'] = self.validate(store['phone'])
 					item['latitude'] = self.validate(str(store['lat']))
 					item['longitude'] = self.validate(str(store['long']))
@@ -67,9 +72,9 @@ class pizzahut(scrapy.Spider):
 						self.history.append(item['address']+item['phone_number'])
 						yield item	
 				except:
-					pdb.set_trace()
+					pdb.set_trace()	
 		except:
-			pdb.set_trace()
+			pass	
 
 	def validate(self, item):
 		try:
@@ -82,14 +87,6 @@ class pizzahut(scrapy.Spider):
 		for item in items:
 			if self.validate(item) != '':
 				tmp.append(self.validate(item))
-		return tmp
-
-	def str_concat(self, items, unit):
-		tmp = ''
-		for item in items[:-1]:
-			if self.validate(item) != '':
-				tmp += self.validate(item) + unit
-		tmp += self.validate(items[-1])
 		return tmp
 
 	def get_zipcode(self, item):
