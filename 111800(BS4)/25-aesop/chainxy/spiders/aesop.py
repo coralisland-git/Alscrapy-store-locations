@@ -30,47 +30,42 @@ class aesop(scrapy.Spider):
 			yield scrapy.Request(url=init_url, callback=self.body) 
 	def body(self, response):
 		# print("=========  Checking.......")
-		store_list = response.xpath('//marker')
-		for store in store_list:
-			item = ChainItem()
-			item['store_name'] = self.validate(store.xpath('./@title'))
-			item['store_number'] = self.validate(store.xpath('./@location_id'))
-			address = self.validate(store.xpath('./@address_display'))
-			if len(address) >30 :
-				address = self.validate(store.xpath('./@address'))
-			addr = usaddress.parse(address)
-			item['address'] = ''
-			item['city'] = ''
-			item['country'] = ''
-			item['state'] = self.validate(store.xpath('./@state'))
-			for temp in addr:
-				if temp[1] == 'AddressNumber':
-					item['address'] += temp[0] + ' '
-				elif temp[1] == 'StreetName':
-					item['address'] += temp[0] + ' '
-				elif temp[1] == 'StreetNamePostType':
-					item['address'] += temp[0] + ' '
-				elif temp[1] == 'OccupancyType':
-					item['address'] += temp[0] + ' '
-				elif temp[1] == 'OccupancyIdentifier':	
-					item['address'] += temp[0] + ' '
-				elif temp[1] == 'PlaceName':
-					item['city'] += temp[0]	+ ' '
-				elif temp[1] == 'StateName':
-					if item['state'] == '':
-						item['state'] = temp[0]
-				elif temp[1] == 'ZipCode':
-					item['zip_code'] = temp[0]
-			item['phone_number'] = self.validate(store.xpath('./@phone'))
-			item['latitude'] = self.validate(store.xpath('./@latitude'))
-			item['longitude'] = self.validate(store.xpath('./@longitude'))
-			item['store_hours'] = self.validate(store.xpath('./@tradinghours'))
-			item['store_type'] = self.validate(store.xpath('./@store_type'))
-			if item['store_number'] not in self.history:
-				self.history.append(item['store_number'])
-				if self.check(item['state'].strip()):
-					item['country'] = 'United States'
-					yield item			
+		try:
+			store_list = response.xpath('//marker')
+			for store in store_list:
+				item = ChainItem()
+				item['store_name'] = self.validate(store.xpath('./@title'))
+				item['store_number'] = self.validate(store.xpath('./@location_id'))
+				address = self.validate(store.xpath('./@address_display'))
+				if len(address) >30 :
+					address = self.validate(store.xpath('./@address'))
+				addr = usaddress.parse(address)
+				item['address'] = ''
+				item['city'] = ''
+				item['country'] = ''
+				item['state'] = self.validate(store.xpath('./@state'))
+				addr = usaddress.parse(address)
+				for temp in addr:
+					if temp[1] == 'PlaceName':
+						item['city'] += temp[0].replace(',','')	+ ' '
+					elif temp[1] == 'StateName':
+						item['state'] = temp[0].replace(',','')
+					elif temp[1] == 'ZipCode':
+						item['zip_code'] = temp[0].replace(',','')
+					else:
+						item['address'] += temp[0].replace(',', '') + ' '
+				item['phone_number'] = self.validate(store.xpath('./@phone'))
+				item['latitude'] = self.validate(store.xpath('./@latitude'))
+				item['longitude'] = self.validate(store.xpath('./@longitude'))
+				item['store_hours'] = self.validate(store.xpath('./@tradinghours'))
+				item['store_type'] = self.validate(store.xpath('./@store_type'))
+				if item['store_number'] not in self.history:
+					self.history.append(item['store_number'])
+					if self.check(item['state'].strip()):
+						item['country'] = 'United States'
+						yield item	
+		except:
+			pdb.set_trace()		
 
 	def check(self, item):
 		cnt = 0

@@ -56,14 +56,14 @@ class todo(scrapy.Spider):
 		# 		item['city'] = ''
 		# 		addr = usaddress.parse(address)
 		# 		for temp in addr:
-		# 			if temp[1] == 'PlaceName':
+		# 			if temp[1] == 'parselaceName':
 		# 				item['city'] += temp[0].replace(',','')	+ ' '
 		# 			elif temp[1] == 'StateName':
 		# 				item['state'] = temp[0].replace(',','')
 		# 			elif temp[1] == 'ZipCode':
 		# 				item['zip_code'] = temp[0].replace(',','')
 		# 			else:
-		# 				item['address'] += temp[0].replace(',', '') + ' '
+		# 				item['address'] += temp[0].replace(',', '') + ' '		
 
 		# 		address = ''
 		# 		addr = address.split(',')
