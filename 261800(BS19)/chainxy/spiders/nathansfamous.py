@@ -10,15 +10,16 @@ from lxml import etree
 from selenium import webdriver
 from lxml import html
 import usaddress
+import pdb
 
-class murphyusa(scrapy.Spider):
-	name = 'murphyusa'
+class nathansfamous(scrapy.Spider):
+	name = 'nathansfamous'
 	domain = ''
 	history = []
 
 	def __init__(self, *args, **kwargs):
 		script_dir = os.path.dirname(__file__)
-		file_path = script_dir + '/geo/US_Cities.json'
+		file_path = script_dir + '/geo/US_Zipcode.json'
 		with open(file_path) as data_file:    
 			self.location_list = json.load(data_file)
 		file_path = script_dir + '/geo/US_CA_States.json'
@@ -26,43 +27,38 @@ class murphyusa(scrapy.Spider):
 			self.US_CA_States_list = json.load(data_file)
 
 	def start_requests(self):
-		init_url = 'http://locator.murphyusa.com/MapServices.asmx/GetLocationsByRadius'
-		header={
-			"Accept":"*/*",
-			"Accept-Encoding":"gzip, deflate",
-			"Content-Type":"application/json; charset=UTF-8",
-			"X-Requested-With":"XMLHttpRequest"
-		}
 		for location in self.location_list:
-			payload={
-				"filter": "",
-				"lat":str(location['latitude']),
-				"lng":str(location['longitude']),
-				"searchRadius":"500"
+			zipcode = str(location['zipcode'])
+			for ind in range(0, 5-len(zipcode)):
+				zipcode = '0'+zipcode
+			init_url = 'https://locator.smfmsvc.com/api/v1/locations?client_id=156&brand_id=ACTP&product_id=NATHALL&product_type=agg&zip='+zipcode+'&search_radius=100'
+			header = {
+				"accept":"*/*",
+				"accept-encoding":"gzip, deflate, br"
 			}
-			yield scrapy.Request(url=init_url, headers=header, body=json.dumps(payload), method='post', callback=self.body) 
+			yield scrapy.Request(url=init_url, headers=header, method='get', callback=self.body) 
 
 	def body(self, response):
 		print("=========  Checking.......")
-		store_list = json.loads(response.body)['d']
+		store_list = json.loads(response.body)['RESULTS']['STORES']['STORE']
 		for store in store_list:
 			try:
 				item = ChainItem()
-				item['store_name'] = 'Murphy'
-				item['store_number'] = self.validate(str(store['StoreNum']))
-				item['address'] = self.validate(store['Address'])				
-				item['city'] = self.validate(store['City'])
-				item['state'] = self.validate(store['State'])
-				item['zip_code'] = self.validate(store['Zip'])
+				item['store_name'] = self.validate(store['NAME'])
+				item['store_number'] = self.validate(store['STORE_ID'])
+				item['address'] = self.validate(store['ADDRESS'])				
+				item['city'] = self.validate(store['CITY'])
+				item['state'] = self.validate(store['STATE'])
+				item['zip_code'] = self.validate(store['ZIP'])
 				item['country'] = 'United States'
-				item['phone_number'] = self.validate(store['Phone'])
-				item['latitude'] = self.validate(str(store['Lat']))
-				item['longitude'] = self.validate(str(store['Long']))
+				item['phone_number'] = self.validate(store['PHONE'])
+				item['latitude'] = self.validate(store['LATITUDE'])
+				item['longitude'] = self.validate(store['LONGITUDE'])
 				if item['store_number'] not in self.history:
 					self.history.append(item['store_number'])
 					yield item	
 			except:
-				pass
+				pdb.set_trace()		
 
 	def validate(self, item):
 		try:
