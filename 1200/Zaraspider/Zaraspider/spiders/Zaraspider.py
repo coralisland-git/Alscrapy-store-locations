@@ -28,7 +28,7 @@ class Zaraspider(scrapy.Spider):
             data = json.load(data_file)
         
         for location in data:
-            # map_url = 'https://maps.googleapis.com/maps/api/geocode/json'
+        
             # params = {'sensor': 'false', 'address': state['city']}
             # # print("=============",state['city'])
             # r = requests.get(map_url, params=params)
