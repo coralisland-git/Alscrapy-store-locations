@@ -28,11 +28,6 @@ class Zaraspider(scrapy.Spider):
             data = json.load(data_file)
         
         for location in data:
-        
-            # # print("=============",state['city'])
-            # r = requests.get(map_url, params=params)
-            # results = r.json()['results']
-            # location = results[0]['geometry']['location']   
             url = 'https://www.zara.com/ca/en/stores-locator/search?lat='+str(location["latitude"])+'&lng='+str(location["longitude"])+'&isGlobalSearch=true&ajax=true'
             yield scrapy.Request(url=url, method="GET", headers=header, callback=self.parse)    
 
