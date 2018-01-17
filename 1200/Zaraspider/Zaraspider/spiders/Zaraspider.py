@@ -29,7 +29,6 @@ class Zaraspider(scrapy.Spider):
         
         for location in data:
         
-            # params = {'sensor': 'false', 'address': state['city']}
             # # print("=============",state['city'])
             # r = requests.get(map_url, params=params)
             # results = r.json()['results']
