@@ -6,7 +6,6 @@ from scrapy.http import FormRequest
 from scrapy.http import Request
 from chainxy.items import ChainItem
 from lxml import etree
-
 from selenium import webdriver
 from lxml import html
 import pdb
