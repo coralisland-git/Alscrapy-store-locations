@@ -28,6 +28,7 @@ class ChainxyPipeline(object):
         file = self.files.pop(spider)
         file.close()
 
+        
     def process_item(self, item, spider):
         self.exporter.export_item(item)
         return item
