@@ -8,7 +8,6 @@ from chainxy.items import ChainItem
 from lxml import etree
 from selenium import webdriver
 from lxml import html
-import pdb
 
 class stripesstores(scrapy.Spider):
 	name = 'stripesstores'
