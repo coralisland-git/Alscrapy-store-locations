@@ -1,5 +1,6 @@
 from scrapy.item import Item, Field
 
+
 class ChainItem(Item):
     store_name = Field()
     store_number = Field()
