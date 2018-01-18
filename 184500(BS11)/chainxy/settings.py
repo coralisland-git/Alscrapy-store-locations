@@ -52,12 +52,6 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, lik
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
 
-# Enable or disable extensions
-# See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
-
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
