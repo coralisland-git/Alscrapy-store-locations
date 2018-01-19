@@ -1,4 +1,5 @@
-import scrapy, time
+import scrapy
+import time
 import json
 
 class Alspider(scrapy.Spider):
