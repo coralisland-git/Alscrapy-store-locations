@@ -50,7 +50,6 @@ class serta(scrapy.Spider):
 				pass
 
 	def body(self, response):
-		print("=========  Checking.......")
 		try:
 			data = response.body.split('PageData.dealerMap = ')[1].strip().split('var PageData')[0].strip()
 			store_list = json.loads(data)['locations']
