@@ -39,7 +39,6 @@ class mycricket(scrapy.Spider):
 			yield scrapy.Request(url=init_url, headers=header, method='get', callback=self.body) 
 
 	def body(self, response):
-		print("=========  Checking.......")
 		store_list = json.loads(response.body)
 		for store in store_list:
 			store = store['store_info']
