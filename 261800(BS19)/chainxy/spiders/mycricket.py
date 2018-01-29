@@ -53,7 +53,6 @@ class mycricket(scrapy.Spider):
 			item['phone_number'] = self.validate(store['phone'])
 			item['latitude'] = self.validate(store['latitude'])
 			item['longitude'] = self.validate(store['longitude'])
-			# item['store_hours'] = self.validate(store['store_hours'])
 			if item['address']+item['phone_number'] not in self.history:
 				self.history.append(item['address']+item['phone_number'])
 				yield item	
