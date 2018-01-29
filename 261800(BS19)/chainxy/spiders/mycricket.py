@@ -57,8 +57,6 @@ class mycricket(scrapy.Spider):
 			if item['address']+item['phone_number'] not in self.history:
 				self.history.append(item['address']+item['phone_number'])
 				yield item	
-			except:
-				pass
 
 	def validate(self, item):
 		try:
