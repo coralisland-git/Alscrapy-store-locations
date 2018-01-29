@@ -43,21 +43,20 @@ class mycricket(scrapy.Spider):
 		store_list = json.loads(response.body)
 		for store in store_list:
 			store = store['store_info']
-			try:
-				item = ChainItem()
-				item['store_name'] = self.validate(store['name'])
-				item['address'] = self.validate(store['address'])				
-				item['city'] = self.validate(store['locality'])
-				item['state'] = self.validate(store['region'])
-				item['zip_code'] = self.validate(store['postcode'])
-				item['country'] = self.validate(store['country'])
-				item['phone_number'] = self.validate(store['phone'])
-				item['latitude'] = self.validate(store['latitude'])
-				item['longitude'] = self.validate(store['longitude'])
-				# item['store_hours'] = self.validate(store['store_hours'])
-				if item['address']+item['phone_number'] not in self.history:
-					self.history.append(item['address']+item['phone_number'])
-					yield item	
+			item = ChainItem()
+			item['store_name'] = self.validate(store['name'])
+			item['address'] = self.validate(store['address'])				
+			item['city'] = self.validate(store['locality'])
+			item['state'] = self.validate(store['region'])
+			item['zip_code'] = self.validate(store['postcode'])
+			item['country'] = self.validate(store['country'])
+			item['phone_number'] = self.validate(store['phone'])
+			item['latitude'] = self.validate(store['latitude'])
+			item['longitude'] = self.validate(store['longitude'])
+			# item['store_hours'] = self.validate(store['store_hours'])
+			if item['address']+item['phone_number'] not in self.history:
+				self.history.append(item['address']+item['phone_number'])
+				yield item	
 			except:
 				pass
 
